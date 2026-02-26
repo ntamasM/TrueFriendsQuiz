@@ -1,0 +1,559 @@
+/* ===========================
+   True Friends Quiz — Controller CSS
+   =========================== */
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: #ffffff;
+  overflow-x: hidden;
+  min-height: 100vh;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ===========================
+   Shared Components
+   =========================== */
+.hidden {
+  display: none !important;
+}
+
+.view {
+  display: none;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.view.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* ===========================
+   Lobby View
+   =========================== */
+#view-lobby .welcome-text {
+  font-size: 1.8em;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#view-lobby .nickname {
+  color: #e94560;
+}
+
+#view-lobby .waiting-text {
+  font-size: 1em;
+  color: #a0aec0;
+  text-align: center;
+}
+
+/* Settings Button (master only, in lobby) */
+.ctrl-settings-btn {
+  padding: 14px 30px;
+  font-size: 1.1em;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5e0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 80%;
+  max-width: 300px;
+}
+
+.ctrl-settings-btn:active {
+  transform: scale(0.95);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* ===========================
+   Settings View
+   =========================== */
+.settings-title {
+  font-size: 1.6em;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.settings-section {
+  width: 90%;
+  max-width: 340px;
+  margin-bottom: 14px;
+}
+
+.settings-label {
+  font-size: 1em;
+  font-weight: 700;
+  color: #a0aec0;
+  margin-bottom: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Language select */
+.settings-lang-select {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1em;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23a0aec0' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 12px;
+}
+
+.settings-lang-select:focus {
+  outline: none;
+  border-color: #e94560;
+  box-shadow: 0 2px 10px rgba(233, 69, 96, 0.3);
+}
+
+.settings-lang-select option {
+  background: #1a1a2e;
+  color: #fff;
+}
+
+/* Rounds selector */
+.settings-rounds-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.rounds-btn {
+  width: 48px;
+  height: 48px;
+  font-size: 1.5em;
+  font-weight: 800;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounds-btn:active {
+  transform: scale(0.9);
+  background: rgba(233, 69, 96, 0.3);
+}
+
+.rounds-value {
+  font-size: 2em;
+  font-weight: 900;
+  color: #f5a623;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Back button in settings */
+.ctrl-settings-back-btn {
+  padding: 12px 30px;
+  font-size: 1em;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5e0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 80%;
+  max-width: 300px;
+  margin-top: 6px;
+}
+
+.ctrl-settings-back-btn:active {
+  transform: scale(0.95);
+}
+
+.ctrl-start-btn {
+  padding: 16px 40px;
+  font-size: 1.3em;
+  font-weight: 800;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #e94560, #c0392b);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 20px rgba(233, 69, 96, 0.4);
+  margin-top: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.ctrl-start-btn:active {
+  transform: scale(0.95);
+}
+
+.ctrl-start-btn:disabled {
+  opacity: 0.4;
+  transform: none;
+}
+
+/* ===========================
+   Pick Question View
+   =========================== */
+#view-pick .pick-title {
+  font-size: 1.4em;
+  font-weight: 800;
+  text-align: center;
+  color: #f5a623;
+}
+
+.question-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.question-option {
+  padding: 16px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  color: #e2e8f0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1.4;
+}
+
+.question-option:active {
+  transform: scale(0.97);
+}
+
+.question-option.selected {
+  border-color: #e94560;
+  background: rgba(233, 69, 96, 0.25);
+  color: #fff;
+}
+
+/* ===========================
+   Answer View (Host answering)
+   =========================== */
+#view-answer .answer-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  color: #f5a623;
+  margin-bottom: 4px;
+}
+
+#view-answer .answer-question-text {
+  font-size: 1.3em;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.answer-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.answer-option {
+  padding: 16px 20px;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.answer-option:active {
+  transform: scale(0.97);
+}
+
+.answer-option:nth-child(1) {
+  background: rgba(233, 69, 96, 0.3);
+  border-color: #e94560;
+}
+.answer-option:nth-child(2) {
+  background: rgba(52, 152, 219, 0.3);
+  border-color: #3498db;
+}
+.answer-option:nth-child(3) {
+  background: rgba(46, 204, 113, 0.3);
+  border-color: #2ecc71;
+}
+.answer-option:nth-child(4) {
+  background: rgba(241, 196, 15, 0.3);
+  border-color: #f1c40f;
+}
+
+.answer-option.selected {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* ===========================
+   Guess View (Other players guessing)
+   =========================== */
+#view-guess .guess-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  color: #a0aec0;
+}
+
+#view-guess .guess-question-text {
+  font-size: 1.2em;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.guess-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.guess-option {
+  padding: 16px 20px;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.guess-option:active {
+  transform: scale(0.97);
+}
+
+.guess-option:nth-child(1) {
+  background: rgba(233, 69, 96, 0.3);
+  border-color: #e94560;
+}
+.guess-option:nth-child(2) {
+  background: rgba(52, 152, 219, 0.3);
+  border-color: #3498db;
+}
+.guess-option:nth-child(3) {
+  background: rgba(46, 204, 113, 0.3);
+  border-color: #2ecc71;
+}
+.guess-option:nth-child(4) {
+  background: rgba(241, 196, 15, 0.3);
+  border-color: #f1c40f;
+}
+
+.guess-option.selected {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.guess-timer {
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #e94560;
+}
+
+/* ===========================
+   Waiting View
+   =========================== */
+#view-waiting {
+  text-align: center;
+}
+
+#view-waiting .waiting-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+#view-waiting .waiting-message {
+  font-size: 1.2em;
+  color: #a0aec0;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* ===========================
+   Result View
+   =========================== */
+#view-result {
+  text-align: center;
+}
+
+.result-icon {
+  font-size: 4em;
+  margin-bottom: 8px;
+}
+
+.result-text {
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+.result-text.correct {
+  color: #2ecc71;
+}
+
+.result-text.wrong {
+  color: #e74c3c;
+}
+
+.result-answer {
+  font-size: 1em;
+  color: #a0aec0;
+  margin-top: 4px;
+}
+
+.result-score {
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #f5a623;
+  margin-top: 10px;
+}
+
+/* ===========================
+   Leaderboard View
+   =========================== */
+#view-leaderboard {
+  text-align: center;
+}
+
+.lb-rank {
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #f5a623;
+}
+
+.lb-rank-text {
+  font-size: 1.2em;
+  color: #a0aec0;
+  margin-bottom: 6px;
+}
+
+.lb-final-score {
+  font-size: 1.8em;
+  font-weight: 800;
+  color: #fff;
+}
+
+.lb-stat {
+  font-size: 1em;
+  color: #a0aec0;
+  margin-top: 6px;
+}
+
+.ctrl-play-again-btn {
+  padding: 14px 36px;
+  font-size: 1.1em;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e94560, #c0392b);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 16px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.ctrl-play-again-btn:active {
+  transform: scale(0.95);
+}
+
+.ctrl-menu-btn {
+  padding: 12px 30px;
+  font-size: 1em;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5e0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 80%;
+  max-width: 300px;
+}
+
+.ctrl-menu-btn:active {
+  transform: scale(0.95);
+}
+
+/* Host waiting during guess phase */
+#view-host-wait {
+  text-align: center;
+}
+
+#view-host-wait .host-wait-icon {
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+
+#view-host-wait .host-wait-text {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #f5a623;
+}
+
+#view-host-wait .host-wait-sub {
+  font-size: 1em;
+  color: #a0aec0;
+}

@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude
+.claude/
+
+# ngrok
+ngrok.yml
+ngrok.log
+
+# Node (if added later)
+node_modules/
+package-lock.json
+
+# Misc
+*.log
+*.tmp
+*.bak

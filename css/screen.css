@@ -1,0 +1,640 @@
+/* ===========================
+   True Friends Quiz — Screen CSS
+   =========================== */
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: #ffffff;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ===========================
+   Shared Components
+   =========================== */
+.hidden {
+  display: none !important;
+}
+
+.phase {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.phase.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===========================
+   Phase 1: Lobby
+   =========================== */
+#lobby {
+  gap: 20px;
+}
+
+.game-title {
+  font-size: 4em;
+  font-weight: 900;
+  background: linear-gradient(135deg, #e94560, #f5a623, #e94560);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s ease-in-out infinite;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 200% center;
+  }
+}
+
+.subtitle {
+  font-size: 1.3em;
+  color: #a0aec0;
+  margin-bottom: 20px;
+}
+
+/* Player List */
+.player-list-container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 20px 30px;
+  min-width: 400px;
+  max-width: 700px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Lobby Info */
+.lobby-info {
+  margin-top: 24px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.lobby-info-waiting {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin-bottom: 8px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.lobby-info-lang {
+  font-size: 1em;
+  color: #a0aec0;
+}
+
+.player-list-title {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #e2e8f0;
+}
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  min-height: 60px;
+}
+
+.player-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.player-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4a5568;
+}
+
+.player-name {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.player-count-info {
+  font-size: 0.9em;
+  color: #a0aec0;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* ===========================
+   Phase 2: Question Picking
+   =========================== */
+#picking,
+#answering,
+#guessing {
+  gap: 20px;
+  padding: 40px;
+}
+
+.round-info {
+  font-size: 1.2em;
+  color: #a0aec0;
+  font-weight: 600;
+}
+
+.host-banner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  padding: 20px 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.host-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #e94560;
+  background: #4a5568;
+}
+
+.host-info {
+  text-align: left;
+}
+
+.host-name {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.host-status {
+  font-size: 1.1em;
+  color: #a0aec0;
+  margin-top: 4px;
+}
+
+.waiting-dots::after {
+  content: "";
+  animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+}
+
+/* ===========================
+   Phase 4: Guessing / Question Display
+   =========================== */
+.question-display {
+  max-width: 800px;
+  text-align: center;
+}
+
+.question-text {
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.answers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.answer-card {
+  padding: 20px;
+  font-size: 1.3em;
+  font-weight: 700;
+  border-radius: 14px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.answer-a {
+  background: rgba(233, 69, 96, 0.3);
+  border-color: #e94560;
+}
+.answer-b {
+  background: rgba(52, 152, 219, 0.3);
+  border-color: #3498db;
+}
+.answer-c {
+  background: rgba(46, 204, 113, 0.3);
+  border-color: #2ecc71;
+}
+.answer-d {
+  background: rgba(241, 196, 15, 0.3);
+  border-color: #f1c40f;
+}
+
+/* Timer */
+.timer-container {
+  margin-top: 20px;
+}
+
+.timer-bar {
+  width: 500px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.timer-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #e94560, #f5a623);
+  border-radius: 5px;
+  transition: width 1s linear;
+  width: 100%;
+}
+
+.timer-text {
+  font-size: 1.1em;
+  color: #a0aec0;
+  margin-top: 8px;
+}
+
+/* Player answer indicators */
+.players-status {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.player-status-dot {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.player-status-dot.answered {
+  background: rgba(46, 204, 113, 0.2);
+  border-color: #2ecc71;
+}
+
+.player-status-dot .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4a5568;
+}
+
+.player-status-dot.answered .dot {
+  background: #2ecc71;
+}
+
+/* ===========================
+   Phase 5: Reveal
+   =========================== */
+#reveal {
+  gap: 20px;
+  padding: 40px;
+}
+
+.reveal-question {
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 10px;
+}
+
+.reveal-answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.reveal-answer {
+  padding: 16px 20px;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-radius: 14px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.6s ease;
+  position: relative;
+}
+
+.reveal-answer.correct-answer {
+  background: rgba(46, 204, 113, 0.4);
+  border-color: #2ecc71;
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(46, 204, 113, 0.3);
+}
+
+.reveal-answer.wrong-answer {
+  opacity: 0.4;
+}
+
+/* Player guesses on reveal */
+.guess-avatars {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.guess-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* Score popup */
+.score-changes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.score-change {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  animation: scorePopIn 0.5s ease;
+}
+
+@keyframes scorePopIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.score-change.got-correct {
+  background: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+}
+
+.score-change.got-wrong {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+}
+
+.score-change-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+/* ===========================
+   Phase 7: Leaderboard
+   =========================== */
+#leaderboard {
+  gap: 20px;
+  padding: 40px;
+}
+
+.leaderboard-title {
+  font-size: 3em;
+  font-weight: 900;
+  background: linear-gradient(135deg, #f5a623, #e94560);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.leaderboard-subtitle {
+  font-size: 1.3em;
+  color: #a0aec0;
+  margin-bottom: 10px;
+}
+
+.podium {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.podium-place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.podium-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.podium-name {
+  font-size: 1em;
+  font-weight: 700;
+  max-width: 120px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.podium-score {
+  font-size: 1.1em;
+  font-weight: 800;
+  color: #f5a623;
+}
+
+.podium-bar {
+  width: 100px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.podium-place:nth-child(1) .podium-bar {
+  /* 2nd place (displayed left) */
+  height: 120px;
+  background: linear-gradient(180deg, #95a5a6, #7f8c8d);
+}
+
+.podium-place:nth-child(2) .podium-bar {
+  /* 1st place (displayed center) */
+  height: 160px;
+  background: linear-gradient(180deg, #f5a623, #e67e22);
+}
+
+.podium-place:nth-child(3) .podium-bar {
+  /* 3rd place (displayed right) */
+  height: 90px;
+  background: linear-gradient(180deg, #cd6133, #a0522d);
+}
+
+.podium-place:nth-child(2) .podium-avatar {
+  border-color: #f5a623;
+  width: 80px;
+  height: 80px;
+}
+
+/* Full leaderboard list */
+.leaderboard-list {
+  width: 100%;
+  max-width: 500px;
+}
+
+.leaderboard-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  animation: fadeIn 0.4s ease;
+}
+
+.leaderboard-rank {
+  font-size: 1.3em;
+  font-weight: 800;
+  width: 35px;
+  text-align: center;
+  color: #a0aec0;
+}
+
+.leaderboard-row-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.leaderboard-row-name {
+  flex: 1;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.leaderboard-row-score {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #f5a623;
+}
+
+/* Leaderboard buttons */
+.leaderboard-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.lb-btn {
+  padding: 14px 36px;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lb-btn-primary {
+  background: linear-gradient(135deg, #e94560, #c0392b);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(233, 69, 96, 0.4);
+}
+
+.lb-btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5e0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.lb-btn:hover {
+  transform: translateY(-2px);
+}

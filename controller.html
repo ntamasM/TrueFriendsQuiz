@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>True Friends Quiz — Controller</title>
+    <link rel="stylesheet" href="css/controller.css?v=5" />
+  </head>
+  <body>
+    <!-- ========================= -->
+    <!-- Lobby View                -->
+    <!-- ========================= -->
+    <div id="view-lobby" class="view active">
+      <div id="lobby-welcome" class="welcome-text">Welcome,</div>
+      <div id="lobby-nickname" class="welcome-text nickname">Player</div>
+      <div id="lobby-waiting" class="waiting-text">
+        Waiting for the game to start...
+      </div>
+      <!-- Settings & Start (master only) -->
+      <button id="ctrl-settings-btn" class="ctrl-settings-btn hidden">
+        ⚙️ Settings
+      </button>
+      <button id="ctrl-start-btn" class="ctrl-start-btn hidden" disabled>
+        Start Game
+      </button>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Settings View (master)    -->
+    <!-- ========================= -->
+    <div id="view-settings" class="view">
+      <div class="settings-title" id="settings-title">⚙️ Settings</div>
+
+      <!-- Language -->
+      <div class="settings-section">
+        <div class="settings-label" id="settings-lang-label">Language</div>
+        <select id="settings-lang-select" class="settings-lang-select">
+          <option value="en">🇬🇧 English</option>
+          <option value="el">🇬🇷 Ελληνικά</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="fr">🇫🇷 Français</option>
+          <option value="de">🇩🇪 Deutsch</option>
+          <option value="tr">🇹🇷 Türkçe</option>
+          <option value="ar">🇸🇦 العربية</option>
+        </select>
+      </div>
+
+      <!-- Rounds per player -->
+      <div class="settings-section">
+        <div class="settings-label" id="settings-rounds-label">
+          Rounds per player
+        </div>
+        <div class="settings-rounds-row">
+          <button id="rounds-minus" class="rounds-btn">−</button>
+          <span id="rounds-value" class="rounds-value">1</span>
+          <button id="rounds-plus" class="rounds-btn">+</button>
+        </div>
+      </div>
+
+      <!-- Answer time -->
+      <div class="settings-section">
+        <div class="settings-label" id="settings-time-label">Answer Time</div>
+        <div class="settings-rounds-row">
+          <button id="time-minus" class="rounds-btn">−</button>
+          <span id="time-value" class="rounds-value">20s</span>
+          <button id="time-plus" class="rounds-btn">+</button>
+        </div>
+      </div>
+
+      <button id="settings-back-btn" class="ctrl-settings-back-btn">
+        ← Back
+      </button>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Pick Question View        -->
+    <!-- ========================= -->
+    <div id="view-pick" class="view">
+      <div id="pick-title" class="pick-title">
+        Pick a question for this round!
+      </div>
+      <div id="question-options" class="question-options"></div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Answer Question View      -->
+    <!-- ========================= -->
+    <div id="view-answer" class="view">
+      <div id="answer-title" class="answer-title">Choose your answer!</div>
+      <div id="answer-question-text" class="answer-question-text"></div>
+      <div id="answer-options" class="answer-options"></div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Guess Question View       -->
+    <!-- ========================= -->
+    <div id="view-guess" class="view">
+      <div id="guess-timer" class="guess-timer">20s</div>
+      <div id="guess-title" class="guess-title"></div>
+      <div id="guess-question-text" class="guess-question-text"></div>
+      <div id="guess-options" class="guess-options"></div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Waiting View              -->
+    <!-- ========================= -->
+    <div id="view-waiting" class="view">
+      <div class="waiting-icon">⏳</div>
+      <div id="waiting-message" class="waiting-message">Waiting...</div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Host Wait View            -->
+    <!-- ========================= -->
+    <div id="view-host-wait" class="view">
+      <div class="host-wait-icon">👑</div>
+      <div id="host-wait-text" class="host-wait-text">You answered!</div>
+      <div id="host-wait-sub" class="host-wait-sub">
+        Wait for your friends to guess...
+      </div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Result View               -->
+    <!-- ========================= -->
+    <div id="view-result" class="view">
+      <div id="result-icon" class="result-icon">🎉</div>
+      <div id="result-text" class="result-text">Correct!</div>
+      <div id="result-answer" class="result-answer"></div>
+      <div id="result-score" class="result-score"></div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Leaderboard View          -->
+    <!-- ========================= -->
+    <div id="view-leaderboard" class="view">
+      <div id="lb-rank" class="lb-rank">#1</div>
+      <div id="lb-rank-text" class="lb-rank-text"></div>
+      <div id="lb-final-score" class="lb-final-score"></div>
+      <div id="lb-stat" class="lb-stat"></div>
+      <button id="ctrl-play-again" class="ctrl-play-again-btn hidden">
+        Play Again
+      </button>
+      <button id="ctrl-menu" class="ctrl-menu-btn hidden">Back to Menu</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://www.airconsole.com/api/airconsole-1.10.0.js"></script>
+    <script src="js/questions.js?v=5"></script>
+    <script src="js/ui-text.js?v=5"></script>
+    <script src="js/controller.js?v=5"></script>
+  </body>
+</html>
