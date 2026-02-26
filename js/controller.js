@@ -35,43 +35,55 @@ function initController() {
     if (!data || !data.action) return;
     console.log("Controller got message:", data);
 
-    // Update language if provided
-    if (data.language) {
-      currentLanguage = data.language;
+    // If the message carries a language, ensure it's loaded before processing
+    var msgLang = data.language || null;
+
+    function processMessage() {
+      // Update language if provided
+      if (msgLang) {
+        currentLanguage = msgLang;
+      }
+
+      switch (data.action) {
+        case "game_phase":
+          handlePhaseChange(data);
+          break;
+        case "language_changed":
+          currentLanguage = data.language;
+          updateLobbyView();
+          break;
+        case "pick_question":
+          showPickQuestion(data.questions);
+          break;
+        case "answer_question":
+          showAnswerQuestion(data.question, data.answers);
+          break;
+        case "guess_question":
+          showGuessQuestion(
+            data.question,
+            data.answers,
+            data.hostNickname,
+            data.timeLeft,
+          );
+          break;
+        case "guess_confirmed":
+          // Freeze the guess view
+          disableGuessButtons();
+          break;
+        case "show_result":
+          showResult(data);
+          break;
+        case "timer_update":
+          updateGuessTimer(data.timeLeft);
+          break;
+      }
     }
 
-    switch (data.action) {
-      case "game_phase":
-        handlePhaseChange(data);
-        break;
-      case "language_changed":
-        currentLanguage = data.language;
-        updateLobbyView();
-        break;
-      case "pick_question":
-        showPickQuestion(data.questions);
-        break;
-      case "answer_question":
-        showAnswerQuestion(data.question, data.answers);
-        break;
-      case "guess_question":
-        showGuessQuestion(
-          data.question,
-          data.answers,
-          data.hostNickname,
-          data.timeLeft,
-        );
-        break;
-      case "guess_confirmed":
-        // Freeze the guess view
-        disableGuessButtons();
-        break;
-      case "show_result":
-        showResult(data);
-        break;
-      case "timer_update":
-        updateGuessTimer(data.timeLeft);
-        break;
+    // Load language on demand if needed, then process
+    if (msgLang && typeof loadLanguage === "function") {
+      loadLanguage(msgLang, processMessage);
+    } else {
+      processMessage();
     }
   };
 }

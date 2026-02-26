@@ -23,6 +23,7 @@ var gameState = {
 };
 
 var airconsole;
+var lobbyUpdateTimer = null;
 
 // =========================
 // Initialization
@@ -38,25 +39,21 @@ function initScreen() {
   airconsole.onConnect = function (device_id) {
     console.log("Device connected:", device_id);
     if (gameState.phase === "lobby") {
-      updateLobbyPlayers();
-      // Re-check shortly after — profile may not be available yet
-      setTimeout(function () {
-        if (gameState.phase === "lobby") updateLobbyPlayers();
-      }, 500);
+      debouncedUpdateLobbyPlayers();
     }
   };
 
   airconsole.onDisconnect = function (device_id) {
     console.log("Device disconnected:", device_id);
     if (gameState.phase === "lobby") {
-      updateLobbyPlayers();
+      debouncedUpdateLobbyPlayers();
     }
   };
 
   airconsole.onDeviceProfileChange = function (device_id) {
     console.log("Device profile changed:", device_id);
     if (gameState.phase === "lobby") {
-      updateLobbyPlayers();
+      debouncedUpdateLobbyPlayers();
     }
   };
 
@@ -177,11 +174,18 @@ function updateLobbyPlayers() {
   countEl.textContent =
     count + " " + t("players") + (count < 3 ? " — " + t("minPlayers") : "");
 
-  // Send lobby update to all controllers
-  broadcastPhase("lobby", { playerCount: count });
-
   // Update info text
   updateLobbyInfo();
+}
+
+// Debounced version to prevent message flood when many devices connect at once
+function debouncedUpdateLobbyPlayers() {
+  clearTimeout(lobbyUpdateTimer);
+  lobbyUpdateTimer = setTimeout(function () {
+    if (gameState.phase === "lobby") {
+      updateLobbyPlayers();
+    }
+  }, 300);
 }
 
 function broadcastPhase(phase, extraData) {
@@ -237,15 +241,19 @@ function updateLobbyInfo() {
 
 function handleLanguageSelect(lang) {
   if (SUPPORTED_LANGUAGES.indexOf(lang) === -1) return;
-  gameState.language = lang;
 
-  // Re-render lobby text
-  document.getElementById("player-list-title").textContent = t("players");
-  updateLobbyPlayers();
-  updateLobbyInfo();
+  // Load language files on demand, then apply
+  loadLanguage(lang, function () {
+    gameState.language = lang;
 
-  // Broadcast language to controllers
-  airconsole.broadcast({ action: "language_changed", language: lang });
+    // Re-render lobby text
+    document.getElementById("player-list-title").textContent = t("players");
+    updateLobbyPlayers();
+    updateLobbyInfo();
+
+    // Broadcast language to controllers
+    airconsole.broadcast({ action: "language_changed", language: lang });
+  });
 }
 
 // =========================
@@ -759,11 +767,12 @@ function showLeaderboard() {
     podium.appendChild(placeDiv);
   });
 
-  // Full list
+  // Full list (skip top 3 since they're already on the podium)
   var listEl = document.getElementById("leaderboard-list");
   listEl.innerHTML = "";
 
   sorted.forEach(function (player, idx) {
+    if (idx < 3) return;
     var row = document.createElement("div");
     row.className = "leaderboard-row";
 
