@@ -39,11 +39,22 @@ function initScreen() {
     console.log("Device connected:", device_id);
     if (gameState.phase === "lobby") {
       updateLobbyPlayers();
+      // Re-check shortly after — profile may not be available yet
+      setTimeout(function () {
+        if (gameState.phase === "lobby") updateLobbyPlayers();
+      }, 500);
     }
   };
 
   airconsole.onDisconnect = function (device_id) {
     console.log("Device disconnected:", device_id);
+    if (gameState.phase === "lobby") {
+      updateLobbyPlayers();
+    }
+  };
+
+  airconsole.onDeviceProfileChange = function (device_id) {
+    console.log("Device profile changed:", device_id);
     if (gameState.phase === "lobby") {
       updateLobbyPlayers();
     }
