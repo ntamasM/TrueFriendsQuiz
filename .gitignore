@@ -10,9 +10,6 @@ Desktop.ini
 *.swo
 *~
 
-# Claude
-.claude/
-
 # ngrok
 ngrok.yml
 ngrok.log
