@@ -24,9 +24,10 @@
   var footer = document.querySelector("footer");
   if (footer) {
     footer.innerHTML =
-      "True Friends Quiz &copy; " +
+      '<img src="Assets/Logo/Logo.svg" alt="True Friends Quiz" class="footer-logo" />' +
+      '<div class="footer-text">True Friends Quiz &copy; ' +
       new Date().getFullYear() +
       ' &middot; Built with \u2764\uFE0F for <a href="https://www.airconsole.com" target="_blank" rel="noopener">AirConsole</a>' +
-      ' by <a href="https://ntamadakis.gr" target="_blank" rel="noopener">Manolis Ntamadakis</a>';
+      ' by <a href="https://ntamadakis.gr" target="_blank" rel="noopener">Manolis Ntamadakis</a></div>';
   }
 })();

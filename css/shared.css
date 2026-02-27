@@ -30,6 +30,13 @@ header {
   width: 100%;
 }
 
+.header-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 0.75rem;
+  filter: drop-shadow(0 4px 12px rgba(255, 210, 0, 0.25));
+}
+
 header h1 {
   font-size: 2.8rem;
   background: linear-gradient(90deg, #f7971e, #ffd200);
@@ -85,6 +92,21 @@ footer {
   padding: 2rem 1rem;
   font-size: 0.8rem;
   color: #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-logo {
+  width: 48px;
+  height: auto;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.footer-logo:hover {
+  opacity: 1;
 }
 
 footer a {
