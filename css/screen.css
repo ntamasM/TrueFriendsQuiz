@@ -656,3 +656,119 @@ body {
 .lb-btn:hover {
   transform: translateY(-2px);
 }
+
+/* ===========================
+   Responsive — TV Resolution (960x540)
+   =========================== */
+@media (max-width: 960px), (max-height: 540px) {
+  .game-logo {
+    width: 100px;
+    margin-bottom: 5px;
+  }
+
+  .game-title {
+    font-size: 2.4em;
+    margin-bottom: 5px;
+  }
+
+  .player-list-container {
+    min-width: 280px;
+    max-width: 90%;
+    padding: 12px 16px;
+  }
+
+  .question-text {
+    font-size: 1.5em;
+    margin-bottom: 16px;
+  }
+
+  .answers-grid {
+    gap: 10px;
+    max-width: 90%;
+  }
+
+  .answer-card {
+    padding: 12px;
+    font-size: 1em;
+  }
+
+  .timer-bar {
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .host-banner {
+    padding: 12px 24px;
+    gap: 12px;
+  }
+
+  .host-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .host-name {
+    font-size: 1.4em;
+  }
+
+  .round-info {
+    font-size: 1em;
+  }
+
+  .reveal-question {
+    font-size: 1.3em;
+  }
+
+  .reveal-answers {
+    gap: 10px;
+    max-width: 90%;
+  }
+
+  .reveal-answer {
+    padding: 10px 12px;
+    font-size: 1em;
+  }
+
+  .leaderboard-title {
+    font-size: 2em;
+  }
+
+  .podium-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .podium-bar {
+    width: 70px;
+    font-size: 1.4em;
+  }
+
+  .podium-place:nth-child(1) .podium-bar {
+    height: 80px;
+  }
+  .podium-place:nth-child(2) .podium-bar {
+    height: 110px;
+  }
+  .podium-place:nth-child(3) .podium-bar {
+    height: 60px;
+  }
+
+  .podium-place:nth-child(2) .podium-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  #picking,
+  #answering,
+  #guessing,
+  #reveal,
+  #leaderboard {
+    padding: 20px;
+    gap: 12px;
+  }
+
+  .lb-btn {
+    padding: 10px 24px;
+    font-size: 0.95em;
+  }
+}

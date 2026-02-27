@@ -47,4 +47,9 @@ UI_TEXT.es = {
   answerTime: "Tiempo de Respuesta",
   waitingForMasterToStart: "Esperando a que {name} inicie el juego",
   currentLanguage: "Idioma actual",
+  gameInProgress:
+    "Hay una partida en curso. Por favor espera a la siguiente ronda.",
+  notEnoughPlayers: "No hay suficientes jugadores. Volviendo al lobby.",
+  playerLeft: "abandonó el juego. Pasando a la siguiente ronda...",
+  heroQuestions: "Preguntas Exclusivas Hero",
 };

@@ -48,4 +48,8 @@ UI_TEXT.en = {
   answerTime: "Answer Time",
   waitingForMasterToStart: "Waiting for {name} to start the game",
   currentLanguage: "Current language",
+  gameInProgress: "A game is in progress. Please wait for the next round.",
+  notEnoughPlayers: "Not enough players. Returning to lobby.",
+  playerLeft: "left the game. Moving to next round...",
+  heroQuestions: "Hero Exclusive Questions",
 };

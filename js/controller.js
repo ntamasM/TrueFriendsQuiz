@@ -9,6 +9,7 @@ var currentLanguage = "en";
 var isMaster = false;
 var roundsPerPlayer = 1;
 var answerTime = 20;
+var isPaused = false;
 
 // =========================
 // Initialization
@@ -19,6 +20,8 @@ function initController() {
   airconsole.onReady = function (code) {
     myDeviceId = airconsole.getDeviceId();
     console.log("Controller ready. Device ID:", myDeviceId);
+    // Auto-detect phone language
+    autoDetectControllerLanguage();
     showView("view-lobby");
     updateLobbyView();
   };
@@ -29,6 +32,28 @@ function initController() {
 
   airconsole.onDisconnect = function (device_id) {
     updateLobbyView();
+  };
+
+  // ---- Ad Break Handlers ----
+  airconsole.onAdShow = function () {
+    console.log("Controller: Ad showing — pausing");
+    isPaused = true;
+  };
+
+  airconsole.onAdComplete = function (ad_was_shown) {
+    console.log("Controller: Ad complete");
+    isPaused = false;
+  };
+
+  // ---- Pause / Resume (AirConsole lifecycle) ----
+  airconsole.onPause = function () {
+    console.log("Controller: Paused");
+    isPaused = true;
+  };
+
+  airconsole.onResume = function () {
+    console.log("Controller: Resumed");
+    isPaused = false;
   };
 
   airconsole.onMessage = function (from, data) {
@@ -75,6 +100,12 @@ function initController() {
           break;
         case "timer_update":
           updateGuessTimer(data.timeLeft);
+          break;
+        case "game_paused":
+          isPaused = true;
+          break;
+        case "game_resumed":
+          isPaused = false;
           break;
       }
     }
@@ -496,6 +527,24 @@ document.addEventListener("DOMContentLoaded", function () {
     airconsole.message(AirConsole.SCREEN, { action: "back_to_menu" });
   });
 });
+
+// =========================
+// Auto-Detect Controller Language
+// =========================
+function autoDetectControllerLanguage() {
+  var phoneLang = (navigator.language || navigator.userLanguage || "en")
+    .substring(0, 2)
+    .toLowerCase();
+  var supported = ["en", "el", "es", "fr", "de", "tr", "ar"];
+  if (supported.indexOf(phoneLang) !== -1 && phoneLang !== currentLanguage) {
+    if (typeof loadLanguage === "function") {
+      loadLanguage(phoneLang, function () {
+        currentLanguage = phoneLang;
+        updateLobbyView();
+      });
+    }
+  }
+}
 
 // =========================
 // Boot

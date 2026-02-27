@@ -1401,3 +1401,195 @@ QUESTIONS.tr = [
     answers: ["Animasyon", "Komedi", "Aksiyon", "Filmlerde asla ağlamaz"],
   },
 ];
+
+/**
+ * Hero Özel «Derin & Baharatlı» Sorular (201-220)
+ * Sadece oturumda en az bir oyuncu Hero abonesi olduğunda kullanılabilir.
+ */
+QUESTIONS.tr_hero = [
+  {
+    id: 201,
+    question: "{name}'in en utandırıcı gizli yeteneği nedir?",
+    answers: [
+      "Duşta şarkı söylemek",
+      "Garip dans hareketleri",
+      "Komik sesler",
+      "Aşırı geğirmek",
+    ],
+  },
+  {
+    id: 202,
+    question: "{name} bir milyon dolarla ilk ne yapardı?",
+    answers: [
+      "Dünyayı gezmek",
+      "Bir malikane almak",
+      "Hepsini yatırım yapmak",
+      "Dev bir parti vermek",
+    ],
+  },
+  {
+    id: 203,
+    question: "{name}'in en büyük suçlu zevki nedir?",
+    answers: [
+      "Reality TV",
+      "Gece 3'te fast food",
+      "Peynirli pop müzik",
+      "Aşk romanları",
+    ],
+  },
+  {
+    id: 204,
+    question: "{name} bir ünlüyle hayat değiştirebilseydi, kim olurdu?",
+    answers: [
+      "Ünlü bir aktör",
+      "Bir müzik yıldızı",
+      "Bir teknoloji milyarderi",
+      "Bir spor efsanesi",
+    ],
+  },
+  {
+    id: 205,
+    question: "{name} ıssız bir adaya ne götürürdü?",
+    answers: [
+      "Wifi'li telefon",
+      "En yakın arkadaşı",
+      "Sınırsız atıştırmalık",
+      "Hayatta kalma kiti",
+    ],
+  },
+  {
+    id: 206,
+    question: "{name}'in en mantıksız korkusu nedir?",
+    answers: ["Palyacoçolar", "Karanlık", "Kelebekler", "Derin sular"],
+  },
+  {
+    id: 207,
+    question: "{name} zombi kıyametinde nasıl hayatta kalırdı?",
+    answers: [
+      "Saklanmak ve beklemek",
+      "Kale inşa etmek",
+      "Zombi olmak",
+      "Hayatta kalan bir grup yönetmek",
+    ],
+  },
+  {
+    id: 208,
+    question: "{name}'in ağlayacağı en saçma şey nedir?",
+    answers: [
+      "Kaybolan yemek",
+      "Üzücü bir reklam",
+      "Favori takımın yenilmesi",
+      "Sevimli hayvan videosu",
+    ],
+  },
+  {
+    id: 209,
+    question: "{name}'in favori karaoke şarkısı hangisi?",
+    answers: [
+      "Bohemian Rhapsody",
+      "Dancing Queen",
+      "Sweet Caroline",
+      "Don't Stop Believin'",
+    ],
+  },
+  {
+    id: 210,
+    question: "{name} zamanda yolculuk yapabilseydi nereye giderdi?",
+    answers: ["Antik Roma", "1980'ler", "100 yıl sonrası", "Dinozor çağı"],
+  },
+  {
+    id: 211,
+    question: "{name}'in yapacağı en romantik şey nedir?",
+    answers: [
+      "Aşk mektubu yazmak",
+      "Şık bir akşam yemeği hazırlamak",
+      "Sürpriz gezi planlamak",
+      "Serenat yapmak",
+    ],
+  },
+  {
+    id: 212,
+    question: "{name}'in otobiyografisinin başlığı ne olurdu?",
+    answers: [
+      "'Ups, Yine Yaptım'",
+      "'Nasıl Yetişkin Olunmaz'",
+      "'En İyi Hayatımı Yaşıyorum'",
+      "'Atıştırmalık Günlükleri'",
+    ],
+  },
+  {
+    id: 213,
+    question: "{name}'in en kötü mutfak felaketi neydi?",
+    answers: [
+      "Her şeyi yaktı",
+      "Şeker yerine tuz koydu",
+      "Fırını açmayı unuttu",
+      "Yangın alarmını çaldırdı",
+    ],
+  },
+  {
+    id: 214,
+    question: "{name}'in telefonundaki en garip şey nedir?",
+    answers: [
+      "1000 meme",
+      "Mesaj ekran görüntüleri",
+      "Yemek fotoğrafları",
+      "Kaydedilmiş TikTok sesleri",
+    ],
+  },
+  {
+    id: 215,
+    question: "{name} birinden hoşlandığında nasıl davranır?",
+    answers: [
+      "Tamamen belli eder",
+      "Sessizleşir",
+      "Ekstra komik olur",
+      "Tamamen inkar eder",
+    ],
+  },
+  {
+    id: 216,
+    question: "{name} bir milyar için bile ne yapmaz?",
+    answers: [
+      "Böcek yemek",
+      "Kaşlaını tıraş etmek",
+      "Parasüt atlamak",
+      "Bir yıl telefonsuz kalmak",
+    ],
+  },
+  {
+    id: 217,
+    question: "{name} hangi komplo teorisine inanırdı?",
+    answers: [
+      "Düz Dünya",
+      "Uzaylılar piramitleri inşa etti",
+      "Simülasyonda yaşıyoruz",
+      "Kuşlar gerçek değil",
+    ],
+  },
+  {
+    id: 218,
+    question: "{name}'in en popüler olmayan görüşü nedir?",
+    answers: [
+      "Pizzada ananas harika",
+      "Yaz abartlımış",
+      "Kahve kötü",
+      "Köpekler > Kediler",
+    ],
+  },
+  {
+    id: 219,
+    question: "{name}'in ruh hayvanı nedir?",
+    answers: ["Tembel hayvan", "Golden retriever", "Kedi", "Yunus"],
+  },
+  {
+    id: 220,
+    question: "{name} neden cancel edilirdi?",
+    answers: [
+      "Kötü yemek fikirleri",
+      "Berbat dans",
+      "Utandırıcı sosyal medya postları",
+      "Fazla dürüst olmak",
+    ],
+  },
+];

@@ -1627,3 +1627,200 @@ QUESTIONS.fr = [
     ],
   },
 ];
+
+/**
+ * Questions Exclusives Hero « Profondes & Piquantes » (201-220)
+ * Disponibles uniquement lorsqu'au moins un joueur de la session est abonné Hero.
+ */
+QUESTIONS.fr_hero = [
+  {
+    id: 201,
+    question: "Quel est le talent secret le plus embarrassant de {name} ?",
+    answers: [
+      "Chanter sous la douche",
+      "Mouvements de danse bizarres",
+      "Voix rigolotes",
+      "Rots extrêmes",
+    ],
+  },
+  {
+    id: 202,
+    question: "Que ferait {name} en premier avec un million de dollars ?",
+    answers: [
+      "Voyager dans le monde",
+      "Acheter un manoir",
+      "Tout investir",
+      "Faire une énorme fête",
+    ],
+  },
+  {
+    id: 203,
+    question: "Quel est le plus grand plaisir coupable de {name} ?",
+    answers: [
+      "Télé-réalité",
+      "Fast-food à 3h du matin",
+      "Musique pop guimauve",
+      "Romans à l'eau de rose",
+    ],
+  },
+  {
+    id: 204,
+    question: "Si {name} pouvait échanger de vie avec une célébrité ?",
+    answers: [
+      "Un acteur célèbre",
+      "Une star de la musique",
+      "Un milliardaire de la tech",
+      "Une légende du sport",
+    ],
+  },
+  {
+    id: 205,
+    question: "Qu'emmènerait {name} sur une île déserte ?",
+    answers: [
+      "Téléphone avec wifi",
+      "Son/sa meilleur(e) ami(e)",
+      "Snacks illimités",
+      "Un kit de survie",
+    ],
+  },
+  {
+    id: 206,
+    question: "Quelle est la peur la plus irrationnelle de {name} ?",
+    answers: ["Les clowns", "Le noir", "Les papillons", "Les eaux profondes"],
+  },
+  {
+    id: 207,
+    question: "Comment {name} survivrait-il/elle à une apocalypse zombie ?",
+    answers: [
+      "Se cacher et attendre",
+      "Construire une forteresse",
+      "Devenir un zombie",
+      "Mener un groupe de survivants",
+    ],
+  },
+  {
+    id: 208,
+    question: "Quelle est la chose la plus bête qui ferait pleurer {name} ?",
+    answers: [
+      "De la nourriture perdue",
+      "Une pub triste",
+      "La défaite de son équipe",
+      "Une vidéo d'animal mignon",
+    ],
+  },
+  {
+    id: 209,
+    question: "Quelle est la chanson karaoké préférée de {name} ?",
+    answers: [
+      "Bohemian Rhapsody",
+      "Dancing Queen",
+      "Sweet Caroline",
+      "Don't Stop Believin'",
+    ],
+  },
+  {
+    id: 210,
+    question: "Si {name} pouvait voyager dans le temps, où irait-il/elle ?",
+    answers: [
+      "Rome antique",
+      "Les années 1980",
+      "100 ans dans le futur",
+      "Ère des dinosaures",
+    ],
+  },
+  {
+    id: 211,
+    question: "Quelle est la chose la plus romantique que ferait {name} ?",
+    answers: [
+      "Écrire une lettre d'amour",
+      "Préparer un dîner chic",
+      "Planifier un voyage surprise",
+      "Faire une sérénade",
+    ],
+  },
+  {
+    id: 212,
+    question: "Quel serait le titre de l'autobiographie de {name} ?",
+    answers: [
+      "'Oups, Je l'Ai Refait'",
+      "'Comment Ne Pas Être Adulte'",
+      "'Vivre Ma Meilleure Vie'",
+      "'Les Chroniques du Snack'",
+    ],
+  },
+  {
+    id: 213,
+    question: "Quel a été le pire désastre culinaire de {name} ?",
+    answers: [
+      "Tout brûlé",
+      "Sel au lieu de sucre",
+      "Oublié d'allumer le four",
+      "Déclenché l'alarme incendie",
+    ],
+  },
+  {
+    id: 214,
+    question: "Qu'y a-t-il de plus bizarre dans le téléphone de {name} ?",
+    answers: [
+      "1000 mèmes",
+      "Captures de messages",
+      "Photos de nourriture",
+      "Sons TikTok enregistrés",
+    ],
+  },
+  {
+    id: 215,
+    question: "Comment {name} se comporte quand il/elle a un crush ?",
+    answers: [
+      "Complètement évident(e)",
+      "Très silencieux/se",
+      "Extra drôle",
+      "En plein déni",
+    ],
+  },
+  {
+    id: 216,
+    question: "Que ne ferait {name} même pas pour un milliard ?",
+    answers: [
+      "Manger un insecte",
+      "Se raser la tête",
+      "Sauter en parachute",
+      "Sans téléphone pendant un an",
+    ],
+  },
+  {
+    id: 217,
+    question: "Quelle théorie du complot {name} croirait-il/elle ?",
+    answers: [
+      "Terre plate",
+      "Les aliens ont construit les pyramides",
+      "On vit dans une simulation",
+      "Les oiseaux n'existent pas",
+    ],
+  },
+  {
+    id: 218,
+    question: "Quelle est l'opinion la plus impopulaire de {name} ?",
+    answers: [
+      "L'ananas sur la pizza c'est génial",
+      "L'été est surévalué",
+      "Le café c'est mauvais",
+      "Chiens > Chats",
+    ],
+  },
+  {
+    id: 219,
+    question: "Quel est l'animal totem de {name} ?",
+    answers: ["Paresseux", "Golden retriever", "Chat", "Dauphin"],
+  },
+  {
+    id: 220,
+    question: "Pour quoi {name} serait-il/elle annulé(e) ?",
+    answers: [
+      "Mauvais avis culinaires",
+      "Danse terrible",
+      "Posts cringe sur les réseaux",
+      "Être trop honnête",
+    ],
+  },
+];

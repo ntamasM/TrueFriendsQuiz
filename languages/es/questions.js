@@ -1488,3 +1488,200 @@ QUESTIONS.es = [
     ],
   },
 ];
+
+/**
+ * Preguntas Exclusivas Hero «Profundas y Picantes» (201-220)
+ * Disponibles solo cuando al menos un jugador en la sesión es suscriptor Hero.
+ */
+QUESTIONS.es_hero = [
+  {
+    id: 201,
+    question: "¿Cuál es el talento secreto más vergonzoso de {name}?",
+    answers: [
+      "Cantar en la ducha",
+      "Movimientos de baile raros",
+      "Voces graciosas",
+      "Eructos extremos",
+    ],
+  },
+  {
+    id: 202,
+    question: "¿Qué haría {name} primero con un millón de dólares?",
+    answers: [
+      "Viajar por el mundo",
+      "Comprar una mansión",
+      "Invertirlo todo",
+      "Hacer una fiesta enorme",
+    ],
+  },
+  {
+    id: 203,
+    question: "¿Cuál es el mayor placer culpable de {name}?",
+    answers: [
+      "Reality shows",
+      "Comida rápida a las 3am",
+      "Música pop cursi",
+      "Novelas románticas",
+    ],
+  },
+  {
+    id: 204,
+    question: "Si {name} pudiera intercambiar vidas con una celebridad, ¿cuál?",
+    answers: [
+      "Un actor famoso",
+      "Una estrella de música",
+      "Un multimillonario tech",
+      "Una leyenda del deporte",
+    ],
+  },
+  {
+    id: 205,
+    question: "¿Qué llevaría {name} a una isla desierta?",
+    answers: [
+      "Teléfono con wifi",
+      "Su mejor amigo/a",
+      "Snacks ilimitados",
+      "Un kit de supervivencia",
+    ],
+  },
+  {
+    id: 206,
+    question: "¿Cuál es el miedo más irracional de {name}?",
+    answers: ["Payasos", "La oscuridad", "Mariposas", "Aguas profundas"],
+  },
+  {
+    id: 207,
+    question: "¿Cómo sobreviviría {name} en un apocalipsis zombie?",
+    answers: [
+      "Esconderse y esperar",
+      "Construir una fortaleza",
+      "Convertirse en zombie",
+      "Liderar un grupo de supervivientes",
+    ],
+  },
+  {
+    id: 208,
+    question: "¿Cuál es la cosa más tonta por la que lloraría {name}?",
+    answers: [
+      "Comida perdida",
+      "Un anuncio triste",
+      "La derrota de su equipo favorito",
+      "Un video de animalito tierno",
+    ],
+  },
+  {
+    id: 209,
+    question: "¿Cuál es la canción de karaoke favorita de {name}?",
+    answers: [
+      "Bohemian Rhapsody",
+      "Dancing Queen",
+      "Sweet Caroline",
+      "Don't Stop Believin'",
+    ],
+  },
+  {
+    id: 210,
+    question: "Si {name} pudiera viajar en el tiempo, ¿a dónde iría?",
+    answers: [
+      "Roma antigua",
+      "Los años 80",
+      "100 años en el futuro",
+      "Era de los dinosaurios",
+    ],
+  },
+  {
+    id: 211,
+    question: "¿Cuál es la cosa más romántica que haría {name}?",
+    answers: [
+      "Escribir una carta de amor",
+      "Cocinar una cena elegante",
+      "Planear un viaje sorpresa",
+      "Dar una serenata",
+    ],
+  },
+  {
+    id: 212,
+    question: "¿Cuál sería el título de la autobiografía de {name}?",
+    answers: [
+      "'Ups, Lo Hice Otra Vez'",
+      "'Cómo No Ser Adulto'",
+      "'Viviendo Mi Mejor Vida'",
+      "'Las Crónicas del Snack'",
+    ],
+  },
+  {
+    id: 213,
+    question: "¿Cuál fue el peor desastre culinario de {name}?",
+    answers: [
+      "Quemó todo",
+      "Puso sal en vez de azúcar",
+      "Olvidó encender el horno",
+      "Activó la alarma de incendios",
+    ],
+  },
+  {
+    id: 214,
+    question: "¿Qué es lo más raro en el teléfono de {name}?",
+    answers: [
+      "1000 memes",
+      "Capturas de mensajes",
+      "Fotos de comida",
+      "Sonidos guardados de TikTok",
+    ],
+  },
+  {
+    id: 215,
+    question: "¿Cómo se comporta {name} cuando le gusta alguien?",
+    answers: [
+      "Completamente obvio/a",
+      "Súper callado/a",
+      "Extra gracioso/a",
+      "En total negación",
+    ],
+  },
+  {
+    id: 216,
+    question: "¿Qué no haría {name} ni por mil millones?",
+    answers: [
+      "Comer un bicho",
+      "Raparse la cabeza",
+      "Hacer paracaidismo",
+      "Sin teléfono por un año",
+    ],
+  },
+  {
+    id: 217,
+    question: "¿Qué teoría conspirativa creería {name}?",
+    answers: [
+      "Tierra plana",
+      "Aliens construyeron las pirámides",
+      "Vivimos en una simulación",
+      "Los pájaros no son reales",
+    ],
+  },
+  {
+    id: 218,
+    question: "¿Cuál es la opinión más impopular de {name}?",
+    answers: [
+      "La piña en la pizza es genial",
+      "El verano está sobrevalorado",
+      "El café es malo",
+      "Perros > Gatos",
+    ],
+  },
+  {
+    id: 219,
+    question: "¿Cuál es el animal espiritual de {name}?",
+    answers: ["Perezoso", "Golden retriever", "Gato", "Delfín"],
+  },
+  {
+    id: 220,
+    question: "¿Por qué cancelarían a {name}?",
+    answers: [
+      "Malas opiniones de comida",
+      "Baile terrible",
+      "Posts cringe en redes",
+      "Ser demasiado honesto/a",
+    ],
+  },
+];

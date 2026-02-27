@@ -1471,3 +1471,200 @@ QUESTIONS.en = [
     ],
   },
 ];
+
+/**
+ * Hero-Exclusive "Deep & Spicy" Questions (201-220)
+ * Available only when at least one player in the session is a Hero subscriber.
+ */
+QUESTIONS.en_hero = [
+  {
+    id: 201,
+    question: "What is {name}'s most embarrassing secret talent?",
+    answers: [
+      "Singing in the shower",
+      "Weird dance moves",
+      "Funny voices",
+      "Extreme burping",
+    ],
+  },
+  {
+    id: 202,
+    question: "What would {name} do with a million dollars first?",
+    answers: [
+      "Travel the world",
+      "Buy a mansion",
+      "Invest it all",
+      "Throw a huge party",
+    ],
+  },
+  {
+    id: 203,
+    question: "What is {name}'s biggest guilty pleasure?",
+    answers: [
+      "Reality TV shows",
+      "Fast food at 3am",
+      "Cheesy pop music",
+      "Romantic novels",
+    ],
+  },
+  {
+    id: 204,
+    question: "If {name} had to pick a celebrity to swap lives with?",
+    answers: [
+      "A famous actor",
+      "A music star",
+      "A tech billionaire",
+      "A sports legend",
+    ],
+  },
+  {
+    id: 205,
+    question: "What would {name} bring to a deserted island?",
+    answers: [
+      "Phone with wifi",
+      "A best friend",
+      "Unlimited snacks",
+      "A survival kit",
+    ],
+  },
+  {
+    id: 206,
+    question: "What is {name}'s most irrational fear?",
+    answers: ["Clowns", "The dark", "Butterflies", "Deep water"],
+  },
+  {
+    id: 207,
+    question: "How would {name} survive a zombie apocalypse?",
+    answers: [
+      "Hide and wait",
+      "Build a fortress",
+      "Become a zombie",
+      "Lead a survivor group",
+    ],
+  },
+  {
+    id: 208,
+    question: "What is the silliest thing {name} would cry about?",
+    answers: [
+      "Lost food",
+      "A sad commercial",
+      "Their favorite team losing",
+      "A cute animal video",
+    ],
+  },
+  {
+    id: 209,
+    question: "What is {name}'s go-to karaoke song?",
+    answers: [
+      "Bohemian Rhapsody",
+      "Dancing Queen",
+      "Sweet Caroline",
+      "Don't Stop Believin'",
+    ],
+  },
+  {
+    id: 210,
+    question: "If {name} could time travel, where would they go?",
+    answers: [
+      "Ancient Rome",
+      "The 1980s",
+      "100 years in the future",
+      "Dinosaur era",
+    ],
+  },
+  {
+    id: 211,
+    question: "What is the most romantic thing {name} would do?",
+    answers: [
+      "Write a love letter",
+      "Cook a fancy dinner",
+      "Plan a surprise trip",
+      "Serenade someone",
+    ],
+  },
+  {
+    id: 212,
+    question: "What would {name}'s autobiography title be?",
+    answers: [
+      "'Oops, I Did It Again'",
+      "'How Not To Adult'",
+      "'Living My Best Life'",
+      "'The Snack Chronicles'",
+    ],
+  },
+  {
+    id: 213,
+    question: "What is {name}'s worst cooking disaster?",
+    answers: [
+      "Burned everything",
+      "Added salt instead of sugar",
+      "Forgot to turn on the oven",
+      "Set off the fire alarm",
+    ],
+  },
+  {
+    id: 214,
+    question: "What is the weirdest thing in {name}'s phone?",
+    answers: [
+      "1000 memes",
+      "Screenshots of texts",
+      "Photos of food",
+      "Saved TikTok sounds",
+    ],
+  },
+  {
+    id: 215,
+    question: "How does {name} act when they have a crush?",
+    answers: [
+      "Completely obvious",
+      "Super quiet",
+      "Extra funny",
+      "In total denial",
+    ],
+  },
+  {
+    id: 216,
+    question: "What would {name} never do even for a billion dollars?",
+    answers: [
+      "Eat a bug",
+      "Shave their head",
+      "Skydive",
+      "Go without phone for a year",
+    ],
+  },
+  {
+    id: 217,
+    question: "What conspiracy theory would {name} believe?",
+    answers: [
+      "Flat Earth",
+      "Aliens built the pyramids",
+      "We live in a simulation",
+      "Birds aren't real",
+    ],
+  },
+  {
+    id: 218,
+    question: "What is {name}'s most unpopular opinion?",
+    answers: [
+      "Pineapple on pizza is great",
+      "Summer is overrated",
+      "Coffee is bad",
+      "Dogs > Cats",
+    ],
+  },
+  {
+    id: 219,
+    question: "What is {name}'s spirit animal?",
+    answers: ["Sloth", "Golden retriever", "Cat", "Dolphin"],
+  },
+  {
+    id: 220,
+    question: "What would {name} be cancelled for?",
+    answers: [
+      "Bad food takes",
+      "Terrible dancing",
+      "Cringe social media posts",
+      "Being too honest",
+    ],
+  },
+];

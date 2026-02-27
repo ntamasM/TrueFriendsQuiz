@@ -1494,3 +1494,200 @@ QUESTIONS.de = [
     ],
   },
 ];
+
+/**
+ * Hero-Exklusive «Tiefgründig & Pikant» Fragen (201-220)
+ * Verfügbar nur wenn mindestens ein Spieler in der Session Hero-Abonnent ist.
+ */
+QUESTIONS.de_hero = [
+  {
+    id: 201,
+    question: "Was ist {name}s peinlichstes geheimes Talent?",
+    answers: [
+      "Singen unter der Dusche",
+      "Seltsame Tanzbewegungen",
+      "Lustige Stimmen",
+      "Extremes Rülpsen",
+    ],
+  },
+  {
+    id: 202,
+    question: "Was würde {name} zuerst mit einer Million Dollar machen?",
+    answers: [
+      "Die Welt bereisen",
+      "Eine Villa kaufen",
+      "Alles investieren",
+      "Eine riesige Party schmeissen",
+    ],
+  },
+  {
+    id: 203,
+    question: "Was ist {name}s größtes Guilty Pleasure?",
+    answers: [
+      "Reality TV",
+      "Fast Food um 3 Uhr morgens",
+      "Kitschige Popmusik",
+      "Liebesromane",
+    ],
+  },
+  {
+    id: 204,
+    question: "Wenn {name} mit einem Promi das Leben tauschen könnte?",
+    answers: [
+      "Ein berühmter Schauspieler",
+      "Ein Musikstar",
+      "Ein Tech-Milliardär",
+      "Eine Sportlegende",
+    ],
+  },
+  {
+    id: 205,
+    question: "Was würde {name} auf eine einsame Insel mitnehmen?",
+    answers: [
+      "Handy mit WLAN",
+      "Den besten Freund/die beste Freundin",
+      "Unbegrenzte Snacks",
+      "Ein Survival-Kit",
+    ],
+  },
+  {
+    id: 206,
+    question: "Was ist {name}s irrationalste Angst?",
+    answers: ["Clowns", "Dunkelheit", "Schmetterlinge", "Tiefes Wasser"],
+  },
+  {
+    id: 207,
+    question: "Wie würde {name} eine Zombie-Apokalypse überleben?",
+    answers: [
+      "Verstecken und warten",
+      "Eine Festung bauen",
+      "Selbst Zombie werden",
+      "Eine Überlebensgruppe anführen",
+    ],
+  },
+  {
+    id: 208,
+    question: "Was ist das Albernste, worüber {name} weinen würde?",
+    answers: [
+      "Verlorenes Essen",
+      "Eine traurige Werbung",
+      "Niederlage des Lieblingsteams",
+      "Ein süßes Tiervideo",
+    ],
+  },
+  {
+    id: 209,
+    question: "Was ist {name}s Lieblings-Karaoke-Song?",
+    answers: [
+      "Bohemian Rhapsody",
+      "Dancing Queen",
+      "Sweet Caroline",
+      "Don't Stop Believin'",
+    ],
+  },
+  {
+    id: 210,
+    question: "Wenn {name} in der Zeit reisen könnte, wohin?",
+    answers: [
+      "Antikes Rom",
+      "Die 1980er",
+      "100 Jahre in die Zukunft",
+      "Dinosaurier-Zeitalter",
+    ],
+  },
+  {
+    id: 211,
+    question: "Was ist das Romantischste, was {name} tun würde?",
+    answers: [
+      "Einen Liebesbrief schreiben",
+      "Ein schönes Abendessen kochen",
+      "Überraschungsreise planen",
+      "Ein Ständchen singen",
+    ],
+  },
+  {
+    id: 212,
+    question: "Wie würde der Titel von {name}s Autobiographie lauten?",
+    answers: [
+      "'Ups, Schon Wieder'",
+      "'Wie Man Nicht Erwachsen Wird'",
+      "'Mein Bestes Leben'",
+      "'Die Snack-Chroniken'",
+    ],
+  },
+  {
+    id: 213,
+    question: "Was war {name}s schlimmste Küchenkatastrophe?",
+    answers: [
+      "Alles verbrannt",
+      "Salz statt Zucker",
+      "Vergessen den Ofen einzuschalten",
+      "Feueralarm ausgelöst",
+    ],
+  },
+  {
+    id: 214,
+    question: "Was ist das Seltsamste auf {name}s Handy?",
+    answers: [
+      "1000 Memes",
+      "Screenshots von Nachrichten",
+      "Essensfotos",
+      "Gespeicherte TikTok-Sounds",
+    ],
+  },
+  {
+    id: 215,
+    question: "Wie verhält sich {name} wenn er/sie verliebt ist?",
+    answers: [
+      "Völlig offensichtlich",
+      "Super ruhig",
+      "Extra lustig",
+      "In völliger Verleugnung",
+    ],
+  },
+  {
+    id: 216,
+    question: "Was würde {name} nicht mal für eine Milliarde tun?",
+    answers: [
+      "Einen Käfer essen",
+      "Den Kopf rasieren",
+      "Fallschirmspringen",
+      "Ein Jahr ohne Handy",
+    ],
+  },
+  {
+    id: 217,
+    question: "Welche Verschwörungstheorie würde {name} glauben?",
+    answers: [
+      "Flache Erde",
+      "Aliens bauten die Pyramiden",
+      "Wir leben in einer Simulation",
+      "Vögel sind nicht echt",
+    ],
+  },
+  {
+    id: 218,
+    question: "Was ist {name}s unpopulärste Meinung?",
+    answers: [
+      "Ananas auf Pizza ist super",
+      "Sommer ist überbewertet",
+      "Kaffee ist schlecht",
+      "Hunde > Katzen",
+    ],
+  },
+  {
+    id: 219,
+    question: "Was ist {name}s Seelentier?",
+    answers: ["Faultier", "Golden Retriever", "Katze", "Delfin"],
+  },
+  {
+    id: 220,
+    question: "Wofür würde {name} gecancelt werden?",
+    answers: [
+      "Schlechte Essens-Meinungen",
+      "Schreckliches Tanzen",
+      "Peinliche Social-Media-Posts",
+      "Zu ehrlich sein",
+    ],
+  },
+];

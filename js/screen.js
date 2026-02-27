@@ -20,6 +20,8 @@ var gameState = {
   guessTimer: null,
   guessTimeLeft: 20,
   GUESS_TIME: 20, // seconds for guessing phase
+  isPaused: false, // track pause state for ads and AirConsole pause
+  roundsSinceLastAd: 0, // track rounds for ad frequency
 };
 
 var airconsole;
@@ -33,6 +35,8 @@ function initScreen() {
 
   airconsole.onReady = function (code) {
     console.log("AirConsole ready. Code:", code);
+    // Auto-detect language from screen browser
+    autoDetectScreenLanguage();
     updateLobbyPlayers();
   };
 
@@ -40,6 +44,9 @@ function initScreen() {
     console.log("Device connected:", device_id);
     if (gameState.phase === "lobby") {
       debouncedUpdateLobbyPlayers();
+    } else {
+      // Game is in progress — inform the new controller
+      handleMidGameConnect(device_id);
     }
   };
 
@@ -47,6 +54,9 @@ function initScreen() {
     console.log("Device disconnected:", device_id);
     if (gameState.phase === "lobby") {
       debouncedUpdateLobbyPlayers();
+    } else {
+      // Game is in progress — handle player leaving
+      handleMidGameDisconnect(device_id);
     }
   };
 
@@ -57,12 +67,36 @@ function initScreen() {
     }
   };
 
+  // ---- Ad Break Handlers ----
+  airconsole.onAdShow = function () {
+    console.log("Ad is showing — pausing game");
+    pauseGame();
+  };
+
+  airconsole.onAdComplete = function (ad_was_shown) {
+    console.log("Ad complete. Was shown:", ad_was_shown);
+    resumeGame();
+  };
+
+  // ---- Pause / Resume (AirConsole lifecycle) ----
+  airconsole.onPause = function () {
+    console.log("Game paused by AirConsole");
+    pauseGame();
+  };
+
+  airconsole.onResume = function () {
+    console.log("Game resumed by AirConsole");
+    resumeGame();
+  };
+
   airconsole.onMessage = function (from, data) {
     if (!data || !data.action) return;
     console.log("Message from", from, ":", data);
 
     switch (data.action) {
       case "start_game":
+        // Only master controller can start the game
+        if (from !== airconsole.getMasterControllerDeviceId()) break;
         if (data.roundsPerPlayer) {
           gameState.roundsPerPlayer = Math.max(
             1,
@@ -76,7 +110,10 @@ function initScreen() {
         handleStartGame();
         break;
       case "select_language":
-        handleLanguageSelect(data.language);
+        // Only master controller can change language
+        if (from === airconsole.getMasterControllerDeviceId()) {
+          handleLanguageSelect(data.language);
+        }
         break;
       case "question_selected":
         handleQuestionSelected(from, data.questionId);
@@ -88,10 +125,16 @@ function initScreen() {
         handlePlayerGuess(from, data.answerId);
         break;
       case "play_again":
-        handlePlayAgain();
+        // Only master controller can trigger this
+        if (from === airconsole.getMasterControllerDeviceId()) {
+          handlePlayAgain();
+        }
         break;
       case "back_to_menu":
-        handleBackToMenu();
+        // Only master controller can trigger this
+        if (from === airconsole.getMasterControllerDeviceId()) {
+          handleBackToMenu();
+        }
         break;
     }
   };
@@ -355,6 +398,14 @@ function startRound() {
 
 function getRandomQuestions(count) {
   var langQuestions = QUESTIONS[gameState.language] || QUESTIONS["en"];
+
+  // Include Hero-exclusive questions if any player in the session is premium
+  var heroKey = gameState.language + "_hero";
+  var heroQuestions = QUESTIONS[heroKey] || QUESTIONS["en_hero"] || [];
+  if (isAnyPlayerPremium() && heroQuestions.length > 0) {
+    langQuestions = langQuestions.concat(heroQuestions);
+  }
+
   var available = langQuestions.filter(function (q) {
     return gameState.usedQuestionIds.indexOf(q.id) === -1;
   });
@@ -367,6 +418,27 @@ function getRandomQuestions(count) {
 
   var shuffled = shuffleArray(available);
   return shuffled.slice(0, count);
+}
+
+// =========================
+// Premium / Hero Check
+// =========================
+function isAnyPlayerPremium() {
+  try {
+    var ids = airconsole.getControllerDeviceIds();
+    for (var i = 0; i < ids.length; i++) {
+      if (airconsole.isPremium(ids[i])) {
+        return true;
+      }
+    }
+    // Also check if the screen device is premium
+    if (airconsole.isPremium(0)) {
+      return true;
+    }
+  } catch (e) {
+    console.log("Premium check not available:", e);
+  }
+  return false;
 }
 
 // =========================
@@ -706,10 +778,24 @@ function showReveal() {
   // After 5 seconds, go to next round or leaderboard
   setTimeout(function () {
     gameState.currentRound++;
+    gameState.roundsSinceLastAd++;
+
     if (gameState.currentRound >= gameState.totalRounds) {
-      showLeaderboard();
+      // Show ad before final leaderboard
+      tryShowAd();
+      // Small delay to let ad system process, then show leaderboard
+      setTimeout(function () {
+        showLeaderboard();
+      }, 500);
     } else {
-      startRound();
+      // Show ad every 3 rounds (AirConsole will throttle if too frequent)
+      if (gameState.roundsSinceLastAd >= 3) {
+        tryShowAd();
+      }
+      // Start next round after a brief delay for ad
+      setTimeout(function () {
+        startRound();
+      }, 300);
     }
   }, 5000);
 }
@@ -852,17 +938,183 @@ function resetGame() {
   gameState.hostAnswer = null;
   gameState.playerGuesses = {};
   gameState.usedQuestionIds = [];
+  gameState.roundsSinceLastAd = 0;
+  gameState.isPaused = false;
 }
 
-// Screen buttons for leaderboard
+// Screen buttons for leaderboard — only master controller can use these
 document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("lb-play-again")
-    .addEventListener("click", handlePlayAgain);
+    .addEventListener("click", function () {
+      // Only allow if triggered from screen (master oversight)
+      handlePlayAgain();
+    });
   document
     .getElementById("lb-back-menu")
-    .addEventListener("click", handleBackToMenu);
+    .addEventListener("click", function () {
+      handleBackToMenu();
+    });
 });
+
+// =========================
+// Pause / Resume
+// =========================
+function pauseGame() {
+  if (gameState.isPaused) return;
+  gameState.isPaused = true;
+  // Pause the guess timer if running
+  if (gameState.guessTimer) {
+    clearInterval(gameState.guessTimer);
+  }
+  // Broadcast pause to all controllers
+  airconsole.broadcast({ action: "game_paused" });
+}
+
+function resumeGame() {
+  if (!gameState.isPaused) return;
+  gameState.isPaused = false;
+  // Resume the guess timer if we're in the guessing phase
+  if (gameState.phase === "guessing" && gameState.guessTimeLeft > 0) {
+    startGuessTimer();
+  }
+  // Broadcast resume to all controllers
+  airconsole.broadcast({ action: "game_resumed" });
+}
+
+// =========================
+// Ad Breaks
+// =========================
+function tryShowAd() {
+  // Call showAd — AirConsole decides whether to actually show one
+  gameState.roundsSinceLastAd = 0;
+  airconsole.showAd();
+}
+
+// =========================
+// Mid-Game Connect
+// =========================
+function handleMidGameConnect(device_id) {
+  // Inform the new controller that a game is in progress
+  airconsole.message(device_id, {
+    action: "game_phase",
+    phase: "waiting",
+    message:
+      t("gameInProgress") ||
+      "A game is in progress. Please wait for the next round.",
+    language: gameState.language,
+  });
+}
+
+// =========================
+// Mid-Game Disconnect
+// =========================
+function handleMidGameDisconnect(device_id) {
+  // Find if this player is in the active game
+  var playerIndex = -1;
+  for (var i = 0; i < gameState.players.length; i++) {
+    if (gameState.players[i].deviceId === device_id) {
+      playerIndex = i;
+      break;
+    }
+  }
+
+  if (playerIndex === -1) return; // not an active player
+
+  var disconnectedPlayer = gameState.players[playerIndex];
+  var wasHost = getHostPlayer().deviceId === device_id;
+
+  // Remove the player from the game
+  gameState.players.splice(playerIndex, 1);
+
+  // If fewer than 2 players remain, end the game
+  if (gameState.players.length < 2) {
+    clearInterval(gameState.guessTimer);
+    // Not enough players — go back to lobby
+    resetGame();
+    showPhase("lobby");
+    updateLobbyPlayers();
+    airconsole.broadcast({
+      action: "game_phase",
+      phase: "lobby",
+      message:
+        t("notEnoughPlayers") || "Not enough players. Returning to lobby.",
+      language: gameState.language,
+    });
+    return;
+  }
+
+  // Adjust totalRounds based on new player count
+  gameState.totalRounds = gameState.players.length * gameState.roundsPerPlayer;
+
+  // If currentRound exceeds new totalRounds, go to leaderboard
+  if (gameState.currentRound >= gameState.totalRounds) {
+    clearInterval(gameState.guessTimer);
+    showLeaderboard();
+    return;
+  }
+
+  // If the disconnected player was the current host, skip to next round
+  if (wasHost) {
+    clearInterval(gameState.guessTimer);
+    // Notify everyone
+    airconsole.broadcast({
+      action: "game_phase",
+      phase: "waiting",
+      message:
+        disconnectedPlayer.nickname +
+        " " +
+        (t("playerLeft") || "left the game. Moving to next round..."),
+      language: gameState.language,
+    });
+    setTimeout(function () {
+      startRound();
+    }, 2000);
+    return;
+  }
+
+  // If in guessing phase, remove the player's guess expectation and check if all remaining guessers answered
+  if (gameState.phase === "guessing") {
+    delete gameState.playerGuesses[device_id];
+    var guessers = getGuesserPlayers();
+    var allAnswered = guessers.every(function (p) {
+      return gameState.playerGuesses[p.deviceId] !== undefined;
+    });
+
+    if (allAnswered) {
+      clearInterval(gameState.guessTimer);
+      setTimeout(function () {
+        showReveal();
+      }, 500);
+    }
+  }
+}
+
+// =========================
+// Auto-Detect Screen Language
+// =========================
+function autoDetectScreenLanguage() {
+  var browserLang = (navigator.language || navigator.userLanguage || "en")
+    .substring(0, 2)
+    .toLowerCase();
+  if (
+    SUPPORTED_LANGUAGES.indexOf(browserLang) !== -1 &&
+    browserLang !== gameState.language
+  ) {
+    // Load the detected language then apply
+    loadLanguage(browserLang, function () {
+      gameState.language = browserLang;
+      document.getElementById("player-list-title").textContent = t("players");
+      updateLobbyPlayers();
+      updateLobbyInfo();
+      // Notify all connected controllers
+      airconsole.broadcast({
+        action: "language_changed",
+        language: browserLang,
+      });
+    });
+  }
+}
 
 // =========================
 // Boot

@@ -47,4 +47,9 @@ UI_TEXT.fr = {
   answerTime: "Temps de Réponse",
   waitingForMasterToStart: "En attente de {name} pour lancer le jeu",
   currentLanguage: "Langue actuelle",
+  gameInProgress:
+    "Une partie est en cours. Veuillez attendre le prochain tour.",
+  notEnoughPlayers: "Pas assez de joueurs. Retour au lobby.",
+  playerLeft: "a quitté le jeu. Passage au tour suivant...",
+  heroQuestions: "Questions Exclusives Hero",
 };

@@ -47,4 +47,8 @@ UI_TEXT.tr = {
   answerTime: "Cevap Süresi",
   waitingForMasterToStart: "{name} oyunu başlatması bekleniyor",
   currentLanguage: "Mevcut dil",
+  gameInProgress: "Bir oyun devam ediyor. Lütfen sonraki tur için bekleyin.",
+  notEnoughPlayers: "Yeterli oyuncu yok. Lobiye dönülüyor.",
+  playerLeft: "oyundan ayrıldı. Sonraki tura geçiliyor...",
+  heroQuestions: "Hero Özel Sorular",
 };

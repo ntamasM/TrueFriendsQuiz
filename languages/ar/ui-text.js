@@ -47,4 +47,8 @@ UI_TEXT.ar = {
   answerTime: "وقت الإجابة",
   waitingForMasterToStart: "بانتظار {name} لبدء اللعبة",
   currentLanguage: "اللغة الحالية",
+  gameInProgress: "هناك لعبة جارية. يرجى الانتظار حتى الجولة التالية.",
+  notEnoughPlayers: "لا يوجد لاعبون كافون. العودة إلى الردهة.",
+  playerLeft: "غادر اللعبة. الانتقال إلى الجولة التالية...",
+  heroQuestions: "أسئلة Hero الحصرية",
 };
