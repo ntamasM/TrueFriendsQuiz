@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>True Friends Quiz — How to Play</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          "Segoe UI",
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        color: #eee;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        text-align: center;
+        padding: 3rem 1rem 1.5rem;
+      }
+
+      header h1 {
+        font-size: 2.8rem;
+        background: linear-gradient(90deg, #f7971e, #ffd200);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 0.4rem;
+      }
+
+      header p.tagline {
+        font-size: 1.15rem;
+        color: #bbb;
+      }
+
+      .container {
+        max-width: 720px;
+        width: 100%;
+        padding: 0 1.25rem 3rem;
+      }
+
+      /* Play button */
+      .play-section {
+        text-align: center;
+        margin: 2rem 0 2.5rem;
+      }
+
+      .play-btn {
+        display: inline-block;
+        padding: 1rem 2.5rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1a1a2e;
+        background: linear-gradient(90deg, #f7971e, #ffd200);
+        border: none;
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 4px 20px rgba(255, 210, 0, 0.35);
+        transition:
+          transform 0.15s,
+          box-shadow 0.15s;
+      }
+
+      .play-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 28px rgba(255, 210, 0, 0.5);
+      }
+
+      .play-btn:active {
+        transform: translateY(0);
+      }
+
+      .note {
+        margin-top: 0.75rem;
+        font-size: 0.85rem;
+        color: #999;
+      }
+
+      /* Steps */
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+        color: #ffd200;
+      }
+
+      .steps {
+        list-style: none;
+        counter-reset: step;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .steps li {
+        counter-increment: step;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: 14px;
+        padding: 1.25rem 1.5rem;
+      }
+
+      .steps li::before {
+        content: counter(step);
+        flex-shrink: 0;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #f7971e, #ffd200);
+        color: #1a1a2e;
+        font-weight: 800;
+        font-size: 1.1rem;
+        border-radius: 50%;
+      }
+
+      .steps li div {
+        flex: 1;
+      }
+      .steps li strong {
+        display: block;
+        font-size: 1.05rem;
+        margin-bottom: 0.25rem;
+      }
+      .steps li span {
+        font-size: 0.92rem;
+        color: #ccc;
+        line-height: 1.45;
+      }
+
+      /* Features */
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .feature-card {
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: 14px;
+        padding: 1.25rem;
+        text-align: center;
+      }
+
+      .feature-card .icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      .feature-card strong {
+        display: block;
+        margin-bottom: 0.3rem;
+      }
+      .feature-card span {
+        font-size: 0.88rem;
+        color: #bbb;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 0.8rem;
+        color: #666;
+      }
+
+      footer a {
+        color: #f7971e;
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>🎉 True Friends Quiz</h1>
+      <p class="tagline">How well do your friends really know you?</p>
+    </header>
+
+    <div class="container">
+      <!-- CTA -->
+      <div class="play-section">
+        <a
+          class="play-btn"
+          href="https://www.airconsole.com/#https://true-friends.nt-sites.gr"
+          target="_blank"
+          rel="noopener"
+        >
+          ▶ Play Now on AirConsole
+        </a>
+        <p class="note">
+          The game is currently under review. Once approved it will be available
+          directly on the AirConsole platform.
+        </p>
+      </div>
+
+      <!-- How to play -->
+      <h2>How to Play</h2>
+      <ol class="steps">
+        <li>
+          <div>
+            <strong>Open the game on a big screen</strong>
+            <span
+              >Visit the link above on a laptop, desktop, or smart TV browser.
+              This will be the shared screen everyone looks at.</span
+            >
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Connect your phones</strong>
+            <span
+              >Each player scans the QR code shown on the screen (or goes to
+              <strong>airconsole.com</strong> and enters the on-screen code).
+              Your phone becomes your personal controller.</span
+            >
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Gather at least 3 players</strong>
+            <span
+              >The quiz needs a minimum of 3 friends to start. The more the
+              merrier!</span
+            >
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Pick a question</strong>
+            <span
+              >Each round, a question is shown about one player — for example
+              <em>"What is Alex's biggest fear?"</em></span
+            >
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Everyone answers</strong>
+            <span
+              >All other players choose the answer they think is correct using
+              their phone. The player the question is about picks the real
+              answer.</span
+            >
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Score points &amp; win!</strong>
+            <span
+              >You earn points for every correct guess. At the end, the player
+              who knows the group best wins the crown! 👑</span
+            >
+          </div>
+        </li>
+      </ol>
+
+      <!-- Features -->
+      <h2>Game Features</h2>
+      <div class="features">
+        <div class="feature-card">
+          <div class="icon">🌍</div>
+          <strong>7 Languages</strong>
+          <span
+            >English, German, Greek, Spanish, French, Turkish &amp; Arabic</span
+          >
+        </div>
+        <div class="feature-card">
+          <div class="icon">❓</div>
+          <strong>200 Questions</strong>
+          <span
+            >Per language — from fun favourites to deep personal questions</span
+          >
+        </div>
+        <div class="feature-card">
+          <div class="icon">📱</div>
+          <strong>Phone as Controller</strong>
+          <span>No extra hardware needed — just your smartphones</span>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🎮</div>
+          <strong>Powered by AirConsole</strong>
+          <span
+            >The couch-gaming platform that turns any screen into a
+            console</span
+          >
+        </div>
+      </div>
+
+      <!-- What is AirConsole -->
+      <h2>What is AirConsole?</h2>
+      <p style="color: #ccc; line-height: 1.6; margin-bottom: 1rem">
+        <a
+          href="https://www.airconsole.com"
+          target="_blank"
+          rel="noopener"
+          style="color: #ffd200"
+          >AirConsole</a
+        >
+        is a free online gaming platform where your browser is the console and
+        your smartphones are the controllers. No downloads, no installs — just
+        open, connect, and play together.
+      </p>
+    </div>
+
+    <footer>
+      True Friends Quiz &copy; 2026 &middot; Built with ❤️ for
+      <a href="https://www.airconsole.com" target="_blank" rel="noopener"
+        >AirConsole</a
+      >
+    </footer>
+  </body>
+</html>
