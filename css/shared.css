@@ -67,7 +67,7 @@ header p.tagline {
 
 /* ===== Container ===== */
 .container {
-  max-width: 720px;
+  max-width: 1000px;
   width: 100%;
   padding: 0 1.25rem 3rem;
 }
