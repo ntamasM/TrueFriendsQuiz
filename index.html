@@ -32,6 +32,10 @@
         padding: 3rem 1rem 1.5rem;
       }
 
+      header {
+        position: relative;
+      }
+
       header h1 {
         font-size: 2.8rem;
         background: linear-gradient(90deg, #f7971e, #ffd200);
@@ -44,6 +48,26 @@
       header p.tagline {
         font-size: 1.15rem;
         color: #bbb;
+      }
+
+      .top-nav {
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+      }
+
+      .top-nav a {
+        color: #ffd200;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 0.35rem 0.9rem;
+        border: 1px solid rgba(255, 210, 0, 0.3);
+        border-radius: 20px;
+        transition: background 0.2s;
+      }
+
+      .top-nav a:hover {
+        background: rgba(255, 210, 0, 0.12);
       }
 
       .container {
@@ -191,6 +215,7 @@
   </head>
   <body>
     <header>
+      <nav class="top-nav"><a href="about.html">About</a></nav>
       <h1>🎉 True Friends Quiz</h1>
       <p class="tagline">How well do your friends really know you?</p>
     </header>
@@ -330,8 +355,6 @@
       <a href="https://ntamadakis.gr" target="_blank" rel="noopener"
         >Manolis Ntamadakis</a
       >
-      &middot;
-      <a href="about.html">About</a>
     </footer>
   </body>
 </html>
