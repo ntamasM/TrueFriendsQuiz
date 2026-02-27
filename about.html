@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>True Friends Quiz — About</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          "Segoe UI",
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        color: #eee;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        text-align: center;
+        padding: 3rem 1rem 1.5rem;
+      }
+
+      header h1 {
+        font-size: 2.8rem;
+        background: linear-gradient(90deg, #f7971e, #ffd200);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 0.4rem;
+      }
+
+      header p.tagline {
+        font-size: 1.15rem;
+        color: #bbb;
+      }
+
+      nav {
+        margin-top: 0.75rem;
+      }
+
+      nav a {
+        color: #ffd200;
+        text-decoration: none;
+        font-size: 0.95rem;
+        padding: 0.4rem 1rem;
+        border: 1px solid rgba(255, 210, 0, 0.3);
+        border-radius: 20px;
+        transition:
+          background 0.2s,
+          color 0.2s;
+      }
+
+      nav a:hover {
+        background: rgba(255, 210, 0, 0.12);
+      }
+
+      .container {
+        max-width: 720px;
+        width: 100%;
+        padding: 0 1.25rem 3rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #ffd200;
+      }
+
+      .section {
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: 14px;
+        padding: 1.5rem 1.75rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.65;
+        color: #ccc;
+      }
+
+      .section p + p {
+        margin-top: 0.75rem;
+      }
+
+      .section a {
+        color: #ffd200;
+        text-decoration: none;
+      }
+
+      .section a:hover {
+        text-decoration: underline;
+      }
+
+      .section strong {
+        color: #eee;
+      }
+
+      .section ul {
+        margin: 0.75rem 0 0 1.25rem;
+        list-style: disc;
+      }
+
+      .section ul li {
+        margin-bottom: 0.4rem;
+      }
+
+      .cta-contribute {
+        text-align: center;
+        margin: 2rem 0;
+      }
+
+      .cta-contribute a {
+        display: inline-block;
+        padding: 0.85rem 2rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #1a1a2e;
+        background: linear-gradient(90deg, #f7971e, #ffd200);
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 4px 20px rgba(255, 210, 0, 0.35);
+        transition:
+          transform 0.15s,
+          box-shadow 0.15s;
+      }
+
+      .cta-contribute a:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 28px rgba(255, 210, 0, 0.5);
+      }
+
+      .cta-contribute a:active {
+        transform: translateY(0);
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 0.8rem;
+        color: #666;
+      }
+
+      footer a {
+        color: #f7971e;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>📖 About</h1>
+      <p class="tagline">True Friends Quiz</p>
+      <nav>
+        <a href="index.html">&larr; Back to Home</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Developer -->
+      <h2>The Developer</h2>
+      <div class="section">
+        <p>
+          True Friends Quiz was created by
+          <strong
+            ><a href="https://ntamadakis.gr" target="_blank" rel="noopener"
+              >Manolis Ntamadakis</a
+            ></strong
+          >
+          as a fun party game for friends and family, built on the
+          <a href="https://www.airconsole.com" target="_blank" rel="noopener"
+            >AirConsole</a
+          >
+          platform.
+        </p>
+        <p>
+          The idea is simple: gather your friends, use your phones as
+          controllers, and find out who really knows who best!
+        </p>
+      </div>
+
+      <!-- AI-Generated Questions -->
+      <h2>About the Questions</h2>
+      <div class="section">
+        <p>
+          The questions in this game were generated with the help of
+          <strong>AI</strong>. While we've done our best to make them fun,
+          diverse, and interesting across all 7 supported languages,
+          AI-generated content isn't perfect — some translations may sound
+          unnatural and some questions might not hit quite right.
+        </p>
+        <p>That's exactly where <strong>you</strong> come in!</p>
+      </div>
+
+      <!-- Contribute -->
+      <h2>Contributions Welcome!</h2>
+      <div class="section">
+        <p>
+          This is an open project and every contribution is welcome. You can
+          help by:
+        </p>
+        <ul>
+          <li>
+            <strong>Improving translations</strong> — fix awkward phrasing or
+            make questions sound more natural in your language
+          </li>
+          <li>
+            <strong>Writing new questions</strong> — suggest fun, creative, or
+            deeper questions to add to the pool
+          </li>
+          <li>
+            <strong>Adding new languages</strong> — help us reach even more
+            players around the world
+          </li>
+          <li>
+            <strong>Reporting issues</strong> — found a bug or a typo? Let us
+            know!
+          </li>
+        </ul>
+      </div>
+
+      <div class="cta-contribute">
+        <a
+          href="https://github.com/ntamasM/TrueFriendsQuiz"
+          target="_blank"
+          rel="noopener"
+          >🤝 Contribute on GitHub</a
+        >
+      </div>
+
+      <!-- Currently Supported Languages -->
+      <h2>Supported Languages</h2>
+      <div class="section">
+        <p>
+          The game currently supports <strong>7 languages</strong>, each with
+          200 questions:
+        </p>
+        <ul>
+          <li>🇬🇧 English</li>
+          <li>🇩🇪 German (Deutsch)</li>
+          <li>🇬🇷 Greek (Ελληνικά)</li>
+          <li>🇪🇸 Spanish (Español)</li>
+          <li>🇫🇷 French (Français)</li>
+          <li>🇹🇷 Turkish (Türkçe)</li>
+          <li>🇸🇦 Arabic (العربية)</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      True Friends Quiz &copy; 2026 &middot; Built with ❤️ for
+      <a href="https://www.airconsole.com" target="_blank" rel="noopener"
+        >AirConsole</a
+      >
+      by
+      <a href="https://ntamadakis.gr" target="_blank" rel="noopener"
+        >Manolis Ntamadakis</a
+      >
+    </footer>
+  </body>
+</html>
