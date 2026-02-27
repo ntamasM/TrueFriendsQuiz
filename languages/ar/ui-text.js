@@ -51,4 +51,7 @@ UI_TEXT.ar = {
   notEnoughPlayers: "لا يوجد لاعبون كافون. العودة إلى الردهة.",
   playerLeft: "غادر اللعبة. الانتقال إلى الجولة التالية...",
   heroQuestions: "أسئلة Hero الحصرية",
+  music: "الموسيقى",
+  musicOn: "تشغيل",
+  musicOff: "إيقاف",
 };

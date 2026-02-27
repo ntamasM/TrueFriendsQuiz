@@ -22,10 +22,89 @@ var gameState = {
   GUESS_TIME: 20, // seconds for guessing phase
   isPaused: false, // track pause state for ads and AirConsole pause
   roundsSinceLastAd: 0, // track rounds for ad frequency
+  musicEnabled: true, // background music on by default
 };
 
 var airconsole;
 var lobbyUpdateTimer = null;
+
+// =========================
+// Background Music Manager
+// =========================
+var bgMusic = {
+  tracks: [
+    "Assets/music/Compressed/BackgroundMusic1.ogg",
+    "Assets/music/Compressed/BackgroundMusic2.ogg",
+    "Assets/music/Compressed/BackgroundMusic3.ogg",
+  ],
+  audio: null,
+  currentTrack: -1,
+
+  /** Pick a random track different from the current one */
+  _nextTrack: function () {
+    var next;
+    do {
+      next = Math.floor(Math.random() * this.tracks.length);
+    } while (next === this.currentTrack && this.tracks.length > 1);
+    return next;
+  },
+
+  /** Start streaming background music (lazy — creates <audio> on first call) */
+  play: function () {
+    if (!gameState.musicEnabled) return;
+    this.currentTrack = this._nextTrack();
+    if (!this.audio) {
+      this.audio = new Audio();
+      this.audio.loop = false;
+      this.audio.volume = 0.35;
+      var self = this;
+      // When a track ends, play the next one
+      this.audio.addEventListener("ended", function () {
+        self.currentTrack = self._nextTrack();
+        self.audio.src = self.tracks[self.currentTrack];
+        self.audio.play().catch(function () {});
+      });
+    }
+    this.audio.src = this.tracks[this.currentTrack];
+    this.audio.play().catch(function () {});
+  },
+
+  /** Stop music and release the source */
+  stop: function () {
+    if (this.audio) {
+      this.audio.pause();
+      this.audio.currentTime = 0;
+      this.audio.removeAttribute("src");
+    }
+  },
+
+  /** Pause music (for ads / AirConsole pause) */
+  pause: function () {
+    if (this.audio && !this.audio.paused) {
+      this.audio.pause();
+    }
+  },
+
+  /** Resume music after pause */
+  resume: function () {
+    if (gameState.musicEnabled && this.audio && this.audio.src) {
+      this.audio.play().catch(function () {});
+    }
+  },
+
+  /** Toggle music on/off */
+  toggle: function (enabled) {
+    gameState.musicEnabled = enabled;
+    if (enabled) {
+      // If we're in-game, start playing
+      if (gameState.phase !== "lobby") {
+        this.play();
+      }
+    } else {
+      this.stop();
+    }
+  },
+};
 
 // =========================
 // Initialization
@@ -134,6 +213,12 @@ function initScreen() {
         // Only master controller can trigger this
         if (from === airconsole.getMasterControllerDeviceId()) {
           handleBackToMenu();
+        }
+        break;
+      case "toggle_music":
+        // Only master controller can toggle music
+        if (from === airconsole.getMasterControllerDeviceId()) {
+          bgMusic.toggle(!!data.enabled);
         }
         break;
     }
@@ -329,6 +414,9 @@ function handleStartGame() {
   gameState.totalRounds = gameState.players.length * gameState.roundsPerPlayer;
   gameState.currentRound = 0;
   gameState.usedQuestionIds = [];
+
+  // Start background music when game begins
+  bgMusic.play();
 
   startRound();
 }
@@ -922,6 +1010,7 @@ function handlePlayAgain() {
 }
 
 function handleBackToMenu() {
+  bgMusic.stop();
   resetGame();
   showPhase("lobby");
   updateLobbyPlayers();
@@ -967,6 +1056,8 @@ function pauseGame() {
   if (gameState.guessTimer) {
     clearInterval(gameState.guessTimer);
   }
+  // Pause background music
+  bgMusic.pause();
   // Broadcast pause to all controllers
   airconsole.broadcast({ action: "game_paused" });
 }
@@ -978,6 +1069,8 @@ function resumeGame() {
   if (gameState.phase === "guessing" && gameState.guessTimeLeft > 0) {
     startGuessTimer();
   }
+  // Resume background music
+  bgMusic.resume();
   // Broadcast resume to all controllers
   airconsole.broadcast({ action: "game_resumed" });
 }

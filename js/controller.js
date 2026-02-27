@@ -10,6 +10,7 @@ var isMaster = false;
 var roundsPerPlayer = 1;
 var answerTime = 20;
 var isPaused = false;
+var musicEnabled = true;
 
 // =========================
 // Initialization
@@ -188,7 +189,20 @@ function showSettings() {
   document.getElementById("settings-time-label").textContent = t("answerTime");
   document.getElementById("rounds-value").textContent = roundsPerPlayer;
   document.getElementById("time-value").textContent = answerTime + "s";
+  document.getElementById("settings-music-label").textContent = t("music");
+  updateMusicToggleButton();
   updateSettingsLangSelect();
+}
+
+function updateMusicToggleButton() {
+  var btn = document.getElementById("music-toggle");
+  if (musicEnabled) {
+    btn.textContent = "🔊 " + t("musicOn");
+    btn.className = "music-toggle-btn on";
+  } else {
+    btn.textContent = "🔇 " + t("musicOff");
+    btn.className = "music-toggle-btn off";
+  }
 }
 
 function updateSettingsLangSelect() {
@@ -272,6 +286,17 @@ document.addEventListener("DOMContentLoaded", function () {
       answerTime += 5;
       document.getElementById("time-value").textContent = answerTime + "s";
     }
+  });
+
+  // Music toggle button
+  var musicToggle = document.getElementById("music-toggle");
+  addTouchHandler(musicToggle, function () {
+    musicEnabled = !musicEnabled;
+    updateMusicToggleButton();
+    airconsole.message(AirConsole.SCREEN, {
+      action: "toggle_music",
+      enabled: musicEnabled,
+    });
   });
 });
 

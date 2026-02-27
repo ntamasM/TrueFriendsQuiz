@@ -10,6 +10,10 @@ Desktop.ini
 *.swo
 *~
 
+# Uncompressed music files
+*.mp3
+*.wav
+
 # ngrok
 ngrok.yml
 ngrok.log

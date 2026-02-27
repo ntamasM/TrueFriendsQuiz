@@ -52,4 +52,7 @@ UI_TEXT.es = {
   notEnoughPlayers: "No hay suficientes jugadores. Volviendo al lobby.",
   playerLeft: "abandonó el juego. Pasando a la siguiente ronda...",
   heroQuestions: "Preguntas Exclusivas Hero",
+  music: "Música",
+  musicOn: "ON",
+  musicOff: "OFF",
 };

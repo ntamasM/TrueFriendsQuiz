@@ -51,4 +51,7 @@ UI_TEXT.de = {
   notEnoughPlayers: "Nicht genug Spieler. Zurück zur Lobby.",
   playerLeft: "hat das Spiel verlassen. Weiter zur nächsten Runde...",
   heroQuestions: "Hero-Exklusivfragen",
+  music: "Musik",
+  musicOn: "AN",
+  musicOff: "AUS",
 };

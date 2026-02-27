@@ -51,4 +51,7 @@ UI_TEXT.tr = {
   notEnoughPlayers: "Yeterli oyuncu yok. Lobiye dönülüyor.",
   playerLeft: "oyundan ayrıldı. Sonraki tura geçiliyor...",
   heroQuestions: "Hero Özel Sorular",
+  music: "Müzik",
+  musicOn: "AÇIK",
+  musicOff: "KAPALI",
 };
