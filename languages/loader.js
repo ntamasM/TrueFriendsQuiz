@@ -49,7 +49,7 @@ function loadLanguage(lang, callback) {
 
   for (var i = 0; i < files.length; i++) {
     var script = document.createElement("script");
-    script.src = basePath + files[i] + \"?v=9\";
+    script.src = basePath + files[i] + "?v=9";
     script.onload = onDone;
     script.onerror = onDone; // continue even if one file fails
     document.head.appendChild(script);
