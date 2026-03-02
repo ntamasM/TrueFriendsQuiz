@@ -489,9 +489,81 @@ body {
 /* ===========================
    Phase 7: Leaderboard
    =========================== */
-#leaderboard {
-  gap: 20px;
-  padding: 40px;
+#leaderboard.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px 40px;
+}
+
+.leaderboard-body {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  gap: 5rem;
+}
+
+.leaderboard-body .podium {
+  grid-column: 2;
+  justify-self: center;
+}
+
+.leaderboard-body .leaderboard-list {
+  grid-column: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+/* Points guide panel */
+.points-guide {
+  grid-column: 1;
+  justify-self: center;
+  align-self: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 18px 22px;
+  max-width: 260px;
+  text-align: left;
+}
+
+.points-guide-title {
+  font-size: 1.1em;
+  font-weight: 800;
+  color: #f5a623;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.points-guide-section {
+  margin-bottom: 10px;
+}
+
+.points-guide-section-title {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #cbd5e0;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.points-guide-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82em;
+  color: #a0aec0;
+  padding: 2px 0;
+}
+
+.points-guide-row span:last-child {
+  font-weight: 700;
+  color: #e2e8f0;
 }
 
 .leaderboard-title {
@@ -521,6 +593,16 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+/* Grouped pedestal – stacked names, no avatar/points */
+.podium-group {
+  justify-content: flex-end;
+}
+
+.podium-group .podium-name {
+  font-size: 0.9em;
+  max-width: 110px;
 }
 
 .podium-avatar {
@@ -581,80 +663,76 @@ body {
   height: 80px;
 }
 
+/* Tie handling – rank-based overrides (must come after nth-child rules) */
+.podium-place .podium-bar.podium-bar-rank-1 {
+  height: 160px;
+  background: linear-gradient(180deg, #f5a623, #e67e22);
+}
+.podium-place .podium-bar.podium-bar-rank-2 {
+  height: 120px;
+  background: linear-gradient(180deg, #95a5a6, #7f8c8d);
+}
+.podium-place .podium-bar.podium-bar-rank-3 {
+  height: 90px;
+  background: linear-gradient(180deg, #cd6133, #a0522d);
+}
+
+.podium-rank-1 .podium-avatar {
+  border-color: #f5a623;
+  width: 80px;
+  height: 80px;
+}
+
 /* Full leaderboard list */
 .leaderboard-list {
-  width: 100%;
-  max-width: 500px;
+  width: 280px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.leaderboard-list:empty {
+  display: none;
 }
 
 .leaderboard-row {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 10px 16px;
+  gap: 10px;
+  padding: 8px 12px;
   border-radius: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   background: rgba(255, 255, 255, 0.04);
   animation: fadeIn 0.4s ease;
 }
 
 .leaderboard-rank {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: 800;
-  width: 35px;
+  width: 30px;
   text-align: center;
   color: #a0aec0;
 }
 
 .leaderboard-row-avatar {
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
 .leaderboard-row-name {
   flex: 1;
-  font-size: 1.1em;
+  font-size: 0.95em;
   font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .leaderboard-row-score {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 800;
   color: #f5a623;
-}
-
-/* Leaderboard buttons */
-.leaderboard-buttons {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.lb-btn {
-  padding: 14px 36px;
-  font-size: 1.1em;
-  font-weight: 700;
-  border-radius: 12px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.lb-btn-primary {
-  background: linear-gradient(135deg, #e94560, #c0392b);
-  color: #fff;
-  box-shadow: 0 4px 20px rgba(233, 69, 96, 0.4);
-}
-
-.lb-btn-secondary {
-  background: rgba(255, 255, 255, 0.08);
-  color: #cbd5e0;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.lb-btn:hover {
-  transform: translateY(-2px);
+  white-space: nowrap;
 }
 
 /* ===========================
@@ -758,17 +836,40 @@ body {
     height: 60px;
   }
 
+  /* Tie handling – responsive overrides */
+  .podium-place .podium-bar.podium-bar-rank-1 {
+    height: 110px;
+  }
+  .podium-place .podium-bar.podium-bar-rank-2 {
+    height: 80px;
+  }
+  .podium-place .podium-bar.podium-bar-rank-3 {
+    height: 60px;
+  }
+
+  .podium-rank-1 .podium-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
   #picking,
   #answering,
   #guessing,
-  #reveal,
-  #leaderboard {
+  #reveal {
     padding: 20px;
     gap: 12px;
   }
 
-  .lb-btn {
-    padding: 10px 24px;
-    font-size: 0.95em;
+  #leaderboard.active {
+    padding: 15px;
+    gap: 8px;
+  }
+
+  .leaderboard-body {
+    gap: 15px;
+  }
+
+  .leaderboard-list {
+    width: 220px;
   }
 }

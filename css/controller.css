@@ -12,6 +12,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background-attachment: fixed;
   color: #ffffff;
   overflow-x: hidden;
   min-height: 100vh;
@@ -44,6 +45,15 @@ body {
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+
+/* Settings view needs to scroll when content overflows */
+#view-settings.active {
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* ===========================
@@ -206,6 +216,56 @@ body {
 
 .music-toggle-btn:active {
   transform: scale(0.93);
+}
+
+/* Category toggles */
+.category-toggles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.cat-toggle-btn {
+  padding: 10px 16px;
+  font-size: 0.95em;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  width: 100%;
+}
+
+.cat-toggle-btn.on {
+  background: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+  border-color: rgba(46, 204, 113, 0.35);
+}
+
+.cat-toggle-btn.off {
+  background: rgba(231, 76, 60, 0.15);
+  color: #e74c3c;
+  border-color: rgba(231, 76, 60, 0.3);
+  opacity: 0.75;
+}
+
+.cat-toggle-btn:active {
+  transform: scale(0.96);
+}
+
+.cat-warning {
+  color: #e74c3c;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.cat-warning.hidden {
+  display: none;
 }
 
 /* Back button in settings */

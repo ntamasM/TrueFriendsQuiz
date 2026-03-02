@@ -7,151 +7,181 @@ QUESTIONS.en = [
   // ── Favorites (1–30) ──
   {
     id: 1,
+    category: "favorites",
     question: "What is {name}'s favorite color?",
     answers: ["Red", "Blue", "Green", "Purple"],
   },
   {
     id: 2,
+    category: "favorites",
     question: "What is {name}'s favorite food?",
     answers: ["Pizza", "Sushi", "Burger", "Pasta"],
   },
   {
     id: 3,
+    category: "favorites",
     question: "What is {name}'s favorite season?",
     answers: ["Spring", "Summer", "Autumn", "Winter"],
   },
   {
     id: 4,
+    category: "favorites",
     question: "What is {name}'s favorite movie genre?",
     answers: ["Action", "Comedy", "Horror", "Romance"],
   },
   {
     id: 5,
+    category: "favorites",
     question: "What is {name}'s favorite animal?",
     answers: ["Dog", "Cat", "Horse", "Dolphin"],
   },
   {
     id: 6,
+    category: "favorites",
     question: "What is {name}'s favorite music genre?",
     answers: ["Pop", "Rock", "Hip-Hop", "Classical"],
   },
   {
     id: 7,
+    category: "favorites",
     question: "What is {name}'s favorite drink?",
     answers: ["Coffee", "Tea", "Juice", "Soda"],
   },
   {
     id: 8,
+    category: "favorites",
     question: "What is {name}'s favorite day of the week?",
     answers: ["Monday", "Friday", "Saturday", "Sunday"],
   },
   {
     id: 9,
+    category: "favorites",
     question: "What is {name}'s favorite hobby?",
     answers: ["Reading", "Gaming", "Sports", "Cooking"],
   },
   {
     id: 10,
+    category: "favorites",
     question: "What is {name}'s favorite ice cream flavor?",
     answers: ["Chocolate", "Vanilla", "Strawberry", "Pistachio"],
   },
   {
     id: 11,
+    category: "favorites",
     question: "What is {name}'s favorite board game?",
     answers: ["Monopoly", "Scrabble", "Chess", "Uno"],
   },
   {
     id: 12,
+    category: "favorites",
     question: "What is {name}'s favorite dessert?",
     answers: ["Cake", "Ice cream", "Brownies", "Cookies"],
   },
   {
     id: 13,
+    category: "favorites",
     question: "What is {name}'s favorite holiday?",
     answers: ["Christmas", "Halloween", "New Year's", "Valentine's Day"],
   },
   {
     id: 14,
+    category: "favorites",
     question: "What is {name}'s favorite social media platform?",
     answers: ["Instagram", "TikTok", "Twitter/X", "YouTube"],
   },
   {
     id: 15,
+    category: "favorites",
     question: "What is {name}'s favorite ice cream topping?",
     answers: ["Sprinkles", "Hot fudge", "Whipped cream", "Nuts"],
   },
   {
     id: 16,
+    category: "favorites",
     question: "What is {name}'s favorite type of weather?",
     answers: ["Sunny", "Rainy", "Snowy", "Cloudy"],
   },
   {
     id: 17,
+    category: "favorites",
     question: "What is {name}'s favorite TV show genre?",
     answers: ["Drama", "Comedy", "Reality TV", "Sci-fi"],
   },
   {
     id: 18,
+    category: "favorites",
     question: "What is {name}'s favorite childhood snack?",
     answers: ["Chips", "Fruit snacks", "Cookies", "Cereal"],
   },
   {
     id: 19,
+    category: "favorites",
     question: "What is {name}'s favorite condiment?",
     answers: ["Ketchup", "Mustard", "Mayo", "Hot sauce"],
   },
   {
     id: 20,
+    category: "favorites",
     question: "What is {name}'s favorite flower or plant?",
     answers: ["Rose", "Sunflower", "Cactus", "Lavender"],
   },
   {
     id: 21,
+    category: "favorites",
     question: "What is {name}'s favorite form of transportation?",
     answers: ["Car", "Bicycle", "Train", "Walking"],
   },
   {
     id: 22,
+    category: "favorites",
     question: "What is {name}'s favorite pizza topping?",
     answers: ["Pepperoni", "Mushrooms", "Pineapple", "Extra cheese"],
   },
   {
     id: 23,
+    category: "favorites",
     question: "What is {name}'s favorite comfort food?",
     answers: ["Mac and cheese", "Soup", "Fries", "Chocolate"],
   },
   {
     id: 24,
+    category: "favorites",
     question: "What is {name}'s favorite subject in school?",
     answers: ["Math", "Science", "History", "Art"],
   },
   {
     id: 25,
+    category: "favorites",
     question: "What is {name}'s favorite type of shoe?",
     answers: ["Sneakers", "Boots", "Sandals", "Heels"],
   },
   {
     id: 26,
+    category: "favorites",
     question: "What is {name}'s favorite podcast genre?",
     answers: ["True crime", "Comedy", "Self-help", "News"],
   },
   {
     id: 27,
+    category: "favorites",
     question: "What is {name}'s favorite breakfast item?",
     answers: ["Pancakes", "Eggs", "Cereal", "Toast"],
   },
   {
     id: 28,
+    category: "favorites",
     question: "What is {name}'s favorite fast food chain?",
     answers: ["McDonald's", "KFC", "Subway", "Taco Bell"],
   },
   {
     id: 29,
+    category: "favorites",
     question: "What is {name}'s most-used emoji?",
     answers: ["😂", "❤️", "😭", "🔥"],
   },
   {
     id: 30,
+    category: "favorites",
     question: "What is {name}'s favorite Halloween costume theme?",
     answers: ["Scary", "Funny", "Pop culture", "Classic"],
   },
@@ -159,6 +189,7 @@ QUESTIONS.en = [
   // ── Personality & Habits (31–65) ──
   {
     id: 31,
+    category: "personality",
     question: "What would {name} do if they won the lottery?",
     answers: [
       "Travel the world",
@@ -169,41 +200,49 @@ QUESTIONS.en = [
   },
   {
     id: 32,
+    category: "personality",
     question: "What is {name} most afraid of?",
     answers: ["Spiders", "Heights", "Public speaking", "The dark"],
   },
   {
     id: 33,
+    category: "personality",
     question: "What superpower would {name} choose?",
     answers: ["Flying", "Invisibility", "Time travel", "Super strength"],
   },
   {
     id: 34,
+    category: "personality",
     question: "How does {name} react when they're stressed?",
     answers: ["Eats snacks", "Goes silent", "Talks a lot", "Exercises"],
   },
   {
     id: 35,
+    category: "personality",
     question: "What is {name}'s hidden talent?",
     answers: ["Singing", "Dancing", "Drawing", "Cooking"],
   },
   {
     id: 36,
+    category: "personality",
     question: "What does {name} do first thing in the morning?",
     answers: ["Check phone", "Make coffee", "Shower", "Stay in bed"],
   },
   {
     id: 37,
+    category: "personality",
     question: "What would {name} take to a desert island?",
     answers: ["A book", "Music player", "A friend", "A survival kit"],
   },
   {
     id: 38,
+    category: "personality",
     question: "How would {name} describe themselves in one word?",
     answers: ["Funny", "Caring", "Adventurous", "Chill"],
   },
   {
     id: 39,
+    category: "personality",
     question: "What would {name} do on a perfect day off?",
     answers: [
       "Sleep all day",
@@ -214,6 +253,7 @@ QUESTIONS.en = [
   },
   {
     id: 40,
+    category: "personality",
     question: "What is {name}'s worst habit?",
     answers: [
       "Being late",
@@ -224,12 +264,14 @@ QUESTIONS.en = [
   },
   {
     id: 41,
+    category: "personality",
     question:
       "How much does {name}'s personality change around different people?",
     answers: ["A lot", "A little", "Not at all", "Depends on the group"],
   },
   {
     id: 42,
+    category: "personality",
     question: "How does {name} define the perfect weekend?",
     answers: [
       "Relaxing at home",
@@ -240,6 +282,7 @@ QUESTIONS.en = [
   },
   {
     id: 43,
+    category: "personality",
     question:
       "What does {name} think is the most annoying quality a person can have?",
     answers: [
@@ -251,11 +294,13 @@ QUESTIONS.en = [
   },
   {
     id: 44,
+    category: "personality",
     question: "What is {name}'s guilty pleasure show or movie?",
     answers: ["Reality TV", "Rom-coms", "Cartoons", "Telenovelas"],
   },
   {
     id: 45,
+    category: "personality",
     question: "What does {name} do when no one else is around?",
     answers: [
       "Sing out loud",
@@ -266,6 +311,7 @@ QUESTIONS.en = [
   },
   {
     id: 46,
+    category: "personality",
     question: "How does {name} handle awkward silences?",
     answers: [
       "Make a joke",
@@ -276,16 +322,19 @@ QUESTIONS.en = [
   },
   {
     id: 47,
+    category: "personality",
     question: "What type of student was {name} in school?",
     answers: ["Class clown", "Nerd", "Popular kid", "The quiet one"],
   },
   {
     id: 48,
+    category: "personality",
     question: "How does {name} eat pizza?",
     answers: ["Fold it", "Knife & fork", "Crust first", "Normal way"],
   },
   {
     id: 49,
+    category: "personality",
     question: "What time does {name} usually go to bed?",
     answers: [
       "Before 10 PM",
@@ -296,6 +345,7 @@ QUESTIONS.en = [
   },
   {
     id: 50,
+    category: "personality",
     question: "What is {name}'s phone battery usually at?",
     answers: [
       "Almost dead",
@@ -306,6 +356,7 @@ QUESTIONS.en = [
   },
   {
     id: 51,
+    category: "personality",
     question: "How does {name} act at a party?",
     answers: [
       "Life of the party",
@@ -316,41 +367,49 @@ QUESTIONS.en = [
   },
   {
     id: 52,
+    category: "personality",
     question: "What does {name} spend too much money on?",
     answers: ["Food", "Clothes", "Tech gadgets", "Entertainment"],
   },
   {
     id: 53,
+    category: "personality",
     question: "What emoji best represents {name}?",
     answers: ["😂", "😎", "🤔", "❤️"],
   },
   {
     id: 54,
+    category: "personality",
     question: "Is {name} a morning person or a night owl?",
     answers: ["Morning person", "Night owl", "Depends on the day", "Neither"],
   },
   {
     id: 55,
+    category: "personality",
     question: "How gullible is {name}?",
     answers: ["Very gullible", "Somewhat", "Hard to fool", "Not at all"],
   },
   {
     id: 56,
+    category: "personality",
     question: "How competitive is {name}?",
     answers: ["Extremely", "Somewhat", "Only in certain things", "Not at all"],
   },
   {
     id: 57,
+    category: "personality",
     question: "Is {name} an introvert or an extrovert?",
     answers: ["Introvert", "Extrovert", "Ambivert", "Depends on mood"],
   },
   {
     id: 58,
+    category: "personality",
     question: "Does {name} prefer to recharge alone or around other people?",
     answers: ["Alone", "With others", "A mix of both", "Depends on the week"],
   },
   {
     id: 59,
+    category: "personality",
     question: "Does {name} usually follow their heart or their head?",
     answers: [
       "Heart",
@@ -361,11 +420,13 @@ QUESTIONS.en = [
   },
   {
     id: 60,
+    category: "personality",
     question: "What pattern would {name} wear for the rest of their life?",
     answers: ["Stripes", "Plaid", "Floral", "Solid colors"],
   },
   {
     id: 61,
+    category: "personality",
     question: "What bad habit is {name} trying to break?",
     answers: [
       "Phone addiction",
@@ -376,6 +437,7 @@ QUESTIONS.en = [
   },
   {
     id: 62,
+    category: "personality",
     question: "Does {name} consider themselves young at heart or an old soul?",
     answers: [
       "Young at heart",
@@ -386,6 +448,7 @@ QUESTIONS.en = [
   },
   {
     id: 63,
+    category: "personality",
     question: "What does {name}'s name mean to them?",
     answers: [
       "Family tradition",
@@ -396,6 +459,7 @@ QUESTIONS.en = [
   },
   {
     id: 64,
+    category: "personality",
     question: "Does {name} believe in having one best friend?",
     answers: [
       "Yes, one BFF",
@@ -406,6 +470,7 @@ QUESTIONS.en = [
   },
   {
     id: 65,
+    category: "personality",
     question: "What part of their zodiac sign does {name} most relate to?",
     answers: [
       "The personality traits",
@@ -418,31 +483,37 @@ QUESTIONS.en = [
   // ── Would You Rather / Preferences (66–95) ──
   {
     id: 66,
+    category: "wouldYouRather",
     question: "Would {name} rather be famous or rich?",
     answers: ["Famous", "Rich", "Both", "Neither"],
   },
   {
     id: 67,
+    category: "wouldYouRather",
     question: "Would {name} rather live in the mountains or by the beach?",
     answers: ["Mountains", "Beach", "City", "Countryside"],
   },
   {
     id: 68,
+    category: "wouldYouRather",
     question: "Would {name} rather give up social media or TV forever?",
     answers: ["Social media", "TV", "Neither", "Both is fine"],
   },
   {
     id: 69,
+    category: "wouldYouRather",
     question: "Would {name} rather travel to the past or the future?",
     answers: ["Past", "Future", "Stay in present", "Both!"],
   },
   {
     id: 70,
+    category: "wouldYouRather",
     question: "Would {name} rather have a rewind or pause button in life?",
     answers: ["Rewind", "Pause", "Fast forward", "None of these"],
   },
   {
     id: 71,
+    category: "wouldYouRather",
     question:
       "Would {name} rather be the top expert at one thing or kinda good at many things?",
     answers: [
@@ -454,26 +525,31 @@ QUESTIONS.en = [
   },
   {
     id: 72,
+    category: "wouldYouRather",
     question: "Would {name} rather order in or eat out?",
     answers: ["Order in", "Eat out", "Cook at home", "Depends on mood"],
   },
   {
     id: 73,
+    category: "wouldYouRather",
     question: "Would {name} rather have a dog or a cat?",
     answers: ["Dog", "Cat", "Both", "Neither"],
   },
   {
     id: 74,
+    category: "wouldYouRather",
     question: "Would {name} rather relax by the pool or go on an adventure?",
     answers: ["Relax by pool", "Adventure", "A bit of both", "Stay home"],
   },
   {
     id: 75,
+    category: "wouldYouRather",
     question: "Would {name} rather be able to fly or be invisible?",
     answers: ["Fly", "Invisible", "Both", "Neither"],
   },
   {
     id: 76,
+    category: "wouldYouRather",
     question:
       "Would {name} rather live in another time period or another country?",
     answers: [
@@ -485,22 +561,26 @@ QUESTIONS.en = [
   },
   {
     id: 77,
+    category: "wouldYouRather",
     question:
       "Would {name} rather never use the internet again or never watch TV again?",
     answers: ["No internet", "No TV", "Can't give up either", "Fine with both"],
   },
   {
     id: 78,
+    category: "wouldYouRather",
     question: "Would {name} rather have unlimited money or unlimited time?",
     answers: ["Unlimited money", "Unlimited time", "Both", "Neither"],
   },
   {
     id: 79,
+    category: "wouldYouRather",
     question: "Would {name} rather know the future or change the past?",
     answers: ["Know the future", "Change the past", "Neither", "Both"],
   },
   {
     id: 80,
+    category: "wouldYouRather",
     question:
       "Would {name} rather always speak their mind or never speak again?",
     answers: [
@@ -512,68 +592,81 @@ QUESTIONS.en = [
   },
   {
     id: 81,
+    category: "wouldYouRather",
     question: "Would {name} rather live by the ocean or in the mountains?",
     answers: ["Ocean", "Mountains", "Somewhere in between", "A big city"],
   },
   {
     id: 82,
+    category: "wouldYouRather",
     question: "Would {name} rather lose all their money or all their photos?",
     answers: ["All money", "All photos", "Neither", "Tough choice!"],
   },
   {
     id: 83,
+    category: "wouldYouRather",
     question: "Would {name} rather be always hot or always cold?",
     answers: ["Always hot", "Always cold", "Neither", "Doesn't mind either"],
   },
   {
     id: 84,
+    category: "wouldYouRather",
     question: "Would {name} rather read the book or watch the movie?",
     answers: ["Read the book", "Watch the movie", "Both", "Neither"],
   },
   {
     id: 85,
+    category: "wouldYouRather",
     question: "Would {name} rather have free food or free WiFi for life?",
     answers: ["Free food", "Free WiFi", "Both", "Neither"],
   },
   {
     id: 86,
+    category: "wouldYouRather",
     question: "Would {name} rather be a superhero or a supervillain?",
     answers: ["Superhero", "Supervillain", "Anti-hero", "Neither"],
   },
   {
     id: 87,
+    category: "wouldYouRather",
     question: "Would {name} rather go without sleep or without food for a day?",
     answers: ["No sleep", "No food", "Neither", "Done both already"],
   },
   {
     id: 88,
+    category: "wouldYouRather",
     question:
       "Would {name} rather have no phone for a week or no friends for a week?",
     answers: ["No phone", "No friends", "Neither is okay", "Both is fine"],
   },
   {
     id: 89,
+    category: "wouldYouRather",
     question: "Would {name} rather live in a treehouse or on a houseboat?",
     answers: ["Treehouse", "Houseboat", "Normal house", "Underground bunker"],
   },
   {
     id: 90,
+    category: "wouldYouRather",
     question:
       "Would {name} rather be stuck on a long flight or a long road trip?",
     answers: ["Long flight", "Long road trip", "Neither", "Loves both"],
   },
   {
     id: 91,
+    category: "wouldYouRather",
     question: "Would {name} rather give up breakfast or dinner?",
     answers: ["Breakfast", "Dinner", "Neither", "Lunch instead"],
   },
   {
     id: 92,
+    category: "wouldYouRather",
     question: "Would {name} rather have a personal chef or a personal trainer?",
     answers: ["Personal chef", "Personal trainer", "Both", "Neither"],
   },
   {
     id: 93,
+    category: "wouldYouRather",
     question: "Would {name} rather only whisper or only shout?",
     answers: [
       "Only whisper",
@@ -584,11 +677,13 @@ QUESTIONS.en = [
   },
   {
     id: 94,
+    category: "wouldYouRather",
     question: "Would {name} rather have teleportation or mind reading?",
     answers: ["Teleportation", "Mind reading", "Both", "Neither"],
   },
   {
     id: 95,
+    category: "wouldYouRather",
     question:
       "Would {name} rather be the funniest or the smartest person in the room?",
     answers: ["Funniest", "Smartest", "Both", "Neither"],
@@ -597,6 +692,7 @@ QUESTIONS.en = [
   // ── Deep & Personal (96–135) ──
   {
     id: 96,
+    category: "deepPersonal",
     question: "What does {name} feel the most proud of?",
     answers: [
       "Their achievements",
@@ -607,11 +703,13 @@ QUESTIONS.en = [
   },
   {
     id: 97,
+    category: "deepPersonal",
     question: "What stresses {name} out the most?",
     answers: ["Work/school", "Relationships", "Money", "The future"],
   },
   {
     id: 98,
+    category: "deepPersonal",
     question: "What thing keeps {name} going on hard days?",
     answers: [
       "Friends & family",
@@ -622,16 +720,19 @@ QUESTIONS.en = [
   },
   {
     id: 99,
+    category: "deepPersonal",
     question: "Who does {name} feel safest around?",
     answers: ["Their best friend", "Family", "Their partner", "Themselves"],
   },
   {
     id: 100,
+    category: "deepPersonal",
     question: "What is {name}'s biggest fear?",
     answers: ["Failure", "Being alone", "Losing loved ones", "The unknown"],
   },
   {
     id: 101,
+    category: "deepPersonal",
     question: "What is {name}'s love language?",
     answers: [
       "Words of affirmation",
@@ -642,16 +743,19 @@ QUESTIONS.en = [
   },
   {
     id: 102,
+    category: "deepPersonal",
     question: "How does {name} like to be comforted when sad?",
     answers: ["A hug", "Being left alone", "Talking it out", "Distraction"],
   },
   {
     id: 103,
+    category: "deepPersonal",
     question: "Where does {name} hope to be in five years?",
     answers: ["New city", "Dream job", "Settled down", "Traveling the world"],
   },
   {
     id: 104,
+    category: "deepPersonal",
     question: "When has {name} felt the most challenged?",
     answers: [
       "At work/school",
@@ -662,16 +766,19 @@ QUESTIONS.en = [
   },
   {
     id: 105,
+    category: "deepPersonal",
     question: "Which celebrity would {name} want as their other BFF?",
     answers: ["A musician", "An actor", "A comedian", "An athlete"],
   },
   {
     id: 106,
+    category: "deepPersonal",
     question: "Out of all their family members, who is {name} closest to?",
     answers: ["Mom", "Dad", "A sibling", "A grandparent"],
   },
   {
     id: 107,
+    category: "deepPersonal",
     question: "What is one thing most people don't know about {name}?",
     answers: [
       "A hidden talent",
@@ -682,6 +789,7 @@ QUESTIONS.en = [
   },
   {
     id: 108,
+    category: "deepPersonal",
     question: "What does {name} think happens when we die?",
     answers: [
       "Nothing",
@@ -692,6 +800,7 @@ QUESTIONS.en = [
   },
   {
     id: 109,
+    category: "deepPersonal",
     question: "Does {name} want to have kids one day?",
     answers: [
       "Yes, definitely",
@@ -702,6 +811,7 @@ QUESTIONS.en = [
   },
   {
     id: 110,
+    category: "deepPersonal",
     question: "What is {name}'s earliest childhood memory?",
     answers: [
       "A family event",
@@ -712,6 +822,7 @@ QUESTIONS.en = [
   },
   {
     id: 111,
+    category: "deepPersonal",
     question: "What keeps {name} up at night when they can't sleep?",
     answers: [
       "Overthinking",
@@ -722,6 +833,7 @@ QUESTIONS.en = [
   },
   {
     id: 112,
+    category: "deepPersonal",
     question: "What is the best compliment {name} has ever received?",
     answers: [
       "About personality",
@@ -732,6 +844,7 @@ QUESTIONS.en = [
   },
   {
     id: 113,
+    category: "deepPersonal",
     question: "What are the top things that stress {name} out?",
     answers: [
       "Deadlines",
@@ -742,11 +855,13 @@ QUESTIONS.en = [
   },
   {
     id: 114,
+    category: "deepPersonal",
     question: "How does {name} deal with stress?",
     answers: ["Exercise", "Talk to someone", "Watch shows", "Sleep it off"],
   },
   {
     id: 115,
+    category: "deepPersonal",
     question: "If {name} had a life bucket list, what would be #1?",
     answers: [
       "Travel somewhere special",
@@ -757,6 +872,7 @@ QUESTIONS.en = [
   },
   {
     id: 116,
+    category: "deepPersonal",
     question: "What is the most loved {name} has ever felt?",
     answers: [
       "With family",
@@ -767,6 +883,7 @@ QUESTIONS.en = [
   },
   {
     id: 117,
+    category: "deepPersonal",
     question: "When was {name} last inspired to create something?",
     answers: [
       "Recently",
@@ -777,6 +894,7 @@ QUESTIONS.en = [
   },
   {
     id: 118,
+    category: "deepPersonal",
     question: "Has {name} ever experienced a friendship breakup?",
     answers: [
       "Yes, a painful one",
@@ -787,6 +905,7 @@ QUESTIONS.en = [
   },
   {
     id: 119,
+    category: "deepPersonal",
     question: "What does {name} think the best way to resolve conflict is?",
     answers: [
       "Honest conversation",
@@ -797,6 +916,7 @@ QUESTIONS.en = [
   },
   {
     id: 120,
+    category: "deepPersonal",
     question:
       "Does {name} feel they have a healthy relationship with social media?",
     answers: [
@@ -808,6 +928,7 @@ QUESTIONS.en = [
   },
   {
     id: 121,
+    category: "deepPersonal",
     question: "What does friendship mean to {name}?",
     answers: [
       "Loyalty above all",
@@ -818,21 +939,25 @@ QUESTIONS.en = [
   },
   {
     id: 122,
+    category: "deepPersonal",
     question: "Is there anyone {name} wishes they could reconnect with?",
     answers: ["An old friend", "A family member", "An ex", "No one"],
   },
   {
     id: 123,
+    category: "deepPersonal",
     question: "Has {name} ever been in love?",
     answers: ["Yes, deeply", "Maybe, not sure", "Not yet", "Several times"],
   },
   {
     id: 124,
+    category: "deepPersonal",
     question: "Does {name} believe in love at first sight?",
     answers: ["Yes", "No", "Maybe", "It's complicated"],
   },
   {
     id: 125,
+    category: "deepPersonal",
     question:
       "What is the biggest lesson {name}'s last relationship taught them?",
     answers: [
@@ -844,6 +969,7 @@ QUESTIONS.en = [
   },
   {
     id: 126,
+    category: "deepPersonal",
     question: "What is one thing {name} would change about themselves?",
     answers: [
       "More confidence",
@@ -854,16 +980,19 @@ QUESTIONS.en = [
   },
   {
     id: 127,
+    category: "deepPersonal",
     question: "Who does {name} look up to the most?",
     answers: ["A parent", "A public figure", "A friend", "Themselves"],
   },
   {
     id: 128,
+    category: "deepPersonal",
     question: "Who was the last person to make {name} cry?",
     answers: ["A family member", "A friend", "A partner", "A movie character"],
   },
   {
     id: 129,
+    category: "deepPersonal",
     question: "Does {name} have any regrets?",
     answers: [
       "Yes, a few",
@@ -874,11 +1003,13 @@ QUESTIONS.en = [
   },
   {
     id: 130,
+    category: "deepPersonal",
     question: "Does {name} believe in soulmates?",
     answers: ["Yes, absolutely", "No", "Wants to believe", "It's complicated"],
   },
   {
     id: 131,
+    category: "deepPersonal",
     question: "What has been {name}'s hardest goodbye?",
     answers: [
       "Leaving a place",
@@ -889,6 +1020,7 @@ QUESTIONS.en = [
   },
   {
     id: 132,
+    category: "deepPersonal",
     question: "What is the worst decision {name} feels they've ever made?",
     answers: [
       "A career/school choice",
@@ -899,6 +1031,7 @@ QUESTIONS.en = [
   },
   {
     id: 133,
+    category: "deepPersonal",
     question: "What does {name} think they'll be like in old age?",
     answers: [
       "Still adventurous",
@@ -909,11 +1042,13 @@ QUESTIONS.en = [
   },
   {
     id: 134,
+    category: "deepPersonal",
     question: "What does {name} consider unforgivable?",
     answers: ["Betrayal", "Lying", "Cheating", "Cruelty"],
   },
   {
     id: 135,
+    category: "deepPersonal",
     question: "Does {name} believe in monogamy?",
     answers: [
       "Yes, 100%",
@@ -926,16 +1061,19 @@ QUESTIONS.en = [
   // ── Fun & Random (136–170) ──
   {
     id: 136,
+    category: "funRandom",
     question: "Has {name} ever had a crush on a cartoon character?",
     answers: ["Yes, definitely", "Maybe as a kid", "No way", "Won't admit it"],
   },
   {
     id: 137,
+    category: "funRandom",
     question: "What kind of food stand would {name} open?",
     answers: ["Tacos", "Ice cream", "Burgers", "Smoothies"],
   },
   {
     id: 138,
+    category: "funRandom",
     question: "What is {name} currently putting off?",
     answers: [
       "A task/project",
@@ -946,6 +1084,7 @@ QUESTIONS.en = [
   },
   {
     id: 139,
+    category: "funRandom",
     question: "Did {name} build forts as a kid?",
     answers: [
       "Yes, epic ones",
@@ -956,6 +1095,7 @@ QUESTIONS.en = [
   },
   {
     id: 140,
+    category: "funRandom",
     question: "Has {name} ever pulled a prank on someone?",
     answers: [
       "Yes, a hilarious one",
@@ -966,11 +1106,13 @@ QUESTIONS.en = [
   },
   {
     id: 141,
+    category: "funRandom",
     question: "Does {name} believe in magic?",
     answers: ["Yes!", "Kind of", "No", "Wants to"],
   },
   {
     id: 142,
+    category: "funRandom",
     question: "If {name} were a ghost, how would they haunt people?",
     answers: [
       "Moving objects",
@@ -981,11 +1123,13 @@ QUESTIONS.en = [
   },
   {
     id: 143,
+    category: "funRandom",
     question: "If {name} could shoot anything from a cannon, what would it be?",
     answers: ["Confetti", "Glitter", "Water balloons", "Marshmallows"],
   },
   {
     id: 144,
+    category: "funRandom",
     question: "Does {name} have a favorite family tradition?",
     answers: [
       "Holiday meals",
@@ -996,11 +1140,13 @@ QUESTIONS.en = [
   },
   {
     id: 145,
+    category: "funRandom",
     question: "What's inside {name}'s dream house?",
     answers: ["A huge library", "A pool", "A gaming room", "A home cinema"],
   },
   {
     id: 146,
+    category: "funRandom",
     question: "What is {name}'s favorite cheesy joke?",
     answers: [
       "A pun",
@@ -1011,6 +1157,7 @@ QUESTIONS.en = [
   },
   {
     id: 147,
+    category: "funRandom",
     question: "If {name} could name their brain, what would they call it?",
     answers: [
       "Chaos central",
@@ -1021,11 +1168,13 @@ QUESTIONS.en = [
   },
   {
     id: 148,
+    category: "funRandom",
     question: "Does {name} have any recurring dreams?",
     answers: ["Yes, often", "Sometimes", "Rarely", "Never"],
   },
   {
     id: 149,
+    category: "funRandom",
     question: "What is the spiciest food {name} has ever eaten?",
     answers: [
       "Super hot wings",
@@ -1036,12 +1185,14 @@ QUESTIONS.en = [
   },
   {
     id: 150,
+    category: "funRandom",
     question:
       "If {name} could only eat one thing for the rest of their life, what would it be?",
     answers: ["Pizza", "Pasta", "Rice", "Tacos"],
   },
   {
     id: 151,
+    category: "funRandom",
     question: "What is the weirdest thing {name} owns?",
     answers: [
       "A random collectible",
@@ -1052,6 +1203,7 @@ QUESTIONS.en = [
   },
   {
     id: 152,
+    category: "funRandom",
     question: "Has {name} ever had their fortune told?",
     answers: [
       "Yes, and believed it",
@@ -1062,6 +1214,7 @@ QUESTIONS.en = [
   },
   {
     id: 153,
+    category: "funRandom",
     question: "What was {name}'s most questionable haircut?",
     answers: [
       "A bad bang cut",
@@ -1072,6 +1225,7 @@ QUESTIONS.en = [
   },
   {
     id: 154,
+    category: "funRandom",
     question: "What did {name} dream about last night?",
     answers: [
       "Can't remember",
@@ -1082,11 +1236,13 @@ QUESTIONS.en = [
   },
   {
     id: 155,
+    category: "funRandom",
     question: "Has {name} ever laughed so hard they almost passed out?",
     answers: ["Yes, many times", "Once or twice", "No, but close", "Never"],
   },
   {
     id: 156,
+    category: "funRandom",
     question: "What book has changed {name} the most?",
     answers: [
       "A novel",
@@ -1097,11 +1253,13 @@ QUESTIONS.en = [
   },
   {
     id: 157,
+    category: "funRandom",
     question: "If {name} just won $10,000, what would they do?",
     answers: ["Save it", "Travel", "Shop", "Invest it"],
   },
   {
     id: 158,
+    category: "funRandom",
     question: "What is the luckiest thing that's ever happened to {name}?",
     answers: [
       "Won something",
@@ -1112,11 +1270,13 @@ QUESTIONS.en = [
   },
   {
     id: 159,
+    category: "funRandom",
     question: "What is {name}'s most hated chore?",
     answers: ["Dishes", "Laundry", "Vacuuming", "Taking out trash"],
   },
   {
     id: 160,
+    category: "funRandom",
     question: "What conspiracy theory does {name} actually believe?",
     answers: [
       "Aliens exist",
@@ -1127,6 +1287,7 @@ QUESTIONS.en = [
   },
   {
     id: 161,
+    category: "funRandom",
     question: "If {name} had three wishes, what would the first one be?",
     answers: [
       "Unlimited money",
@@ -1137,11 +1298,13 @@ QUESTIONS.en = [
   },
   {
     id: 162,
+    category: "funRandom",
     question: "Does {name} believe in aliens?",
     answers: ["Yes, 100%", "Probably", "No way", "On the fence"],
   },
   {
     id: 163,
+    category: "funRandom",
     question: "If {name} were President, what's the first thing they'd change?",
     answers: [
       "Education system",
@@ -1152,11 +1315,13 @@ QUESTIONS.en = [
   },
   {
     id: 164,
+    category: "funRandom",
     question: "What foreign language would {name} want to master?",
     answers: ["French", "Japanese", "Spanish", "Korean"],
   },
   {
     id: 165,
+    category: "funRandom",
     question: "What is {name}'s survival plan during a zombie apocalypse?",
     answers: [
       "Hide somewhere safe",
@@ -1167,11 +1332,13 @@ QUESTIONS.en = [
   },
   {
     id: 166,
+    category: "funRandom",
     question: "If {name} were an animal, what would they be?",
     answers: ["A dog", "A cat", "A bird", "A bear"],
   },
   {
     id: 167,
+    category: "funRandom",
     question: "What would {name}'s alter ego be called?",
     answers: [
       "Something cool",
@@ -1182,6 +1349,7 @@ QUESTIONS.en = [
   },
   {
     id: 168,
+    category: "funRandom",
     question: "What is {name}'s #1 karaoke song?",
     answers: [
       "A pop hit",
@@ -1192,6 +1360,7 @@ QUESTIONS.en = [
   },
   {
     id: 169,
+    category: "funRandom",
     question: "What is {name}'s favorite piece of random trivia?",
     answers: [
       "Animal facts",
@@ -1202,6 +1371,7 @@ QUESTIONS.en = [
   },
   {
     id: 170,
+    category: "funRandom",
     question: "What was {name}'s first concert?",
     answers: [
       "A pop star",
@@ -1214,16 +1384,19 @@ QUESTIONS.en = [
   // ── Experiences & Dreams (171–200) ──
   {
     id: 171,
+    category: "experiencesDreams",
     question: "What is {name}'s dream vacation destination?",
     answers: ["Japan", "Maldives", "New York", "Paris"],
   },
   {
     id: 172,
+    category: "experiencesDreams",
     question: "What career would {name} pick in another life?",
     answers: ["Chef", "Astronaut", "Artist", "Athlete"],
   },
   {
     id: 173,
+    category: "experiencesDreams",
     question: "If {name} could meet any celebrity, who would it be?",
     answers: [
       "A musician",
@@ -1234,21 +1407,25 @@ QUESTIONS.en = [
   },
   {
     id: 174,
+    category: "experiencesDreams",
     question: "What does {name} value most in a friendship?",
     answers: ["Loyalty", "Humor", "Honesty", "Support"],
   },
   {
     id: 175,
+    category: "experiencesDreams",
     question: "What is {name}'s spirit animal?",
     answers: ["Wolf", "Eagle", "Cat", "Bear"],
   },
   {
     id: 176,
+    category: "experiencesDreams",
     question: "What is {name}'s go-to karaoke song genre?",
     answers: ["80s classics", "Pop hits", "Rock anthems", "I don't sing!"],
   },
   {
     id: 177,
+    category: "experiencesDreams",
     question: "What was the sweetest thing someone has done for {name}?",
     answers: [
       "A surprise party",
@@ -1259,6 +1436,7 @@ QUESTIONS.en = [
   },
   {
     id: 178,
+    category: "experiencesDreams",
     question: "What would the title of {name}'s autobiography be?",
     answers: [
       "'Expect the Unexpected'",
@@ -1269,6 +1447,7 @@ QUESTIONS.en = [
   },
   {
     id: 179,
+    category: "experiencesDreams",
     question:
       "What is {name}'s 'Roman Empire' — something they can't stop thinking about?",
     answers: [
@@ -1280,6 +1459,7 @@ QUESTIONS.en = [
   },
   {
     id: 180,
+    category: "experiencesDreams",
     question: "What is {name}'s favorite travel story?",
     answers: [
       "A wild adventure",
@@ -1290,6 +1470,7 @@ QUESTIONS.en = [
   },
   {
     id: 181,
+    category: "experiencesDreams",
     question: "Where does {name} picture themselves a year from now?",
     answers: [
       "Same place, better life",
@@ -1300,6 +1481,7 @@ QUESTIONS.en = [
   },
   {
     id: 182,
+    category: "experiencesDreams",
     question: "What is {name}'s absolute dream job?",
     answers: [
       "Something creative",
@@ -1310,6 +1492,7 @@ QUESTIONS.en = [
   },
   {
     id: 183,
+    category: "experiencesDreams",
     question: "If {name} could have a superpower, what would they choose?",
     answers: [
       "Teleportation",
@@ -1320,6 +1503,7 @@ QUESTIONS.en = [
   },
   {
     id: 184,
+    category: "experiencesDreams",
     question:
       "What TV show does {name} turn on when they just want to zone out?",
     answers: [
@@ -1331,6 +1515,7 @@ QUESTIONS.en = [
   },
   {
     id: 185,
+    category: "experiencesDreams",
     question: "If {name} could time travel, where would they go?",
     answers: [
       "Ancient Egypt",
@@ -1341,16 +1526,19 @@ QUESTIONS.en = [
   },
   {
     id: 186,
+    category: "experiencesDreams",
     question: "Has {name} ever gotten totally lost?",
     answers: ["Yes, hilariously", "Yes, it was scary", "Almost", "Never"],
   },
   {
     id: 187,
+    category: "experiencesDreams",
     question: "What does {name} think their best quality is?",
     answers: ["Kindness", "Humor", "Intelligence", "Determination"],
   },
   {
     id: 188,
+    category: "experiencesDreams",
     question: "What is {name}'s definition of success?",
     answers: [
       "Being happy",
@@ -1361,6 +1549,7 @@ QUESTIONS.en = [
   },
   {
     id: 189,
+    category: "experiencesDreams",
     question: "What is {name}'s most-watched movie?",
     answers: [
       "A comfort classic",
@@ -1371,6 +1560,7 @@ QUESTIONS.en = [
   },
   {
     id: 190,
+    category: "experiencesDreams",
     question: "Does {name} have any hidden talents?",
     answers: [
       "Yes, a surprising one",
@@ -1381,6 +1571,7 @@ QUESTIONS.en = [
   },
   {
     id: 191,
+    category: "experiencesDreams",
     question: "What is the best trip {name} has ever taken?",
     answers: [
       "A beach vacation",
@@ -1391,11 +1582,13 @@ QUESTIONS.en = [
   },
   {
     id: 192,
+    category: "experiencesDreams",
     question: "What was the last movie {name} watched in a theater?",
     answers: ["An action movie", "A comedy", "A superhero film", "A drama"],
   },
   {
     id: 193,
+    category: "experiencesDreams",
     question: "What is the best museum {name} has ever been to?",
     answers: [
       "An art museum",
@@ -1406,6 +1599,7 @@ QUESTIONS.en = [
   },
   {
     id: 194,
+    category: "experiencesDreams",
     question: "What was the last time {name} did something spontaneous?",
     answers: [
       "Very recently",
@@ -1416,6 +1610,7 @@ QUESTIONS.en = [
   },
   {
     id: 195,
+    category: "experiencesDreams",
     question: "What is the biggest leap of faith {name} has taken?",
     answers: [
       "Moving somewhere new",
@@ -1426,6 +1621,7 @@ QUESTIONS.en = [
   },
   {
     id: 196,
+    category: "experiencesDreams",
     question: "What was the worst date {name} has ever been on?",
     answers: [
       "Awkward silence all night",
@@ -1436,6 +1632,7 @@ QUESTIONS.en = [
   },
   {
     id: 197,
+    category: "experiencesDreams",
     question:
       "If a song played every time {name} entered a room, what would it be?",
     answers: [
@@ -1447,11 +1644,13 @@ QUESTIONS.en = [
   },
   {
     id: 198,
+    category: "experiencesDreams",
     question: "Which decade, in {name}'s opinion, had the best fashion?",
     answers: ["The '70s", "The '80s", "The '90s", "The 2000s"],
   },
   {
     id: 199,
+    category: "experiencesDreams",
     question: "Did {name} ever go to summer camp?",
     answers: [
       "Yes, loved it",
@@ -1462,6 +1661,7 @@ QUESTIONS.en = [
   },
   {
     id: 200,
+    category: "experiencesDreams",
     question: "What unexpected movie makes {name} cry?",
     answers: [
       "An animated film",
@@ -1470,15 +1670,12 @@ QUESTIONS.en = [
       "They never cry at movies",
     ],
   },
-];
 
-/**
- * Hero-Exclusive "Deep & Spicy" Questions (201-220)
- * Available only when at least one player in the session is a Hero subscriber.
- */
-QUESTIONS.en_hero = [
+
+  // ── Deep & Spicy / Hero Exclusive (201–220) ──
   {
     id: 201,
+    category: "deepSpicy",
     question: "What is {name}'s most embarrassing secret talent?",
     answers: [
       "Singing in the shower",
@@ -1489,6 +1686,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 202,
+    category: "deepSpicy",
     question: "What would {name} do with a million dollars first?",
     answers: [
       "Travel the world",
@@ -1499,6 +1697,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 203,
+    category: "deepSpicy",
     question: "What is {name}'s biggest guilty pleasure?",
     answers: [
       "Reality TV shows",
@@ -1509,6 +1708,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 204,
+    category: "deepSpicy",
     question: "If {name} had to pick a celebrity to swap lives with?",
     answers: [
       "A famous actor",
@@ -1519,6 +1719,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 205,
+    category: "deepSpicy",
     question: "What would {name} bring to a deserted island?",
     answers: [
       "Phone with wifi",
@@ -1529,11 +1730,13 @@ QUESTIONS.en_hero = [
   },
   {
     id: 206,
+    category: "deepSpicy",
     question: "What is {name}'s most irrational fear?",
     answers: ["Clowns", "The dark", "Butterflies", "Deep water"],
   },
   {
     id: 207,
+    category: "deepSpicy",
     question: "How would {name} survive a zombie apocalypse?",
     answers: [
       "Hide and wait",
@@ -1544,6 +1747,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 208,
+    category: "deepSpicy",
     question: "What is the silliest thing {name} would cry about?",
     answers: [
       "Lost food",
@@ -1554,6 +1758,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 209,
+    category: "deepSpicy",
     question: "What is {name}'s go-to karaoke song?",
     answers: [
       "Bohemian Rhapsody",
@@ -1564,6 +1769,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 210,
+    category: "deepSpicy",
     question: "If {name} could time travel, where would they go?",
     answers: [
       "Ancient Rome",
@@ -1574,6 +1780,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 211,
+    category: "deepSpicy",
     question: "What is the most romantic thing {name} would do?",
     answers: [
       "Write a love letter",
@@ -1584,6 +1791,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 212,
+    category: "deepSpicy",
     question: "What would {name}'s autobiography title be?",
     answers: [
       "'Oops, I Did It Again'",
@@ -1594,6 +1802,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 213,
+    category: "deepSpicy",
     question: "What is {name}'s worst cooking disaster?",
     answers: [
       "Burned everything",
@@ -1604,6 +1813,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 214,
+    category: "deepSpicy",
     question: "What is the weirdest thing in {name}'s phone?",
     answers: [
       "1000 memes",
@@ -1614,6 +1824,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 215,
+    category: "deepSpicy",
     question: "How does {name} act when they have a crush?",
     answers: [
       "Completely obvious",
@@ -1624,6 +1835,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 216,
+    category: "deepSpicy",
     question: "What would {name} never do even for a billion dollars?",
     answers: [
       "Eat a bug",
@@ -1634,6 +1846,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 217,
+    category: "deepSpicy",
     question: "What conspiracy theory would {name} believe?",
     answers: [
       "Flat Earth",
@@ -1644,6 +1857,7 @@ QUESTIONS.en_hero = [
   },
   {
     id: 218,
+    category: "deepSpicy",
     question: "What is {name}'s most unpopular opinion?",
     answers: [
       "Pineapple on pizza is great",
@@ -1654,11 +1868,13 @@ QUESTIONS.en_hero = [
   },
   {
     id: 219,
+    category: "deepSpicy",
     question: "What is {name}'s spirit animal?",
     answers: ["Sloth", "Golden retriever", "Cat", "Dolphin"],
   },
   {
     id: 220,
+    category: "deepSpicy",
     question: "What would {name} be cancelled for?",
     answers: [
       "Bad food takes",

@@ -23,6 +23,8 @@ var gameState = {
   isPaused: false, // track pause state for ads and AirConsole pause
   roundsSinceLastAd: 0, // track rounds for ad frequency
   musicEnabled: true, // background music on by default
+  disabledCategories: [], // category keys toggled off by master
+  streaks: {}, // { deviceId: consecutiveCorrectCount } for SCA bonus
 };
 
 var airconsole;
@@ -185,6 +187,9 @@ function initScreen() {
         if (data.answerTime) {
           gameState.GUESS_TIME = Math.max(10, Math.min(60, data.answerTime));
           gameState.guessTimeLeft = gameState.GUESS_TIME;
+        }
+        if (Array.isArray(data.disabledCategories)) {
+          gameState.disabledCategories = data.disabledCategories;
         }
         handleStartGame();
         break;
@@ -486,22 +491,38 @@ function startRound() {
 
 function getRandomQuestions(count) {
   var langQuestions = QUESTIONS[gameState.language] || QUESTIONS["en"];
+  var isPremium = isAnyPlayerPremium();
+  var disabled = gameState.disabledCategories || [];
 
-  // Include Hero-exclusive questions if any player in the session is premium
-  var heroKey = gameState.language + "_hero";
-  var heroQuestions = QUESTIONS[heroKey] || QUESTIONS["en_hero"] || [];
-  if (isAnyPlayerPremium() && heroQuestions.length > 0) {
-    langQuestions = langQuestions.concat(heroQuestions);
+  // Build a set of hero category keys from the registry
+  var heroCategories = [];
+  if (typeof QUESTION_CATEGORIES !== "undefined") {
+    for (var c = 0; c < QUESTION_CATEGORIES.length; c++) {
+      if (QUESTION_CATEGORIES[c].hero)
+        heroCategories.push(QUESTION_CATEGORIES[c].key);
+    }
   }
 
+  function isAllowed(q) {
+    // Skip hero-category questions if no premium player
+    if (!isPremium && q.category && heroCategories.indexOf(q.category) !== -1)
+      return false;
+    // Skip disabled categories
+    if (q.category && disabled.indexOf(q.category) !== -1) return false;
+    return true;
+  }
+
+  // Filter by: enabled categories, hero access, and unused questions
   var available = langQuestions.filter(function (q) {
-    return gameState.usedQuestionIds.indexOf(q.id) === -1;
+    if (!isAllowed(q)) return false;
+    if (gameState.usedQuestionIds.indexOf(q.id) !== -1) return false;
+    return true;
   });
 
-  // If not enough, reset used
+  // If not enough, reset used IDs and re-filter
   if (available.length < count) {
     gameState.usedQuestionIds = [];
-    available = langQuestions.slice();
+    available = langQuestions.filter(isAllowed);
   }
 
   var shuffled = shuffleArray(available);
@@ -813,16 +834,43 @@ function showReveal() {
   var scoreChangesEl = document.getElementById("score-changes");
   scoreChangesEl.innerHTML = "";
 
+  var numPlayers = gameState.players.length;
+  var hostPointsPerCorrect = Math.floor((100 / numPlayers) * 2);
+  var hostPoints = 0;
+
+  // Helper: compute SCA streak bonus
+  function getStreakBonus(streak) {
+    if (streak < 3) return 0;
+    var capped = Math.min(streak, 8);
+    return 50 + (capped - 3) * 25;
+  }
+
   getGuesserPlayers().forEach(function (p) {
     var guess = gameState.playerGuesses[p.deviceId];
     var isCorrect = guess === correctIdx;
-    var points = isCorrect ? 100 : 0;
 
+    // Base guesser points
+    var basePoints = isCorrect ? 100 : 0;
+
+    // Update streak
+    if (!gameState.streaks[p.deviceId]) gameState.streaks[p.deviceId] = 0;
     if (isCorrect) {
-      p.score += points;
-      p.correctGuesses++;
+      gameState.streaks[p.deviceId]++;
+    } else {
+      gameState.streaks[p.deviceId] = 0;
     }
 
+    var streak = gameState.streaks[p.deviceId];
+    var streakBonus = getStreakBonus(streak);
+    var totalPoints = basePoints + streakBonus;
+
+    if (isCorrect) {
+      p.score += totalPoints;
+      p.correctGuesses++;
+      hostPoints += hostPointsPerCorrect;
+    }
+
+    // Build score-change display
     var changeDiv = document.createElement("div");
     changeDiv.className =
       "score-change " + (isCorrect ? "got-correct" : "got-wrong");
@@ -835,7 +883,19 @@ function showReveal() {
     };
 
     var text = document.createElement("span");
-    text.textContent = p.nickname + ": " + (isCorrect ? "+100" : "0");
+    if (isCorrect && streakBonus > 0) {
+      text.textContent =
+        p.nickname +
+        ": +" +
+        basePoints +
+        " +" +
+        streakBonus +
+        " \uD83D\uDD25x" +
+        streak;
+    } else {
+      text.textContent =
+        p.nickname + ": " + (isCorrect ? "+" + basePoints : "0");
+    }
 
     changeDiv.appendChild(avatar);
     changeDiv.appendChild(text);
@@ -846,18 +906,43 @@ function showReveal() {
       action: "show_result",
       correct: isCorrect,
       correctAnswer: question.answers[correctIdx],
-      points: points,
+      points: totalPoints,
       totalScore: p.score,
+      streak: streak,
+      streakBonus: streakBonus,
       language: gameState.language,
     });
   });
+
+  // Award host points
+  host.score += hostPoints;
+
+  // Host score-change display
+  if (hostPoints > 0) {
+    var hostChangeDiv = document.createElement("div");
+    hostChangeDiv.className = "score-change got-correct";
+
+    var hostAvatar = document.createElement("img");
+    hostAvatar.className = "score-change-avatar";
+    hostAvatar.src = host.profilePic;
+    hostAvatar.onerror = function () {
+      this.style.display = "none";
+    };
+
+    var hostText = document.createElement("span");
+    hostText.textContent = host.nickname + " (host): +" + hostPoints;
+
+    hostChangeDiv.appendChild(hostAvatar);
+    hostChangeDiv.appendChild(hostText);
+    scoreChangesEl.appendChild(hostChangeDiv);
+  }
 
   // Also tell the host
   airconsole.message(host.deviceId, {
     action: "show_result",
     correct: null, // host doesn't guess
     correctAnswer: question.answers[correctIdx],
-    points: 0,
+    points: hostPoints,
     totalScore: host.score,
     isHost: true,
     language: gameState.language,
@@ -900,59 +985,105 @@ function showLeaderboard() {
     return b.score - a.score;
   });
 
-  // Podium (top 3)
+  // Compute ranks with tie handling (standard competition ranking)
+  var ranks = [];
+  sorted.forEach(function (player, idx) {
+    if (idx === 0) {
+      ranks.push(1);
+    } else if (player.score === sorted[idx - 1].score) {
+      ranks.push(ranks[idx - 1]);
+    } else {
+      ranks.push(idx + 1);
+    }
+  });
+
+  // Build rank groups (players sharing the same rank on one pedestal)
+  var rankGroups = [];
+  var currentGroup = null;
+  sorted.forEach(function (player, idx) {
+    if (!currentGroup || ranks[idx] !== currentGroup.rank) {
+      currentGroup = {
+        rank: ranks[idx],
+        players: [player],
+        score: player.score,
+      };
+      rankGroups.push(currentGroup);
+    } else {
+      currentGroup.players.push(player);
+    }
+  });
+
+  // Podium shows up to 3 rank groups
+  var podiumGroups = rankGroups.slice(0, 3);
   var podium = document.getElementById("podium");
   podium.innerHTML = "";
 
-  // Order for podium display: 2nd, 1st, 3rd
+  // Order for podium display: 2nd group, 1st group, 3rd group
   var podiumOrder = [1, 0, 2];
   var placeLabels = t("place");
 
-  podiumOrder.forEach(function (rankIdx) {
-    if (rankIdx >= sorted.length) return;
-    var player = sorted[rankIdx];
+  podiumOrder.forEach(function (orderIdx) {
+    if (orderIdx >= podiumGroups.length) return;
+    var group = podiumGroups[orderIdx];
+    var isSolo = group.players.length === 1;
 
     var placeDiv = document.createElement("div");
-    placeDiv.className = "podium-place";
+    placeDiv.className = "podium-place podium-rank-" + group.rank;
+    if (!isSolo) placeDiv.classList.add("podium-group");
 
-    var avatar = document.createElement("img");
-    avatar.className = "podium-avatar";
-    avatar.src = player.profilePic;
-    avatar.onerror = function () {
-      this.style.display = "none";
-    };
+    // Avatar: only show if the player is alone on this pedestal
+    if (isSolo) {
+      var avatar = document.createElement("img");
+      avatar.className = "podium-avatar";
+      avatar.src = group.players[0].profilePic;
+      avatar.onerror = function () {
+        this.style.display = "none";
+      };
+      placeDiv.appendChild(avatar);
+    }
 
-    var name = document.createElement("div");
-    name.className = "podium-name";
-    name.textContent = player.nickname;
+    // Names (always shown)
+    group.players.forEach(function (player) {
+      var name = document.createElement("div");
+      name.className = "podium-name";
+      name.textContent = player.nickname;
+      placeDiv.appendChild(name);
+    });
 
-    var score = document.createElement("div");
-    score.className = "podium-score";
-    score.textContent = player.score + " " + t("points");
+    // Points: only show if the player is alone on this pedestal
+    if (isSolo) {
+      var score = document.createElement("div");
+      score.className = "podium-score";
+      score.textContent = group.score + " " + t("points");
+      placeDiv.appendChild(score);
+    }
 
     var bar = document.createElement("div");
-    bar.className = "podium-bar";
-    bar.textContent = placeLabels[rankIdx] || rankIdx + 1;
-
-    placeDiv.appendChild(avatar);
-    placeDiv.appendChild(name);
-    placeDiv.appendChild(score);
+    bar.className = "podium-bar podium-bar-rank-" + group.rank;
+    bar.textContent = placeLabels[group.rank - 1] || "#" + group.rank;
     placeDiv.appendChild(bar);
+
     podium.appendChild(placeDiv);
   });
 
-  // Full list (skip top 3 since they're already on the podium)
+  // Count how many players are on the podium
+  var podiumPlayerCount = 0;
+  podiumGroups.forEach(function (g) {
+    podiumPlayerCount += g.players.length;
+  });
+
+  // Full list (skip players already on the podium)
   var listEl = document.getElementById("leaderboard-list");
   listEl.innerHTML = "";
 
   sorted.forEach(function (player, idx) {
-    if (idx < 3) return;
+    if (idx < podiumPlayerCount) return;
     var row = document.createElement("div");
     row.className = "leaderboard-row";
 
     var rank = document.createElement("div");
     rank.className = "leaderboard-rank";
-    rank.textContent = "#" + (idx + 1);
+    rank.textContent = "#" + ranks[idx];
 
     var avatar = document.createElement("img");
     avatar.className = "leaderboard-row-avatar";
@@ -980,15 +1111,84 @@ function showLeaderboard() {
   document.getElementById("leaderboard-title").textContent = t("gameOver");
   document.getElementById("leaderboard-subtitle").textContent =
     t("finalScores");
-  document.getElementById("lb-play-again").textContent = t("playAgain");
-  document.getElementById("lb-back-menu").textContent = t("backToMenu");
 
-  // Send leaderboard to controllers
+  // Populate points guide
+  var guideEl = document.getElementById("points-guide");
+  guideEl.innerHTML = "";
+
+  var numPlayers = gameState.players.length;
+  var perCorrect = Math.floor((100 / numPlayers) * 2);
+
+  var title = document.createElement("div");
+  title.className = "points-guide-title";
+  title.textContent = "\u2B50 " + t("pointsGuide").title;
+  guideEl.appendChild(title);
+
+  // Guesser section
+  var guesserSec = document.createElement("div");
+  guesserSec.className = "points-guide-section";
+  var guesserTitle = document.createElement("div");
+  guesserTitle.className = "points-guide-section-title";
+  guesserTitle.textContent = "\uD83C\uDFAF " + t("pointsGuide").guesser;
+  guesserSec.appendChild(guesserTitle);
+
+  var gRow = document.createElement("div");
+  gRow.className = "points-guide-row";
+  gRow.innerHTML =
+    "<span>" + t("pointsGuide").correctGuess + "</span><span>+100</span>";
+  guesserSec.appendChild(gRow);
+  guideEl.appendChild(guesserSec);
+
+  // Host section
+  var hostSec = document.createElement("div");
+  hostSec.className = "points-guide-section";
+  var hostTitle = document.createElement("div");
+  hostTitle.className = "points-guide-section-title";
+  hostTitle.textContent = "\uD83D\uDC51 " + t("pointsGuide").host;
+  hostSec.appendChild(hostTitle);
+
+  var hRow = document.createElement("div");
+  hRow.className = "points-guide-row";
+  hRow.innerHTML =
+    "<span>" +
+    t("pointsGuide").perCorrectGuesser +
+    "</span><span>+" +
+    perCorrect +
+    "</span>";
+  hostSec.appendChild(hRow);
+  guideEl.appendChild(hostSec);
+
+  // Streak bonus section
+  var streakSec = document.createElement("div");
+  streakSec.className = "points-guide-section";
+  var streakTitle = document.createElement("div");
+  streakTitle.className = "points-guide-section-title";
+  streakTitle.textContent = "\uD83D\uDD25 " + t("pointsGuide").streakBonus;
+  streakSec.appendChild(streakTitle);
+
+  var inARow = t("pointsGuide").inARow;
+  var streakData = [
+    ["3 " + inARow, "+50"],
+    ["4 " + inARow, "+75"],
+    ["5 " + inARow, "+100"],
+    ["6 " + inARow, "+125"],
+    ["7 " + inARow, "+150"],
+    ["8+ " + inARow, "+175"],
+  ];
+  streakData.forEach(function (s) {
+    var sRow = document.createElement("div");
+    sRow.className = "points-guide-row";
+    sRow.innerHTML = "<span>" + s[0] + "</span><span>" + s[1] + "</span>";
+    streakSec.appendChild(sRow);
+  });
+  guideEl.appendChild(streakSec);
+
+  // Send leaderboard to controllers (with tie-aware ranks)
   sorted.forEach(function (player, idx) {
     airconsole.message(player.deviceId, {
       action: "game_phase",
       phase: "leaderboard",
-      rank: idx + 1,
+      rank: ranks[idx],
       totalPlayers: sorted.length,
       score: player.score,
       correctGuesses: player.correctGuesses,
@@ -1029,22 +1229,11 @@ function resetGame() {
   gameState.usedQuestionIds = [];
   gameState.roundsSinceLastAd = 0;
   gameState.isPaused = false;
+  gameState.disabledCategories = [];
+  gameState.streaks = {};
 }
 
-// Screen buttons for leaderboard — only master controller can use these
-document.addEventListener("DOMContentLoaded", function () {
-  document
-    .getElementById("lb-play-again")
-    .addEventListener("click", function () {
-      // Only allow if triggered from screen (master oversight)
-      handlePlayAgain();
-    });
-  document
-    .getElementById("lb-back-menu")
-    .addEventListener("click", function () {
-      handleBackToMenu();
-    });
-});
+// Screen buttons for leaderboard removed — master controller handles these
 
 // =========================
 // Pause / Resume

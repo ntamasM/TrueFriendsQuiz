@@ -7,66 +7,79 @@ QUESTIONS.tr = [
   // ── Favoriler (1–30) ──
   {
     id: 1,
+    category: "favorites",
     question: "{name}'in en sevdiği renk hangisi?",
     answers: ["Kırmızı", "Mavi", "Yeşil", "Mor"],
   },
   {
     id: 2,
+    category: "favorites",
     question: "{name}'in en sevdiği yemek hangisi?",
     answers: ["Pizza", "Suşi", "Hamburger", "Makarna"],
   },
   {
     id: 3,
+    category: "favorites",
     question: "{name}'in en sevdiği mevsim hangisi?",
     answers: ["İlkbahar", "Yaz", "Sonbahar", "Kış"],
   },
   {
     id: 4,
+    category: "favorites",
     question: "{name}'in en sevdiği film türü hangisi?",
     answers: ["Aksiyon", "Komedi", "Korku", "Romantik"],
   },
   {
     id: 5,
+    category: "favorites",
     question: "{name}'in en sevdiği hayvan hangisi?",
     answers: ["Köpek", "Kedi", "At", "Yunus"],
   },
   {
     id: 6,
+    category: "favorites",
     question: "{name}'in en sevdiği müzik türü hangisi?",
     answers: ["Pop", "Rock", "Hip-Hop", "Klasik"],
   },
   {
     id: 7,
+    category: "favorites",
     question: "{name}'in en sevdiği içecek hangisi?",
     answers: ["Kahve", "Çay", "Meyve suyu", "Gazlı içecek"],
   },
   {
     id: 8,
+    category: "favorites",
     question: "{name}'in en sevdiği gün hangisi?",
     answers: ["Pazartesi", "Cuma", "Cumartesi", "Pazar"],
   },
   {
     id: 9,
+    category: "favorites",
     question: "{name}'in en sevdiği hobi hangisi?",
     answers: ["Okumak", "Video oyunları", "Spor", "Yemek yapmak"],
   },
   {
     id: 10,
+    category: "favorites",
     question: "{name}'in en sevdiği dondurma çeşidi hangisi?",
     answers: ["Çikolata", "Vanilya", "Çilek", "Fıstık"],
   },
   {
     id: 11,
+    category: "favorites",
     question: "{name}'in en sevdiği masa oyunu hangisi?",
     answers: ["Monopoly", "Scrabble", "Satranç", "Uno"],
   },
   {
     id: 12,
+    category: "favorites",
     question: "{name}'in en sevdiği tatlı hangisi?",
     answers: ["Pasta", "Dondurma", "Browni", "Kurabiye"],
   },
   {
     id: 13,
+    category: "favorites",
     question: "{name}'in en sevdiği bayram/tatil hangisi?",
     answers: [
       "Yılbaşı",
@@ -77,86 +90,103 @@ QUESTIONS.tr = [
   },
   {
     id: 14,
+    category: "favorites",
     question: "{name}'in en çok kullandığı sosyal medya hangisi?",
     answers: ["Instagram", "TikTok", "Twitter/X", "YouTube"],
   },
   {
     id: 15,
+    category: "favorites",
     question: "{name}'in dondurmaya en sevdiği sos/malzeme hangisi?",
     answers: ["Şekerli süs", "Çikolata sosu", "Krem şanti", "Fındık"],
   },
   {
     id: 16,
+    category: "favorites",
     question: "{name} hangi havayı tercih eder?",
     answers: ["Güneşli", "Yağmurlu", "Karlı", "Bulutlu"],
   },
   {
     id: 17,
+    category: "favorites",
     question: "{name}'in en sevdiği dizi türü hangisi?",
     answers: ["Dram", "Komedi", "Reality TV", "Bilim kurgu"],
   },
   {
     id: 18,
+    category: "favorites",
     question: "{name}'in çocukken en sevdiği atıştırmalık neydi?",
     answers: ["Cips", "Şeker", "Bisküvi", "Gevrek"],
   },
   {
     id: 19,
+    category: "favorites",
     question: "{name}'in en sevdiği sos hangisi?",
     answers: ["Ketçap", "Hardal", "Mayonez", "Acı sos"],
   },
   {
     id: 20,
+    category: "favorites",
     question: "{name}'in en sevdiği çiçek veya bitki hangisi?",
     answers: ["Gül", "Ayçiçeği", "Kaktüs", "Lavanta"],
   },
   {
     id: 21,
+    category: "favorites",
     question: "{name}'in en sevdiği ulaşım aracı hangisi?",
     answers: ["Araba", "Bisiklet", "Tren", "Yürümek"],
   },
   {
     id: 22,
+    category: "favorites",
     question: "{name}'in en sevdiği pizza malzemesi hangisi?",
     answers: ["Sucuk", "Mantar", "Ananas", "Ekstra peynir"],
   },
   {
     id: 23,
+    category: "favorites",
     question: "{name}'in favori rahatlatıcı yemeği hangisi?",
     answers: ["Makarna", "Çorba", "Patates kızartması", "Çikolata"],
   },
   {
     id: 24,
+    category: "favorites",
     question: "{name}'in okulda en sevdiği ders hangisiydi?",
     answers: ["Matematik", "Fen", "Tarih", "Sanat"],
   },
   {
     id: 25,
+    category: "favorites",
     question: "{name}'in en sevdiği ayakkabı türü hangisi?",
     answers: ["Spor ayakkabı", "Bot", "Sandalet", "Topuklu"],
   },
   {
     id: 26,
+    category: "favorites",
     question: "{name}'in en sevdiği podcast türü hangisi?",
     answers: ["Suç", "Komedi", "Kişisel gelişim", "Haberler"],
   },
   {
     id: 27,
+    category: "favorites",
     question: "{name}'in en sevdiği kahvaltılık hangisi?",
     answers: ["Pankek", "Yumurta", "Gevrek", "Tost"],
   },
   {
     id: 28,
+    category: "favorites",
     question: "{name}'in en sevdiği fast-food zinciri hangisi?",
     answers: ["McDonald's", "KFC", "Subway", "Burger King"],
   },
   {
     id: 29,
+    category: "favorites",
     question: "{name}'in en çok kullandığı emoji hangisi?",
     answers: ["😂", "❤️", "😭", "🔥"],
   },
   {
     id: 30,
+    category: "favorites",
     question: "{name} ne tür bir Cadılar Bayramı kostümü tercih eder?",
     answers: ["Korkunç", "Komik", "Pop kültür", "Klasik"],
   },
@@ -164,6 +194,7 @@ QUESTIONS.tr = [
   // ── Kişilik ve Alışkanlıklar (31–65) ──
   {
     id: 31,
+    category: "personality",
     question: "{name} piyangoyu kazansa ne yapar?",
     answers: [
       "Dünyayı gezer",
@@ -174,41 +205,49 @@ QUESTIONS.tr = [
   },
   {
     id: 32,
+    category: "personality",
     question: "{name}'in en büyük korkusu nedir?",
     answers: ["Örümcekler", "Yükseklik", "Topluluk önünde konuşma", "Karanlık"],
   },
   {
     id: 33,
+    category: "personality",
     question: "{name} hangi süper gücü seçerdi?",
     answers: ["Uçmak", "Görünmezlik", "Zamanda yolculuk", "Süper güç"],
   },
   {
     id: 34,
+    category: "personality",
     question: "{name} stresli olduğunda nasıl tepki verir?",
     answers: ["Atıştırır", "Sessizleşir", "Çok konuşur", "Spor yapar"],
   },
   {
     id: 35,
+    category: "personality",
     question: "{name}'in gizli yeteneği nedir?",
     answers: ["Şarkı söylemek", "Dans etmek", "Çizim yapmak", "Yemek pişirmek"],
   },
   {
     id: 36,
+    category: "personality",
     question: "{name} sabah ilk ne yapar?",
     answers: ["Telefona bakar", "Kahve yapar", "Duş alır", "Yatakta kalır"],
   },
   {
     id: 37,
+    category: "personality",
     question: "{name} ıssız bir adaya ne götürür?",
     answers: ["Bir kitap", "Müzik", "Bir arkadaş", "Hayatta kalma kiti"],
   },
   {
     id: 38,
+    category: "personality",
     question: "{name} kendini tek kelimeyle nasıl tanımlar?",
     answers: ["Komik", "Sevecen", "Maceracı", "Sakin"],
   },
   {
     id: 39,
+    category: "personality",
     question: "{name} mükemmel bir tatil gününde ne yapar?",
     answers: [
       "Bütün gün uyur",
@@ -219,16 +258,19 @@ QUESTIONS.tr = [
   },
   {
     id: 40,
+    category: "personality",
     question: "{name}'in en kötü alışkanlığı nedir?",
     answers: ["Geç kalmak", "Ertelemek", "Fazla düşünmek", "Atıştırmak"],
   },
   {
     id: 41,
+    category: "personality",
     question: "{name}'in kişiliği insanlara göre ne kadar değişir?",
     answers: ["Çok", "Biraz", "Hiç", "Gruba bağlı"],
   },
   {
     id: 42,
+    category: "personality",
     question: "{name} mükemmel hafta sonunu nasıl tanımlar?",
     answers: [
       "Evde dinlenmek",
@@ -239,6 +281,7 @@ QUESTIONS.tr = [
   },
   {
     id: 43,
+    category: "personality",
     question: "{name}'e göre en sinir bozucu özellik hangisi?",
     answers: [
       "Dürüst olmamak",
@@ -249,6 +292,7 @@ QUESTIONS.tr = [
   },
   {
     id: 44,
+    category: "personality",
     question: "{name}'in dizi/film konusundaki suçluluk verici zevki nedir?",
     answers: [
       "Reality TV",
@@ -259,6 +303,7 @@ QUESTIONS.tr = [
   },
   {
     id: 45,
+    category: "personality",
     question: "{name} kimse bakmıyorken ne yapar?",
     answers: [
       "Yüksek sesle şarkı söyler",
@@ -269,6 +314,7 @@ QUESTIONS.tr = [
   },
   {
     id: 46,
+    category: "personality",
     question: "{name} tuhaf sessizlikleri nasıl yönetir?",
     answers: [
       "Şaka yapar",
@@ -279,16 +325,19 @@ QUESTIONS.tr = [
   },
   {
     id: 47,
+    category: "personality",
     question: "{name} okulda nasıl bir öğrenciydi?",
     answers: ["Sınıf palyaçosu", "Çalışkan", "Popüler", "Sessiz"],
   },
   {
     id: 48,
+    category: "personality",
     question: "{name} pizzasını nasıl yer?",
     answers: ["Katlayarak", "Bıçak çatalla", "Kenarından", "Normal"],
   },
   {
     id: 49,
+    category: "personality",
     question: "{name} genellikle saat kaçta yatar?",
     answers: [
       "22'den önce",
@@ -299,71 +348,85 @@ QUESTIONS.tr = [
   },
   {
     id: 50,
+    category: "personality",
     question: "{name}'in telefon bataryası genelde kaçta olur?",
     answers: ["Neredeyse ölü", "%50 civarı", "Tamamen dolu", "Hep şarjda"],
   },
   {
     id: 51,
+    category: "personality",
     question: "{name} bir partide nasıl davranır?",
     answers: ["Partinin yıldızı", "Bir köşede", "DJ kontrollerde", "Mutfakta"],
   },
   {
     id: 52,
+    category: "personality",
     question: "{name} neye çok para harcıyor?",
     answers: ["Yemek", "Kıyafet", "Teknoloji", "Eğlence"],
   },
   {
     id: 53,
+    category: "personality",
     question: "Hangi emoji {name}'i en iyi temsil eder?",
     answers: ["😂", "😎", "🤔", "❤️"],
   },
   {
     id: 54,
+    category: "personality",
     question: "{name} sabahçı mı yoksa gece kuşu mu?",
     answers: ["Sabahçı", "Gece kuşu", "Güne bağlı", "Hiçbiri"],
   },
   {
     id: 55,
+    category: "personality",
     question: "{name} ne kadar saf?",
     answers: ["Çok saf", "Biraz", "Zor kandırılır", "Hiç değil"],
   },
   {
     id: 56,
+    category: "personality",
     question: "{name} ne kadar rekabetçi?",
     answers: ["Aşırı", "Biraz", "Sadece bazı konularda", "Hiç değil"],
   },
   {
     id: 57,
+    category: "personality",
     question: "{name} içe dönük mü yoksa dışa dönük mü?",
     answers: ["İçe dönük", "Dışa dönük", "İkisinin arası", "Ruh haline bağlı"],
   },
   {
     id: 58,
+    category: "personality",
     question: "{name} enerjisini yalnız mı yoksa insanlarla mı toplar?",
     answers: ["Yalnız", "İnsanlarla", "Karışık", "Haftaya bağlı"],
   },
   {
     id: 59,
+    category: "personality",
     question: "{name} kalbini mi yoksa aklını mı takip eder?",
     answers: ["Kalbini", "Aklını", "Duruma bağlı", "Hiçbiri — içgüdüsünü"],
   },
   {
     id: 60,
+    category: "personality",
     question: "{name} sonsuza dek hangi deseni giyer?",
     answers: ["Çizgili", "Ekose", "Çiçekli", "Düz renk"],
   },
   {
     id: 61,
+    category: "personality",
     question: "{name} hangi kötü alışkanlığını bırakmaya çalışıyor?",
     answers: ["Telefon bağımlılığı", "Erteleme", "Geç yatma", "Abur cubur"],
   },
   {
     id: 62,
+    category: "personality",
     question: "{name} kendini genç ruhlu mu yoksa eski kafalı mı görüyor?",
     answers: ["Genç ruhlu", "Eski kafalı", "İkisinin karışımı", "Güne bağlı"],
   },
   {
     id: 63,
+    category: "personality",
     question: "{name}'in ismi onun için ne anlama geliyor?",
     answers: [
       "Aile geleneği",
@@ -374,6 +437,7 @@ QUESTIONS.tr = [
   },
   {
     id: 64,
+    category: "personality",
     question: "{name} tek bir en iyi arkadaşa inanıyor mu?",
     answers: [
       "Evet, tek bir can yoldaşı",
@@ -384,6 +448,7 @@ QUESTIONS.tr = [
   },
   {
     id: 65,
+    category: "personality",
     question: "{name} burcunun hangi özelliğiyle en çok özdeşleşiyor?",
     answers: [
       "Kişilik özellikleri",
@@ -396,38 +461,45 @@ QUESTIONS.tr = [
   // ── Tercihler / Ne Tercih Ederdin? (66–95) ──
   {
     id: 66,
+    category: "wouldYouRather",
     question: "{name} ünlü mü yoksa zengin mi olmayı tercih eder?",
     answers: ["Ünlü", "Zengin", "İkisi de", "Hiçbiri"],
   },
   {
     id: 67,
+    category: "wouldYouRather",
     question: "{name} dağda mı yoksa sahilde mi yaşamayı tercih eder?",
     answers: ["Dağ", "Sahil", "Şehir", "Kırsal"],
   },
   {
     id: 68,
+    category: "wouldYouRather",
     question: "{name} sosyal medyayı mı yoksa TV'yi mi sonsuza dek bırakır?",
     answers: ["Sosyal medya", "TV", "Hiçbirini", "İkisini de bırakabilir"],
   },
   {
     id: 69,
+    category: "wouldYouRather",
     question:
       "{name} geçmişe mi yoksa geleceğe mi yolculuk etmeyi tercih eder?",
     answers: ["Geçmiş", "Gelecek", "Şimdide kalmak", "İkisi de!"],
   },
   {
     id: 70,
+    category: "wouldYouRather",
     question: "{name} hayatta geri sarma mı yoksa duraklatma butonu mu ister?",
     answers: ["Geri sarma", "Duraklatma", "İleri sarma", "Hiçbiri"],
   },
   {
     id: 71,
+    category: "wouldYouRather",
     question:
       "{name} bir şeyde uzman mı yoksa birçok şeyde iyi mi olmayı tercih eder?",
     answers: ["Bir şeyde uzman", "Birçok şeyde iyi", "Duruma bağlı", "Hiçbiri"],
   },
   {
     id: 72,
+    category: "wouldYouRather",
     question: "{name} paket sipariş mi yoksa dışarıda yemek mi tercih eder?",
     answers: [
       "Paket sipariş",
@@ -438,28 +510,33 @@ QUESTIONS.tr = [
   },
   {
     id: 73,
+    category: "wouldYouRather",
     question: "{name} köpek mi yoksa kedi mi tercih eder?",
     answers: ["Köpek", "Kedi", "İkisi de", "Hiçbiri"],
   },
   {
     id: 74,
+    category: "wouldYouRather",
     question:
       "{name} havuz başında dinlenmek mi yoksa macera yaşamak mı tercih eder?",
     answers: ["Havuz", "Macera", "İkisinden biraz", "Evde kalmak"],
   },
   {
     id: 75,
+    category: "wouldYouRather",
     question: "{name} uçabilmek mi yoksa görünmez olmak mı ister?",
     answers: ["Uçmak", "Görünmezlik", "İkisi de", "Hiçbiri"],
   },
   {
     id: 76,
+    category: "wouldYouRather",
     question:
       "{name} başka bir çağda mı yoksa başka bir ülkede mi yaşamayı tercih eder?",
     answers: ["Başka bir çağ", "Başka bir ülke", "Burada kalmak", "İkisi de"],
   },
   {
     id: 77,
+    category: "wouldYouRather",
     question: "{name} internetsiz mi yoksa TV'siz mi yaşamayı tercih eder?",
     answers: [
       "İnternetsiz",
@@ -470,16 +547,19 @@ QUESTIONS.tr = [
   },
   {
     id: 78,
+    category: "wouldYouRather",
     question: "{name} sınırsız para mı yoksa sınırsız zaman mı ister?",
     answers: ["Sınırsız para", "Sınırsız zaman", "İkisi de", "Hiçbiri"],
   },
   {
     id: 79,
+    category: "wouldYouRather",
     question: "{name} geleceği bilmek mi yoksa geçmişi değiştirmek mi ister?",
     answers: ["Geleceği bilmek", "Geçmişi değiştirmek", "Hiçbiri", "İkisi de"],
   },
   {
     id: 80,
+    category: "wouldYouRather",
     question:
       "{name} her zaman aklındakini söylemek mi yoksa hiç konuşmamak mı ister?",
     answers: [
@@ -491,69 +571,82 @@ QUESTIONS.tr = [
   },
   {
     id: 81,
+    category: "wouldYouRather",
     question: "{name} deniz kenarında mı yoksa dağda mı yaşamak ister?",
     answers: ["Deniz kenarı", "Dağ", "Arada bir şey", "Büyük şehir"],
   },
   {
     id: 82,
+    category: "wouldYouRather",
     question:
       "{name} tüm parasını mı yoksa tüm fotoğraflarını mı kaybetmeyi tercih eder?",
     answers: ["Tüm parayı", "Tüm fotoğrafları", "Hiçbirini", "Zor seçim!"],
   },
   {
     id: 83,
+    category: "wouldYouRather",
     question: "{name} hep sıcak mı yoksa hep soğuk mu olmayı tercih eder?",
     answers: ["Hep sıcak", "Hep soğuk", "Hiçbiri", "Umursamaz"],
   },
   {
     id: 84,
+    category: "wouldYouRather",
     question: "{name} kitabı okumayı mı yoksa filmi izlemeyi mi tercih eder?",
     answers: ["Kitabı okumak", "Filmi izlemek", "İkisi de", "Hiçbiri"],
   },
   {
     id: 85,
+    category: "wouldYouRather",
     question: "{name} ömür boyu bedava yemek mi yoksa bedava WiFi mi ister?",
     answers: ["Bedava yemek", "Bedava WiFi", "İkisi de", "Hiçbiri"],
   },
   {
     id: 86,
+    category: "wouldYouRather",
     question: "{name} süper kahraman mı yoksa süper kötü mü olurdu?",
     answers: ["Süper kahraman", "Süper kötü", "Anti-kahraman", "Hiçbiri"],
   },
   {
     id: 87,
+    category: "wouldYouRather",
     question:
       "{name} bir gün uyumadan mı yoksa yemeden mi geçirmeyi tercih eder?",
     answers: ["Uyumadan", "Yemeden", "Hiçbiri", "İkisini de yaptı zaten"],
   },
   {
     id: 88,
+    category: "wouldYouRather",
     question:
       "{name} bir hafta telefonsuz mu yoksa arkadaşsız mı olmayı tercih eder?",
     answers: ["Telefonsuz", "Arkadaşsız", "İkisi de olmaz", "İkisi de olur"],
   },
   {
     id: 89,
+    category: "wouldYouRather",
     question: "{name} ağaç evde mi yoksa teknede mi yaşamayı tercih eder?",
     answers: ["Ağaç evde", "Teknede", "Normal evde", "Yeraltı sığınağında"],
   },
   {
     id: 90,
+    category: "wouldYouRather",
     question: "{name} uzun uçuş mu yoksa uzun araba yolculuğu mu tercih eder?",
     answers: ["Uzun uçuş", "Araba yolculuğu", "Hiçbiri", "İkisini de sever"],
   },
   {
     id: 91,
+    category: "wouldYouRather",
     question: "{name} kahvaltıdan mı yoksa akşam yemeğinden mi vazgeçer?",
     answers: ["Kahvaltı", "Akşam yemeği", "Hiçbiri", "Daha çok öğle yemeği"],
   },
   {
     id: 92,
+    category: "wouldYouRather",
     question: "{name} özel şef mi yoksa kişisel antrenör mü tercih eder?",
     answers: ["Özel şef", "Kişisel antrenör", "İkisi de", "Hiçbiri"],
   },
   {
     id: 93,
+    category: "wouldYouRather",
     question: "{name} sadece fısıldayabilse mi yoksa sadece bağırabilse mi?",
     answers: [
       "Sadece fısıldamak",
@@ -564,11 +657,13 @@ QUESTIONS.tr = [
   },
   {
     id: 94,
+    category: "wouldYouRather",
     question: "{name} ışınlanma mı yoksa zihin okuma gücü mü ister?",
     answers: ["Işınlanma", "Zihin okuma", "İkisi de", "Hiçbiri"],
   },
   {
     id: 95,
+    category: "wouldYouRather",
     question:
       "{name} odadaki en komik mi yoksa en zeki kişi mi olmayı tercih eder?",
     answers: ["En komik", "En zeki", "İkisi de", "Hiçbiri"],
@@ -577,16 +672,19 @@ QUESTIONS.tr = [
   // ── Derin ve Kişisel (96–135) ──
   {
     id: 96,
+    category: "deepPersonal",
     question: "{name} en çok neyle gurur duyuyor?",
     answers: ["Başarıları", "İlişkileri", "Gelişimi", "Yaratıcılığı"],
   },
   {
     id: 97,
+    category: "deepPersonal",
     question: "{name}'i en çok ne strese sokar?",
     answers: ["İş/okul", "İlişkiler", "Para", "Gelecek"],
   },
   {
     id: 98,
+    category: "deepPersonal",
     question: "Zor günlerde {name}'i ayakta tutan nedir?",
     answers: [
       "Arkadaşlar ve aile",
@@ -597,11 +695,13 @@ QUESTIONS.tr = [
   },
   {
     id: 99,
+    category: "deepPersonal",
     question: "{name} en çok kimin yanında kendini güvende hisseder?",
     answers: ["En yakın arkadaşı", "Ailesi", "Partneri", "Kendisi"],
   },
   {
     id: 100,
+    category: "deepPersonal",
     question: "{name}'in en büyük korkusu nedir?",
     answers: [
       "Başarısızlık",
@@ -612,6 +712,7 @@ QUESTIONS.tr = [
   },
   {
     id: 101,
+    category: "deepPersonal",
     question: "{name}'in sevgi dili nedir?",
     answers: [
       "Onaylayıcı sözler",
@@ -622,11 +723,13 @@ QUESTIONS.tr = [
   },
   {
     id: 102,
+    category: "deepPersonal",
     question: "{name} üzgün olduğunda nasıl teselli edilmek ister?",
     answers: ["Sarılmak", "Yalnız bırakılmak", "Konuşmak", "Dikkat dağıtmak"],
   },
   {
     id: 103,
+    category: "deepPersonal",
     question: "{name} beş yıl sonra nerede olmayı umuyor?",
     answers: [
       "Yeni bir şehir",
@@ -637,6 +740,7 @@ QUESTIONS.tr = [
   },
   {
     id: 104,
+    category: "deepPersonal",
     question: "{name} ne zaman en çok zorlandı?",
     answers: [
       "İş/okulda",
@@ -647,16 +751,19 @@ QUESTIONS.tr = [
   },
   {
     id: 105,
+    category: "deepPersonal",
     question: "{name} hangi ünlüyü başka bir yakın arkadaş olarak ister?",
     answers: ["Bir müzisyen", "Bir oyuncu", "Bir komedyen", "Bir sporcu"],
   },
   {
     id: 106,
+    category: "deepPersonal",
     question: "{name} ailesinde en çok kiminle yakın?",
     answers: ["Annesi", "Babası", "Kardeşi", "Büyükanne/büyükbabası"],
   },
   {
     id: 107,
+    category: "deepPersonal",
     question: "Çoğu kişinin {name} hakkında bilmediği şey nedir?",
     answers: [
       "Gizli bir yetenek",
@@ -667,6 +774,7 @@ QUESTIONS.tr = [
   },
   {
     id: 108,
+    category: "deepPersonal",
     question: "{name} ölümden sonra ne olduğuna inanıyor?",
     answers: [
       "Hiçbir şey",
@@ -677,6 +785,7 @@ QUESTIONS.tr = [
   },
   {
     id: 109,
+    category: "deepPersonal",
     question: "{name} bir gün çocuk istiyor mu?",
     answers: [
       "Evet, kesinlikle",
@@ -687,6 +796,7 @@ QUESTIONS.tr = [
   },
   {
     id: 110,
+    category: "deepPersonal",
     question: "{name}'in ilk çocukluk anısı nedir?",
     answers: [
       "Aile etkinliği",
@@ -697,6 +807,7 @@ QUESTIONS.tr = [
   },
   {
     id: 111,
+    category: "deepPersonal",
     question: "Geceleri {name}'i uyutmayan nedir?",
     answers: [
       "Fazla düşünmek",
@@ -707,6 +818,7 @@ QUESTIONS.tr = [
   },
   {
     id: 112,
+    category: "deepPersonal",
     question: "{name}'in aldığı en güzel iltifat neydi?",
     answers: [
       "Kişiliğiyle ilgili",
@@ -717,6 +829,7 @@ QUESTIONS.tr = [
   },
   {
     id: 113,
+    category: "deepPersonal",
     question: "{name}'in en büyük stres kaynakları nelerdir?",
     answers: [
       "Son tarihler",
@@ -727,11 +840,13 @@ QUESTIONS.tr = [
   },
   {
     id: 114,
+    category: "deepPersonal",
     question: "{name} stresi nasıl yönetir?",
     answers: ["Egzersiz", "Biriyle konuşma", "Dizi izleme", "Uyumak"],
   },
   {
     id: 115,
+    category: "deepPersonal",
     question: "{name}'in yapılacaklar listesindeki 1 numara ne olurdu?",
     answers: [
       "Özel bir yere seyahat",
@@ -742,6 +857,7 @@ QUESTIONS.tr = [
   },
   {
     id: 116,
+    category: "deepPersonal",
     question: "{name} kendini en çok ne zaman sevilmiş hissetti?",
     answers: [
       "Ailesinin yanında",
@@ -752,6 +868,7 @@ QUESTIONS.tr = [
   },
   {
     id: 117,
+    category: "deepPersonal",
     question: "{name} en son ne zaman yaratıcı bir şey yapmak için ilham aldı?",
     answers: [
       "Yakın zamanda",
@@ -762,6 +879,7 @@ QUESTIONS.tr = [
   },
   {
     id: 118,
+    category: "deepPersonal",
     question: "{name} bir arkadaşlık kopuşu yaşadı mı?",
     answers: [
       "Evet, acı verici",
@@ -772,6 +890,7 @@ QUESTIONS.tr = [
   },
   {
     id: 119,
+    category: "deepPersonal",
     question: "{name}'e göre çatışmaları çözmenin en iyi yolu nedir?",
     answers: [
       "Dürüst konuşma",
@@ -782,6 +901,7 @@ QUESTIONS.tr = [
   },
   {
     id: 120,
+    category: "deepPersonal",
     question: "{name}'in sosyal medyayla sağlıklı bir ilişkisi var mı?",
     answers: [
       "Evet, kesinlikle",
@@ -792,6 +912,7 @@ QUESTIONS.tr = [
   },
   {
     id: 121,
+    category: "deepPersonal",
     question: "Arkadaşlık {name} için ne anlama geliyor?",
     answers: [
       "Her şeyden önce sadakat",
@@ -802,21 +923,25 @@ QUESTIONS.tr = [
   },
   {
     id: 122,
+    category: "deepPersonal",
     question: "{name}'in bağlantısını yenilemek istediği biri var mı?",
     answers: ["Eski bir arkadaş", "Bir aile üyesi", "Bir eski", "Kimse yok"],
   },
   {
     id: 123,
+    category: "deepPersonal",
     question: "{name} hiç aşık oldu mu?",
     answers: ["Evet, derinden", "Belki", "Henüz değil", "Birkaç kez"],
   },
   {
     id: 124,
+    category: "deepPersonal",
     question: "{name} ilk görüşte aşka inanıyor mu?",
     answers: ["Evet", "Hayır", "Belki", "Karmaşık"],
   },
   {
     id: 125,
+    category: "deepPersonal",
     question: "Son ilişkisi {name}'e ne öğretti?",
     answers: [
       "İletişim önemli",
@@ -827,6 +952,7 @@ QUESTIONS.tr = [
   },
   {
     id: 126,
+    category: "deepPersonal",
     question: "{name} kendinde neyi değiştirmek ister?",
     answers: [
       "Daha fazla özgüven",
@@ -837,16 +963,19 @@ QUESTIONS.tr = [
   },
   {
     id: 127,
+    category: "deepPersonal",
     question: "{name} en çok kime hayran?",
     answers: ["Ebeveynine", "Bir kamu figürüne", "Bir arkadaşına", "Kendisine"],
   },
   {
     id: 128,
+    category: "deepPersonal",
     question: "{name}'i en son kim ağlattı?",
     answers: ["Aile üyesi", "Arkadaşı", "Partneri", "Film karakteri"],
   },
   {
     id: 129,
+    category: "deepPersonal",
     question: "{name}'in pişmanlıkları var mı?",
     answers: [
       "Evet, birkaç",
@@ -857,11 +986,13 @@ QUESTIONS.tr = [
   },
   {
     id: 130,
+    category: "deepPersonal",
     question: "{name} ruh eşlerine inanıyor mu?",
     answers: ["Evet, kesinlikle", "Hayır", "İnanmak istiyor", "Karmaşık"],
   },
   {
     id: 131,
+    category: "deepPersonal",
     question: "{name}'in en zor vedası hangisiydi?",
     answers: [
       "Bir yerden ayrılmak",
@@ -872,11 +1003,13 @@ QUESTIONS.tr = [
   },
   {
     id: 132,
+    category: "deepPersonal",
     question: "{name}'in en kötü kararı neydi?",
     answers: ["Kariyer/okul", "Bir ilişki", "Maddi hata", "Yok"],
   },
   {
     id: 133,
+    category: "deepPersonal",
     question: "{name} yaşlılığını nasıl hayal ediyor?",
     answers: [
       "Hâlâ maceracı",
@@ -887,11 +1020,13 @@ QUESTIONS.tr = [
   },
   {
     id: 134,
+    category: "deepPersonal",
     question: "{name}'e göre affedilemez olan nedir?",
     answers: ["İhanet", "Yalan", "Aldatma", "Acımasızlık"],
   },
   {
     id: 135,
+    category: "deepPersonal",
     question: "{name} tek eşliliğe inanıyor mu?",
     answers: ["Evet, %100", "Duruma bağlı", "Mutlaka değil", "Düşünmedi"],
   },
@@ -899,6 +1034,7 @@ QUESTIONS.tr = [
   // ── Eğlence ve Rastgele (136–170) ──
   {
     id: 136,
+    category: "funRandom",
     question: "{name} hiç bir çizgi film karakterine aşık oldu mu?",
     answers: [
       "Evet, kesinlikle",
@@ -909,21 +1045,25 @@ QUESTIONS.tr = [
   },
   {
     id: 137,
+    category: "funRandom",
     question: "{name} bir yiyecek standı açsa ne satar?",
     answers: ["Taco", "Dondurma", "Hamburger", "Smoothie"],
   },
   {
     id: 138,
+    category: "funRandom",
     question: "{name} şu anda neyi erteliyor?",
     answers: ["Görev/proje", "Temizlik", "Zor bir konuşma", "Egzersiz"],
   },
   {
     id: 139,
+    category: "funRandom",
     question: "{name} çocukken kale inşa eder miydi?",
     answers: ["Evet, devasa!", "Küçük olanlar", "Sadece battaniyeden", "Hiç"],
   },
   {
     id: 140,
+    category: "funRandom",
     question: "{name} birine şaka yaptı mı?",
     answers: [
       "Evet, efsaneydi",
@@ -934,11 +1074,13 @@ QUESTIONS.tr = [
   },
   {
     id: 141,
+    category: "funRandom",
     question: "{name} sihire inanır mı?",
     answers: ["Evet!", "Biraz", "Hayır", "İnanmak ister"],
   },
   {
     id: 142,
+    category: "funRandom",
     question: "{name} hayalet olsa nasıl korkuturdu?",
     answers: [
       "Eşyaları hareket ettirerek",
@@ -949,11 +1091,13 @@ QUESTIONS.tr = [
   },
   {
     id: 143,
+    category: "funRandom",
     question: "{name} bir toptan ne fırlatırdı?",
     answers: ["Konfeti", "Simli toz", "Su balonları", "Marshmallow"],
   },
   {
     id: 144,
+    category: "funRandom",
     question: "{name}'in favori aile geleneği var mı?",
     answers: [
       "Bayram yemekleri",
@@ -964,11 +1108,13 @@ QUESTIONS.tr = [
   },
   {
     id: 145,
+    category: "funRandom",
     question: "{name}'in hayalindeki evde ne olurdu?",
     answers: ["Dev kütüphane", "Havuz", "Oyun odası", "Ev sineması"],
   },
   {
     id: 146,
+    category: "funRandom",
     question: "{name}'in en sevdiği kötü şaka nedir?",
     answers: [
       "Kelime oyunu",
@@ -979,26 +1125,31 @@ QUESTIONS.tr = [
   },
   {
     id: 147,
+    category: "funRandom",
     question: "{name} beynine bir isim verse ne koyardı?",
     answers: ["Kaos merkezi", "Düşünür", "Mega beyin", "Komik bir şey"],
   },
   {
     id: 148,
+    category: "funRandom",
     question: "{name} tekrarlayan rüyalar görür mü?",
     answers: ["Evet, sık sık", "Bazen", "Nadiren", "Hiç"],
   },
   {
     id: 149,
+    category: "funRandom",
     question: "{name}'in yediği en acı yemek neydi?",
     answers: ["Çok acı kanatlar", "Acılı curry", "Biberler", "Acıdan kaçınır"],
   },
   {
     id: 150,
+    category: "funRandom",
     question: "{name} sonsuza dek sadece bir yemek yiyebilse, ne olurdu?",
     answers: ["Pizza", "Makarna", "Pilav", "Taco"],
   },
   {
     id: 151,
+    category: "funRandom",
     question: "{name}'in sahip olduğu en garip şey nedir?",
     answers: [
       "Bir koleksiyon",
@@ -1009,6 +1160,7 @@ QUESTIONS.tr = [
   },
   {
     id: 152,
+    category: "funRandom",
     question: "{name}'in hiç falına bakıldı mı?",
     answers: [
       "Evet, inandı",
@@ -1019,6 +1171,7 @@ QUESTIONS.tr = [
   },
   {
     id: 153,
+    category: "funRandom",
     question: "{name}'in en kötü saç kesimi neydi?",
     answers: [
       "Kötü bir kahkül",
@@ -1029,16 +1182,19 @@ QUESTIONS.tr = [
   },
   {
     id: 154,
+    category: "funRandom",
     question: "{name} dün gece ne rüya gördü?",
     answers: ["Hatırlamıyor", "Garip bir şey", "Güzel bir şey", "Kabus"],
   },
   {
     id: 155,
+    category: "funRandom",
     question: "{name} hiç o kadar güldü mü ki neredeyse bayılacaktı?",
     answers: ["Evet, çok kez", "Bir iki kere", "Hayır, ama neredeyse", "Hiç"],
   },
   {
     id: 156,
+    category: "funRandom",
     question: "Hangi kitap {name}'i en çok etkiledi?",
     answers: [
       "Bir roman",
@@ -1049,11 +1205,13 @@ QUESTIONS.tr = [
   },
   {
     id: 157,
+    category: "funRandom",
     question: "{name} 10.000 TL kazansa ne yapar?",
     answers: ["Biriktirir", "Seyahat eder", "Alışveriş yapar", "Yatırım yapar"],
   },
   {
     id: 158,
+    category: "funRandom",
     question: "{name}'in başına gelen en şanslı olay neydi?",
     answers: [
       "Bir şey kazanmak",
@@ -1064,11 +1222,13 @@ QUESTIONS.tr = [
   },
   {
     id: 159,
+    category: "funRandom",
     question: "{name}'in en nefret ettiği ev işi hangisi?",
     answers: ["Bulaşık", "Çamaşır", "Süpürme", "Çöp çıkarmak"],
   },
   {
     id: 160,
+    category: "funRandom",
     question: "{name} hangi komplo teorisine inanıyor?",
     answers: [
       "Uzaylılar var",
@@ -1079,6 +1239,7 @@ QUESTIONS.tr = [
   },
   {
     id: 161,
+    category: "funRandom",
     question: "{name}'in üç dileği olsa, ilki ne olurdu?",
     answers: [
       "Sınırsız para",
@@ -1089,11 +1250,13 @@ QUESTIONS.tr = [
   },
   {
     id: 162,
+    category: "funRandom",
     question: "{name} uzaylılara inanıyor mu?",
     answers: ["Evet, %100", "Muhtemelen", "Kesinlikle hayır", "Kararsız"],
   },
   {
     id: 163,
+    category: "funRandom",
     question: "{name} Cumhurbaşkanı olsa ilk neyi değiştirirdi?",
     answers: [
       "Eğitim sistemi",
@@ -1104,11 +1267,13 @@ QUESTIONS.tr = [
   },
   {
     id: 164,
+    category: "funRandom",
     question: "{name} hangi yabancı dili mükemmel bilmek isterdi?",
     answers: ["Fransızca", "Japonca", "İngilizce", "Korece"],
   },
   {
     id: 165,
+    category: "funRandom",
     question: "{name}'in zombi kıyameti planı nedir?",
     answers: [
       "Saklanmak",
@@ -1119,11 +1284,13 @@ QUESTIONS.tr = [
   },
   {
     id: 166,
+    category: "funRandom",
     question: "{name} bir hayvan olsa ne olurdu?",
     answers: ["Köpek", "Kedi", "Kuş", "Ayı"],
   },
   {
     id: 167,
+    category: "funRandom",
     question: "{name}'in alter egosu ne adını taşırdı?",
     answers: [
       "Havalı bir şey",
@@ -1134,11 +1301,13 @@ QUESTIONS.tr = [
   },
   {
     id: 168,
+    category: "funRandom",
     question: "{name}'in 1 numaralı karaoke şarkısı hangisi?",
     answers: ["Pop hit", "Rock klasiği", "Bale", "Karaoke yapmaz"],
   },
   {
     id: 169,
+    category: "funRandom",
     question: "{name}'in en sevdiği ilginç bilgi nedir?",
     answers: [
       "Hayvan bilgisi",
@@ -1149,6 +1318,7 @@ QUESTIONS.tr = [
   },
   {
     id: 170,
+    category: "funRandom",
     question: "{name}'in ilk konseri neydi?",
     answers: [
       "Bir pop yıldızı",
@@ -1161,16 +1331,19 @@ QUESTIONS.tr = [
   // ── Deneyimler ve Hayaller (171–200) ──
   {
     id: 171,
+    category: "experiencesDreams",
     question: "{name}'in hayalindeki tatil yeri neresi?",
     answers: ["Japonya", "Maldivler", "New York", "Paris"],
   },
   {
     id: 172,
+    category: "experiencesDreams",
     question: "{name} başka bir hayatta hangi mesleği seçerdi?",
     answers: ["Şef", "Astronot", "Sanatçı", "Sporcu"],
   },
   {
     id: 173,
+    category: "experiencesDreams",
     question: "{name} bir ünlüyle tanışabilse kim olurdu?",
     answers: [
       "Bir müzisyen",
@@ -1181,16 +1354,19 @@ QUESTIONS.tr = [
   },
   {
     id: 174,
+    category: "experiencesDreams",
     question: "{name} bir arkadaşlıkta en çok neye değer verir?",
     answers: ["Sadakat", "Mizah", "Dürüstlük", "Destek"],
   },
   {
     id: 175,
+    category: "experiencesDreams",
     question: "{name}'in ruh hayvanı nedir?",
     answers: ["Kurt", "Kartal", "Kedi", "Ayı"],
   },
   {
     id: 176,
+    category: "experiencesDreams",
     question: "{name}'in favori karaoke türü hangisi?",
     answers: [
       "80'ler klasikleri",
@@ -1201,6 +1377,7 @@ QUESTIONS.tr = [
   },
   {
     id: 177,
+    category: "experiencesDreams",
     question: "{name} için yapılan en tatlı şey neydi?",
     answers: [
       "Sürpriz parti",
@@ -1211,6 +1388,7 @@ QUESTIONS.tr = [
   },
   {
     id: 178,
+    category: "experiencesDreams",
     question: "{name}'in otobiyografisinin başlığı ne olurdu?",
     answers: [
       "'Beklenmedik olanı bekle'",
@@ -1221,6 +1399,7 @@ QUESTIONS.tr = [
   },
   {
     id: 179,
+    category: "experiencesDreams",
     question:
       "{name}'in 'Roma İmparatorluğu'nu — sürekli düşündüğü şeyi — nedir?",
     answers: [
@@ -1232,6 +1411,7 @@ QUESTIONS.tr = [
   },
   {
     id: 180,
+    category: "experiencesDreams",
     question: "{name}'in en sevdiği seyahat hikayesi nedir?",
     answers: [
       "Çılgın macera",
@@ -1242,6 +1422,7 @@ QUESTIONS.tr = [
   },
   {
     id: 181,
+    category: "experiencesDreams",
     question: "{name} bir yıl sonra kendini nerede görüyor?",
     answers: [
       "Aynı yer, daha iyi hayat",
@@ -1252,6 +1433,7 @@ QUESTIONS.tr = [
   },
   {
     id: 182,
+    category: "experiencesDreams",
     question: "{name}'in hayalindeki iş nedir?",
     answers: [
       "Yaratıcı bir şey",
@@ -1262,6 +1444,7 @@ QUESTIONS.tr = [
   },
   {
     id: 183,
+    category: "experiencesDreams",
     question: "{name} bir süper güce sahip olabilse hangisi olurdu?",
     answers: [
       "Işınlanma",
@@ -1272,6 +1455,7 @@ QUESTIONS.tr = [
   },
   {
     id: 184,
+    category: "experiencesDreams",
     question: "{name} rahatlama için hangi diziyi açar?",
     answers: [
       "Bir sitcom",
@@ -1282,21 +1466,25 @@ QUESTIONS.tr = [
   },
   {
     id: 185,
+    category: "experiencesDreams",
     question: "{name} zamanda yolculuk edebilse nereye giderdi?",
     answers: ["Antik Mısır", "80'ler", "100 yıl sonra", "Kendi çocukluğu"],
   },
   {
     id: 186,
+    category: "experiencesDreams",
     question: "{name} hiç tamamen kayboldu mu?",
     answers: ["Evet, çok komikti", "Evet, korkutucuydu", "Neredeyse", "Hiç"],
   },
   {
     id: 187,
+    category: "experiencesDreams",
     question: "{name}'e göre en iyi özelliği nedir?",
     answers: ["Nezaket", "Mizah", "Zeka", "Kararlılık"],
   },
   {
     id: 188,
+    category: "experiencesDreams",
     question: "{name} başarıyı nasıl tanımlar?",
     answers: [
       "Mutlu olmak",
@@ -1307,6 +1495,7 @@ QUESTIONS.tr = [
   },
   {
     id: 189,
+    category: "experiencesDreams",
     question: "{name}'in en çok izlediği film hangisi?",
     answers: [
       "Rahatlatıcı bir klasik",
@@ -1317,6 +1506,7 @@ QUESTIONS.tr = [
   },
   {
     id: 190,
+    category: "experiencesDreams",
     question: "{name}'in gizli yetenekleri var mı?",
     answers: [
       "Evet, şaşırtıcı bir tane",
@@ -1327,21 +1517,25 @@ QUESTIONS.tr = [
   },
   {
     id: 191,
+    category: "experiencesDreams",
     question: "{name}'in en iyi seyahati hangisiydi?",
     answers: ["Sahil tatili", "Şehir gezisi", "Yol yolculuğu", "Aile ziyareti"],
   },
   {
     id: 192,
+    category: "experiencesDreams",
     question: "{name}'in sinemada izlediği son film neydi?",
     answers: ["Aksiyon", "Komedi", "Süper kahraman", "Dram"],
   },
   {
     id: 193,
+    category: "experiencesDreams",
     question: "{name}'in gittiği en iyi müze hangisiydi?",
     answers: ["Sanat", "Bilim", "Tarih", "Müzeleri sevmiyor"],
   },
   {
     id: 194,
+    category: "experiencesDreams",
     question: "{name} en son ne zaman spontan bir şey yaptı?",
     answers: [
       "Çok yakın zamanda",
@@ -1352,6 +1546,7 @@ QUESTIONS.tr = [
   },
   {
     id: 195,
+    category: "experiencesDreams",
     question: "{name}'in en büyük cesaret adımı neydi?",
     answers: [
       "Taşınmak",
@@ -1362,6 +1557,7 @@ QUESTIONS.tr = [
   },
   {
     id: 196,
+    category: "experiencesDreams",
     question: "{name}'in en kötü buluşması hangisiydi?",
     answers: [
       "Tüm gece tuhaf sessizlik",
@@ -1372,6 +1568,7 @@ QUESTIONS.tr = [
   },
   {
     id: 197,
+    category: "experiencesDreams",
     question: "{name} bir odaya girdiğinde çalan şarkı ne olurdu?",
     answers: [
       "Enerjik bir şey",
@@ -1382,11 +1579,13 @@ QUESTIONS.tr = [
   },
   {
     id: 198,
+    category: "experiencesDreams",
     question: "{name}'e göre en iyi moda on yılı hangisi?",
     answers: ["70'ler", "80'ler", "90'lar", "2000'ler"],
   },
   {
     id: 199,
+    category: "experiencesDreams",
     question: "{name} hiç yaz kampına gitti mi?",
     answers: [
       "Evet, bayıldı",
@@ -1397,18 +1596,16 @@ QUESTIONS.tr = [
   },
   {
     id: 200,
+    category: "experiencesDreams",
     question: "Beklenmedik hangi film {name}'i ağlatır?",
     answers: ["Animasyon", "Komedi", "Aksiyon", "Filmlerde asla ağlamaz"],
   },
-];
 
-/**
- * Hero Özel «Derin & Baharatlı» Sorular (201-220)
- * Sadece oturumda en az bir oyuncu Hero abonesi olduğunda kullanılabilir.
- */
-QUESTIONS.tr_hero = [
+
+  // ── Deep & Spicy / Hero Exclusive (201–220) ──
   {
     id: 201,
+    category: "deepSpicy",
     question: "{name}'in en utandırıcı gizli yeteneği nedir?",
     answers: [
       "Duşta şarkı söylemek",
@@ -1419,6 +1616,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 202,
+    category: "deepSpicy",
     question: "{name} bir milyon dolarla ilk ne yapardı?",
     answers: [
       "Dünyayı gezmek",
@@ -1429,6 +1627,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 203,
+    category: "deepSpicy",
     question: "{name}'in en büyük suçlu zevki nedir?",
     answers: [
       "Reality TV",
@@ -1439,6 +1638,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 204,
+    category: "deepSpicy",
     question: "{name} bir ünlüyle hayat değiştirebilseydi, kim olurdu?",
     answers: [
       "Ünlü bir aktör",
@@ -1449,6 +1649,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 205,
+    category: "deepSpicy",
     question: "{name} ıssız bir adaya ne götürürdü?",
     answers: [
       "Wifi'li telefon",
@@ -1459,11 +1660,13 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 206,
+    category: "deepSpicy",
     question: "{name}'in en mantıksız korkusu nedir?",
     answers: ["Palyacoçolar", "Karanlık", "Kelebekler", "Derin sular"],
   },
   {
     id: 207,
+    category: "deepSpicy",
     question: "{name} zombi kıyametinde nasıl hayatta kalırdı?",
     answers: [
       "Saklanmak ve beklemek",
@@ -1474,6 +1677,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 208,
+    category: "deepSpicy",
     question: "{name}'in ağlayacağı en saçma şey nedir?",
     answers: [
       "Kaybolan yemek",
@@ -1484,6 +1688,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 209,
+    category: "deepSpicy",
     question: "{name}'in favori karaoke şarkısı hangisi?",
     answers: [
       "Bohemian Rhapsody",
@@ -1494,11 +1699,13 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 210,
+    category: "deepSpicy",
     question: "{name} zamanda yolculuk yapabilseydi nereye giderdi?",
     answers: ["Antik Roma", "1980'ler", "100 yıl sonrası", "Dinozor çağı"],
   },
   {
     id: 211,
+    category: "deepSpicy",
     question: "{name}'in yapacağı en romantik şey nedir?",
     answers: [
       "Aşk mektubu yazmak",
@@ -1509,6 +1716,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 212,
+    category: "deepSpicy",
     question: "{name}'in otobiyografisinin başlığı ne olurdu?",
     answers: [
       "'Ups, Yine Yaptım'",
@@ -1519,6 +1727,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 213,
+    category: "deepSpicy",
     question: "{name}'in en kötü mutfak felaketi neydi?",
     answers: [
       "Her şeyi yaktı",
@@ -1529,6 +1738,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 214,
+    category: "deepSpicy",
     question: "{name}'in telefonundaki en garip şey nedir?",
     answers: [
       "1000 meme",
@@ -1539,6 +1749,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 215,
+    category: "deepSpicy",
     question: "{name} birinden hoşlandığında nasıl davranır?",
     answers: [
       "Tamamen belli eder",
@@ -1549,6 +1760,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 216,
+    category: "deepSpicy",
     question: "{name} bir milyar için bile ne yapmaz?",
     answers: [
       "Böcek yemek",
@@ -1559,6 +1771,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 217,
+    category: "deepSpicy",
     question: "{name} hangi komplo teorisine inanırdı?",
     answers: [
       "Düz Dünya",
@@ -1569,6 +1782,7 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 218,
+    category: "deepSpicy",
     question: "{name}'in en popüler olmayan görüşü nedir?",
     answers: [
       "Pizzada ananas harika",
@@ -1579,11 +1793,13 @@ QUESTIONS.tr_hero = [
   },
   {
     id: 219,
+    category: "deepSpicy",
     question: "{name}'in ruh hayvanı nedir?",
     answers: ["Tembel hayvan", "Golden retriever", "Kedi", "Yunus"],
   },
   {
     id: 220,
+    category: "deepSpicy",
     question: "{name} neden cancel edilirdi?",
     answers: [
       "Kötü yemek fikirleri",

@@ -7,66 +7,79 @@ QUESTIONS.el = [
   // ── Αγαπημένα (1–30) ──
   {
     id: 1,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο χρώμα του/της {name};",
     answers: ["Κόκκινο", "Μπλε", "Πράσινο", "Μωβ"],
   },
   {
     id: 2,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο φαγητό του/της {name};",
     answers: ["Πίτσα", "Σούσι", "Μπέργκερ", "Μακαρονάδα"],
   },
   {
     id: 3,
+    category: "favorites",
     question: "Ποια είναι η αγαπημένη εποχή του/της {name};",
     answers: ["Άνοιξη", "Καλοκαίρι", "Φθινόπωρο", "Χειμώνας"],
   },
   {
     id: 4,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο είδος ταινίας του/της {name};",
     answers: ["Δράση", "Κωμωδία", "Τρόμου", "Ρομαντικό"],
   },
   {
     id: 5,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο ζώο του/της {name};",
     answers: ["Σκύλος", "Γάτα", "Άλογο", "Δελφίνι"],
   },
   {
     id: 6,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο μουσικό είδος του/της {name};",
     answers: ["Ποπ", "Ροκ", "Χιπ-Χοπ", "Κλασική"],
   },
   {
     id: 7,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο ρόφημα του/της {name};",
     answers: ["Καφές", "Τσάι", "Χυμός", "Αναψυκτικό"],
   },
   {
     id: 8,
+    category: "favorites",
     question: "Ποια είναι η αγαπημένη μέρα της εβδομάδας του/της {name};",
     answers: ["Δευτέρα", "Παρασκευή", "Σάββατο", "Κυριακή"],
   },
   {
     id: 9,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο χόμπι του/της {name};",
     answers: ["Διάβασμα", "Gaming", "Αθλητισμός", "Μαγειρική"],
   },
   {
     id: 10,
+    category: "favorites",
     question: "Ποια είναι η αγαπημένη γεύση παγωτού του/της {name};",
     answers: ["Σοκολάτα", "Βανίλια", "Φράουλα", "Φιστίκι"],
   },
   {
     id: 11,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο επιτραπέζιο παιχνίδι του/της {name};",
     answers: ["Monopoly", "Scrabble", "Σκάκι", "Uno"],
   },
   {
     id: 12,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο γλυκό του/της {name};",
     answers: ["Τούρτα", "Παγωτό", "Brownies", "Μπισκότα"],
   },
   {
     id: 13,
+    category: "favorites",
     question: "Ποια είναι η αγαπημένη γιορτή του/της {name};",
     answers: [
       "Χριστούγεννα",
@@ -77,87 +90,104 @@ QUESTIONS.el = [
   },
   {
     id: 14,
+    category: "favorites",
     question:
       "Ποιο είναι το αγαπημένο μέσο κοινωνικής δικτύωσης του/της {name};",
     answers: ["Instagram", "TikTok", "Twitter/X", "YouTube"],
   },
   {
     id: 15,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο topping παγωτού του/της {name};",
     answers: ["Τρούφα", "Σοκολάτα", "Σαντιγί", "Ξηροί καρποί"],
   },
   {
     id: 16,
+    category: "favorites",
     question: "Τι καιρό προτιμά ο/η {name};",
     answers: ["Ηλιόλουστο", "Βροχερό", "Χιονισμένο", "Συννεφιασμένο"],
   },
   {
     id: 17,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο είδος σειράς του/της {name};",
     answers: ["Δράμα", "Κωμωδία", "Reality TV", "Επιστημ. φαντασία"],
   },
   {
     id: 18,
+    category: "favorites",
     question: "Ποιο ήταν το αγαπημένο σνακ του/της {name} ως παιδί;",
     answers: ["Πατατάκια", "Φρουτοζελέ", "Μπισκότα", "Δημητριακά"],
   },
   {
     id: 19,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο ντρέσινγκ/σάλτσα του/της {name};",
     answers: ["Κέτσαπ", "Μουστάρδα", "Μαγιονέζα", "Καυτερή σάλτσα"],
   },
   {
     id: 20,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο λουλούδι ή φυτό του/της {name};",
     answers: ["Τριαντάφυλλο", "Ηλίανθος", "Κάκτος", "Λεβάντα"],
   },
   {
     id: 21,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο μέσο μεταφοράς του/της {name};",
     answers: ["Αυτοκίνητο", "Ποδήλατο", "Τρένο", "Περπάτημα"],
   },
   {
     id: 22,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο topping πίτσας του/της {name};",
     answers: ["Πεπερόνι", "Μανιτάρια", "Ανανάς", "Έξτρα τυρί"],
   },
   {
     id: 23,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο comfort food του/της {name};",
     answers: ["Μακαρόνια με τυρί", "Σούπα", "Τηγανιτές πατάτες", "Σοκολάτα"],
   },
   {
     id: 24,
+    category: "favorites",
     question: "Ποιο ήταν το αγαπημένο μάθημα του/της {name} στο σχολείο;",
     answers: ["Μαθηματικά", "Φυσική", "Ιστορία", "Τέχνη"],
   },
   {
     id: 25,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο είδος παπουτσιού του/της {name};",
     answers: ["Αθλητικά", "Μπότες", "Σανδάλια", "Τακούνια"],
   },
   {
     id: 26,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο είδος podcast του/της {name};",
     answers: ["True crime", "Κωμωδία", "Αυτοβελτίωση", "Ειδήσεις"],
   },
   {
     id: 27,
+    category: "favorites",
     question: "Ποιο είναι το αγαπημένο πρωινό του/της {name};",
     answers: ["Τηγανίτες", "Αυγά", "Δημητριακά", "Τοστ"],
   },
   {
     id: 28,
+    category: "favorites",
     question: "Ποια είναι η αγαπημένη αλυσίδα fast food του/της {name};",
     answers: ["McDonald's", "KFC", "Subway", "Goody's"],
   },
   {
     id: 29,
+    category: "favorites",
     question: "Ποιο είναι το πιο χρησιμοποιημένο emoji του/της {name};",
     answers: ["😂", "❤️", "😭", "🔥"],
   },
   {
     id: 30,
+    category: "favorites",
     question: "Τι θέμα κοστουμιού προτιμά ο/η {name} για Απόκριες;",
     answers: ["Τρομαχτικό", "Αστείο", "Ποπ κουλτούρα", "Κλασικό"],
   },
@@ -165,31 +195,37 @@ QUESTIONS.el = [
   // ── Προσωπικότητα & Συνήθειες (31–65) ──
   {
     id: 31,
+    category: "personality",
     question: "Τι θα έκανε ο/η {name} αν κέρδιζε το λαχείο;",
     answers: ["Ταξίδι στον κόσμο", "Αγορά σπιτιού", "Επένδυση", "Μεγάλο πάρτι"],
   },
   {
     id: 32,
+    category: "personality",
     question: "Τι φοβάται περισσότερο ο/η {name};",
     answers: ["Αράχνες", "Ύψη", "Δημόσια ομιλία", "Σκοτάδι"],
   },
   {
     id: 33,
+    category: "personality",
     question: "Ποια υπερδύναμη θα διάλεγε ο/η {name};",
     answers: ["Πτήση", "Αορατότητα", "Ταξίδι στο χρόνο", "Υπερ-δύναμη"],
   },
   {
     id: 34,
+    category: "personality",
     question: "Πώς αντιδρά ο/η {name} σε στρες;",
     answers: ["Τρώει σνακ", "Σωπαίνει", "Μιλάει πολύ", "Γυμνάζεται"],
   },
   {
     id: 35,
+    category: "personality",
     question: "Ποιο είναι το κρυφό ταλέντο του/της {name};",
     answers: ["Τραγούδι", "Χορός", "Ζωγραφική", "Μαγειρική"],
   },
   {
     id: 36,
+    category: "personality",
     question: "Τι κάνει ο/η {name} πρώτο πράγμα το πρωί;",
     answers: [
       "Τσεκάρει το κινητό",
@@ -200,16 +236,19 @@ QUESTIONS.el = [
   },
   {
     id: 37,
+    category: "personality",
     question: "Τι θα έπαιρνε ο/η {name} σε ένα ερημικό νησί;",
     answers: ["Ένα βιβλίο", "Μουσική", "Έναν φίλο", "Κιτ επιβίωσης"],
   },
   {
     id: 38,
+    category: "personality",
     question: "Πώς θα περιέγραφε ο/η {name} τον εαυτό σε μια λέξη;",
     answers: ["Αστείος/η", "Στοργικός/ή", "Περιπετειώδης", "Χαλαρός/ή"],
   },
   {
     id: 39,
+    category: "personality",
     question: "Τι θα έκανε ο/η {name} σε ένα τέλειο ρεπό;",
     answers: [
       "Ύπνο όλη μέρα",
@@ -220,17 +259,20 @@ QUESTIONS.el = [
   },
   {
     id: 40,
+    category: "personality",
     question: "Ποια είναι η χειρότερη συνήθεια του/της {name};",
     answers: ["Αργεί", "Αναβάλλει", "Το παρα-σκέφτεται", "Τρώει πολλά σνακ"],
   },
   {
     id: 41,
+    category: "personality",
     question:
       "Πόσο αλλάζει η προσωπικότητα του/της {name} ανάλογα με την παρέα;",
     answers: ["Πολύ", "Λίγο", "Καθόλου", "Εξαρτάται από την ομάδα"],
   },
   {
     id: 42,
+    category: "personality",
     question: "Πώς ορίζει ο/η {name} το τέλειο Σαββατοκύριακο;",
     answers: [
       "Χαλάρωση στο σπίτι",
@@ -241,11 +283,13 @@ QUESTIONS.el = [
   },
   {
     id: 43,
+    category: "personality",
     question: "Ποιο χαρακτηριστικό θεωρεί ο/η {name} πιο ενοχλητικό;",
     answers: ["Ανειλικρίνεια", "Αλαζονεία", "Αναξιοπιστία", "Αρνητικότητα"],
   },
   {
     id: 44,
+    category: "personality",
     question: "Ποιο είναι το ένοχο ευχαρίστημα σε σειρά/ταινία του/της {name};",
     answers: [
       "Reality TV",
@@ -256,6 +300,7 @@ QUESTIONS.el = [
   },
   {
     id: 45,
+    category: "personality",
     question: "Τι κάνει ο/η {name} όταν δεν βλέπει κανείς;",
     answers: [
       "Τραγουδάει δυνατά",
@@ -266,6 +311,7 @@ QUESTIONS.el = [
   },
   {
     id: 46,
+    category: "personality",
     question: "Πώς αντιμετωπίζει ο/η {name} τις αμήχανες σιωπές;",
     answers: [
       "Κάνει αστείο",
@@ -276,16 +322,19 @@ QUESTIONS.el = [
   },
   {
     id: 47,
+    category: "personality",
     question: "Τι τύπος μαθητή ήταν ο/η {name};",
     answers: ["Ο κλόουν", "Ο σπασίκλας", "Ο δημοφιλής", "Ο ήσυχος"],
   },
   {
     id: 48,
+    category: "personality",
     question: "Πώς τρώει πίτσα ο/η {name};",
     answers: ["Τη διπλώνει", "Με μαχαίρι & πιρούνι", "Κόρα πρώτα", "Κανονικά"],
   },
   {
     id: 49,
+    category: "personality",
     question: "Τι ώρα πάει συνήθως για ύπνο ο/η {name};",
     answers: [
       "Πριν τις 10",
@@ -296,6 +345,7 @@ QUESTIONS.el = [
   },
   {
     id: 50,
+    category: "personality",
     question: "Σε τι ποσοστό είναι συνήθως η μπαταρία του/της {name};",
     answers: [
       "Σχεδόν νεκρή",
@@ -306,66 +356,79 @@ QUESTIONS.el = [
   },
   {
     id: 51,
+    category: "personality",
     question: "Πώς συμπεριφέρεται ο/η {name} σε πάρτι;",
     answers: ["Ψυχή του πάρτι", "Ντροπαλός/ή", "Στα ντεκ", "Στην κουζίνα"],
   },
   {
     id: 52,
+    category: "personality",
     question: "Σε τι ξοδεύει πολλά χρήματα ο/η {name};",
     answers: ["Φαγητό", "Ρούχα", "Τεχνολογία", "Ψυχαγωγία"],
   },
   {
     id: 53,
+    category: "personality",
     question: "Ποιο emoji αντιπροσωπεύει καλύτερα τον/την {name};",
     answers: ["😂", "😎", "🤔", "❤️"],
   },
   {
     id: 54,
+    category: "personality",
     question: "Ο/Η {name} είναι πρωινός τύπος ή νυχτοπούλι;",
     answers: ["Πρωινός τύπος", "Νυχτοπούλι", "Εξαρτάται", "Τίποτα από τα δύο"],
   },
   {
     id: 55,
+    category: "personality",
     question: "Πόσο εύπιστος/η είναι ο/η {name};",
     answers: ["Πολύ", "Κάπως", "Δύσκολα ξεγελιέται", "Καθόλου"],
   },
   {
     id: 56,
+    category: "personality",
     question: "Πόσο ανταγωνιστικός/ή είναι ο/η {name};",
     answers: ["Εξαιρετικά", "Αρκετά", "Μόνο σε κάποια πράγματα", "Καθόλου"],
   },
   {
     id: 57,
+    category: "personality",
     question: "Ο/Η {name} είναι εσωστρεφής ή εξωστρεφής;",
     answers: ["Εσωστρεφής", "Εξωστρεφής", "Και τα δύο", "Αλλάζει ανάλογα"],
   },
   {
     id: 58,
+    category: "personality",
     question: "Ο/Η {name} ξεκουράζεται μόνος/η ή με άλλους;",
     answers: ["Μόνος/η", "Με άλλους", "Ανάμεικτα", "Εξαρτάται την εβδομάδα"],
   },
   {
     id: 59,
+    category: "personality",
     question: "Ο/Η {name} ακολουθεί την καρδιά ή το μυαλό;",
     answers: ["Καρδιά", "Μυαλό", "Εξαρτάται", "Κανένα — ένστικτο"],
   },
   {
     id: 60,
+    category: "personality",
     question: "Τι μοτίβο θα φορούσε ο/η {name} για πάντα;",
     answers: ["Ρίγες", "Καρό", "Λουλούδια", "Μονόχρωμα"],
   },
   {
     id: 61,
+    category: "personality",
     question: "Ποια κακή συνήθεια προσπαθεί να κόψει ο/η {name};",
     answers: ["Εθισμό στο κινητό", "Αναβολή", "Αργά ξενύχτια", "Junk food"],
   },
   {
     id: 62,
+    category: "personality",
     question: "Ο/Η {name} νιώθει νέος/α στην ψυχή ή παλιά ψυχή;",
     answers: ["Νέος/α στην ψυχή", "Παλιά ψυχή", "Λίγο και τα δύο", "Αλλάζει"],
   },
   {
     id: 63,
+    category: "personality",
     question: "Τι σημαίνει το όνομα του/της {name} για εκείνον/η;",
     answers: [
       "Οικογενειακή παράδοση",
@@ -376,6 +439,7 @@ QUESTIONS.el = [
   },
   {
     id: 64,
+    category: "personality",
     question: "Πιστεύει ο/η {name} στο να έχεις έναν καλύτερο φίλο;",
     answers: [
       "Ναι, έναν BFF",
@@ -386,6 +450,7 @@ QUESTIONS.el = [
   },
   {
     id: 65,
+    category: "personality",
     question: "Τι μέρος του ζωδίου ταιριάζει περισσότερο στον/στην {name};",
     answers: ["Τα χαρακτηριστικά", "Τα ερωτικά", "Η καριέρα", "Τίποτα"],
   },
@@ -393,36 +458,43 @@ QUESTIONS.el = [
   // ── Θα προτιμούσε / Προτιμήσεις (66–95) ──
   {
     id: 66,
+    category: "wouldYouRather",
     question: "Θα προτιμούσε ο/η {name} να είναι διάσημος/η ή πλούσιος/α;",
     answers: ["Διάσημος/η", "Πλούσιος/α", "Και τα δύο", "Κανένα"],
   },
   {
     id: 67,
+    category: "wouldYouRather",
     question: "Θα ζούσε ο/η {name} στα βουνά ή στην παραλία;",
     answers: ["Βουνά", "Παραλία", "Πόλη", "Εξοχή"],
   },
   {
     id: 68,
+    category: "wouldYouRather",
     question: "Θα παρατούσε ο/η {name} τα social media ή την TV;",
     answers: ["Social media", "TV", "Κανένα", "Και τα δύο είναι οκ"],
   },
   {
     id: 69,
+    category: "wouldYouRather",
     question: "Θα ταξίδευε ο/η {name} στο παρελθόν ή στο μέλλον;",
     answers: ["Παρελθόν", "Μέλλον", "Θα έμενε στο παρόν", "Και τα δύο!"],
   },
   {
     id: 70,
+    category: "wouldYouRather",
     question: "Θα ήθελε ο/η {name} κουμπί επαναφοράς ή παύσης στη ζωή;",
     answers: ["Επαναφοράς", "Παύσης", "Γρήγορης προώθησης", "Κανένα"],
   },
   {
     id: 71,
+    category: "wouldYouRather",
     question: "Θα ήθελε ο/η {name} να είναι κορυφαίος σε ένα ή καλός σε πολλά;",
     answers: ["Κορυφαίος σε ένα", "Καλός σε πολλά", "Εξαρτάται", "Κανένα"],
   },
   {
     id: 72,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα παρήγγελνε ή θα πήγαινε έξω για φαγητό;",
     answers: [
       "Παραγγελία",
@@ -433,36 +505,43 @@ QUESTIONS.el = [
   },
   {
     id: 73,
+    category: "wouldYouRather",
     question: "Θα είχε ο/η {name} σκύλο ή γάτα;",
     answers: ["Σκύλο", "Γάτα", "Και τα δύο", "Κανένα"],
   },
   {
     id: 74,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα χαλάρωνε στην πισίνα ή θα έκανε περιπέτεια;",
     answers: ["Πισίνα", "Περιπέτεια", "Λίγο απ' όλα", "Θα έμενε σπίτι"],
   },
   {
     id: 75,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα μπορούσε να πετάει ή να γίνεται αόρατος/η;",
     answers: ["Πτήση", "Αορατότητα", "Και τα δύο", "Κανένα"],
   },
   {
     id: 76,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ζούσε σε άλλη εποχή ή σε άλλη χώρα;",
     answers: ["Άλλη εποχή", "Άλλη χώρα", "Εδώ", "Και τα δύο"],
   },
   {
     id: 77,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα παρατούσε το ίντερνετ ή την TV;",
     answers: ["Το ίντερνετ", "Την TV", "Κανένα", "Και τα δύο οκ"],
   },
   {
     id: 78,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα είχε απεριόριστα χρήματα ή χρόνο;",
     answers: ["Χρήματα", "Χρόνο", "Και τα δύο", "Κανένα"],
   },
   {
     id: 79,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ήξερε το μέλλον ή θα άλλαζε το παρελθόν;",
     answers: [
       "Θα ήξερε το μέλλον",
@@ -473,6 +552,7 @@ QUESTIONS.el = [
   },
   {
     id: 80,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα έλεγε πάντα τη γνώμη ή δεν θα μιλούσε ποτέ;",
     answers: [
       "Πάντα τη γνώμη",
@@ -483,46 +563,55 @@ QUESTIONS.el = [
   },
   {
     id: 81,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ζούσε κοντά στη θάλασσα ή στα βουνά;",
     answers: ["Θάλασσα", "Βουνά", "Ενδιάμεσα", "Μεγάλη πόλη"],
   },
   {
     id: 82,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα έχανε τα χρήματα ή τις φωτογραφίες;",
     answers: ["Τα χρήματα", "Τις φωτογραφίες", "Κανένα", "Δύσκολη επιλογή!"],
   },
   {
     id: 83,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ήταν πάντα ζεστά ή πάντα κρύα;",
     answers: ["Πάντα ζεστά", "Πάντα κρύα", "Κανένα", "Δεν ενοχλείται"],
   },
   {
     id: 84,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα διάβαζε το βιβλίο ή θα έβλεπε την ταινία;",
     answers: ["Θα διάβαζε", "Θα έβλεπε", "Και τα δύο", "Κανένα"],
   },
   {
     id: 85,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα είχε δωρεάν φαγητό ή δωρεάν WiFi;",
     answers: ["Δωρεάν φαγητό", "Δωρεάν WiFi", "Και τα δύο", "Κανένα"],
   },
   {
     id: 86,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ήταν σουπερήρωας ή σούπερ κακός;",
     answers: ["Σουπερήρωας", "Σούπερ κακός", "Αντιήρωας", "Κανένα"],
   },
   {
     id: 87,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα άντεχε μια μέρα χωρίς ύπνο ή χωρίς φαγητό;",
     answers: ["Χωρίς ύπνο", "Χωρίς φαγητό", "Κανένα", "Έχει κάνει και τα δύο"],
   },
   {
     id: 88,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ήταν μια βδομάδα χωρίς κινητό ή χωρίς φίλους;",
     answers: ["Χωρίς κινητό", "Χωρίς φίλους", "Κανένα", "Και τα δύο οκ"],
   },
   {
     id: 89,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ζούσε σε δεντρόσπιτο ή πλωτό σπίτι;",
     answers: [
       "Δεντρόσπιτο",
@@ -533,21 +622,25 @@ QUESTIONS.el = [
   },
   {
     id: 90,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα κολλούσε σε μεγάλη πτήση ή μεγάλο road trip;",
     answers: ["Πτήση", "Road trip", "Κανένα", "Αγαπά και τα δύο"],
   },
   {
     id: 91,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα παρατούσε το πρωινό ή το βραδινό;",
     answers: ["Πρωινό", "Βραδινό", "Κανένα", "Καλύτερα το μεσημεριανό"],
   },
   {
     id: 92,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα είχε ιδιωτικό σεφ ή personal trainer;",
     answers: ["Ιδιωτικό σεφ", "Personal trainer", "Και τα δύο", "Κανένα"],
   },
   {
     id: 93,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα μιλούσε μόνο ψιθυριστά ή μόνο φωνάζοντας;",
     answers: [
       "Ψιθυριστά",
@@ -558,11 +651,13 @@ QUESTIONS.el = [
   },
   {
     id: 94,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα είχε τηλεμεταφορά ή ανάγνωση σκέψεων;",
     answers: ["Τηλεμεταφορά", "Ανάγνωση σκέψεων", "Και τα δύο", "Κανένα"],
   },
   {
     id: 95,
+    category: "wouldYouRather",
     question: "Ο/Η {name} θα ήταν ο πιο αστείος ή ο πιο έξυπνος στο δωμάτιο;",
     answers: ["Πιο αστείος", "Πιο έξυπνος", "Και τα δύο", "Κανένα"],
   },
@@ -570,6 +665,7 @@ QUESTIONS.el = [
   // ── Βαθιά & Προσωπικά (96–135) ──
   {
     id: 96,
+    category: "deepPersonal",
     question: "Για τι νιώθει πιο περήφανος/η ο/η {name};",
     answers: [
       "Επιτεύγματα",
@@ -580,16 +676,19 @@ QUESTIONS.el = [
   },
   {
     id: 97,
+    category: "deepPersonal",
     question: "Τι αγχώνει περισσότερο τον/την {name};",
     answers: ["Δουλειά/σχολείο", "Σχέσεις", "Χρήματα", "Το μέλλον"],
   },
   {
     id: 98,
+    category: "deepPersonal",
     question: "Τι κρατά τον/την {name} σε δύσκολες μέρες;",
     answers: ["Φίλοι & οικογένεια", "Μουσική", "Ένας στόχος", "Καθαρό πείσμα"],
   },
   {
     id: 99,
+    category: "deepPersonal",
     question: "Δίπλα σε ποιον νιώθει πιο ασφαλής ο/η {name};",
     answers: [
       "Τον καλύτερο φίλο",
@@ -600,11 +699,13 @@ QUESTIONS.el = [
   },
   {
     id: 100,
+    category: "deepPersonal",
     question: "Ποιος είναι ο μεγαλύτερος φόβος του/της {name};",
     answers: ["Αποτυχία", "Μοναξιά", "Απώλεια αγαπημένων", "Το άγνωστο"],
   },
   {
     id: 101,
+    category: "deepPersonal",
     question: "Ποια είναι η γλώσσα αγάπης του/της {name};",
     answers: [
       "Λόγια επιβεβαίωσης",
@@ -615,6 +716,7 @@ QUESTIONS.el = [
   },
   {
     id: 102,
+    category: "deepPersonal",
     question: "Πώς θέλει ο/η {name} να τον/τη παρηγορούν;",
     answers: [
       "Μια αγκαλιά",
@@ -625,6 +727,7 @@ QUESTIONS.el = [
   },
   {
     id: 103,
+    category: "deepPersonal",
     question: "Πού ελπίζει να βρίσκεται ο/η {name} σε πέντε χρόνια;",
     answers: [
       "Νέα πόλη",
@@ -635,6 +738,7 @@ QUESTIONS.el = [
   },
   {
     id: 104,
+    category: "deepPersonal",
     question: "Πότε ένιωσε ο/η {name} πιο πιεσμένος/η;",
     answers: [
       "Στη δουλειά/σχολείο",
@@ -645,16 +749,19 @@ QUESTIONS.el = [
   },
   {
     id: 105,
+    category: "deepPersonal",
     question: "Ποιον διάσημο θα ήθελε ο/η {name} ως δεύτερο BFF;",
     answers: ["Μουσικό", "Ηθοποιό", "Κωμικό", "Αθλητή"],
   },
   {
     id: 106,
+    category: "deepPersonal",
     question: "Με ποιον στην οικογένεια είναι πιο κοντά ο/η {name};",
     answers: ["Μαμά", "Μπαμπά", "Αδερφό/ή", "Παππού/γιαγιά"],
   },
   {
     id: 107,
+    category: "deepPersonal",
     question: "Τι δεν ξέρουν οι περισσότεροι για τον/την {name};",
     answers: [
       "Κρυφό ταλέντο",
@@ -665,6 +772,7 @@ QUESTIONS.el = [
   },
   {
     id: 108,
+    category: "deepPersonal",
     question: "Τι πιστεύει ο/η {name} ότι γίνεται μετά τον θάνατο;",
     answers: [
       "Τίποτα",
@@ -675,11 +783,13 @@ QUESTIONS.el = [
   },
   {
     id: 109,
+    category: "deepPersonal",
     question: "Θέλει ο/η {name} παιδιά κάποια μέρα;",
     answers: ["Ναι, σίγουρα", "Ίσως", "Όχι, ποτέ", "Δεν έχει αποφασίσει"],
   },
   {
     id: 110,
+    category: "deepPersonal",
     question: "Ποια είναι η πρώτη παιδική ανάμνηση του/της {name};",
     answers: [
       "Οικογενειακό γεγονός",
@@ -690,6 +800,7 @@ QUESTIONS.el = [
   },
   {
     id: 111,
+    category: "deepPersonal",
     question: "Τι κρατά τον/την {name} ξύπνιο/α τη νύχτα;",
     answers: [
       "Υπερσκέψη",
@@ -700,6 +811,7 @@ QUESTIONS.el = [
   },
   {
     id: 112,
+    category: "deepPersonal",
     question: "Ποιο είναι το καλύτερο κομπλιμέντο που πήρε ο/η {name};",
     answers: [
       "Για την προσωπικότητα",
@@ -710,6 +822,7 @@ QUESTIONS.el = [
   },
   {
     id: 113,
+    category: "deepPersonal",
     question: "Ποιοι είναι οι κορυφαίοι στρεσογόνοι παράγοντες του/της {name};",
     answers: [
       "Προθεσμίες",
@@ -720,11 +833,13 @@ QUESTIONS.el = [
   },
   {
     id: 114,
+    category: "deepPersonal",
     question: "Πώς αντιμετωπίζει το στρες ο/η {name};",
     answers: ["Γυμναστική", "Μιλά σε κάποιον", "Βλέπει σειρές", "Κοιμάται"],
   },
   {
     id: 115,
+    category: "deepPersonal",
     question: "Τι θα ήταν #1 στη bucket list του/της {name};",
     answers: [
       "Ταξίδι κάπου ξεχωριστό",
@@ -735,6 +850,7 @@ QUESTIONS.el = [
   },
   {
     id: 116,
+    category: "deepPersonal",
     question: "Πότε ένιωσε ο/η {name} πιο αγαπημένος/η;",
     answers: [
       "Με οικογένεια",
@@ -745,11 +861,13 @@ QUESTIONS.el = [
   },
   {
     id: 117,
+    category: "deepPersonal",
     question: "Πότε εμπνεύστηκε ο/η {name} τελευταία φορά να δημιουργήσει;",
     answers: ["Πρόσφατα", "Πριν καιρό", "Δεν θυμάται", "Δημιουργεί πάντα"],
   },
   {
     id: 118,
+    category: "deepPersonal",
     question: "Έχει βιώσει ο/η {name} τέλος μιας φιλίας;",
     answers: [
       "Ναι, οδυνηρό",
@@ -760,6 +878,7 @@ QUESTIONS.el = [
   },
   {
     id: 119,
+    category: "deepPersonal",
     question:
       "Ποιος είναι ο καλύτερος τρόπος επίλυσης συγκρούσεων κατά τον/την {name};",
     answers: [
@@ -771,6 +890,7 @@ QUESTIONS.el = [
   },
   {
     id: 120,
+    category: "deepPersonal",
     question: "Έχει ο/η {name} υγιή σχέση με τα social media;",
     answers: [
       "Ναι, απόλυτα",
@@ -781,6 +901,7 @@ QUESTIONS.el = [
   },
   {
     id: 121,
+    category: "deepPersonal",
     question: "Τι σημαίνει φιλία για τον/την {name};",
     answers: [
       "Πίστη πάνω απ' όλα",
@@ -791,21 +912,25 @@ QUESTIONS.el = [
   },
   {
     id: 122,
+    category: "deepPersonal",
     question: "Υπάρχει κάποιος που ο/η {name} θέλει να ξανασυνδεθεί;",
     answers: ["Παλιός φίλος", "Μέλος οικογένειας", "Ένας πρώην", "Κανείς"],
   },
   {
     id: 123,
+    category: "deepPersonal",
     question: "Ο/Η {name} έχει ερωτευτεί ποτέ;",
     answers: ["Ναι, βαθιά", "Ίσως", "Όχι ακόμα", "Πολλές φορές"],
   },
   {
     id: 124,
+    category: "deepPersonal",
     question: "Πιστεύει ο/η {name} στον έρωτα με την πρώτη ματιά;",
     answers: ["Ναι", "Όχι", "Ίσως", "Είναι περίπλοκο"],
   },
   {
     id: 125,
+    category: "deepPersonal",
     question: "Τι έμαθε ο/η {name} από την τελευταία σχέση;",
     answers: [
       "Η επικοινωνία είναι κλειδί",
@@ -816,6 +941,7 @@ QUESTIONS.el = [
   },
   {
     id: 126,
+    category: "deepPersonal",
     question: "Τι θα άλλαζε ο/η {name} στον εαυτό του/της;",
     answers: [
       "Περισσότερη αυτοπεποίθηση",
@@ -826,16 +952,19 @@ QUESTIONS.el = [
   },
   {
     id: 127,
+    category: "deepPersonal",
     question: "Ποιον θαυμάζει περισσότερο ο/η {name};",
     answers: ["Γονέα", "Δημόσιο πρόσωπο", "Φίλο", "Τον εαυτό του/της"],
   },
   {
     id: 128,
+    category: "deepPersonal",
     question: "Ποιος έκανε τελευταία τον/την {name} να κλάψει;",
     answers: ["Μέλος οικογένειας", "Φίλος", "Σύντροφος", "Χαρακτήρας ταινίας"],
   },
   {
     id: 129,
+    category: "deepPersonal",
     question: "Έχει μετάνοιες ο/η {name};",
     answers: [
       "Ναι, μερικές",
@@ -846,11 +975,13 @@ QUESTIONS.el = [
   },
   {
     id: 130,
+    category: "deepPersonal",
     question: "Πιστεύει ο/η {name} στις ψυχές-δίδυμες;",
     answers: ["Ναι, απόλυτα", "Όχι", "Θέλει να πιστέψει", "Είναι περίπλοκο"],
   },
   {
     id: 131,
+    category: "deepPersonal",
     question: "Ποιο ήταν το πιο δύσκολο αντίο του/της {name};",
     answers: [
       "Αποχωρισμός από τόπο",
@@ -861,11 +992,13 @@ QUESTIONS.el = [
   },
   {
     id: 132,
+    category: "deepPersonal",
     question: "Ποια ήταν η χειρότερη απόφαση του/της {name};",
     answers: ["Καριέρα/σχολείο", "Σχέση", "Οικονομικό λάθος", "Δεν έχει"],
   },
   {
     id: 133,
+    category: "deepPersonal",
     question: "Πώς φαντάζεται ο/η {name} τον εαυτό σε γεράματα;",
     answers: [
       "Ακόμα περιπετειώδης",
@@ -876,11 +1009,13 @@ QUESTIONS.el = [
   },
   {
     id: 134,
+    category: "deepPersonal",
     question: "Τι θεωρεί ασυγχώρητο ο/η {name};",
     answers: ["Προδοσία", "Ψέματα", "Απιστία", "Σκληρότητα"],
   },
   {
     id: 135,
+    category: "deepPersonal",
     question: "Πιστεύει ο/η {name} στη μονογαμία;",
     answers: ["Ναι, 100%", "Εξαρτάται", "Όχι απαραίτητα", "Δεν το σκέφτηκε"],
   },
@@ -888,6 +1023,7 @@ QUESTIONS.el = [
   // ── Διασκέδαση & Τυχαία (136–170) ──
   {
     id: 136,
+    category: "funRandom",
     question: "Ο/Η {name} είχε ποτέ crush σε χαρακτήρα κινουμένων σχεδίων;",
     answers: [
       "Ναι, σίγουρα",
@@ -898,11 +1034,13 @@ QUESTIONS.el = [
   },
   {
     id: 137,
+    category: "funRandom",
     question: "Τι κατάστημα φαγητού θα άνοιγε ο/η {name};",
     answers: ["Τάκος", "Παγωτό", "Μπέργκερ", "Σμούθι"],
   },
   {
     id: 138,
+    category: "funRandom",
     question: "Τι αναβάλλει αυτή τη στιγμή ο/η {name};",
     answers: [
       "Μια εργασία/project",
@@ -913,11 +1051,13 @@ QUESTIONS.el = [
   },
   {
     id: 139,
+    category: "funRandom",
     question: "Έφτιαχνε κρησφύγετα ο/η {name} ως παιδί;",
     answers: ["Ναι, επικά!", "Μικρά", "Μόνο με κουβέρτες", "Ποτέ"],
   },
   {
     id: 140,
+    category: "funRandom",
     question: "Ο/Η {name} έχει κάνει φάρσα σε κάποιον;",
     answers: [
       "Ναι, πολύ αστεία",
@@ -928,11 +1068,13 @@ QUESTIONS.el = [
   },
   {
     id: 141,
+    category: "funRandom",
     question: "Πιστεύει ο/η {name} στη μαγεία;",
     answers: ["Ναι!", "Λίγο", "Όχι", "Θα ήθελε"],
   },
   {
     id: 142,
+    category: "funRandom",
     question: "Αν ο/η {name} ήταν φάντασμα, πώς θα στοίχειωνε;",
     answers: [
       "Μετακινώντας αντικείμενα",
@@ -943,11 +1085,13 @@ QUESTIONS.el = [
   },
   {
     id: 143,
+    category: "funRandom",
     question: "Τι θα εκτόξευε ο/η {name} από κανόνι;",
     answers: ["Κομφετί", "Γκλίτερ", "Νερομπαλόνια", "Ζαχαρωτά"],
   },
   {
     id: 144,
+    category: "funRandom",
     question: "Ο/Η {name} έχει αγαπημένη οικογενειακή παράδοση;",
     answers: [
       "Γιορτινά γεύματα",
@@ -958,6 +1102,7 @@ QUESTIONS.el = [
   },
   {
     id: 145,
+    category: "funRandom",
     question: "Τι θα υπήρχε στο σπίτι των ονείρων του/της {name};",
     answers: [
       "Τεράστια βιβλιοθήκη",
@@ -968,6 +1113,7 @@ QUESTIONS.el = [
   },
   {
     id: 146,
+    category: "funRandom",
     question: "Ποιο είναι το αγαπημένο αστείο του/της {name};",
     answers: [
       "Ένα λογοπαίγνιο",
@@ -978,6 +1124,7 @@ QUESTIONS.el = [
   },
   {
     id: 147,
+    category: "funRandom",
     question: "Πώς θα ονόμαζε ο/η {name} τον εγκέφαλό του/της;",
     answers: [
       "Κέντρο χάους",
@@ -988,11 +1135,13 @@ QUESTIONS.el = [
   },
   {
     id: 148,
+    category: "funRandom",
     question: "Ο/Η {name} έχει επαναλαμβανόμενα όνειρα;",
     answers: ["Ναι, συχνά", "Μερικές φορές", "Σπάνια", "Ποτέ"],
   },
   {
     id: 149,
+    category: "funRandom",
     question: "Ποιο είναι το πιο πικάντικο φαγητό που έφαγε ο/η {name};",
     answers: [
       "Πολύ καυτερά φτερούγια",
@@ -1003,11 +1152,13 @@ QUESTIONS.el = [
   },
   {
     id: 150,
+    category: "funRandom",
     question: "Αν ο/η {name} μπορούσε να τρώει μόνο ένα πράγμα, τι θα ήταν;",
     answers: ["Πίτσα", "Μακαρόνια", "Ρύζι", "Τάκος"],
   },
   {
     id: 151,
+    category: "funRandom",
     question: "Ποιο είναι το πιο περίεργο αντικείμενο του/της {name};",
     answers: [
       "Συλλεκτικό αντικείμενο",
@@ -1018,6 +1169,7 @@ QUESTIONS.el = [
   },
   {
     id: 152,
+    category: "funRandom",
     question: "Ο/Η {name} πήγε ποτέ σε μάντισσα;",
     answers: [
       "Ναι, και πίστεψε",
@@ -1028,6 +1180,7 @@ QUESTIONS.el = [
   },
   {
     id: 153,
+    category: "funRandom",
     question: "Ποιο ήταν το πιο αμφιλεγόμενο κούρεμα του/της {name};",
     answers: [
       "Κακή φράντζα",
@@ -1038,11 +1191,13 @@ QUESTIONS.el = [
   },
   {
     id: 154,
+    category: "funRandom",
     question: "Τι ονειρεύτηκε ο/η {name} χθες βράδυ;",
     answers: ["Δεν θυμάται", "Κάτι περίεργο", "Κάτι ωραίο", "Εφιάλτη"],
   },
   {
     id: 155,
+    category: "funRandom",
     question: "Ο/Η {name} γέλασε ποτέ τόσο πολύ που σχεδόν λιποθύμησε;",
     answers: [
       "Ναι, πολλές φορές",
@@ -1053,6 +1208,7 @@ QUESTIONS.el = [
   },
   {
     id: 156,
+    category: "funRandom",
     question: "Ποιο βιβλίο άλλαξε περισσότερο τον/την {name};",
     answers: [
       "Ένα μυθιστόρημα",
@@ -1063,11 +1219,13 @@ QUESTIONS.el = [
   },
   {
     id: 157,
+    category: "funRandom",
     question: "Τι θα έκανε ο/η {name} αν κέρδιζε 10.000€;",
     answers: ["Θα τα αποταμίευε", "Θα ταξίδευε", "Θα ψώνιζε", "Θα τα επένδυε"],
   },
   {
     id: 158,
+    category: "funRandom",
     question: "Ποιο είναι το πιο τυχερό πράγμα που συνέβη στον/στην {name};",
     answers: [
       "Κέρδισε κάτι",
@@ -1078,11 +1236,13 @@ QUESTIONS.el = [
   },
   {
     id: 159,
+    category: "funRandom",
     question: "Ποια δουλειά σπιτιού μισεί ο/η {name};",
     answers: ["Πιάτα", "Πλυντήριο", "Σκούπισμα", "Σκουπίδια"],
   },
   {
     id: 160,
+    category: "funRandom",
     question: "Ποια θεωρία συνωμοσίας πιστεύει ο/η {name};",
     answers: [
       "Υπάρχουν εξωγήινοι",
@@ -1093,6 +1253,7 @@ QUESTIONS.el = [
   },
   {
     id: 161,
+    category: "funRandom",
     question: "Αν ο/η {name} είχε 3 ευχές, ποια θα ήταν η πρώτη;",
     answers: [
       "Απεριόριστα χρήματα",
@@ -1103,11 +1264,13 @@ QUESTIONS.el = [
   },
   {
     id: 162,
+    category: "funRandom",
     question: "Πιστεύει ο/η {name} στους εξωγήινους;",
     answers: ["Ναι, 100%", "Πιθανώς", "Σε καμία περίπτωση", "Αναποφάσιστος/η"],
   },
   {
     id: 163,
+    category: "funRandom",
     question: "Τι θα άλλαζε πρώτα ο/η {name} αν ήταν Πρόεδρος;",
     answers: [
       "Εκπαιδευτικό σύστημα",
@@ -1118,11 +1281,13 @@ QUESTIONS.el = [
   },
   {
     id: 164,
+    category: "funRandom",
     question: "Ποια ξένη γλώσσα θα ήθελε να κατέχει ο/η {name};",
     answers: ["Γαλλικά", "Ιαπωνικά", "Ισπανικά", "Κορεάτικα"],
   },
   {
     id: 165,
+    category: "funRandom",
     question: "Ποιο είναι το σχέδιο του/της {name} σε αποκάλυψη ζόμπι;",
     answers: [
       "Κρυφτείτε",
@@ -1133,11 +1298,13 @@ QUESTIONS.el = [
   },
   {
     id: 166,
+    category: "funRandom",
     question: "Αν ο/η {name} ήταν ζώο, τι θα ήταν;",
     answers: ["Σκύλος", "Γάτα", "Πουλί", "Αρκούδα"],
   },
   {
     id: 167,
+    category: "funRandom",
     question: "Πώς θα λεγόταν το alter ego του/της {name};",
     answers: [
       "Κάτι cool",
@@ -1148,16 +1315,19 @@ QUESTIONS.el = [
   },
   {
     id: 168,
+    category: "funRandom",
     question: "Ποιο είναι το νο.1 τραγούδι karaoke του/της {name};",
     answers: ["Pop hit", "Rock κλασικό", "Μπαλάντα", "Δεν τραγουδάει karaoke"],
   },
   {
     id: 169,
+    category: "funRandom",
     question: "Ποιο είναι το αγαπημένο τυχαίο trivia του/της {name};",
     answers: ["Για ζώα", "Ιστορικά", "Επιστημονικά", "Ποπ κουλτούρα"],
   },
   {
     id: 170,
+    category: "funRandom",
     question: "Ποια ήταν η πρώτη συναυλία του/της {name};",
     answers: [
       "Pop star",
@@ -1170,16 +1340,19 @@ QUESTIONS.el = [
   // ── Εμπειρίες & Όνειρα (171–200) ──
   {
     id: 171,
+    category: "experiencesDreams",
     question: "Ποιος είναι ο ονειρεμένος προορισμός του/της {name};",
     answers: ["Ιαπωνία", "Μαλδίβες", "Νέα Υόρκη", "Παρίσι"],
   },
   {
     id: 172,
+    category: "experiencesDreams",
     question: "Τι καριέρα θα διάλεγε ο/η {name} σε άλλη ζωή;",
     answers: ["Σεφ", "Αστροναύτης", "Καλλιτέχνης", "Αθλητής"],
   },
   {
     id: 173,
+    category: "experiencesDreams",
     question: "Ποιον διάσημο θα ήθελε να γνωρίσει ο/η {name};",
     answers: [
       "Μουσικό",
@@ -1190,21 +1363,25 @@ QUESTIONS.el = [
   },
   {
     id: 174,
+    category: "experiencesDreams",
     question: "Τι εκτιμά ο/η {name} περισσότερο σε μια φιλία;",
     answers: ["Πίστη", "Χιούμορ", "Ειλικρίνεια", "Υποστήριξη"],
   },
   {
     id: 175,
+    category: "experiencesDreams",
     question: "Ποιο είναι το πνευματικό ζώο του/της {name};",
     answers: ["Λύκος", "Αετός", "Γάτα", "Αρκούδα"],
   },
   {
     id: 176,
+    category: "experiencesDreams",
     question: "Ποιο είδος karaoke αγαπά ο/η {name};",
     answers: ["Κλασικά 80s", "Pop hits", "Rock ύμνοι", "Δεν τραγουδάω!"],
   },
   {
     id: 177,
+    category: "experiencesDreams",
     question: "Ποιο ήταν το πιο γλυκό πράγμα που έκαναν για τον/την {name};",
     answers: [
       "Πάρτι-έκπληξη",
@@ -1215,6 +1392,7 @@ QUESTIONS.el = [
   },
   {
     id: 178,
+    category: "experiencesDreams",
     question: "Ποιος θα ήταν ο τίτλος της αυτοβιογραφίας του/της {name};",
     answers: [
       "'Περίμενε το απροσδόκητο'",
@@ -1225,6 +1403,7 @@ QUESTIONS.el = [
   },
   {
     id: 179,
+    category: "experiencesDreams",
     question:
       "Ποιο είναι το 'Roman Empire' του/της {name} — αυτό που σκέφτεται συνέχεια;",
     answers: [
@@ -1236,6 +1415,7 @@ QUESTIONS.el = [
   },
   {
     id: 180,
+    category: "experiencesDreams",
     question: "Ποια είναι η αγαπημένη ταξιδιωτική ιστορία του/της {name};",
     answers: [
       "Τρελή περιπέτεια",
@@ -1246,6 +1426,7 @@ QUESTIONS.el = [
   },
   {
     id: 181,
+    category: "experiencesDreams",
     question: "Πού φαντάζεται ο/η {name} τον εαυτό σε ένα χρόνο;",
     answers: [
       "Ίδιο μέρος, καλύτερα",
@@ -1256,6 +1437,7 @@ QUESTIONS.el = [
   },
   {
     id: 182,
+    category: "experiencesDreams",
     question: "Ποια είναι η δουλειά ονείρων του/της {name};",
     answers: [
       "Κάτι δημιουργικό",
@@ -1266,6 +1448,7 @@ QUESTIONS.el = [
   },
   {
     id: 183,
+    category: "experiencesDreams",
     question: "Αν ο/η {name} είχε υπερδύναμη, τι θα ήταν;",
     answers: [
       "Τηλεμεταφορά",
@@ -1276,6 +1459,7 @@ QUESTIONS.el = [
   },
   {
     id: 184,
+    category: "experiencesDreams",
     question: "Τι σειρά βάζει ο/η {name} για να χαλαρώσει;",
     answers: [
       "Sitcom",
@@ -1286,6 +1470,7 @@ QUESTIONS.el = [
   },
   {
     id: 185,
+    category: "experiencesDreams",
     question: "Αν ο/η {name} μπορούσε να ταξιδέψει στο χρόνο, πού θα πήγαινε;",
     answers: [
       "Αρχαία Αίγυπτο",
@@ -1296,16 +1481,19 @@ QUESTIONS.el = [
   },
   {
     id: 186,
+    category: "experiencesDreams",
     question: "Ο/Η {name} χάθηκε ποτέ τελείως;",
     answers: ["Ναι, ξεκαρδιστικά", "Ναι, τρομακτικό", "Σχεδόν", "Ποτέ"],
   },
   {
     id: 187,
+    category: "experiencesDreams",
     question: "Ποιο θεωρεί ο/η {name} το καλύτερο χαρακτηριστικό τους;",
     answers: ["Καλοσύνη", "Χιούμορ", "Εξυπνάδα", "Αποφασιστικότητα"],
   },
   {
     id: 188,
+    category: "experiencesDreams",
     question: "Ποιος είναι ο ορισμός της επιτυχίας για τον/την {name};",
     answers: [
       "Ευτυχία",
@@ -1316,6 +1504,7 @@ QUESTIONS.el = [
   },
   {
     id: 189,
+    category: "experiencesDreams",
     question: "Ποια ταινία βλέπει πιο συχνά ο/η {name};",
     answers: [
       "Comfort κλασικό",
@@ -1326,6 +1515,7 @@ QUESTIONS.el = [
   },
   {
     id: 190,
+    category: "experiencesDreams",
     question: "Ο/Η {name} έχει κρυφά ταλέντα;",
     answers: [
       "Ναι, εκπληκτικό",
@@ -1336,6 +1526,7 @@ QUESTIONS.el = [
   },
   {
     id: 191,
+    category: "experiencesDreams",
     question: "Ποιο είναι το καλύτερο ταξίδι του/της {name};",
     answers: [
       "Παραθαλάσσιες διακοπές",
@@ -1346,11 +1537,13 @@ QUESTIONS.el = [
   },
   {
     id: 192,
+    category: "experiencesDreams",
     question: "Ποια ταινία είδε τελευταία ο/η {name} στο σινεμά;",
     answers: ["Δράσης", "Κωμωδία", "Υπερηρώων", "Δράμα"],
   },
   {
     id: 193,
+    category: "experiencesDreams",
     question: "Ποιο μουσείο άρεσε περισσότερο στον/στην {name};",
     answers: [
       "Μουσείο τέχνης",
@@ -1361,6 +1554,7 @@ QUESTIONS.el = [
   },
   {
     id: 194,
+    category: "experiencesDreams",
     question: "Πότε έκανε ο/η {name} κάτι αυθόρμητο;",
     answers: [
       "Πολύ πρόσφατα",
@@ -1371,11 +1565,13 @@ QUESTIONS.el = [
   },
   {
     id: 195,
+    category: "experiencesDreams",
     question: "Ποιο ήταν το μεγαλύτερο τόλμημα του/της {name};",
     answers: ["Μετακόμιση", "Ξεκίνημα κάτι νέου", "Μια σχέση", "Παράτημα κάτι"],
   },
   {
     id: 196,
+    category: "experiencesDreams",
     question: "Ποιο ήταν το χειρότερο ραντεβού του/της {name};",
     answers: [
       "Αμήχανη σιωπή",
@@ -1386,22 +1582,26 @@ QUESTIONS.el = [
   },
   {
     id: 197,
+    category: "experiencesDreams",
     question:
       "Αν ένα τραγούδι έπαιζε κάθε φορά που μπαίνει ο/η {name}, ποιο θα ήταν;",
     answers: ["Κάτι ενεργητικό", "Κάτι cool", "Κάτι αστείο", "Κάτι δραματικό"],
   },
   {
     id: 198,
+    category: "experiencesDreams",
     question: "Ποια δεκαετία είχε την καλύτερη μόδα κατά τον/την {name};",
     answers: ["Τα '70s", "Τα '80s", "Τα '90s", "Τα 2000s"],
   },
   {
     id: 199,
+    category: "experiencesDreams",
     question: "Ο/Η {name} πήγε ποτέ σε καλοκαιρινή κατασκήνωση;",
     answers: ["Ναι, λάτρεψε", "Ναι, μίσησε", "Όχι, αλλά θέλει", "Όχι, ποτέ"],
   },
   {
     id: 200,
+    category: "experiencesDreams",
     question: "Ποια απρόσμενη ταινία κάνει τον/την {name} να κλάψει;",
     answers: [
       "Κινούμενα σχέδια",
@@ -1410,15 +1610,12 @@ QUESTIONS.el = [
       "Δεν κλαίει ποτέ",
     ],
   },
-];
 
-/**
- * Hero-Exclusive «Βαθιές & Πικάντικες» Ερωτήσεις (201-220)
- * Διαθέσιμες μόνο όταν τουλάχιστον ένας παίκτης στη συνεδρία είναι συνδρομητής Hero.
- */
-QUESTIONS.el_hero = [
+
+  // ── Deep & Spicy / Hero Exclusive (201–220) ──
   {
     id: 201,
+    category: "deepSpicy",
     question: "Ποιο είναι το πιο ντροπιαστικό κρυφό ταλέντο του/της {name};",
     answers: [
       "Τραγούδι στο ντους",
@@ -1429,6 +1626,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 202,
+    category: "deepSpicy",
     question: "Τι θα έκανε ο/η {name} πρώτα με ένα εκατομμύριο;",
     answers: [
       "Ταξίδι στον κόσμο",
@@ -1439,6 +1637,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 203,
+    category: "deepSpicy",
     question: "Ποια είναι η μεγαλύτερη ένοχη απόλαυση του/της {name};",
     answers: [
       "Reality TV",
@@ -1449,6 +1648,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 204,
+    category: "deepSpicy",
     question: "Αν ο/η {name} μπορούσε να ανταλλάξει ζωή με διασημότητα;",
     answers: [
       "Διάσημος ηθοποιός",
@@ -1459,6 +1659,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 205,
+    category: "deepSpicy",
     question: "Τι θα έπαιρνε ο/η {name} σε ένα ερημικό νησί;",
     answers: [
       "Τηλέφωνο με wifi",
@@ -1469,11 +1670,13 @@ QUESTIONS.el_hero = [
   },
   {
     id: 206,
+    category: "deepSpicy",
     question: "Ποιο είναι ο πιο παράλογος φόβος του/της {name};",
     answers: ["Κλόουν", "Σκοτάδι", "Πεταλούδες", "Βαθιά νερά"],
   },
   {
     id: 207,
+    category: "deepSpicy",
     question: "Πώς θα επιβίωνε ο/η {name} σε αποκάλυψη ζόμπι;",
     answers: [
       "Κρύψιμο και αναμονή",
@@ -1484,6 +1687,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 208,
+    category: "deepSpicy",
     question: "Ποιο είναι το πιο ανόητο πράγμα που θα έκλαιγε ο/η {name};",
     answers: [
       "Χαμένο φαγητό",
@@ -1494,6 +1698,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 209,
+    category: "deepSpicy",
     question: "Ποιο είναι το αγαπημένο τραγούδι καραόκε του/της {name};",
     answers: [
       "Bohemian Rhapsody",
@@ -1504,6 +1709,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 210,
+    category: "deepSpicy",
     question: "Αν ο/η {name} μπορούσε να ταξιδέψει στον χρόνο, πού θα πήγαινε;",
     answers: [
       "Αρχαία Ρώμη",
@@ -1514,6 +1720,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 211,
+    category: "deepSpicy",
     question: "Ποιο είναι το πιο ρομαντικό πράγμα που θα έκανε ο/η {name};",
     answers: [
       "Ερωτικό γράμμα",
@@ -1524,6 +1731,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 212,
+    category: "deepSpicy",
     question: "Ποιος θα ήταν ο τίτλος αυτοβιογραφίας του/της {name};",
     answers: [
       "'Ωχ, το Ξανάκανα'",
@@ -1534,6 +1742,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 213,
+    category: "deepSpicy",
     question: "Ποια ήταν η χειρότερη μαγειρική καταστροφή του/της {name};",
     answers: [
       "Έκαψε τα πάντα",
@@ -1544,6 +1753,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 214,
+    category: "deepSpicy",
     question: "Ποιο είναι το πιο περίεργο πράγμα στο κινητό του/της {name};",
     answers: [
       "1000 memes",
@@ -1554,6 +1764,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 215,
+    category: "deepSpicy",
     question: "Πώς φέρεται ο/η {name} όταν του/της αρέσει κάποιος;",
     answers: [
       "Τελείως προφανής",
@@ -1564,6 +1775,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 216,
+    category: "deepSpicy",
     question: "Τι δεν θα έκανε ο/η {name} ούτε για ένα δισεκατομμύριο;",
     answers: [
       "Φάει ένα έντομο",
@@ -1574,6 +1786,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 217,
+    category: "deepSpicy",
     question: "Ποια θεωρία συνωμοσίας θα πίστευε ο/η {name};",
     answers: [
       "Επίπεδη Γη",
@@ -1584,6 +1797,7 @@ QUESTIONS.el_hero = [
   },
   {
     id: 218,
+    category: "deepSpicy",
     question: "Ποια είναι η πιο αμφιλεγόμενη γνώμη του/της {name};",
     answers: [
       "Ανανάς στην πίτσα είναι τέλειος",
@@ -1594,11 +1808,13 @@ QUESTIONS.el_hero = [
   },
   {
     id: 219,
+    category: "deepSpicy",
     question: "Ποιο είναι το πνευματικό ζώο του/της {name};",
     answers: ["Βραδύποδας", "Γκόλντεν ριτρίβερ", "Γάτα", "Δελφίνι"],
   },
   {
     id: 220,
+    category: "deepSpicy",
     question: "Για τι θα ακυρωνόταν ο/η {name};",
     answers: [
       "Κακές απόψεις για φαγητό",

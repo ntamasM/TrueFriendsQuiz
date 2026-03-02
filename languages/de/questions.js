@@ -7,151 +7,181 @@ QUESTIONS.de = [
   // ── Favoriten (1–30) ──
   {
     id: 1,
+    category: "favorites",
     question: "Was ist die Lieblingsfarbe von {name}?",
     answers: ["Rot", "Blau", "Grün", "Lila"],
   },
   {
     id: 2,
+    category: "favorites",
     question: "Was ist das Lieblingsessen von {name}?",
     answers: ["Pizza", "Sushi", "Burger", "Pasta"],
   },
   {
     id: 3,
+    category: "favorites",
     question: "Was ist die Lieblingsjahreszeit von {name}?",
     answers: ["Frühling", "Sommer", "Herbst", "Winter"],
   },
   {
     id: 4,
+    category: "favorites",
     question: "Was ist das Lieblingsfilm-Genre von {name}?",
     answers: ["Action", "Komödie", "Horror", "Romantik"],
   },
   {
     id: 5,
+    category: "favorites",
     question: "Was ist das Lieblingstier von {name}?",
     answers: ["Hund", "Katze", "Pferd", "Delfin"],
   },
   {
     id: 6,
+    category: "favorites",
     question: "Was ist das Lieblingsmusik-Genre von {name}?",
     answers: ["Pop", "Rock", "Hip-Hop", "Klassik"],
   },
   {
     id: 7,
+    category: "favorites",
     question: "Was ist das Lieblingsgetränk von {name}?",
     answers: ["Kaffee", "Tee", "Saft", "Limonade"],
   },
   {
     id: 8,
+    category: "favorites",
     question: "Was ist der Lieblingstag von {name}?",
     answers: ["Montag", "Freitag", "Samstag", "Sonntag"],
   },
   {
     id: 9,
+    category: "favorites",
     question: "Was ist das Lieblingshobby von {name}?",
     answers: ["Lesen", "Gaming", "Sport", "Kochen"],
   },
   {
     id: 10,
+    category: "favorites",
     question: "Was ist die Lieblingseissorte von {name}?",
     answers: ["Schokolade", "Vanille", "Erdbeere", "Pistazie"],
   },
   {
     id: 11,
+    category: "favorites",
     question: "Was ist das Lieblingsbrettspiel von {name}?",
     answers: ["Monopoly", "Scrabble", "Schach", "Uno"],
   },
   {
     id: 12,
+    category: "favorites",
     question: "Was ist das Lieblingsdessert von {name}?",
     answers: ["Kuchen", "Eis", "Brownies", "Kekse"],
   },
   {
     id: 13,
+    category: "favorites",
     question: "Was ist der Lieblingsfeiertag von {name}?",
     answers: ["Weihnachten", "Halloween", "Silvester", "Valentinstag"],
   },
   {
     id: 14,
+    category: "favorites",
     question: "Was ist die liebste Social-Media-Plattform von {name}?",
     answers: ["Instagram", "TikTok", "Twitter/X", "YouTube"],
   },
   {
     id: 15,
+    category: "favorites",
     question: "Was ist das Lieblings-Eis-Topping von {name}?",
     answers: ["Streusel", "Schokosoße", "Sahne", "Nüsse"],
   },
   {
     id: 16,
+    category: "favorites",
     question: "Welches Wetter mag {name} am liebsten?",
     answers: ["Sonnig", "Regnerisch", "Schnee", "Bewölkt"],
   },
   {
     id: 17,
+    category: "favorites",
     question: "Was ist das Lieblingsserien-Genre von {name}?",
     answers: ["Drama", "Komödie", "Reality-TV", "Sci-Fi"],
   },
   {
     id: 18,
+    category: "favorites",
     question: "Was war der Lieblingssnack von {name} als Kind?",
     answers: ["Chips", "Fruchtgummis", "Kekse", "Müsli"],
   },
   {
     id: 19,
+    category: "favorites",
     question: "Was ist die Lieblingssoße von {name}?",
     answers: ["Ketchup", "Senf", "Mayo", "Scharfe Soße"],
   },
   {
     id: 20,
+    category: "favorites",
     question: "Was ist die Lieblingsblume oder -pflanze von {name}?",
     answers: ["Rose", "Sonnenblume", "Kaktus", "Lavendel"],
   },
   {
     id: 21,
+    category: "favorites",
     question: "Was ist das liebste Transportmittel von {name}?",
     answers: ["Auto", "Fahrrad", "Zug", "Zu Fuß"],
   },
   {
     id: 22,
+    category: "favorites",
     question: "Was ist der Lieblingspizzabelag von {name}?",
     answers: ["Salami", "Pilze", "Ananas", "Extra Käse"],
   },
   {
     id: 23,
+    category: "favorites",
     question: "Was ist das Lieblings-Wohlfühlessen von {name}?",
     answers: ["Käsespätzle", "Suppe", "Pommes", "Schokolade"],
   },
   {
     id: 24,
+    category: "favorites",
     question: "Was war das Lieblingsfach von {name} in der Schule?",
     answers: ["Mathe", "Naturwissenschaften", "Geschichte", "Kunst"],
   },
   {
     id: 25,
+    category: "favorites",
     question: "Was ist der Lieblingsschuh von {name}?",
     answers: ["Sneaker", "Stiefel", "Sandalen", "Absatzschuhe"],
   },
   {
     id: 26,
+    category: "favorites",
     question: "Was ist das Lieblings-Podcast-Genre von {name}?",
     answers: ["True Crime", "Komödie", "Selbsthilfe", "Nachrichten"],
   },
   {
     id: 27,
+    category: "favorites",
     question: "Was ist das Lieblingsfrühstück von {name}?",
     answers: ["Pfannkuchen", "Eier", "Müsli", "Toast"],
   },
   {
     id: 28,
+    category: "favorites",
     question: "Was ist die Lieblings-Fast-Food-Kette von {name}?",
     answers: ["McDonald's", "KFC", "Subway", "Burger King"],
   },
   {
     id: 29,
+    category: "favorites",
     question: "Was ist der meistbenutzte Emoji von {name}?",
     answers: ["😂", "❤️", "😭", "🔥"],
   },
   {
     id: 30,
+    category: "favorites",
     question: "Welches Halloween-Kostüm-Thema bevorzugt {name}?",
     answers: ["Gruselig", "Lustig", "Popkultur", "Klassisch"],
   },
@@ -159,6 +189,7 @@ QUESTIONS.de = [
   // ── Persönlichkeit & Gewohnheiten (31–65) ──
   {
     id: 31,
+    category: "personality",
     question: "Was würde {name} mit einem Lottogewinn machen?",
     answers: [
       "Die Welt bereisen",
@@ -169,41 +200,49 @@ QUESTIONS.de = [
   },
   {
     id: 32,
+    category: "personality",
     question: "Wovor hat {name} am meisten Angst?",
     answers: ["Spinnen", "Höhe", "Öffentlich reden", "Dunkelheit"],
   },
   {
     id: 33,
+    category: "personality",
     question: "Welche Superkraft würde {name} wählen?",
     answers: ["Fliegen", "Unsichtbarkeit", "Zeitreisen", "Superstärke"],
   },
   {
     id: 34,
+    category: "personality",
     question: "Wie reagiert {name} bei Stress?",
     answers: ["Isst Snacks", "Wird still", "Redet viel", "Macht Sport"],
   },
   {
     id: 35,
+    category: "personality",
     question: "Was ist das versteckte Talent von {name}?",
     answers: ["Singen", "Tanzen", "Zeichnen", "Kochen"],
   },
   {
     id: 36,
+    category: "personality",
     question: "Was macht {name} morgens als Erstes?",
     answers: ["Handy checken", "Kaffee machen", "Duschen", "Im Bett bleiben"],
   },
   {
     id: 37,
+    category: "personality",
     question: "Was würde {name} auf eine einsame Insel mitnehmen?",
     answers: ["Ein Buch", "Musik", "Einen Freund", "Survival-Kit"],
   },
   {
     id: 38,
+    category: "personality",
     question: "Wie würde sich {name} in einem Wort beschreiben?",
     answers: ["Lustig", "Fürsorglich", "Abenteuerlich", "Entspannt"],
   },
   {
     id: 39,
+    category: "personality",
     question: "Was würde {name} an einem perfekten freien Tag machen?",
     answers: [
       "Den ganzen Tag schlafen",
@@ -214,17 +253,20 @@ QUESTIONS.de = [
   },
   {
     id: 40,
+    category: "personality",
     question: "Was ist die schlechteste Angewohnheit von {name}?",
     answers: ["Zu spät kommen", "Aufschieben", "Überdenken", "Zu viel naschen"],
   },
   {
     id: 41,
+    category: "personality",
     question:
       "Wie sehr ändert sich die Persönlichkeit von {name} je nach Umgebung?",
     answers: ["Sehr", "Ein wenig", "Gar nicht", "Kommt auf die Gruppe an"],
   },
   {
     id: 42,
+    category: "personality",
     question: "Wie definiert {name} das perfekte Wochenende?",
     answers: [
       "Zu Hause entspannen",
@@ -235,16 +277,19 @@ QUESTIONS.de = [
   },
   {
     id: 43,
+    category: "personality",
     question: "Was ist laut {name} die nervigste Eigenschaft?",
     answers: ["Unehrlichkeit", "Arroganz", "Unzuverlässigkeit", "Negativität"],
   },
   {
     id: 44,
+    category: "personality",
     question: "Was ist die heimliche Lieblingssendung von {name}?",
     answers: ["Reality-TV", "Liebeskomödien", "Zeichentrick", "Telenovelas"],
   },
   {
     id: 45,
+    category: "personality",
     question: "Was macht {name}, wenn niemand zuschaut?",
     answers: [
       "Laut singen",
@@ -255,6 +300,7 @@ QUESTIONS.de = [
   },
   {
     id: 46,
+    category: "personality",
     question: "Wie geht {name} mit peinlicher Stille um?",
     answers: [
       "Macht einen Witz",
@@ -265,16 +311,19 @@ QUESTIONS.de = [
   },
   {
     id: 47,
+    category: "personality",
     question: "Was für ein Schüler war {name}?",
     answers: ["Klassenclown", "Streber", "Beliebt", "Der/die Stille"],
   },
   {
     id: 48,
+    category: "personality",
     question: "Wie isst {name} Pizza?",
     answers: ["Gefaltet", "Mit Messer & Gabel", "Rand zuerst", "Ganz normal"],
   },
   {
     id: 49,
+    category: "personality",
     question: "Wann geht {name} normalerweise ins Bett?",
     answers: [
       "Vor 22 Uhr",
@@ -285,6 +334,7 @@ QUESTIONS.de = [
   },
   {
     id: 50,
+    category: "personality",
     question: "Wie voll ist der Handyakku von {name} normalerweise?",
     answers: [
       "Fast leer",
@@ -295,6 +345,7 @@ QUESTIONS.de = [
   },
   {
     id: 51,
+    category: "personality",
     question: "Wie verhält sich {name} auf einer Party?",
     answers: [
       "Mittelpunkt der Party",
@@ -305,16 +356,19 @@ QUESTIONS.de = [
   },
   {
     id: 52,
+    category: "personality",
     question: "Wofür gibt {name} zu viel Geld aus?",
     answers: ["Essen", "Kleidung", "Technik", "Unterhaltung"],
   },
   {
     id: 53,
+    category: "personality",
     question: "Welcher Emoji repräsentiert {name} am besten?",
     answers: ["😂", "😎", "🤔", "❤️"],
   },
   {
     id: 54,
+    category: "personality",
     question: "Ist {name} ein Morgenmensch oder eine Nachteule?",
     answers: [
       "Morgenmensch",
@@ -325,6 +379,7 @@ QUESTIONS.de = [
   },
   {
     id: 55,
+    category: "personality",
     question: "Wie leichtgläubig ist {name}?",
     answers: [
       "Sehr leichtgläubig",
@@ -335,6 +390,7 @@ QUESTIONS.de = [
   },
   {
     id: 56,
+    category: "personality",
     question: "Wie wettbewerbsfähig ist {name}?",
     answers: [
       "Extrem",
@@ -345,6 +401,7 @@ QUESTIONS.de = [
   },
   {
     id: 57,
+    category: "personality",
     question: "Ist {name} introvertiert oder extrovertiert?",
     answers: [
       "Introvertiert",
@@ -355,6 +412,7 @@ QUESTIONS.de = [
   },
   {
     id: 58,
+    category: "personality",
     question: "Erholt sich {name} lieber allein oder mit anderen?",
     answers: [
       "Allein",
@@ -365,6 +423,7 @@ QUESTIONS.de = [
   },
   {
     id: 59,
+    category: "personality",
     question: "Folgt {name} eher dem Herzen oder dem Verstand?",
     answers: [
       "Herz",
@@ -375,16 +434,19 @@ QUESTIONS.de = [
   },
   {
     id: 60,
+    category: "personality",
     question: "Welches Muster würde {name} für immer tragen?",
     answers: ["Streifen", "Kariert", "Blumen", "Einfarbig"],
   },
   {
     id: 61,
+    category: "personality",
     question: "Welche schlechte Angewohnheit versucht {name} abzulegen?",
     answers: ["Handysucht", "Aufschieben", "Zu spät ins Bett", "Junkfood"],
   },
   {
     id: 62,
+    category: "personality",
     question: "Fühlt sich {name} jung im Herzen oder als alte Seele?",
     answers: [
       "Jung im Herzen",
@@ -395,6 +457,7 @@ QUESTIONS.de = [
   },
   {
     id: 63,
+    category: "personality",
     question: "Was bedeutet der Name von {name} für sie/ihn?",
     answers: [
       "Familientradition",
@@ -405,6 +468,7 @@ QUESTIONS.de = [
   },
   {
     id: 64,
+    category: "personality",
     question: "Glaubt {name} daran, einen besten Freund zu haben?",
     answers: [
       "Ja, einen BFF",
@@ -415,6 +479,7 @@ QUESTIONS.de = [
   },
   {
     id: 65,
+    category: "personality",
     question:
       "Welchen Teil ihres/seines Sternzeichens findet {name} am passendsten?",
     answers: [
@@ -428,21 +493,25 @@ QUESTIONS.de = [
   // ── Würdest du lieber / Vorlieben (66–95) ──
   {
     id: 66,
+    category: "wouldYouRather",
     question: "Wäre {name} lieber berühmt oder reich?",
     answers: ["Berühmt", "Reich", "Beides", "Keins von beidem"],
   },
   {
     id: 67,
+    category: "wouldYouRather",
     question: "Würde {name} lieber in den Bergen oder am Strand leben?",
     answers: ["Berge", "Strand", "Stadt", "Auf dem Land"],
   },
   {
     id: 68,
+    category: "wouldYouRather",
     question: "Würde {name} lieber Social Media oder TV für immer aufgeben?",
     answers: ["Social Media", "TV", "Keins von beiden", "Beides wäre ok"],
   },
   {
     id: 69,
+    category: "wouldYouRather",
     question: "Würde {name} lieber in die Vergangenheit oder Zukunft reisen?",
     answers: [
       "Vergangenheit",
@@ -453,11 +522,13 @@ QUESTIONS.de = [
   },
   {
     id: 70,
+    category: "wouldYouRather",
     question: "Hätte {name} lieber eine Rückspul- oder Pausetaste im Leben?",
     answers: ["Rückspulen", "Pause", "Vorspulen", "Nichts davon"],
   },
   {
     id: 71,
+    category: "wouldYouRather",
     question:
       "Wäre {name} lieber Top-Experte in einer Sache oder ziemlich gut in vielen?",
     answers: [
@@ -469,48 +540,57 @@ QUESTIONS.de = [
   },
   {
     id: 72,
+    category: "wouldYouRather",
     question: "Bestellt {name} lieber oder geht essen?",
     answers: ["Bestellen", "Essen gehen", "Selber kochen", "Je nach Stimmung"],
   },
   {
     id: 73,
+    category: "wouldYouRather",
     question: "Hätte {name} lieber einen Hund oder eine Katze?",
     answers: ["Hund", "Katze", "Beides", "Keins"],
   },
   {
     id: 74,
+    category: "wouldYouRather",
     question: "Entspannt {name} lieber am Pool oder erlebt Abenteuer?",
     answers: ["Am Pool", "Abenteuer", "Etwas von beidem", "Zu Hause bleiben"],
   },
   {
     id: 75,
+    category: "wouldYouRather",
     question: "Könnte {name} lieber fliegen oder unsichtbar sein?",
     answers: ["Fliegen", "Unsichtbar", "Beides", "Keins"],
   },
   {
     id: 76,
+    category: "wouldYouRather",
     question:
       "Würde {name} lieber in einer anderen Zeit oder einem anderen Land leben?",
     answers: ["Andere Zeit", "Anderes Land", "Hier bleiben", "Beides"],
   },
   {
     id: 77,
+    category: "wouldYouRather",
     question: "Würde {name} lieber nie Internet oder nie TV nutzen?",
     answers: ["Kein Internet", "Kein TV", "Kann keins aufgeben", "Beides ok"],
   },
   {
     id: 78,
+    category: "wouldYouRather",
     question: "Hätte {name} lieber unendlich Geld oder unendlich Zeit?",
     answers: ["Unendlich Geld", "Unendlich Zeit", "Beides", "Keins"],
   },
   {
     id: 79,
+    category: "wouldYouRather",
     question:
       "Würde {name} lieber die Zukunft kennen oder die Vergangenheit ändern?",
     answers: ["Zukunft kennen", "Vergangenheit ändern", "Keins", "Beides"],
   },
   {
     id: 80,
+    category: "wouldYouRather",
     question:
       "Würde {name} lieber immer die Meinung sagen oder nie mehr sprechen?",
     answers: [
@@ -522,67 +602,80 @@ QUESTIONS.de = [
   },
   {
     id: 81,
+    category: "wouldYouRather",
     question: "Würde {name} lieber am Meer oder in den Bergen leben?",
     answers: ["Meer", "Berge", "Dazwischen", "Großstadt"],
   },
   {
     id: 82,
+    category: "wouldYouRather",
     question: "Würde {name} lieber all ihr Geld oder all ihre Fotos verlieren?",
     answers: ["Alles Geld", "Alle Fotos", "Keins", "Schwere Wahl!"],
   },
   {
     id: 83,
+    category: "wouldYouRather",
     question: "Wäre {name} lieber immer heiß oder immer kalt?",
     answers: ["Immer heiß", "Immer kalt", "Keins", "Macht nichts"],
   },
   {
     id: 84,
+    category: "wouldYouRather",
     question: "Liest {name} lieber das Buch oder schaut den Film?",
     answers: ["Buch lesen", "Film schauen", "Beides", "Keins"],
   },
   {
     id: 85,
+    category: "wouldYouRather",
     question: "Hätte {name} lieber kostenloses Essen oder kostenloses WLAN?",
     answers: ["Kostenloses Essen", "Kostenloses WLAN", "Beides", "Keins"],
   },
   {
     id: 86,
+    category: "wouldYouRather",
     question: "Wäre {name} lieber ein Superheld oder ein Superschurke?",
     answers: ["Superheld", "Superschurke", "Antiheld", "Keins"],
   },
   {
     id: 87,
+    category: "wouldYouRather",
     question: "Würde {name} lieber einen Tag ohne Schlaf oder ohne Essen sein?",
     answers: ["Ohne Schlaf", "Ohne Essen", "Keins", "Beides schon erlebt"],
   },
   {
     id: 88,
+    category: "wouldYouRather",
     question: "Wäre {name} lieber eine Woche ohne Handy oder ohne Freunde?",
     answers: ["Ohne Handy", "Ohne Freunde", "Keins wäre ok", "Beides ok"],
   },
   {
     id: 89,
+    category: "wouldYouRather",
     question:
       "Würde {name} lieber in einem Baumhaus oder auf einem Hausboot leben?",
     answers: ["Baumhaus", "Hausboot", "Normales Haus", "Unterirdischer Bunker"],
   },
   {
     id: 90,
+    category: "wouldYouRather",
     question: "Wäre {name} lieber auf einem Langstreckenflug oder Roadtrip?",
     answers: ["Langstreckenflug", "Roadtrip", "Keins", "Liebt beides"],
   },
   {
     id: 91,
+    category: "wouldYouRather",
     question: "Würde {name} lieber Frühstück oder Abendessen aufgeben?",
     answers: ["Frühstück", "Abendessen", "Keins", "Lieber Mittagessen"],
   },
   {
     id: 92,
+    category: "wouldYouRather",
     question: "Hätte {name} lieber einen Privatkoch oder Personal Trainer?",
     answers: ["Privatkoch", "Personal Trainer", "Beides", "Keins"],
   },
   {
     id: 93,
+    category: "wouldYouRather",
     question: "Dürfte {name} nur flüstern oder nur schreien?",
     answers: [
       "Nur flüstern",
@@ -593,11 +686,13 @@ QUESTIONS.de = [
   },
   {
     id: 94,
+    category: "wouldYouRather",
     question: "Hätte {name} lieber Teleportation oder Gedankenlesen?",
     answers: ["Teleportation", "Gedankenlesen", "Beides", "Keins"],
   },
   {
     id: 95,
+    category: "wouldYouRather",
     question: "Wäre {name} lieber die lustigste oder klügste Person im Raum?",
     answers: ["Lustigste", "Klügste", "Beides", "Keins"],
   },
@@ -605,16 +700,19 @@ QUESTIONS.de = [
   // ── Tiefgründig & Persönlich (96–135) ──
   {
     id: 96,
+    category: "deepPersonal",
     question: "Worauf ist {name} am meisten stolz?",
     answers: ["Erfolge", "Beziehungen", "Persönliches Wachstum", "Kreativität"],
   },
   {
     id: 97,
+    category: "deepPersonal",
     question: "Was stresst {name} am meisten?",
     answers: ["Arbeit/Schule", "Beziehungen", "Geld", "Die Zukunft"],
   },
   {
     id: 98,
+    category: "deepPersonal",
     question: "Was hält {name} an schweren Tagen am Laufen?",
     answers: [
       "Freunde & Familie",
@@ -625,16 +723,19 @@ QUESTIONS.de = [
   },
   {
     id: 99,
+    category: "deepPersonal",
     question: "Bei wem fühlt sich {name} am sichersten?",
     answers: ["Bester Freund", "Familie", "Partner/in", "Bei sich selbst"],
   },
   {
     id: 100,
+    category: "deepPersonal",
     question: "Was ist die größte Angst von {name}?",
     answers: ["Versagen", "Einsamkeit", "Geliebte verlieren", "Das Unbekannte"],
   },
   {
     id: 101,
+    category: "deepPersonal",
     question: "Was ist die Liebessprache von {name}?",
     answers: [
       "Worte der Bestätigung",
@@ -645,6 +746,7 @@ QUESTIONS.de = [
   },
   {
     id: 102,
+    category: "deepPersonal",
     question: "Wie möchte {name} getröstet werden, wenn traurig?",
     answers: [
       "Eine Umarmung",
@@ -655,11 +757,13 @@ QUESTIONS.de = [
   },
   {
     id: 103,
+    category: "deepPersonal",
     question: "Wo hofft {name} in fünf Jahren zu sein?",
     answers: ["Neue Stadt", "Traumjob", "Sesshaft", "Die Welt bereisen"],
   },
   {
     id: 104,
+    category: "deepPersonal",
     question: "Wann fühlte sich {name} am meisten herausgefordert?",
     answers: [
       "Bei der Arbeit/Schule",
@@ -670,6 +774,7 @@ QUESTIONS.de = [
   },
   {
     id: 105,
+    category: "deepPersonal",
     question: "Welchen Promi hätte {name} gerne als zweiten BFF?",
     answers: [
       "Einen Musiker",
@@ -680,11 +785,13 @@ QUESTIONS.de = [
   },
   {
     id: 106,
+    category: "deepPersonal",
     question: "Wem in der Familie steht {name} am nächsten?",
     answers: ["Mama", "Papa", "Einem Geschwister", "Einem Großelternteil"],
   },
   {
     id: 107,
+    category: "deepPersonal",
     question: "Was wissen die meisten nicht über {name}?",
     answers: [
       "Ein verstecktes Talent",
@@ -695,11 +802,13 @@ QUESTIONS.de = [
   },
   {
     id: 108,
+    category: "deepPersonal",
     question: "Was glaubt {name}, was nach dem Tod passiert?",
     answers: ["Nichts", "Wiedergeburt", "Himmel/Jenseits", "Etwas Unbekanntes"],
   },
   {
     id: 109,
+    category: "deepPersonal",
     question: "Möchte {name} eines Tages Kinder haben?",
     answers: [
       "Ja, auf jeden Fall",
@@ -710,6 +819,7 @@ QUESTIONS.de = [
   },
   {
     id: 110,
+    category: "deepPersonal",
     question: "Was ist die früheste Kindheitserinnerung von {name}?",
     answers: [
       "Ein Familienevent",
@@ -720,6 +830,7 @@ QUESTIONS.de = [
   },
   {
     id: 111,
+    category: "deepPersonal",
     question: "Was hält {name} nachts wach?",
     answers: [
       "Grübeln",
@@ -730,6 +841,7 @@ QUESTIONS.de = [
   },
   {
     id: 112,
+    category: "deepPersonal",
     question: "Was ist das schönste Kompliment, das {name} je bekam?",
     answers: [
       "Über die Persönlichkeit",
@@ -740,6 +852,7 @@ QUESTIONS.de = [
   },
   {
     id: 113,
+    category: "deepPersonal",
     question: "Was sind die größten Stressfaktoren von {name}?",
     answers: [
       "Fristen",
@@ -750,11 +863,13 @@ QUESTIONS.de = [
   },
   {
     id: 114,
+    category: "deepPersonal",
     question: "Wie geht {name} mit Stress um?",
     answers: ["Sport", "Mit jemandem reden", "Serien schauen", "Ausschlafen"],
   },
   {
     id: 115,
+    category: "deepPersonal",
     question: "Was stünde auf Platz 1 der Bucket List von {name}?",
     answers: [
       "An einen besonderen Ort reisen",
@@ -765,6 +880,7 @@ QUESTIONS.de = [
   },
   {
     id: 116,
+    category: "deepPersonal",
     question: "Wann fühlte sich {name} am meisten geliebt?",
     answers: [
       "Bei der Familie",
@@ -775,6 +891,7 @@ QUESTIONS.de = [
   },
   {
     id: 117,
+    category: "deepPersonal",
     question: "Wann war {name} zuletzt inspiriert, etwas zu kreieren?",
     answers: [
       "Kürzlich",
@@ -785,6 +902,7 @@ QUESTIONS.de = [
   },
   {
     id: 118,
+    category: "deepPersonal",
     question: "Hat {name} jemals ein Freundschaftsende erlebt?",
     answers: [
       "Ja, ein schmerzhaftes",
@@ -795,6 +913,7 @@ QUESTIONS.de = [
   },
   {
     id: 119,
+    category: "deepPersonal",
     question: "Was ist laut {name} der beste Weg, Konflikte zu lösen?",
     answers: [
       "Ehrliches Gespräch",
@@ -805,6 +924,7 @@ QUESTIONS.de = [
   },
   {
     id: 120,
+    category: "deepPersonal",
     question: "Hat {name} eine gesunde Beziehung zu Social Media?",
     answers: [
       "Ja, total",
@@ -815,6 +935,7 @@ QUESTIONS.de = [
   },
   {
     id: 121,
+    category: "deepPersonal",
     question: "Was bedeutet Freundschaft für {name}?",
     answers: [
       "Loyalität über alles",
@@ -825,6 +946,7 @@ QUESTIONS.de = [
   },
   {
     id: 122,
+    category: "deepPersonal",
     question: "Gibt es jemanden, mit dem {name} sich wieder verbinden möchte?",
     answers: [
       "Einen alten Freund",
@@ -835,16 +957,19 @@ QUESTIONS.de = [
   },
   {
     id: 123,
+    category: "deepPersonal",
     question: "War {name} schon einmal verliebt?",
     answers: ["Ja, tief", "Vielleicht, unsicher", "Noch nicht", "Mehrmals"],
   },
   {
     id: 124,
+    category: "deepPersonal",
     question: "Glaubt {name} an Liebe auf den ersten Blick?",
     answers: ["Ja", "Nein", "Vielleicht", "Es ist kompliziert"],
   },
   {
     id: 125,
+    category: "deepPersonal",
     question: "Was hat {name} aus der letzten Beziehung gelernt?",
     answers: [
       "Kommunikation ist alles",
@@ -855,6 +980,7 @@ QUESTIONS.de = [
   },
   {
     id: 126,
+    category: "deepPersonal",
     question: "Was würde {name} an sich selbst ändern?",
     answers: [
       "Mehr Selbstvertrauen",
@@ -865,6 +991,7 @@ QUESTIONS.de = [
   },
   {
     id: 127,
+    category: "deepPersonal",
     question: "Zu wem schaut {name} am meisten auf?",
     answers: [
       "Ein Elternteil",
@@ -875,6 +1002,7 @@ QUESTIONS.de = [
   },
   {
     id: 128,
+    category: "deepPersonal",
     question: "Wer hat {name} zuletzt zum Weinen gebracht?",
     answers: [
       "Ein Familienmitglied",
@@ -885,6 +1013,7 @@ QUESTIONS.de = [
   },
   {
     id: 129,
+    category: "deepPersonal",
     question: "Hat {name} Reue?",
     answers: [
       "Ja, ein paar",
@@ -895,11 +1024,13 @@ QUESTIONS.de = [
   },
   {
     id: 130,
+    category: "deepPersonal",
     question: "Glaubt {name} an Seelenverwandte?",
     answers: ["Ja, absolut", "Nein", "Möchte es glauben", "Es ist kompliziert"],
   },
   {
     id: 131,
+    category: "deepPersonal",
     question: "Was war der schwerste Abschied von {name}?",
     answers: [
       "Einen Ort verlassen",
@@ -910,6 +1041,7 @@ QUESTIONS.de = [
   },
   {
     id: 132,
+    category: "deepPersonal",
     question: "Was ist die schlechteste Entscheidung von {name}?",
     answers: [
       "Beruf/Schule",
@@ -920,6 +1052,7 @@ QUESTIONS.de = [
   },
   {
     id: 133,
+    category: "deepPersonal",
     question: "Wie stellt sich {name} im Alter vor?",
     answers: [
       "Immer noch abenteuerlich",
@@ -930,11 +1063,13 @@ QUESTIONS.de = [
   },
   {
     id: 134,
+    category: "deepPersonal",
     question: "Was ist für {name} unverzeihlich?",
     answers: ["Verrat", "Lügen", "Fremdgehen", "Grausamkeit"],
   },
   {
     id: 135,
+    category: "deepPersonal",
     question: "Glaubt {name} an Monogamie?",
     answers: [
       "Ja, 100%",
@@ -947,6 +1082,7 @@ QUESTIONS.de = [
   // ── Spaß & Zufälliges (136–170) ──
   {
     id: 136,
+    category: "funRandom",
     question: "Hatte {name} je einen Schwarm für eine Zeichentrickfigur?",
     answers: [
       "Ja, definitiv",
@@ -957,11 +1093,13 @@ QUESTIONS.de = [
   },
   {
     id: 137,
+    category: "funRandom",
     question: "Welchen Essensstand würde {name} eröffnen?",
     answers: ["Tacos", "Eis", "Burger", "Smoothies"],
   },
   {
     id: 138,
+    category: "funRandom",
     question: "Was schiebt {name} gerade auf?",
     answers: [
       "Eine Aufgabe/Projekt",
@@ -972,11 +1110,13 @@ QUESTIONS.de = [
   },
   {
     id: 139,
+    category: "funRandom",
     question: "Hat {name} als Kind Buden gebaut?",
     answers: ["Ja, epische", "Kleine", "Nur Deckenburgen", "Nie gemacht"],
   },
   {
     id: 140,
+    category: "funRandom",
     question: "Hat {name} schon mal jemandem einen Streich gespielt?",
     answers: [
       "Ja, einen lustigen",
@@ -987,11 +1127,13 @@ QUESTIONS.de = [
   },
   {
     id: 141,
+    category: "funRandom",
     question: "Glaubt {name} an Magie?",
     answers: ["Ja!", "Irgendwie", "Nein", "Würde gerne"],
   },
   {
     id: 142,
+    category: "funRandom",
     question: "Wie würde {name} als Geist Menschen erschrecken?",
     answers: [
       "Sachen bewegen",
@@ -1002,11 +1144,13 @@ QUESTIONS.de = [
   },
   {
     id: 143,
+    category: "funRandom",
     question: "Was würde {name} aus einer Kanone schießen?",
     answers: ["Konfetti", "Glitzer", "Wasserbomben", "Marshmallows"],
   },
   {
     id: 144,
+    category: "funRandom",
     question: "Hat {name} eine Lieblings-Familientradition?",
     answers: [
       "Feiertagsessen",
@@ -1017,6 +1161,7 @@ QUESTIONS.de = [
   },
   {
     id: 145,
+    category: "funRandom",
     question: "Was gibt es in {name}s Traumhaus?",
     answers: [
       "Riesige Bibliothek",
@@ -1027,6 +1172,7 @@ QUESTIONS.de = [
   },
   {
     id: 146,
+    category: "funRandom",
     question: "Was ist {name}s liebster Flachwitz?",
     answers: [
       "Ein Wortspiel",
@@ -1037,6 +1183,7 @@ QUESTIONS.de = [
   },
   {
     id: 147,
+    category: "funRandom",
     question: "Wie würde {name} sein/ihr Gehirn nennen?",
     answers: [
       "Chaos-Zentrale",
@@ -1047,11 +1194,13 @@ QUESTIONS.de = [
   },
   {
     id: 148,
+    category: "funRandom",
     question: "Hat {name} wiederkehrende Träume?",
     answers: ["Ja, oft", "Manchmal", "Selten", "Nie"],
   },
   {
     id: 149,
+    category: "funRandom",
     question: "Was ist das schärfste Essen, das {name} je gegessen hat?",
     answers: [
       "Super scharfe Wings",
@@ -1062,11 +1211,13 @@ QUESTIONS.de = [
   },
   {
     id: 150,
+    category: "funRandom",
     question: "Was würde {name} für immer essen, wenn nur eine Sache ginge?",
     answers: ["Pizza", "Pasta", "Reis", "Tacos"],
   },
   {
     id: 151,
+    category: "funRandom",
     question: "Was ist das Seltsamste, das {name} besitzt?",
     answers: [
       "Ein Sammlerstück",
@@ -1077,6 +1228,7 @@ QUESTIONS.de = [
   },
   {
     id: 152,
+    category: "funRandom",
     question: "Wurde {name} schon mal die Zukunft vorausgesagt?",
     answers: [
       "Ja, und hat es geglaubt",
@@ -1087,6 +1239,7 @@ QUESTIONS.de = [
   },
   {
     id: 153,
+    category: "funRandom",
     question: "Was war der fragwürdigste Haarschnitt von {name}?",
     answers: [
       "Ein schlechter Pony",
@@ -1097,6 +1250,7 @@ QUESTIONS.de = [
   },
   {
     id: 154,
+    category: "funRandom",
     question: "Wovon hat {name} letzte Nacht geträumt?",
     answers: [
       "Kann sich nicht erinnern",
@@ -1107,11 +1261,13 @@ QUESTIONS.de = [
   },
   {
     id: 155,
+    category: "funRandom",
     question: "Hat {name} jemals so gelacht, dass fast die Luft wegblieb?",
     answers: ["Ja, oft", "Ein- oder zweimal", "Nein, aber fast", "Nie"],
   },
   {
     id: 156,
+    category: "funRandom",
     question: "Welches Buch hat {name} am meisten verändert?",
     answers: [
       "Ein Roman",
@@ -1122,11 +1278,13 @@ QUESTIONS.de = [
   },
   {
     id: 157,
+    category: "funRandom",
     question: "Was würde {name} mit 10.000 € machen?",
     answers: ["Sparen", "Reisen", "Shoppen", "Investieren"],
   },
   {
     id: 158,
+    category: "funRandom",
     question: "Was war das Glücklichste, das {name} je passiert ist?",
     answers: [
       "Etwas gewonnen",
@@ -1137,11 +1295,13 @@ QUESTIONS.de = [
   },
   {
     id: 159,
+    category: "funRandom",
     question: "Was ist die verhassteste Hausarbeit von {name}?",
     answers: ["Abwaschen", "Wäsche", "Staubsaugen", "Müll rausbringen"],
   },
   {
     id: 160,
+    category: "funRandom",
     question: "Welche Verschwörungstheorie glaubt {name} wirklich?",
     answers: [
       "Aliens existieren",
@@ -1152,6 +1312,7 @@ QUESTIONS.de = [
   },
   {
     id: 161,
+    category: "funRandom",
     question: "Wenn {name} drei Wünsche hätte, was wäre der erste?",
     answers: [
       "Unendlich Geld",
@@ -1162,6 +1323,7 @@ QUESTIONS.de = [
   },
   {
     id: 162,
+    category: "funRandom",
     question: "Glaubt {name} an Aliens?",
     answers: [
       "Ja, 100%",
@@ -1172,6 +1334,7 @@ QUESTIONS.de = [
   },
   {
     id: 163,
+    category: "funRandom",
     question: "Was würde {name} als Erstes ändern, wenn Präsident?",
     answers: [
       "Bildungssystem",
@@ -1182,11 +1345,13 @@ QUESTIONS.de = [
   },
   {
     id: 164,
+    category: "funRandom",
     question: "Welche Fremdsprache würde {name} gerne beherrschen?",
     answers: ["Französisch", "Japanisch", "Spanisch", "Koreanisch"],
   },
   {
     id: 165,
+    category: "funRandom",
     question: "Was ist der Überlebensplan von {name} bei Zombieapokalypse?",
     answers: [
       "Sich verstecken",
@@ -1197,11 +1362,13 @@ QUESTIONS.de = [
   },
   {
     id: 166,
+    category: "funRandom",
     question: "Welches Tier wäre {name}?",
     answers: ["Ein Hund", "Eine Katze", "Ein Vogel", "Ein Bär"],
   },
   {
     id: 167,
+    category: "funRandom",
     question: "Wie würde {name}s Alter Ego heißen?",
     answers: [
       "Etwas Cooles",
@@ -1212,6 +1379,7 @@ QUESTIONS.de = [
   },
   {
     id: 168,
+    category: "funRandom",
     question: "Was ist das Karaoke-Lied Nr. 1 von {name}?",
     answers: [
       "Ein Pop-Hit",
@@ -1222,6 +1390,7 @@ QUESTIONS.de = [
   },
   {
     id: 169,
+    category: "funRandom",
     question: "Was ist das liebste unnütze Wissen von {name}?",
     answers: [
       "Tierfakten",
@@ -1232,6 +1401,7 @@ QUESTIONS.de = [
   },
   {
     id: 170,
+    category: "funRandom",
     question: "Was war das erste Konzert von {name}?",
     answers: [
       "Ein Popstar",
@@ -1244,16 +1414,19 @@ QUESTIONS.de = [
   // ── Erfahrungen & Träume (171–200) ──
   {
     id: 171,
+    category: "experiencesDreams",
     question: "Was ist das Traumreiseziel von {name}?",
     answers: ["Japan", "Malediven", "New York", "Paris"],
   },
   {
     id: 172,
+    category: "experiencesDreams",
     question: "Welchen Beruf würde {name} in einem anderen Leben wählen?",
     answers: ["Koch", "Astronaut", "Künstler", "Sportler"],
   },
   {
     id: 173,
+    category: "experiencesDreams",
     question: "Welchen Promi würde {name} gerne treffen?",
     answers: [
       "Einen Musiker",
@@ -1264,21 +1437,25 @@ QUESTIONS.de = [
   },
   {
     id: 174,
+    category: "experiencesDreams",
     question: "Was schätzt {name} am meisten an einer Freundschaft?",
     answers: ["Loyalität", "Humor", "Ehrlichkeit", "Unterstützung"],
   },
   {
     id: 175,
+    category: "experiencesDreams",
     question: "Was ist das Krafttier von {name}?",
     answers: ["Wolf", "Adler", "Katze", "Bär"],
   },
   {
     id: 176,
+    category: "experiencesDreams",
     question: "Was ist das Lieblings-Karaoke-Genre von {name}?",
     answers: ["80er Klassiker", "Pop-Hits", "Rock-Hymnen", "Singe nicht!"],
   },
   {
     id: 177,
+    category: "experiencesDreams",
     question: "Was ist das Süßeste, das jemand für {name} getan hat?",
     answers: [
       "Überraschungsparty",
@@ -1289,6 +1466,7 @@ QUESTIONS.de = [
   },
   {
     id: 178,
+    category: "experiencesDreams",
     question: "Was wäre der Titel der Autobiografie von {name}?",
     answers: [
       "'Erwarte das Unerwartete'",
@@ -1299,6 +1477,7 @@ QUESTIONS.de = [
   },
   {
     id: 179,
+    category: "experiencesDreams",
     question:
       "Was ist {name}s 'Roman Empire' — etwas, woran ständig gedacht wird?",
     answers: [
@@ -1310,6 +1489,7 @@ QUESTIONS.de = [
   },
   {
     id: 180,
+    category: "experiencesDreams",
     question: "Was ist die Lieblingsreisegeschichte von {name}?",
     answers: [
       "Ein wildes Abenteuer",
@@ -1320,6 +1500,7 @@ QUESTIONS.de = [
   },
   {
     id: 181,
+    category: "experiencesDreams",
     question: "Wo sieht sich {name} in einem Jahr?",
     answers: [
       "Gleicher Ort, besseres Leben",
@@ -1330,6 +1511,7 @@ QUESTIONS.de = [
   },
   {
     id: 182,
+    category: "experiencesDreams",
     question: "Was ist der absolute Traumjob von {name}?",
     answers: [
       "Etwas Kreatives",
@@ -1340,6 +1522,7 @@ QUESTIONS.de = [
   },
   {
     id: 183,
+    category: "experiencesDreams",
     question: "Welche Superkraft hätte {name}?",
     answers: [
       "Teleportation",
@@ -1350,6 +1533,7 @@ QUESTIONS.de = [
   },
   {
     id: 184,
+    category: "experiencesDreams",
     question: "Welche Serie schaltet {name} ein, um einfach abzuschalten?",
     answers: [
       "Eine Sitcom",
@@ -1360,6 +1544,7 @@ QUESTIONS.de = [
   },
   {
     id: 185,
+    category: "experiencesDreams",
     question: "Wohin würde {name} in der Zeit reisen?",
     answers: [
       "Altes Ägypten",
@@ -1370,16 +1555,19 @@ QUESTIONS.de = [
   },
   {
     id: 186,
+    category: "experiencesDreams",
     question: "Hat sich {name} schon mal total verirrt?",
     answers: ["Ja, lustigerweise", "Ja, war gruselig", "Fast", "Nie"],
   },
   {
     id: 187,
+    category: "experiencesDreams",
     question: "Was ist laut {name} ihre/seine beste Eigenschaft?",
     answers: ["Freundlichkeit", "Humor", "Intelligenz", "Entschlossenheit"],
   },
   {
     id: 188,
+    category: "experiencesDreams",
     question: "Was ist {name}s Definition von Erfolg?",
     answers: [
       "Glücklich sein",
@@ -1390,6 +1578,7 @@ QUESTIONS.de = [
   },
   {
     id: 189,
+    category: "experiencesDreams",
     question: "Was ist der meistgesehene Film von {name}?",
     answers: [
       "Ein Wohlfühlklassiker",
@@ -1400,6 +1589,7 @@ QUESTIONS.de = [
   },
   {
     id: 190,
+    category: "experiencesDreams",
     question: "Hat {name} versteckte Talente?",
     answers: [
       "Ja, ein überraschendes",
@@ -1410,16 +1600,19 @@ QUESTIONS.de = [
   },
   {
     id: 191,
+    category: "experiencesDreams",
     question: "Was ist die beste Reise von {name}?",
     answers: ["Strandurlaub", "Städtetrip", "Roadtrip", "Familienbesuch"],
   },
   {
     id: 192,
+    category: "experiencesDreams",
     question: "Was war der letzte Film, den {name} im Kino sah?",
     answers: ["Actionfilm", "Komödie", "Superheldenfilm", "Drama"],
   },
   {
     id: 193,
+    category: "experiencesDreams",
     question: "Was ist das beste Museum, in dem {name} war?",
     answers: [
       "Kunstmuseum",
@@ -1430,6 +1623,7 @@ QUESTIONS.de = [
   },
   {
     id: 194,
+    category: "experiencesDreams",
     question: "Wann hat {name} zuletzt etwas Spontanes gemacht?",
     answers: [
       "Ganz kürzlich",
@@ -1440,6 +1634,7 @@ QUESTIONS.de = [
   },
   {
     id: 195,
+    category: "experiencesDreams",
     question: "Was war der größte Vertrauenssprung von {name}?",
     answers: [
       "Umzug",
@@ -1450,6 +1645,7 @@ QUESTIONS.de = [
   },
   {
     id: 196,
+    category: "experiencesDreams",
     question: "Was war das schlimmste Date von {name}?",
     answers: [
       "Peinliche Stille den ganzen Abend",
@@ -1460,6 +1656,7 @@ QUESTIONS.de = [
   },
   {
     id: 197,
+    category: "experiencesDreams",
     question: "Welches Lied würde spielen, wenn {name} einen Raum betritt?",
     answers: [
       "Etwas Energisches",
@@ -1470,11 +1667,13 @@ QUESTIONS.de = [
   },
   {
     id: 198,
+    category: "experiencesDreams",
     question: "Welches Jahrzehnt hatte laut {name} die beste Mode?",
     answers: ["Die 70er", "Die 80er", "Die 90er", "Die 2000er"],
   },
   {
     id: 199,
+    category: "experiencesDreams",
     question: "War {name} jemals im Ferienlager?",
     answers: [
       "Ja, hat es geliebt",
@@ -1485,6 +1684,7 @@ QUESTIONS.de = [
   },
   {
     id: 200,
+    category: "experiencesDreams",
     question: "Welcher unerwartete Film bringt {name} zum Weinen?",
     answers: [
       "Ein Animationsfilm",
@@ -1493,15 +1693,12 @@ QUESTIONS.de = [
       "Weint nie bei Filmen",
     ],
   },
-];
 
-/**
- * Hero-Exklusive «Tiefgründig & Pikant» Fragen (201-220)
- * Verfügbar nur wenn mindestens ein Spieler in der Session Hero-Abonnent ist.
- */
-QUESTIONS.de_hero = [
+
+  // ── Deep & Spicy / Hero Exclusive (201–220) ──
   {
     id: 201,
+    category: "deepSpicy",
     question: "Was ist {name}s peinlichstes geheimes Talent?",
     answers: [
       "Singen unter der Dusche",
@@ -1512,6 +1709,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 202,
+    category: "deepSpicy",
     question: "Was würde {name} zuerst mit einer Million Dollar machen?",
     answers: [
       "Die Welt bereisen",
@@ -1522,6 +1720,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 203,
+    category: "deepSpicy",
     question: "Was ist {name}s größtes Guilty Pleasure?",
     answers: [
       "Reality TV",
@@ -1532,6 +1731,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 204,
+    category: "deepSpicy",
     question: "Wenn {name} mit einem Promi das Leben tauschen könnte?",
     answers: [
       "Ein berühmter Schauspieler",
@@ -1542,6 +1742,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 205,
+    category: "deepSpicy",
     question: "Was würde {name} auf eine einsame Insel mitnehmen?",
     answers: [
       "Handy mit WLAN",
@@ -1552,11 +1753,13 @@ QUESTIONS.de_hero = [
   },
   {
     id: 206,
+    category: "deepSpicy",
     question: "Was ist {name}s irrationalste Angst?",
     answers: ["Clowns", "Dunkelheit", "Schmetterlinge", "Tiefes Wasser"],
   },
   {
     id: 207,
+    category: "deepSpicy",
     question: "Wie würde {name} eine Zombie-Apokalypse überleben?",
     answers: [
       "Verstecken und warten",
@@ -1567,6 +1770,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 208,
+    category: "deepSpicy",
     question: "Was ist das Albernste, worüber {name} weinen würde?",
     answers: [
       "Verlorenes Essen",
@@ -1577,6 +1781,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 209,
+    category: "deepSpicy",
     question: "Was ist {name}s Lieblings-Karaoke-Song?",
     answers: [
       "Bohemian Rhapsody",
@@ -1587,6 +1792,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 210,
+    category: "deepSpicy",
     question: "Wenn {name} in der Zeit reisen könnte, wohin?",
     answers: [
       "Antikes Rom",
@@ -1597,6 +1803,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 211,
+    category: "deepSpicy",
     question: "Was ist das Romantischste, was {name} tun würde?",
     answers: [
       "Einen Liebesbrief schreiben",
@@ -1607,6 +1814,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 212,
+    category: "deepSpicy",
     question: "Wie würde der Titel von {name}s Autobiographie lauten?",
     answers: [
       "'Ups, Schon Wieder'",
@@ -1617,6 +1825,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 213,
+    category: "deepSpicy",
     question: "Was war {name}s schlimmste Küchenkatastrophe?",
     answers: [
       "Alles verbrannt",
@@ -1627,6 +1836,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 214,
+    category: "deepSpicy",
     question: "Was ist das Seltsamste auf {name}s Handy?",
     answers: [
       "1000 Memes",
@@ -1637,6 +1847,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 215,
+    category: "deepSpicy",
     question: "Wie verhält sich {name} wenn er/sie verliebt ist?",
     answers: [
       "Völlig offensichtlich",
@@ -1647,6 +1858,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 216,
+    category: "deepSpicy",
     question: "Was würde {name} nicht mal für eine Milliarde tun?",
     answers: [
       "Einen Käfer essen",
@@ -1657,6 +1869,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 217,
+    category: "deepSpicy",
     question: "Welche Verschwörungstheorie würde {name} glauben?",
     answers: [
       "Flache Erde",
@@ -1667,6 +1880,7 @@ QUESTIONS.de_hero = [
   },
   {
     id: 218,
+    category: "deepSpicy",
     question: "Was ist {name}s unpopulärste Meinung?",
     answers: [
       "Ananas auf Pizza ist super",
@@ -1677,11 +1891,13 @@ QUESTIONS.de_hero = [
   },
   {
     id: 219,
+    category: "deepSpicy",
     question: "Was ist {name}s Seelentier?",
     answers: ["Faultier", "Golden Retriever", "Katze", "Delfin"],
   },
   {
     id: 220,
+    category: "deepSpicy",
     question: "Wofür würde {name} gecancelt werden?",
     answers: [
       "Schlechte Essens-Meinungen",

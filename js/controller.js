@@ -11,6 +11,7 @@ var roundsPerPlayer = 1;
 var answerTime = 20;
 var isPaused = false;
 var musicEnabled = true;
+var disabledCategories = [];
 
 // =========================
 // Initialization
@@ -192,6 +193,7 @@ function showSettings() {
   document.getElementById("settings-music-label").textContent = t("music");
   updateMusicToggleButton();
   updateSettingsLangSelect();
+  renderCategoryToggles();
 }
 
 function updateMusicToggleButton() {
@@ -210,6 +212,65 @@ function updateSettingsLangSelect() {
   if (sel) sel.value = currentLanguage;
 }
 
+// =========================
+// Category Toggles
+// =========================
+function renderCategoryToggles() {
+  var container = document.getElementById("category-toggles");
+  var label = document.getElementById("settings-cat-label");
+  var warning = document.getElementById("cat-warning");
+  if (!container) return;
+
+  label.textContent = t("categorySettings");
+  container.innerHTML = "";
+  warning.classList.add("hidden");
+
+  var cats =
+    typeof QUESTION_CATEGORIES !== "undefined" ? QUESTION_CATEGORIES : [];
+  var catNames =
+    (UI_TEXT[currentLanguage] && UI_TEXT[currentLanguage].categories) || {};
+
+  cats.forEach(function (cat) {
+    var btn = document.createElement("button");
+    var isEnabled = disabledCategories.indexOf(cat.key) === -1;
+    var displayName = catNames[cat.key] || cat.key;
+    if (cat.hero) displayName += " 👑";
+
+    btn.textContent = (isEnabled ? "✅ " : "❌ ") + displayName;
+    btn.className = "cat-toggle-btn" + (isEnabled ? " on" : " off");
+    btn.setAttribute("data-category", cat.key);
+
+    addTouchHandler(btn, function () {
+      toggleCategory(cat.key);
+    });
+
+    container.appendChild(btn);
+  });
+}
+
+function toggleCategory(key) {
+  var idx = disabledCategories.indexOf(key);
+  var cats =
+    typeof QUESTION_CATEGORIES !== "undefined" ? QUESTION_CATEGORIES : [];
+
+  if (idx === -1) {
+    // Trying to disable — check that at least 1 remains enabled
+    var enabledCount = cats.length - disabledCategories.length;
+    if (enabledCount <= 1) {
+      var warning = document.getElementById("cat-warning");
+      warning.textContent = t("allCategoriesDisabled");
+      warning.classList.remove("hidden");
+      return;
+    }
+    disabledCategories.push(key);
+  } else {
+    disabledCategories.splice(idx, 1);
+  }
+
+  document.getElementById("cat-warning").classList.add("hidden");
+  renderCategoryToggles();
+}
+
 // Start button, settings button & settings controls
 document.addEventListener("DOMContentLoaded", function () {
   var startBtn = document.getElementById("ctrl-start-btn");
@@ -219,6 +280,7 @@ document.addEventListener("DOMContentLoaded", function () {
         action: "start_game",
         roundsPerPlayer: roundsPerPlayer,
         answerTime: answerTime,
+        disabledCategories: disabledCategories,
       });
       startBtn.disabled = true;
     }
@@ -248,8 +310,14 @@ document.addEventListener("DOMContentLoaded", function () {
       action: "select_language",
       language: lang,
     });
-    // Re-render settings text in new language
-    showSettings();
+    // Load language files first, then re-render settings in new language
+    if (typeof loadLanguage === "function") {
+      loadLanguage(lang, function () {
+        showSettings();
+      });
+    } else {
+      showSettings();
+    }
   });
 
   // Rounds +/- buttons

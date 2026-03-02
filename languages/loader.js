@@ -10,6 +10,21 @@ var QUESTIONS = {};
 var UI_TEXT = {};
 
 /**
+ * Question category definitions.
+ * Each category has a key (used in data/code) and a hero flag.
+ * Display names come from UI_TEXT[lang].categories[key].
+ */
+var QUESTION_CATEGORIES = [
+  { key: "favorites", hero: false },
+  { key: "personality", hero: false },
+  { key: "wouldYouRather", hero: false },
+  { key: "deepPersonal", hero: false },
+  { key: "funRandom", hero: false },
+  { key: "experiencesDreams", hero: false },
+  { key: "deepSpicy", hero: true },
+];
+
+/**
  * List of supported language codes.
  * Used by the settings UI and dynamic loading.
  */
