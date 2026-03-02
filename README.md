@@ -13,25 +13,51 @@ A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/
 ## Features
 
 - **7 Languages**: English, Greek, Spanish, French, German, Turkish, Arabic
-- **40 Questions per language** — covering favorites, personality, hypotheticals, and more
+- **200 Questions per language** — covering favorites, personality, hypotheticals, and more
 - **Configurable settings** — rounds per player (1–5), answer time (10s–60s)
+- **Category toggles** — enable or disable question categories per game
 - **Game master controls** — settings and game start managed from the master controller
+- **Music toggle** — background music on/off from settings
 - **Leaderboard & scoring** with podium display
 
 ## Project Structure
 
 ```
-├── screen.html          # TV/main screen (game logic & display)
-├── controller.html      # Phone controller (player input)
+├── screen.html              # TV/main screen (game logic & display)
+├── controller.html          # Phone controller (player input)
 ├── css/
-│   ├── screen.css       # Screen styles
-│   └── controller.css   # Controller styles
+│   ├── screen.css           # Screen styles
+│   └── controller.css       # Controller styles
 ├── js/
-│   ├── screen.js        # Screen game logic
-│   ├── controller.js    # Controller logic
-│   ├── questions.js     # Question bank (40 questions × 7 languages)
-│   └── ui-text.js       # UI text translations (7 languages)
+│   ├── screen.js            # Screen game logic
+│   └── controller.js        # Controller logic
+├── languages/
+│   ├── loader.js            # Dynamic language loader
+│   ├── en/                  # English
+│   │   ├── questions.js     # Question bank (200 questions)
+│   │   └── ui-text.js       # UI text translations
+│   ├── el/                  # Greek
+│   ├── es/                  # Spanish
+│   ├── fr/                  # French
+│   ├── de/                  # German
+│   ├── tr/                  # Turkish
+│   └── ar/                  # Arabic
+├── Assets/                  # Logo & music files
+├── app/                     # Website pages (not part of the game zip)
+│   ├── index.html           # How to Play landing page
+│   ├── about.html           # About page
+│   ├── css/shared.css       # Shared website styles
+│   └── js/components.js     # Nav & footer components
+├── nginx.conf               # Nginx config for deployment
+└── Dockerfile               # Docker container setup
 ```
+
+## Deployment
+
+The project is split into **game files** (root) and **app/website files** (`app/`).
+
+- **Game zip** (for AirConsole): Include only root-level game files (`screen.html`, `controller.html`, `css/`, `js/`, `languages/`, `Assets/`). Exclude `app/`, `nginx.conf`, `Dockerfile`, `Releases/`, `README.md`, `LICENSE`.
+- **Website** (Coolify/Docker): The Dockerfile + nginx.conf serve `app/index.html` at `/` and `app/about.html` at `/about.html`, while game files remain at their original paths.
 
 ## Development
 
@@ -60,7 +86,8 @@ A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/
 
 - **AirConsole API** v1.10.0
 - Vanilla JavaScript, HTML, CSS
-- No build tools or dependencies
+- Nginx (Alpine) via Docker
+- No build tools or frameworks
 
 ## ☕ Support the Project
 
