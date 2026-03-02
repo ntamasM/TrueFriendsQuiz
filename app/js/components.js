@@ -24,7 +24,7 @@
   var footer = document.querySelector("footer");
   if (footer) {
     footer.innerHTML =
-      '<img src="Assets/Logo/Logo.svg" alt="True Friends Quiz" class="footer-logo" />' +
+      '<img src="/Assets/Logo/Logo.svg" alt="True Friends Quiz" class="footer-logo" />' +
       '<div class="footer-text">True Friends Quiz &copy; ' +
       new Date().getFullYear() +
       ' &middot; Built with \u2764\uFE0F for <a href="https://www.airconsole.com" target="_blank" rel="noopener">AirConsole</a>' +
