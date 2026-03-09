@@ -136,16 +136,39 @@ function showView(viewId) {
 }
 
 function addTouchHandler(element, handler) {
-  // Use both touch and click for simulator compatibility
+  // Track touch to distinguish taps from scrolls and avoid double-fire
+  var touchMoved = false;
+  var touchHandled = false;
   element.addEventListener(
     "touchstart",
-    function (e) {
-      e.preventDefault();
-      handler(e);
+    function () {
+      touchMoved = false;
     },
-    { passive: false },
+    { passive: true },
   );
-  element.addEventListener("click", handler);
+  element.addEventListener(
+    "touchmove",
+    function () {
+      touchMoved = true;
+    },
+    { passive: true },
+  );
+  element.addEventListener("touchend", function (e) {
+    if (!touchMoved) {
+      touchHandled = true;
+      e.preventDefault(); // prevent ghost click
+      handler(e);
+      setTimeout(function () {
+        touchHandled = false;
+      }, 300);
+    }
+  });
+  // Click fallback for simulator / non-touch
+  element.addEventListener("click", function (e) {
+    if (!touchHandled) {
+      handler(e);
+    }
+  });
 }
 
 // =========================

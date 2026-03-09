@@ -52,8 +52,19 @@ body {
   justify-content: flex-start;
   padding-top: 30px;
   padding-bottom: 40px;
+  height: 100vh;
+  min-height: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+/* Allow fast taps without blocking scroll gestures */
+button,
+select,
+.category-toggle,
+.question-option,
+.answer-option {
+  touch-action: manipulation;
 }
 
 /* ===========================
