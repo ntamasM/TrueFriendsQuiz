@@ -17,7 +17,7 @@ var disabledCategories = [];
 // Initialization
 // =========================
 function initController() {
-  airconsole = new AirConsole();
+  airconsole = new AirConsole({ setup_document: false });
 
   airconsole.onReady = function (code) {
     myDeviceId = airconsole.getDeviceId();
