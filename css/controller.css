@@ -47,15 +47,16 @@ body {
   gap: 16px;
 }
 
-/* Settings view needs to scroll when content overflows */
+/* Settings view — compact layout to avoid scrolling */
 #view-settings.active {
   justify-content: flex-start;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   height: 100vh;
   min-height: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  gap: 6px;
 }
 
 /* Allow fast taps without blocking scroll gestures */
@@ -111,33 +112,60 @@ select,
    Settings View
    =========================== */
 .settings-title {
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
 }
 
 .settings-section {
   width: 90%;
   max-width: 340px;
-  margin-bottom: 14px;
+  margin-bottom: 6px;
 }
 
 .settings-label {
-  font-size: 1em;
+  font-size: 0.85em;
   font-weight: 700;
   color: #a0aec0;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
+/* Rounds + Time side-by-side row */
+.settings-row-pair {
+  display: flex;
+  gap: 12px;
+  width: 90%;
+  max-width: 340px;
+}
+
+.settings-half {
+  flex: 1;
+  width: auto;
+  max-width: none;
+  margin-bottom: 0;
+}
+
+/* Music inline (label + button on same row) */
+.settings-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.settings-inline .settings-label {
+  margin-bottom: 0;
+}
+
 /* Language select */
 .settings-lang-select {
   width: 100%;
-  padding: 12px 14px;
-  font-size: 1em;
+  padding: 10px 14px;
+  font-size: 0.95em;
   font-weight: 700;
   border: 2px solid rgba(255, 255, 255, 0.12);
   border-radius: 10px;
@@ -168,16 +196,16 @@ select,
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 10px;
 }
 
 .rounds-btn {
-  width: 48px;
-  height: 48px;
-  font-size: 1.5em;
+  width: 38px;
+  height: 38px;
+  font-size: 1.3em;
   font-weight: 800;
   border: 2px solid rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
   cursor: pointer;
@@ -193,23 +221,23 @@ select,
 }
 
 .rounds-value {
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: 900;
   color: #f5a623;
-  min-width: 50px;
+  min-width: 36px;
   text-align: center;
 }
 
 /* Music toggle button */
 .music-toggle-btn {
-  padding: 10px 28px;
-  font-size: 1.1em;
+  padding: 8px 20px;
+  font-size: 0.95em;
   font-weight: 700;
   border: 2px solid rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
-  min-width: 120px;
+  min-width: 100px;
   text-align: center;
 }
 
@@ -229,24 +257,24 @@ select,
   transform: scale(0.93);
 }
 
-/* Category toggles */
+/* Category toggles — 2-column grid */
 .category-toggles {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
   width: 100%;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .cat-toggle-btn {
-  padding: 10px 16px;
-  font-size: 0.95em;
+  padding: 7px 8px;
+  font-size: 0.78em;
   font-weight: 700;
   border: 2px solid rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
+  border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
@@ -281,18 +309,18 @@ select,
 
 /* Back button in settings */
 .ctrl-settings-back-btn {
-  padding: 12px 30px;
-  font-size: 1em;
+  padding: 10px 24px;
+  font-size: 0.95em;
   font-weight: 700;
   border: 2px solid rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.08);
   color: #cbd5e0;
   cursor: pointer;
   transition: all 0.2s ease;
   width: 80%;
   max-width: 300px;
-  margin-top: 6px;
+  margin-top: 2px;
 }
 
 .ctrl-settings-back-btn:active {

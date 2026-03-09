@@ -17,7 +17,7 @@ var disabledCategories = [];
 // Initialization
 // =========================
 function initController() {
-  airconsole = new AirConsole({ setup_document: false });
+  airconsole = new AirConsole();
 
   airconsole.onReady = function (code) {
     myDeviceId = airconsole.getDeviceId();
@@ -136,39 +136,16 @@ function showView(viewId) {
 }
 
 function addTouchHandler(element, handler) {
-  // Track touch to distinguish taps from scrolls and avoid double-fire
-  var touchMoved = false;
-  var touchHandled = false;
+  // Use both touch and click for simulator compatibility
   element.addEventListener(
     "touchstart",
-    function () {
-      touchMoved = false;
-    },
-    { passive: true },
-  );
-  element.addEventListener(
-    "touchmove",
-    function () {
-      touchMoved = true;
-    },
-    { passive: true },
-  );
-  element.addEventListener("touchend", function (e) {
-    if (!touchMoved) {
-      touchHandled = true;
-      e.preventDefault(); // prevent ghost click
+    function (e) {
+      e.preventDefault();
       handler(e);
-      setTimeout(function () {
-        touchHandled = false;
-      }, 300);
-    }
-  });
-  // Click fallback for simulator / non-touch
-  element.addEventListener("click", function (e) {
-    if (!touchHandled) {
-      handler(e);
-    }
-  });
+    },
+    { passive: false },
+  );
+  element.addEventListener("click", handler);
 }
 
 // =========================

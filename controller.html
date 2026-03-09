@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <title>True Friends Quiz — Controller</title>
-    <link rel="stylesheet" href="css/controller.css?v=13" />
+    <link rel="stylesheet" href="css/controller.css?v=12" />
   </head>
   <body>
     <!-- ========================= -->
@@ -48,34 +48,32 @@
         </select>
       </div>
 
-      <!-- Rounds per player -->
-      <div class="settings-section">
-        <div class="settings-label" id="settings-rounds-label">
-          Rounds per player
+      <!-- Rounds + Time side-by-side -->
+      <div class="settings-row-pair">
+        <div class="settings-section settings-half">
+          <div class="settings-label" id="settings-rounds-label">
+            Rounds per player
+          </div>
+          <div class="settings-rounds-row">
+            <button id="rounds-minus" class="rounds-btn">−</button>
+            <span id="rounds-value" class="rounds-value">1</span>
+            <button id="rounds-plus" class="rounds-btn">+</button>
+          </div>
         </div>
-        <div class="settings-rounds-row">
-          <button id="rounds-minus" class="rounds-btn">−</button>
-          <span id="rounds-value" class="rounds-value">1</span>
-          <button id="rounds-plus" class="rounds-btn">+</button>
+        <div class="settings-section settings-half">
+          <div class="settings-label" id="settings-time-label">Answer Time</div>
+          <div class="settings-rounds-row">
+            <button id="time-minus" class="rounds-btn">−</button>
+            <span id="time-value" class="rounds-value">20s</span>
+            <button id="time-plus" class="rounds-btn">+</button>
+          </div>
         </div>
       </div>
 
-      <!-- Answer time -->
-      <div class="settings-section">
-        <div class="settings-label" id="settings-time-label">Answer Time</div>
-        <div class="settings-rounds-row">
-          <button id="time-minus" class="rounds-btn">−</button>
-          <span id="time-value" class="rounds-value">20s</span>
-          <button id="time-plus" class="rounds-btn">+</button>
-        </div>
-      </div>
-
-      <!-- Music toggle -->
-      <div class="settings-section">
+      <!-- Music toggle (inline) -->
+      <div class="settings-section settings-inline">
         <div class="settings-label" id="settings-music-label">Music</div>
-        <div class="settings-rounds-row">
-          <button id="music-toggle" class="music-toggle-btn on">🔊 ON</button>
-        </div>
+        <button id="music-toggle" class="music-toggle-btn on">🔊 ON</button>
       </div>
 
       <!-- Categories -->
@@ -170,6 +168,6 @@
     <script src="languages/en/ui-text.js?v=12"></script>
     <!-- Other languages are loaded on demand via loadLanguage() -->
     <!-- App Logic -->
-    <script src="js/controller.js?v=13"></script>
+    <script src="js/controller.js?v=12"></script>
   </body>
 </html>
