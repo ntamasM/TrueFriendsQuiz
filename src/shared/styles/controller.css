@@ -50,7 +50,7 @@ body {
 /* Settings view — compact layout to avoid scrolling */
 #view-settings.active {
   justify-content: flex-start;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
   height: 100vh;
   min-height: 0;
@@ -264,6 +264,12 @@ select,
   gap: 6px;
   width: 100%;
   margin-top: 2px;
+}
+
+.category-toggles .cat-toggle-btn:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  max-width: 50%;
+  justify-self: center;
 }
 
 .cat-toggle-btn {

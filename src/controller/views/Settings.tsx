@@ -113,7 +113,7 @@ export default function Settings({ ac }: SettingsProps) {
       <div className="settings-title">⚙️ {t("settings")}</div>
 
       {/* Language */}
-      <div className="settings-row">
+      <div className="settings-section">
         <label className="settings-label">{t("selectLanguage")}</label>
         <select
           className="settings-lang-select"
@@ -128,72 +128,74 @@ export default function Settings({ ac }: SettingsProps) {
         </select>
       </div>
 
-      {/* Rounds per player */}
-      <div className="settings-row">
-        <label className="settings-label">{t("roundsPerPlayer")}</label>
-        <div className="stepper">
-          <button className="stepper-btn" onPointerDown={handleRoundsMinus}>
-            −
-          </button>
-          <span className="stepper-value">{state.roundsPerPlayer}</span>
-          <button className="stepper-btn" onPointerDown={handleRoundsPlus}>
-            +
-          </button>
+      {/* Rounds + Time side by side */}
+      <div className="settings-row-pair">
+        <div className="settings-half">
+          <label className="settings-label">{t("roundsPerPlayer")}</label>
+          <div className="settings-rounds-row">
+            <button className="rounds-btn" onPointerDown={handleRoundsMinus}>
+              −
+            </button>
+            <span className="rounds-value">{state.roundsPerPlayer}</span>
+            <button className="rounds-btn" onPointerDown={handleRoundsPlus}>
+              +
+            </button>
+          </div>
         </div>
-      </div>
-
-      {/* Answer time */}
-      <div className="settings-row">
-        <label className="settings-label">{t("answerTime")}</label>
-        <div className="stepper">
-          <button className="stepper-btn" onPointerDown={handleTimeMinus}>
-            −
-          </button>
-          <span className="stepper-value">{state.answerTime}s</span>
-          <button className="stepper-btn" onPointerDown={handleTimePlus}>
-            +
-          </button>
+        <div className="settings-half">
+          <label className="settings-label">{t("answerTime")}</label>
+          <div className="settings-rounds-row">
+            <button className="rounds-btn" onPointerDown={handleTimeMinus}>
+              −
+            </button>
+            <span className="rounds-value">{state.answerTime}s</span>
+            <button className="rounds-btn" onPointerDown={handleTimePlus}>
+              +
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Music */}
-      <div className="settings-row">
-        <label className="settings-label">{t("music")}</label>
-        <button
-          className={`music-toggle-btn ${state.musicEnabled ? "on" : "off"}`}
-          onPointerDown={handleMusicToggle}
-        >
-          {state.musicEnabled ? `🔊 ${t("musicOn")}` : `🔇 ${t("musicOff")}`}
-        </button>
+      <div className="settings-section">
+        <div className="settings-inline">
+          <label className="settings-label">{t("music")}</label>
+          <button
+            className={`music-toggle-btn ${state.musicEnabled ? "on" : "off"}`}
+            onPointerDown={handleMusicToggle}
+          >
+            {state.musicEnabled ? `🔊 ${t("musicOn")}` : `🔇 ${t("musicOff")}`}
+          </button>
+        </div>
       </div>
 
       {/* Category toggles */}
-      <div className="settings-row">
+      <div className="settings-section">
         <label className="settings-label">{t("categorySettings")}</label>
+        <div className="category-toggles">
+          {QUESTION_CATEGORIES.map((cat) => {
+            const isEnabled = !state.disabledCategories.includes(cat.key);
+            const displayName = catNames[cat.key] ?? cat.key;
+            return (
+              <button
+                key={cat.key}
+                className={`cat-toggle-btn ${isEnabled ? "on" : "off"}`}
+                onPointerDown={() => handleCategoryToggle(cat.key)}
+              >
+                {isEnabled ? "✅ " : "❌ "}
+                {displayName}
+                {cat.hero ? " 👑" : ""}
+              </button>
+            );
+          })}
+        </div>
+        {catWarning && (
+          <div className="cat-warning">{t("allCategoriesDisabled")}</div>
+        )}
       </div>
-      <div className="category-toggles">
-        {QUESTION_CATEGORIES.map((cat) => {
-          const isEnabled = !state.disabledCategories.includes(cat.key);
-          const displayName = catNames[cat.key] ?? cat.key;
-          return (
-            <button
-              key={cat.key}
-              className={`cat-toggle-btn ${isEnabled ? "on" : "off"}`}
-              onPointerDown={() => handleCategoryToggle(cat.key)}
-            >
-              {isEnabled ? "✅ " : "❌ "}
-              {displayName}
-              {cat.hero ? " 👑" : ""}
-            </button>
-          );
-        })}
-      </div>
-      {catWarning && (
-        <div className="cat-warning">{t("allCategoriesDisabled")}</div>
-      )}
 
       {/* Back */}
-      <button className="ctrl-btn settings-back-btn" onPointerDown={handleBack}>
+      <button className="ctrl-settings-back-btn" onPointerDown={handleBack}>
         ← {t("back")}
       </button>
     </div>
