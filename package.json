@@ -1,0 +1,29 @@
+{
+  "name": "true-friends-quiz",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A multiplayer party quiz game built for AirConsole where players test how well they know each other.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "zip": "powershell -File scripts/zip-game.ps1"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntamasM/TrueFriendsQuiz.git"
+  },
+  "license": "ISC"
+}

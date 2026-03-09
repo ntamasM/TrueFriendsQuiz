@@ -18,9 +18,13 @@ Desktop.ini
 ngrok.yml
 ngrok.log
 
-# Node (if added later)
+# Node
 node_modules/
 package-lock.json
+
+# Build output
+dist/
+tsconfig.tsbuildinfo
 
 # Misc
 *.log
