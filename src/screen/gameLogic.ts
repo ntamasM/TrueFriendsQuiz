@@ -64,7 +64,9 @@ export function getStreakBonus(streak: number): number {
 }
 
 export function getHostPointsPerCorrect(numPlayers: number): number {
-  return Math.floor((100 / numPlayers) * 2);
+  const guessers = numPlayers - 1;
+  if (guessers <= 0) return 0;
+  return Math.floor(200 / guessers);
 }
 
 // ─── Leaderboard ranking ───

@@ -42,6 +42,11 @@ export default function Guessing() {
             </div>
           ))}
         </div>
+        <div className="category-badge">
+          {(uiText?.categories as Record<string, string>)?.[
+            question.category
+          ] ?? question.category}
+        </div>
       </div>
 
       <div className="timer-container">

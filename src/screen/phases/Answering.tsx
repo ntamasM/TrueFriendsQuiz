@@ -56,6 +56,11 @@ export default function Answering() {
             </div>
           ))}
         </div>
+        <div className="category-badge">
+          {(uiText?.categories as Record<string, string>)?.[
+            question.category
+          ] ?? question.category}
+        </div>
       </div>
     </div>
   );

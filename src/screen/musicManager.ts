@@ -11,11 +11,12 @@ class MusicManager {
   private playlist: string[] = [];
   private index = 0;
   private enabled = true;
+  private lastTrack: string | null = null;
 
-  /** Start playing music. Shuffles the playlist. */
+  /** Start playing music. Picks a random first track. */
   play(): void {
     if (!this.enabled) return;
-    this.playlist = this.shuffle(TRACKS);
+    this.playlist = this.shuffleAvoidRepeat(TRACKS, this.lastTrack);
     this.index = 0;
     this.playTrack();
   }
@@ -62,6 +63,7 @@ class MusicManager {
     if (this.playlist.length === 0) return;
     this.stop();
     const src = this.playlist[this.index % this.playlist.length]!;
+    this.lastTrack = src;
     const audio = new Audio(src);
     audio.volume = VOLUME;
     audio.addEventListener("ended", this.handleEnded);
@@ -72,17 +74,22 @@ class MusicManager {
   private handleEnded = (): void => {
     this.index++;
     if (this.index >= this.playlist.length) {
-      this.playlist = this.shuffle(TRACKS);
+      this.playlist = this.shuffleAvoidRepeat(TRACKS, this.lastTrack);
       this.index = 0;
     }
     this.playTrack();
   };
 
-  private shuffle(arr: string[]): string[] {
+  /** Shuffle, ensuring the first track differs from `avoid`. */
+  private shuffleAvoidRepeat(arr: string[], avoid: string | null): string[] {
     const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [a[i], a[j]] = [a[j]!, a[i]!];
+    }
+    if (avoid && a.length > 1 && a[0] === avoid) {
+      const swapIdx = 1 + Math.floor(Math.random() * (a.length - 1));
+      [a[0], a[swapIdx]] = [a[swapIdx]!, a[0]!];
     }
     return a;
   }

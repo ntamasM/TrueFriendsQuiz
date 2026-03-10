@@ -296,6 +296,19 @@ body {
   border: 2px solid transparent;
 }
 
+.category-badge {
+  margin-top: 18px;
+  display: inline-block;
+  padding: 6px 20px;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.07);
+  letter-spacing: 0.5px;
+}
+
 .answer-a {
   background: rgba(233, 69, 96, 0.3);
   border-color: #e94560;
