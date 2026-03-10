@@ -31,7 +31,7 @@ export default function Leaderboard() {
   );
 
   const numPlayers = state.players.length;
-  const perCorrect = Math.floor((100 / numPlayers) * 2);
+  const perCorrect = numPlayers > 1 ? Math.floor(200 / (numPlayers - 1)) : 0;
   const pg = uiText?.pointsGuide;
   const inARow = pg?.inARow ?? "in a row";
   const streakData = [

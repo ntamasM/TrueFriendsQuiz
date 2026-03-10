@@ -63,7 +63,12 @@ export type ScreenToControllerMessage =
     }
   | {
       action: "pick_question";
-      questions: { id: number; question: string; answers: string[] }[];
+      questions: {
+        id: number;
+        category: string;
+        question: string;
+        answers: string[];
+      }[];
       language: string;
     }
   | {

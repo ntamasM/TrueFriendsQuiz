@@ -22,7 +22,12 @@ export interface ControllerState {
   isPaused: boolean;
   // Phase-specific data (set when the view changes)
   waitingMessage: string;
-  pickQuestions: { id: number; question: string; answers: string[] }[];
+  pickQuestions: {
+    id: number;
+    category: string;
+    question: string;
+    answers: string[];
+  }[];
   answerQuestion: string;
   answerOptions: string[];
   guessQuestion: string;
@@ -90,7 +95,12 @@ export type ControllerAction =
   | { type: "SET_WAITING"; message: string }
   | {
       type: "SET_PICK_QUESTIONS";
-      questions: { id: number; question: string; answers: string[] }[];
+      questions: {
+        id: number;
+        category: string;
+        question: string;
+        answers: string[];
+      }[];
     }
   | { type: "SET_ANSWER_QUESTION"; question: string; answers: string[] }
   | {

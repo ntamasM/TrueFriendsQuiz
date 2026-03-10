@@ -390,6 +390,16 @@ select,
   line-height: 1.4;
 }
 
+.question-option-category {
+  display: block;
+  font-size: 0.7em;
+  font-weight: 500;
+  color: #f5a623;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
 .question-option:active {
   transform: scale(0.97);
 }

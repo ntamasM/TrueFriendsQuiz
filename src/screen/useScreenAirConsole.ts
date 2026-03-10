@@ -90,6 +90,7 @@ export function useScreenAirConsole() {
 
     const questionsForHost = questions.map((q) => ({
       id: q.id,
+      category: q.category,
       question: replaceNamePlaceholder(q.question, host.nickname),
       answers: q.answers,
     }));
@@ -676,6 +677,7 @@ export function useScreenAirConsole() {
 
       const questionsForHost = questions.map((q) => ({
         id: q.id,
+        category: q.category,
         question: replaceNamePlaceholder(q.question, host.nickname),
         answers: q.answers,
       }));

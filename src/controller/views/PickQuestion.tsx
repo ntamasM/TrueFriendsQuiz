@@ -50,6 +50,10 @@ export default function PickQuestion({ ac }: PickQuestionProps) {
             }}
             onPointerDown={() => handlePick(q.id)}
           >
+            <span className="question-option-category">
+              {(uiText?.categories as Record<string, string>)?.[q.category] ??
+                q.category}
+            </span>
             {q.question}
           </div>
         ))}
