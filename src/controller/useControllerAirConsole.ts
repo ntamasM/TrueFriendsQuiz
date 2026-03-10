@@ -160,6 +160,10 @@ export function useControllerAirConsole() {
           case "game_resumed":
             dispatch({ type: "SET_PAUSED", paused: false });
             break;
+
+          case "vibrate":
+            ac.vibrate(data.duration);
+            break;
         }
       };
 

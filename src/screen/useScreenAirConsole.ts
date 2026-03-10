@@ -101,6 +101,9 @@ export function useScreenAirConsole() {
       language: s.language,
     });
 
+    // Vibrate host's phone
+    acRef.current?.message(host.deviceId, { action: "vibrate", duration: 200 });
+
     // Other players wait
     const guessers = getGuessers(s);
     for (const p of guessers) {
@@ -267,6 +270,14 @@ export function useScreenAirConsole() {
         totalRounds: s.totalRounds - 1,
         language: s.language,
       });
+
+      // Vibrate the winner's phone
+      if (ranks[idx] === 1) {
+        acRef.current?.message(player.deviceId, {
+          action: "vibrate",
+          duration: 500,
+        });
+      }
     });
   }
 
@@ -674,6 +685,9 @@ export function useScreenAirConsole() {
         questions: questionsForHost,
         language: state.language,
       });
+
+      // Vibrate host's phone
+      ac.message(host.deviceId, { action: "vibrate", duration: 200 });
 
       for (const p of guessers) {
         ac.message(p.deviceId, {

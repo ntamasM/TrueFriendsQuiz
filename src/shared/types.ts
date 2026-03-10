@@ -97,7 +97,8 @@ export type ScreenToControllerMessage =
       timeLeft: number;
     }
   | { action: "game_paused" }
-  | { action: "game_resumed" };
+  | { action: "game_resumed" }
+  | { action: "vibrate"; duration: number };
 
 // ─── Controller → Screen Messages ───
 
