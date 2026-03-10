@@ -634,7 +634,7 @@ select,
   margin-top: 6px;
 }
 
-.ctrl-play-again-btn {
+.ctrl-play-again {
   padding: 14px 36px;
   font-size: 1.1em;
   font-weight: 700;
@@ -649,11 +649,11 @@ select,
   max-width: 300px;
 }
 
-.ctrl-play-again-btn:active {
+.ctrl-play-again:active {
   transform: scale(0.95);
 }
 
-.ctrl-menu-btn {
+.ctrl-menu {
   padding: 12px 30px;
   font-size: 1em;
   font-weight: 600;
@@ -667,7 +667,7 @@ select,
   max-width: 300px;
 }
 
-.ctrl-menu-btn:active {
+.ctrl-menu:active {
   transform: scale(0.95);
 }
 
