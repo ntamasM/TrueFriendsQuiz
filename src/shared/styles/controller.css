@@ -102,7 +102,6 @@ body {
 
 /* Settings view — compact layout to avoid scrolling */
 #view-settings.active {
-  justify-content: flex-start;
   padding-top: 10px;
   padding-bottom: 15px;
   height: 100vh;
