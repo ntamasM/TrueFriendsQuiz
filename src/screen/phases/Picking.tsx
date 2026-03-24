@@ -17,6 +17,8 @@ export default function Picking() {
   const host = state.players[state.currentRound % state.players.length];
   if (!host) return null;
 
+  const isCategoryVote = state.pickingSubStep === "category_vote";
+
   return (
     <div className="phase active" id="picking">
       <div className="round-info">
@@ -34,7 +36,9 @@ export default function Picking() {
         <div className="host-info">
           <div className="host-name">{host.nickname}</div>
           <div className="host-status waiting-dots">
-            {t("choosingQuestion")}
+            {isCategoryVote
+              ? `${host.nickname} ${t("choosingCategory")}`
+              : t("choosingQuestion")}
           </div>
         </div>
       </div>

@@ -70,9 +70,22 @@
     "title": "Punktesystem",
     "guesser": "Spieler",
     "correctGuess": "Richtige Antwort",
+    "firstToGuess": "Erster Tipp",
     "host": "Gastgeber",
     "perCorrectGuesser": "Pro richtige Antwort",
     "streakBonus": "Serien-Bonus",
     "inARow": "in Folge"
-  }
+  },
+  "categoryVote": {
+    "title": "Wähle eine Kategorie",
+    "fun": "Spaß & Zufall",
+    "deep": "Tief & Persönlich",
+    "dilemma": "Würdest du lieber"
+  },
+  "choosingCategory": "wählt eine Kategorie...",
+  "speedBonus": "Geschwindigkeitsbonus!",
+  "bestStreak": "Beste Serie",
+  "speedBonuses": "Geschwindigkeitsbonus",
+  "hostedRounds": "Runden als Host",
+  "hostedRound": "Runde als Host"
 }

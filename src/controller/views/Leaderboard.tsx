@@ -26,8 +26,11 @@ export default function Leaderboard({ ac }: LeaderboardProps) {
     ac.current?.message(AirConsole.SCREEN, { action: "back_to_menu" });
   }, [ac]);
 
+  const isWinner = state.leaderboardRank === 1;
+
   return (
     <div className="view active" id="view-leaderboard">
+      {isWinner && <div className="lb-winner-crown">👑</div>}
       <div className="lb-rank">#{state.leaderboardRank}</div>
       <div className="lb-rank-text">
         {t("yourRank")} #{state.leaderboardRank} /{" "}
@@ -36,9 +39,32 @@ export default function Leaderboard({ ac }: LeaderboardProps) {
       <div className="lb-final-score">
         {state.leaderboardScore} {t("points")}
       </div>
-      <div className="lb-stat">
-        {state.leaderboardCorrectGuesses}/{state.leaderboardTotalRounds}{" "}
-        {t("correct")}
+
+      {/* Per-player stats */}
+      <div className="lb-stats">
+        <div className="lb-stat">
+          🎯 {state.leaderboardCorrectGuesses}/{state.leaderboardTotalRounds}{" "}
+          {t("correct")}
+        </div>
+        {state.leaderboardBestStreak >= 3 && (
+          <div className="lb-stat">
+            🔥 {uiText?.bestStreak ?? "Best streak"}: {state.leaderboardBestStreak}{" "}
+            {uiText?.pointsGuide?.inARow ?? "in a row"}
+          </div>
+        )}
+        {state.leaderboardSpeedBonuses > 0 && (
+          <div className="lb-stat">
+            ⚡ {uiText?.speedBonuses ?? "Speed bonuses"}: {state.leaderboardSpeedBonuses}x
+          </div>
+        )}
+        {state.leaderboardTimesHost > 0 && (
+          <div className="lb-stat">
+            👑 {state.leaderboardTimesHost}{" "}
+            {state.leaderboardTimesHost === 1
+              ? uiText?.hostedRound ?? "round hosted"
+              : uiText?.hostedRounds ?? "rounds hosted"}
+          </div>
+        )}
       </div>
 
       {state.isMaster && (

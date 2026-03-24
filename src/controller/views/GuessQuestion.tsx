@@ -4,6 +4,9 @@ import { loadUiText } from "../../shared/i18n";
 import type { LanguageCode } from "../../shared/constants";
 import { useControllerState } from "../ControllerContext";
 
+const REACTION_EMOJIS = ["👆", "🤔", "😱", "😂"];
+const REACTION_COOLDOWN = 3000;
+
 interface GuessQuestionProps {
   ac: React.RefObject<AirConsole | null>;
 }
@@ -12,6 +15,7 @@ export default function GuessQuestion({ ac }: GuessQuestionProps) {
   const state = useControllerState();
   const [uiText, setUiText] = useState<UiText | null>(null);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
+  const [lastReactionTime, setLastReactionTime] = useState(0);
 
   useEffect(() => {
     loadUiText(state.language as LanguageCode).then(setUiText);
@@ -36,13 +40,28 @@ export default function GuessQuestion({ ac }: GuessQuestionProps) {
     [ac, selectedIdx, state.hasGuessed],
   );
 
+  const handleReaction = useCallback(
+    (emoji: string) => {
+      const now = Date.now();
+      if (now - lastReactionTime < REACTION_COOLDOWN) return;
+      setLastReactionTime(now);
+      ac.current?.message(AirConsole.SCREEN, {
+        action: "emoji_reaction",
+        emoji,
+      });
+    },
+    [ac, lastReactionTime],
+  );
+
+  const isUrgent = state.guessTimeLeft <= 5;
+
   return (
     <div className="view active" id="view-guess">
       <div className="guess-title">
         {t("guessAnswer")} {state.guessHostNickname}
       </div>
       <div className="guess-question-text">{state.guessQuestion}</div>
-      <div className="guess-timer">
+      <div className={`guess-timer${isUrgent ? " urgent" : ""}`}>
         {state.guessTimeLeft}
         {t("seconds")}
       </div>
@@ -63,6 +82,19 @@ export default function GuessQuestion({ ac }: GuessQuestionProps) {
             onPointerDown={() => handleGuess(idx)}
           >
             {ans}
+          </div>
+        ))}
+      </div>
+
+      {/* Emoji reactions */}
+      <div className="emoji-reaction-bar">
+        {REACTION_EMOJIS.map((emoji) => (
+          <div
+            key={emoji}
+            className="emoji-reaction-btn"
+            onPointerDown={() => handleReaction(emoji)}
+          >
+            {emoji}
           </div>
         ))}
       </div>

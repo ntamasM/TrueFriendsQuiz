@@ -70,9 +70,22 @@
     "title": "Puan Sistemi",
     "guesser": "Oyuncu",
     "correctGuess": "Doğru cevap",
+    "firstToGuess": "İlk tahmin eden",
     "host": "Sunucu",
     "perCorrectGuesser": "Doğru cevap başına",
     "streakBonus": "Seri Bonusu",
     "inARow": "üst üste"
-  }
+  },
+  "categoryVote": {
+    "title": "Bir Kategori Seç",
+    "fun": "Eğlence ve Rastgele",
+    "deep": "Derin ve Kişisel",
+    "dilemma": "Ne Tercih Ederdin"
+  },
+  "choosingCategory": "kategori seçiyor...",
+  "speedBonus": "hız bonusu!",
+  "bestStreak": "En iyi seri",
+  "speedBonuses": "Hız bonusu",
+  "hostedRounds": "tur ev sahipliği",
+  "hostedRound": "tur ev sahipliği"
 }

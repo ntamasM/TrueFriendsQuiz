@@ -70,9 +70,22 @@
     "title": "Sistema de Puntos",
     "guesser": "Jugador",
     "correctGuess": "Respuesta correcta",
+    "firstToGuess": "Primero en adivinar",
     "host": "Anfitrión",
     "perCorrectGuesser": "Por acierto",
     "streakBonus": "Bonus de Racha",
     "inARow": "seguidas"
-  }
+  },
+  "categoryVote": {
+    "title": "Elige una Categoría",
+    "fun": "Diversión y Aleatorio",
+    "deep": "Profundo y Personal",
+    "dilemma": "Qué Preferirías"
+  },
+  "choosingCategory": "está eligiendo una categoría...",
+  "speedBonus": "¡bonus de velocidad!",
+  "bestStreak": "Mejor racha",
+  "speedBonuses": "Bonus de velocidad",
+  "hostedRounds": "rondas como anfitrión",
+  "hostedRound": "ronda como anfitrión"
 }

@@ -71,9 +71,22 @@
     "title": "Points System",
     "guesser": "Guesser",
     "correctGuess": "Correct guess",
+    "firstToGuess": "First to guess",
     "host": "Host",
     "perCorrectGuesser": "Per correct guesser",
     "streakBonus": "Streak Bonus",
     "inARow": "in a row"
-  }
+  },
+  "categoryVote": {
+    "title": "Choose a Category",
+    "fun": "Fun & Random",
+    "deep": "Deep & Personal",
+    "dilemma": "Would You Rather"
+  },
+  "choosingCategory": "is choosing a category...",
+  "speedBonus": "speed bonus!",
+  "bestStreak": "Best streak",
+  "speedBonuses": "Speed bonuses",
+  "hostedRounds": "rounds hosted",
+  "hostedRound": "round hosted"
 }

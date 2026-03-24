@@ -5,7 +5,12 @@ import {
   type Dispatch,
   type ReactNode,
 } from "react";
-import type { Player, Question, ScreenPhase } from "../shared/types";
+import type {
+  Player,
+  Question,
+  ScreenPhase,
+  PickingSubStep,
+} from "../shared/types";
 
 // ─── State ───
 
@@ -17,6 +22,7 @@ export interface ScreenState {
   totalRounds: number;
   roundsPerPlayer: number;
   guessTime: number;
+  pickingSubStep: PickingSubStep;
   currentQuestion: Question | null;
   hostAnswer: number | null;
   playerGuesses: Record<number, number>; // deviceId → answerIndex
@@ -26,6 +32,9 @@ export interface ScreenState {
   musicEnabled: boolean;
   disabledCategories: string[];
   streaks: Record<number, number>; // deviceId → consecutive correct count
+  firstGuesser: number | null; // deviceId of first player to guess
+  bestStreaks: Record<number, number>; // deviceId → best streak achieved
+  speedBonusCount: Record<number, number>; // deviceId → times got speed bonus
   roundsSinceLastAd: number;
 }
 
@@ -37,6 +46,7 @@ export const initialScreenState: ScreenState = {
   totalRounds: 0,
   roundsPerPlayer: 1,
   guessTime: 20,
+  pickingSubStep: "category_vote",
   currentQuestion: null,
   hostAnswer: null,
   playerGuesses: {},
@@ -46,6 +56,9 @@ export const initialScreenState: ScreenState = {
   musicEnabled: true,
   disabledCategories: [],
   streaks: {},
+  firstGuesser: null,
+  bestStreaks: {},
+  speedBonusCount: {},
   roundsSinceLastAd: 0,
 };
 
@@ -72,6 +85,7 @@ export type ScreenAction =
         scoreDelta: number;
         correctGuesses: number;
         streak: number;
+        speedBonus?: number;
       }[];
     }
   | { type: "ADVANCE_ROUND" }
@@ -81,7 +95,8 @@ export type ScreenAction =
   | { type: "TOGGLE_MUSIC" }
   | { type: "RESET_GAME" }
   | { type: "REMOVE_PLAYER"; deviceId: number }
-  | { type: "SET_TOTAL_ROUNDS"; totalRounds: number };
+  | { type: "SET_TOTAL_ROUNDS"; totalRounds: number }
+  | { type: "CATEGORY_SELECTED" };
 
 // ─── Reducer ───
 
@@ -97,6 +112,7 @@ export function screenReducer(
       return {
         ...state,
         phase: "picking",
+        pickingSubStep: "category_vote",
         players: action.players,
         roundsPerPlayer: action.roundsPerPlayer,
         guessTime: action.guessTime,
@@ -106,6 +122,9 @@ export function screenReducer(
         usedQuestionIds: [],
         disabledCategories: action.disabledCategories,
         streaks: {},
+        firstGuesser: null,
+        bestStreaks: {},
+        speedBonusCount: {},
         roundsSinceLastAd: 0,
         currentQuestion: null,
         hostAnswer: null,
@@ -116,9 +135,17 @@ export function screenReducer(
       return {
         ...state,
         phase: "picking",
+        pickingSubStep: "category_vote",
         currentQuestion: null,
         hostAnswer: null,
         playerGuesses: {},
+        firstGuesser: null,
+      };
+
+    case "CATEGORY_SELECTED":
+      return {
+        ...state,
+        pickingSubStep: "question_pick",
       };
 
     case "SELECT_QUESTION":
@@ -135,6 +162,7 @@ export function screenReducer(
         phase: "guessing",
         hostAnswer: action.answerIndex,
         guessTimeLeft: state.guessTime,
+        firstGuesser: null,
       };
 
     case "PLAYER_GUESS":
@@ -145,6 +173,8 @@ export function screenReducer(
           ...state.playerGuesses,
           [action.deviceId]: action.answerIndex,
         },
+        firstGuesser:
+          state.firstGuesser === null ? action.deviceId : state.firstGuesser,
       };
 
     case "TICK_TIMER":
@@ -163,14 +193,25 @@ export function screenReducer(
         };
       });
       const updatedStreaks = { ...state.streaks };
+      const updatedBestStreaks = { ...state.bestStreaks };
+      const updatedSpeedBonusCount = { ...state.speedBonusCount };
       for (const u of action.scoreUpdates) {
         updatedStreaks[u.deviceId] = u.streak;
+        if (u.streak > (updatedBestStreaks[u.deviceId] ?? 0)) {
+          updatedBestStreaks[u.deviceId] = u.streak;
+        }
+        if (u.speedBonus && u.speedBonus > 0) {
+          updatedSpeedBonusCount[u.deviceId] =
+            (updatedSpeedBonusCount[u.deviceId] ?? 0) + 1;
+        }
       }
       return {
         ...state,
         phase: "reveal",
         players: updatedPlayers,
         streaks: updatedStreaks,
+        bestStreaks: updatedBestStreaks,
+        speedBonusCount: updatedSpeedBonusCount,
       };
     }
 

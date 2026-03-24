@@ -45,6 +45,59 @@ body {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  animation: viewEnter 0.35s ease-out;
+}
+
+@keyframes viewEnter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Phase-specific color themes */
+#view-pick {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 166, 35, 0.08) 0%,
+    transparent 40%
+  );
+}
+
+#view-answer {
+  background: linear-gradient(
+    180deg,
+    rgba(233, 69, 96, 0.08) 0%,
+    transparent 40%
+  );
+}
+
+#view-guess {
+  background: linear-gradient(
+    180deg,
+    rgba(52, 152, 219, 0.08) 0%,
+    transparent 40%
+  );
+}
+
+#view-result.active {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 204, 113, 0.06) 0%,
+    transparent 40%
+  );
+}
+
+#view-leaderboard {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 166, 35, 0.1) 0%,
+    transparent 40%
+  );
 }
 
 /* Settings view — compact layout to avoid scrolling */
@@ -362,7 +415,7 @@ select,
    Pick Question View
    =========================== */
 #view-pick.active {
-  justify-content: flex-start;
+  justify-content: center;
   padding-top: 16px;
   padding-bottom: 20px;
   overflow-y: auto;
@@ -551,6 +604,147 @@ select,
   color: #e94560;
 }
 
+.guess-timer.urgent {
+  color: #e74c3c;
+  animation: timerPulseCtrl 0.5s ease-in-out infinite;
+}
+
+@keyframes timerPulseCtrl {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.15);
+  }
+}
+
+/* Result flash effect */
+.result-flash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 100;
+  animation: resultFlash 0.6s ease-out forwards;
+}
+
+.result-flash.correct {
+  background: rgba(46, 204, 113, 0.3);
+}
+
+.result-flash.wrong {
+  background: rgba(231, 76, 60, 0.3);
+}
+
+@keyframes resultFlash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Streak display on result */
+.result-streak {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #f5a623;
+  margin-top: 4px;
+}
+
+/* Speed bonus display on result */
+.result-speed-bonus {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: #3498db;
+  margin-top: 2px;
+}
+
+/* Category vote view */
+.category-vote-title {
+  font-size: 1.4em;
+  font-weight: 800;
+  text-align: center;
+  color: #f5a623;
+}
+
+.category-vote-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.category-vote-btn {
+  padding: 18px 20px;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  touch-action: manipulation;
+}
+
+.category-vote-btn:active {
+  transform: scale(0.96);
+}
+
+.category-vote-btn .cat-icon {
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.category-vote-btn:nth-child(1) {
+  border-color: rgba(245, 166, 35, 0.4);
+  background: rgba(245, 166, 35, 0.12);
+}
+
+.category-vote-btn:nth-child(2) {
+  border-color: rgba(155, 89, 182, 0.4);
+  background: rgba(155, 89, 182, 0.12);
+}
+
+.category-vote-btn:nth-child(3) {
+  border-color: rgba(52, 152, 219, 0.4);
+  background: rgba(52, 152, 219, 0.12);
+}
+
+/* Emoji reaction buttons */
+.emoji-reaction-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.emoji-reaction-btn {
+  font-size: 1.5em;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  touch-action: manipulation;
+}
+
+.emoji-reaction-btn:active {
+  transform: scale(0.9);
+  background: rgba(255, 255, 255, 0.15);
+}
+
 /* ===========================
    Waiting View
    =========================== */
@@ -646,10 +840,37 @@ select,
   color: #fff;
 }
 
+.lb-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  width: 80%;
+  max-width: 300px;
+}
+
 .lb-stat {
-  font-size: 1em;
+  font-size: 0.95em;
   color: #a0aec0;
-  margin-top: 6px;
+}
+
+.lb-winner-crown {
+  font-size: 3em;
+  animation: crownBounce 1s ease-in-out infinite;
+}
+
+@keyframes crownBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
 }
 
 .ctrl-play-again {

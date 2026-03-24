@@ -3,7 +3,13 @@ import type { UiText } from "../../shared/types";
 import { loadUiText } from "../../shared/i18n";
 import type { LanguageCode } from "../../shared/constants";
 import { useScreenState } from "../ScreenContext";
-import { replaceNamePlaceholder, getStreakBonus } from "../gameLogic";
+import {
+  replaceNamePlaceholder,
+  getStreakBonus,
+  getHostPointsPerCorrect,
+  SPEED_BONUS,
+  computeRankedPlayers,
+} from "../gameLogic";
 
 export default function Reveal() {
   const state = useScreenState();
@@ -28,6 +34,10 @@ export default function Reveal() {
   const guessers = state.players.filter(
     (_, i) => i !== state.currentRound % state.players.length,
   );
+
+  // Mini leaderboard — top 3 current standings
+  const ranked = computeRankedPlayers(state.players);
+  const top3 = ranked.slice(0, 3);
 
   return (
     <div className="phase active" id="reveal">
@@ -68,7 +78,18 @@ export default function Reveal() {
           const isCorrect = guess === correctIdx;
           const streak = state.streaks[p.deviceId] ?? 0;
           const streakBonus = getStreakBonus(streak);
+          const isFirstGuesser = state.firstGuesser === p.deviceId;
+          const speedBonus = isCorrect && isFirstGuesser ? SPEED_BONUS : 0;
           const basePoints = isCorrect ? 100 : 0;
+
+          const parts: string[] = [];
+          if (isCorrect) {
+            parts.push(`+${basePoints}`);
+            if (speedBonus > 0) parts.push(`+${speedBonus} ⚡`);
+            if (streakBonus > 0) parts.push(`+${streakBonus} 🔥x${streak}`);
+          } else {
+            parts.push("0");
+          }
 
           return (
             <div
@@ -84,12 +105,7 @@ export default function Reveal() {
                 }}
               />
               <span>
-                {p.nickname}:{" "}
-                {isCorrect && streakBonus > 0
-                  ? `+${basePoints} +${streakBonus} 🔥x${streak}`
-                  : isCorrect
-                    ? `+${basePoints}`
-                    : "0"}
+                {p.nickname}: {parts.join(" ")}
               </span>
             </div>
           );
@@ -97,8 +113,9 @@ export default function Reveal() {
 
         {/* Host score change */}
         {(() => {
-          const numPlayers = state.players.length;
-          const hostPtsPerCorrect = Math.floor((100 / numPlayers) * 2);
+          const hostPtsPerCorrect = getHostPointsPerCorrect(
+            state.players.length,
+          );
           const correctCount = guessers.filter(
             (p) => state.playerGuesses[p.deviceId] === correctIdx,
           ).length;
@@ -121,6 +138,25 @@ export default function Reveal() {
             </div>
           );
         })()}
+      </div>
+
+      {/* Mini leaderboard */}
+      <div className="mini-leaderboard">
+        {top3.map((p) => (
+          <div key={p.deviceId} className="mini-lb-entry">
+            <span className="mini-lb-rank">#{p.rank}</span>
+            <img
+              className="mini-lb-avatar"
+              src={p.profilePic}
+              alt=""
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = "none";
+              }}
+            />
+            <span>{p.nickname}</span>
+            <span className="mini-lb-score">{p.score}</span>
+          </div>
+        ))}
       </div>
     </div>
   );

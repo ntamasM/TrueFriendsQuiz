@@ -114,11 +114,6 @@ Make every action feel rewarding. Players should feel the stakes, excitement, an
 - During Guessing phase, players can send a quick emoji reaction (👆 "I know!", 🤔 "Hmm...")
 - Reactions appear on screen briefly above the player's avatar
 
-**Speed Bonus**
-
-- Players who answer faster get a small bonus (e.g., first to answer correctly gets +20 extra points)
-- Visual indicator on screen showing who answered first
-
 **"Last Chance" Tension**
 
 - When the guessing timer hits the last 5 seconds, add urgency: red timer, pulsing animation, tension sound effect

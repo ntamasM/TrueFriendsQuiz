@@ -1,5 +1,5 @@
-import type { Question } from "../shared/types";
-import { QUESTION_CATEGORIES } from "../shared/constants";
+import type { Question, CategoryVoteOption } from "../shared/types";
+import { QUESTION_CATEGORIES, CATEGORY_VOTE_GROUPS } from "../shared/constants";
 
 // ─── Shuffle ───
 
@@ -55,7 +55,64 @@ export function getRandomQuestions(
   };
 }
 
+// ─── Category-filtered question picking ───
+
+export function getQuestionsForGroup(
+  allQuestions: Question[],
+  usedIds: number[],
+  disabledCategories: string[],
+  isPremium: boolean,
+  group: CategoryVoteOption,
+  count: number,
+): { questions: Question[]; updatedUsedIds: number[] } {
+  const heroCategories = QUESTION_CATEGORIES.filter((c) => c.hero).map(
+    (c) => c.key,
+  );
+  const groupCategories = CATEGORY_VOTE_GROUPS[group];
+
+  const isAllowed = (q: Question) => {
+    if (!isPremium && heroCategories.includes(q.category)) return false;
+    if (disabledCategories.includes(q.category)) return false;
+    if (!groupCategories.includes(q.category)) return false;
+    return true;
+  };
+
+  let currentUsedIds = usedIds;
+  let available = allQuestions.filter(
+    (q) => isAllowed(q) && !currentUsedIds.includes(q.id),
+  );
+
+  // If not enough from this group, fall back to all categories
+  if (available.length < count) {
+    available = allQuestions.filter(
+      (q) => {
+        if (!isPremium && heroCategories.includes(q.category)) return false;
+        if (disabledCategories.includes(q.category)) return false;
+        return !currentUsedIds.includes(q.id);
+      },
+    );
+  }
+
+  // If still not enough, reset used IDs
+  if (available.length < count) {
+    currentUsedIds = [];
+    available = allQuestions.filter((q) => {
+      if (!isPremium && heroCategories.includes(q.category)) return false;
+      if (disabledCategories.includes(q.category)) return false;
+      return true;
+    });
+  }
+
+  const shuffled = shuffleArray(available);
+  return {
+    questions: shuffled.slice(0, count),
+    updatedUsedIds: currentUsedIds,
+  };
+}
+
 // ─── Scoring ───
+
+export const SPEED_BONUS = 20;
 
 export function getStreakBonus(streak: number): number {
   if (streak < 3) return 0;

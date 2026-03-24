@@ -8,9 +8,12 @@ export type ScreenPhase =
   | "reveal"
   | "leaderboard";
 
+export type PickingSubStep = "category_vote" | "question_pick";
+
 export type ControllerView =
   | "lobby"
   | "settings"
+  | "category-vote"
   | "pick"
   | "answer"
   | "guess"
@@ -18,6 +21,8 @@ export type ControllerView =
   | "host-wait"
   | "result"
   | "leaderboard";
+
+export type CategoryVoteOption = "fun" | "deep" | "dilemma";
 
 // ─── Data Models ───
 
@@ -50,12 +55,17 @@ export type ScreenToControllerMessage =
       phase: "lobby" | "waiting" | "host_waiting" | "leaderboard";
       language: string;
       message?: string;
+      waitingKey?: string;
+      hostNickname?: string;
       // leaderboard extras
       rank?: number;
       totalPlayers?: number;
       score?: number;
       correctGuesses?: number;
       totalRounds?: number;
+      bestStreak?: number;
+      speedBonuses?: number;
+      timesHost?: number;
     }
   | {
       action: "language_changed";
@@ -95,6 +105,7 @@ export type ScreenToControllerMessage =
       isHost?: boolean;
       streak?: number;
       streakBonus?: number;
+      speedBonus?: number;
       language: string;
     }
   | {
@@ -103,7 +114,17 @@ export type ScreenToControllerMessage =
     }
   | { action: "game_paused" }
   | { action: "game_resumed" }
-  | { action: "vibrate"; duration: number };
+  | { action: "vibrate"; duration: number }
+  | {
+      action: "pick_category";
+      language: string;
+    }
+  | {
+      action: "emoji_broadcast";
+      emoji: string;
+      nickname: string;
+      x: number;
+    };
 
 // ─── Controller → Screen Messages ───
 
@@ -120,7 +141,9 @@ export type ControllerToScreenMessage =
   | { action: "player_guess"; answerId: number }
   | { action: "play_again" }
   | { action: "back_to_menu" }
-  | { action: "toggle_music"; enabled: boolean };
+  | { action: "toggle_music"; enabled: boolean }
+  | { action: "category_selected"; category: CategoryVoteOption }
+  | { action: "emoji_reaction"; emoji: string };
 
 // ─── UI Text Shape ───
 
@@ -185,9 +208,22 @@ export interface UiText {
     title: string;
     guesser: string;
     correctGuess: string;
+    firstToGuess: string;
     host: string;
     perCorrectGuesser: string;
     streakBonus: string;
     inARow: string;
   };
+  categoryVote: {
+    title: string;
+    fun: string;
+    deep: string;
+    dilemma: string;
+  };
+  choosingCategory: string;
+  speedBonus: string;
+  bestStreak: string;
+  speedBonuses: string;
+  hostedRounds: string;
+  hostedRound: string;
 }

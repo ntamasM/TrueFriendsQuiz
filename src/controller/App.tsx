@@ -2,6 +2,7 @@ import { ControllerProvider, useControllerState } from "./ControllerContext";
 import { useControllerAirConsole } from "./useControllerAirConsole";
 import Lobby from "./views/Lobby";
 import Settings from "./views/Settings";
+import CategoryVote from "./views/CategoryVote";
 import PickQuestion from "./views/PickQuestion";
 import AnswerQuestion from "./views/AnswerQuestion";
 import GuessQuestion from "./views/GuessQuestion";
@@ -19,6 +20,8 @@ function ControllerInner() {
       return <Lobby ac={ac} />;
     case "settings":
       return <Settings ac={ac} />;
+    case "category-vote":
+      return <CategoryVote ac={ac} />;
     case "pick":
       return <PickQuestion ac={ac} />;
     case "answer":

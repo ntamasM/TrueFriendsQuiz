@@ -82,6 +82,8 @@ export function useControllerAirConsole() {
                 dispatch({
                   type: "SET_WAITING",
                   message: data.message ?? "",
+                  waitingKey: data.waitingKey,
+                  hostNickname: data.hostNickname,
                 });
                 break;
               case "host_waiting":
@@ -95,6 +97,9 @@ export function useControllerAirConsole() {
                   score: data.score!,
                   correctGuesses: data.correctGuesses!,
                   totalRounds: data.totalRounds!,
+                  bestStreak: data.bestStreak ?? 0,
+                  speedBonuses: data.speedBonuses ?? 0,
+                  timesHost: data.timesHost ?? 0,
                 });
                 break;
             }
@@ -102,6 +107,10 @@ export function useControllerAirConsole() {
 
           case "language_changed":
             dispatch({ type: "SET_LANGUAGE", language: data.language });
+            break;
+
+          case "pick_category":
+            dispatch({ type: "SET_VIEW", view: "category-vote" });
             break;
 
           case "pick_question":
@@ -143,6 +152,7 @@ export function useControllerAirConsole() {
               totalScore: data.totalScore,
               streak: data.streak,
               streakBonus: data.streakBonus,
+              speedBonus: data.speedBonus,
             });
             break;
 

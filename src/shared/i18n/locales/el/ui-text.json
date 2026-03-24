@@ -70,9 +70,22 @@
     "title": "Σύστημα Πόντων",
     "guesser": "Παίκτης",
     "correctGuess": "Σωστή απάντηση",
+    "firstToGuess": "Πρώτος που μάντεψε",
     "host": "Οικοδεσπότης",
     "perCorrectGuesser": "Ανά σωστή απάντηση",
     "streakBonus": "Μπόνους Σερί",
     "inARow": "στη σειρά"
-  }
+  },
+  "categoryVote": {
+    "title": "Διάλεξε Κατηγορία",
+    "fun": "Διασκέδαση & Τυχαία",
+    "deep": "Βαθιά & Προσωπικά",
+    "dilemma": "Θα Προτιμούσες"
+  },
+  "choosingCategory": "διαλέγει κατηγορία...",
+  "speedBonus": "μπόνους ταχύτητας!",
+  "bestStreak": "Καλύτερο σερί",
+  "speedBonuses": "Μπόνους ταχύτητας",
+  "hostedRounds": "γύροι ως host",
+  "hostedRound": "γύρος ως host"
 }

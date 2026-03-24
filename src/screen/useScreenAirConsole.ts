@@ -12,12 +12,14 @@ import {
   useScreenDispatch,
   type ScreenState,
 } from "./ScreenContext";
+import type { CategoryVoteOption } from "../shared/types";
 import {
   shuffleArray,
   replaceNamePlaceholder,
-  getRandomQuestions,
+  getQuestionsForGroup,
   getStreakBonus,
   getHostPointsPerCorrect,
+  SPEED_BONUS,
 } from "./gameLogic";
 import { musicManager } from "./musicManager";
 
@@ -44,6 +46,7 @@ export function useScreenAirConsole() {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const lobbyDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const questionsRef = useRef<Question[]>([]);
+  const revealCalledRef = useRef(false);
 
   // ─── Helpers ───
 
@@ -69,57 +72,18 @@ export function useScreenAirConsole() {
   // ─── Round flow functions ───
 
   const startRound = useCallback(() => {
-    const s = stateRef.current;
+    revealCalledRef.current = false;
     dispatch({ type: "START_ROUND" });
-
-    const host = getHost(s);
-
-    // Pick 4 random questions for the host to choose
-    const { questions, updatedUsedIds } = getRandomQuestions(
-      questionsRef.current,
-      s.usedQuestionIds,
-      s.disabledCategories,
-      isAnyPlayerPremium(),
-      4,
-    );
-
-    // If usedIds were reset, we need to update our ref copy
-    if (updatedUsedIds !== s.usedQuestionIds) {
-      // We'll reset via SELECT_QUESTION which appends the chosen one
-    }
-
-    const questionsForHost = questions.map((q) => ({
-      id: q.id,
-      category: q.category,
-      question: replaceNamePlaceholder(q.question, host.nickname),
-      answers: q.answers,
-    }));
-
-    // Send question options to host
-    acRef.current?.message(host.deviceId, {
-      action: "pick_question",
-      questions: questionsForHost,
-      language: s.language,
-    });
-
-    // Vibrate host's phone
-    acRef.current?.message(host.deviceId, { action: "vibrate", duration: 200 });
-
-    // Other players wait
-    const guessers = getGuessers(s);
-    for (const p of guessers) {
-      acRef.current?.message(p.deviceId, {
-        action: "game_phase",
-        phase: "waiting",
-        message: host.nickname + " is choosing...",
-        language: s.language,
-      });
-    }
+    // Category vote and question picking are now handled by effects
+    // that react to pickingSubStep changes
   }, [dispatch]);
 
   const showReveal = useCallback(() => {
+    if (revealCalledRef.current) return; // prevent double call
+    revealCalledRef.current = true;
+
     const s = stateRef.current;
-    if (s.phase === "reveal") return; // prevent double call
+    if (s.phase === "reveal") return;
 
     clearGuessTimer();
 
@@ -136,6 +100,7 @@ export function useScreenAirConsole() {
       scoreDelta: number;
       correctGuesses: number;
       streak: number;
+      speedBonus?: number;
     }[] = [];
 
     for (const p of guessers) {
@@ -145,8 +110,10 @@ export function useScreenAirConsole() {
       const currentStreak = s.streaks[p.deviceId] ?? 0;
       const newStreak = isCorrect ? currentStreak + 1 : 0;
       const streakBonus = getStreakBonus(newStreak);
+      const isFirstGuesser = s.firstGuesser === p.deviceId;
+      const speedBonus = isCorrect && isFirstGuesser ? SPEED_BONUS : 0;
       const basePoints = isCorrect ? 100 : 0;
-      const totalPoints = basePoints + streakBonus;
+      const totalPoints = basePoints + streakBonus + speedBonus;
 
       if (isCorrect) {
         hostPoints += hostPointsPerCorrect;
@@ -157,6 +124,7 @@ export function useScreenAirConsole() {
         scoreDelta: totalPoints,
         correctGuesses: p.correctGuesses + (isCorrect ? 1 : 0),
         streak: newStreak,
+        speedBonus,
       });
 
       // Send individual result to each guesser
@@ -168,6 +136,7 @@ export function useScreenAirConsole() {
         totalScore: p.score + totalPoints,
         streak: newStreak,
         streakBonus,
+        speedBonus,
         language: s.language,
       });
     }
@@ -260,6 +229,16 @@ export function useScreenAirConsole() {
       else ranks.push(idx + 1);
     });
 
+    // Count how many times each player was host
+    const timesHostMap: Record<number, number> = {};
+    for (let r = 0; r < s.totalRounds; r++) {
+      const hostPlayer = s.players[r % s.players.length];
+      if (hostPlayer) {
+        timesHostMap[hostPlayer.deviceId] =
+          (timesHostMap[hostPlayer.deviceId] ?? 0) + 1;
+      }
+    }
+
     sorted.forEach((player, idx) => {
       acRef.current?.message(player.deviceId, {
         action: "game_phase",
@@ -268,7 +247,10 @@ export function useScreenAirConsole() {
         totalPlayers: sorted.length,
         score: player.score,
         correctGuesses: player.correctGuesses,
-        totalRounds: s.totalRounds - 1,
+        totalRounds: s.totalRounds - s.roundsPerPlayer,
+        bestStreak: s.bestStreaks[player.deviceId] ?? 0,
+        speedBonuses: s.speedBonusCount[player.deviceId] ?? 0,
+        timesHost: timesHostMap[player.deviceId] ?? 0,
         language: s.language,
       });
 
@@ -313,6 +295,7 @@ export function useScreenAirConsole() {
           action: "game_phase",
           phase: "waiting",
           message: "A game is in progress. Please wait.",
+          waitingKey: "gameInProgress",
           language: s.language,
         });
       }
@@ -453,6 +436,7 @@ export function useScreenAirConsole() {
           // Load questions then start
           loadQuestions(s.language as LanguageCode).then((qs) => {
             questionsRef.current = qs;
+            revealCalledRef.current = false;
             dispatch({
               type: "START_GAME",
               players: shuffled,
@@ -514,6 +498,8 @@ export function useScreenAirConsole() {
               action: "game_phase",
               phase: "waiting",
               message: `${host.nickname} is answering...`,
+              waitingKey: "waitingForAnswer",
+              hostNickname: host.nickname,
               language: s.language,
             });
           }
@@ -540,7 +526,6 @@ export function useScreenAirConsole() {
           ac.message(host.deviceId, {
             action: "game_phase",
             phase: "host_waiting",
-            message: "Waiting for guesses...",
             language: s.language,
           });
 
@@ -588,6 +573,7 @@ export function useScreenAirConsole() {
 
         case "play_again": {
           if (from !== ac.getMasterControllerDeviceId()) break;
+          revealCalledRef.current = false;
           dispatch({ type: "RESET_GAME" });
           // Re-start
           const ids2 = ac.getControllerDeviceIds();
@@ -636,6 +622,56 @@ export function useScreenAirConsole() {
           }
           break;
         }
+
+        case "category_selected": {
+          if (s.phase !== "picking") break;
+          if (s.pickingSubStep !== "category_vote") break;
+          const host = getHost(s);
+          if (from !== host.deviceId) break;
+
+          dispatch({ type: "CATEGORY_SELECTED" });
+
+          // Get filtered questions for the chosen category
+          const group = data.category as CategoryVoteOption;
+          const { questions } = getQuestionsForGroup(
+            questionsRef.current,
+            s.usedQuestionIds,
+            s.disabledCategories,
+            isAnyPlayerPremium(),
+            group,
+            4,
+          );
+
+          const questionsForHost = questions.map((q) => ({
+            id: q.id,
+            category: q.category,
+            question: replaceNamePlaceholder(q.question, host.nickname),
+            answers: q.answers,
+          }));
+
+          ac.message(host.deviceId, {
+            action: "pick_question",
+            questions: questionsForHost,
+            language: s.language,
+          });
+          break;
+        }
+
+        case "emoji_reaction": {
+          if (s.phase !== "guessing") break;
+          if (!s.players.some((p) => p.deviceId === from)) break;
+          const player = s.players.find((p) => p.deviceId === from);
+          if (!player) break;
+
+          // Emit custom event for the Guessing component to pick up
+          const x = 0.1 + Math.random() * 0.8;
+          window.dispatchEvent(
+            new CustomEvent("emoji_reaction", {
+              detail: { emoji: data.emoji, nickname: player.nickname, x },
+            }),
+          );
+          break;
+        }
       }
     };
 
@@ -654,37 +690,22 @@ export function useScreenAirConsole() {
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // When phase becomes "picking" and we're in-game, trigger startRound messaging
+  // When phase becomes "picking" and we're in-game, start category vote
   useEffect(() => {
     if (
       state.phase === "picking" &&
       state.players.length > 0 &&
-      state.currentQuestion === null
+      state.currentQuestion === null &&
+      state.pickingSubStep === "category_vote"
     ) {
-      // Send pick_question to host, wait messages to guessers
       const ac = acRef.current;
       if (!ac) return;
       const host = getHost(state);
       const guessers = getGuessers(state);
 
-      const { questions } = getRandomQuestions(
-        questionsRef.current,
-        state.usedQuestionIds,
-        state.disabledCategories,
-        isAnyPlayerPremium(),
-        4,
-      );
-
-      const questionsForHost = questions.map((q) => ({
-        id: q.id,
-        category: q.category,
-        question: replaceNamePlaceholder(q.question, host.nickname),
-        answers: q.answers,
-      }));
-
+      // Send category vote to host
       ac.message(host.deviceId, {
-        action: "pick_question",
-        questions: questionsForHost,
+        action: "pick_category",
         language: state.language,
       });
 
@@ -695,12 +716,40 @@ export function useScreenAirConsole() {
         ac.message(p.deviceId, {
           action: "game_phase",
           phase: "waiting",
-          message: `${host.nickname} is choosing...`,
+          message: `${host.nickname} is choosing a category...`,
+          waitingKey: "choosingCategory",
+          hostNickname: host.nickname,
           language: state.language,
         });
       }
     }
   }, [state.phase, state.players.length, state.currentRound]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // When pickingSubStep becomes "question_pick", send filtered questions
+  useEffect(() => {
+    if (
+      state.phase === "picking" &&
+      state.pickingSubStep === "question_pick" &&
+      state.currentQuestion === null
+    ) {
+      const ac = acRef.current;
+      if (!ac) return;
+      const host = getHost(state);
+      const guessers = getGuessers(state);
+      const s = stateRef.current;
+
+      for (const p of guessers) {
+        ac.message(p.deviceId, {
+          action: "game_phase",
+          phase: "waiting",
+          message: `${host.nickname} is choosing a question...`,
+          waitingKey: "choosingQuestion",
+          hostNickname: host.nickname,
+          language: s.language,
+        });
+      }
+    }
+  }, [state.pickingSubStep]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return { ac: acRef, state };
 }

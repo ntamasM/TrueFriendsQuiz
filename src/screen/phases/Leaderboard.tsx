@@ -120,6 +120,10 @@ export default function Leaderboard() {
               <span>{pg?.correctGuess ?? "Correct guess"}</span>
               <span>+100</span>
             </div>
+            <div className="points-guide-row">
+              <span>⚡ {pg?.firstToGuess ?? "First to guess"}</span>
+              <span>+20</span>
+            </div>
           </div>
 
           <div className="points-guide-section">
@@ -159,6 +163,9 @@ export default function Leaderboard() {
                   !isSolo ? " podium-group" : ""
                 }`}
               >
+                {group.rank === 1 && (
+                  <div className="podium-crown">👑</div>
+                )}
                 {isSolo && (
                   <img
                     className="podium-avatar"

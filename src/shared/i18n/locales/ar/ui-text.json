@@ -70,9 +70,22 @@
     "title": "نظام النقاط",
     "guesser": "اللاعب",
     "correctGuess": "إجابة صحيحة",
+    "firstToGuess": "أول من خمّن",
     "host": "المضيف",
     "perCorrectGuesser": "لكل إجابة صحيحة",
     "streakBonus": "مكافأة التتابع",
     "inARow": "متتالية"
-  }
+  },
+  "categoryVote": {
+    "title": "اختر فئة",
+    "fun": "مرح وعشوائي",
+    "deep": "عميق وشخصي",
+    "dilemma": "ماذا تفضل"
+  },
+  "choosingCategory": "يختار فئة...",
+  "speedBonus": "مكافأة السرعة!",
+  "bestStreak": "أفضل سلسلة",
+  "speedBonuses": "مكافآت السرعة",
+  "hostedRounds": "جولات كمضيف",
+  "hostedRound": "جولة كمضيف"
 }

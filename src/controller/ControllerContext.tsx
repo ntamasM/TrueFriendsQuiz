@@ -22,6 +22,8 @@ export interface ControllerState {
   isPaused: boolean;
   // Phase-specific data (set when the view changes)
   waitingMessage: string;
+  waitingKey: string;
+  waitingHostNickname: string;
   pickQuestions: {
     id: number;
     category: string;
@@ -43,12 +45,16 @@ export interface ControllerState {
   resultTotalScore: number;
   resultStreak: number;
   resultStreakBonus: number;
+  resultSpeedBonus: number;
   // Leaderboard data
   leaderboardRank: number;
   leaderboardTotalPlayers: number;
   leaderboardScore: number;
   leaderboardCorrectGuesses: number;
   leaderboardTotalRounds: number;
+  leaderboardBestStreak: number;
+  leaderboardSpeedBonuses: number;
+  leaderboardTimesHost: number;
 }
 
 export const initialControllerState: ControllerState = {
@@ -63,6 +69,8 @@ export const initialControllerState: ControllerState = {
   disabledCategories: [],
   isPaused: false,
   waitingMessage: "",
+  waitingKey: "",
+  waitingHostNickname: "",
   pickQuestions: [],
   answerQuestion: "",
   answerOptions: [],
@@ -78,11 +86,15 @@ export const initialControllerState: ControllerState = {
   resultTotalScore: 0,
   resultStreak: 0,
   resultStreakBonus: 0,
+  resultSpeedBonus: 0,
   leaderboardRank: 0,
   leaderboardTotalPlayers: 0,
   leaderboardScore: 0,
   leaderboardCorrectGuesses: 0,
   leaderboardTotalRounds: 0,
+  leaderboardBestStreak: 0,
+  leaderboardSpeedBonuses: 0,
+  leaderboardTimesHost: 0,
 };
 
 // ─── Actions ───
@@ -92,7 +104,12 @@ export type ControllerAction =
   | { type: "SET_MASTER"; isMaster: boolean }
   | { type: "SET_LANGUAGE"; language: string }
   | { type: "SET_VIEW"; view: ControllerView }
-  | { type: "SET_WAITING"; message: string }
+  | {
+      type: "SET_WAITING";
+      message: string;
+      waitingKey?: string;
+      hostNickname?: string;
+    }
   | {
       type: "SET_PICK_QUESTIONS";
       questions: {
@@ -121,6 +138,7 @@ export type ControllerAction =
       totalScore: number;
       streak?: number;
       streakBonus?: number;
+      speedBonus?: number;
     }
   | {
       type: "SET_LEADERBOARD";
@@ -129,6 +147,9 @@ export type ControllerAction =
       score: number;
       correctGuesses: number;
       totalRounds: number;
+      bestStreak: number;
+      speedBonuses: number;
+      timesHost: number;
     }
   | { type: "SET_PAUSED"; paused: boolean }
   | { type: "SET_ROUNDS_PER_PLAYER"; value: number }
@@ -160,7 +181,13 @@ export function controllerReducer(
       return { ...state, view: action.view };
 
     case "SET_WAITING":
-      return { ...state, view: "waiting", waitingMessage: action.message };
+      return {
+        ...state,
+        view: "waiting",
+        waitingMessage: action.message,
+        waitingKey: action.waitingKey ?? "",
+        waitingHostNickname: action.hostNickname ?? "",
+      };
 
     case "SET_PICK_QUESTIONS":
       return {
@@ -205,6 +232,7 @@ export function controllerReducer(
         resultTotalScore: action.totalScore,
         resultStreak: action.streak ?? 0,
         resultStreakBonus: action.streakBonus ?? 0,
+        resultSpeedBonus: action.speedBonus ?? 0,
       };
 
     case "SET_LEADERBOARD":
@@ -216,6 +244,9 @@ export function controllerReducer(
         leaderboardScore: action.score,
         leaderboardCorrectGuesses: action.correctGuesses,
         leaderboardTotalRounds: action.totalRounds,
+        leaderboardBestStreak: action.bestStreak,
+        leaderboardSpeedBonuses: action.speedBonuses,
+        leaderboardTimesHost: action.timesHost,
       };
 
     case "SET_PAUSED":

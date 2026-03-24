@@ -70,9 +70,22 @@
     "title": "Système de Points",
     "guesser": "Joueur",
     "correctGuess": "Bonne réponse",
+    "firstToGuess": "Premier à deviner",
     "host": "Hôte",
     "perCorrectGuesser": "Par bonne réponse",
     "streakBonus": "Bonus de Série",
     "inARow": "d'affilée"
-  }
+  },
+  "categoryVote": {
+    "title": "Choisis une Catégorie",
+    "fun": "Fun et Divers",
+    "deep": "Profond et Personnel",
+    "dilemma": "Tu Préfères"
+  },
+  "choosingCategory": "choisit une catégorie...",
+  "speedBonus": "bonus de vitesse !",
+  "bestStreak": "Meilleure série",
+  "speedBonuses": "Bonus de vitesse",
+  "hostedRounds": "manches en tant qu'hôte",
+  "hostedRound": "manche en tant qu'hôte"
 }
