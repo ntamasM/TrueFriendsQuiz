@@ -64,7 +64,20 @@
     "deepPersonal": "عميق وشخصي",
     "funRandom": "مرح وعشوائي",
     "experiencesDreams": "تجارب وأحلام",
-    "deepSpicy": "عميق وحار"
+    "deepSpicy": "عميق وحار",
+    "hotTakes": "آراء ساخنة",
+    "hypothetical": "افتراضي",
+    "memories": "ذكريات",
+    "relationships": "علاقات",
+    "moneyPower": "المال والسلطة",
+    "darkSecrets": "أسرار مظلمة",
+    "bodyCount": "تاريخ عاطفي",
+    "neverHaveIEver": "لم أفعلها أبداً",
+    "afterDark": "بعد منتصف الليل",
+    "guilty": "متع مذنبة",
+    "drunkConfessions": "اعترافات السكارى",
+    "conspiracyTheories": "نظريات المؤامرة",
+    "superlatives": "التفضيلات"
   },
   "pointsGuide": {
     "title": "نظام النقاط",
@@ -80,7 +93,8 @@
     "title": "اختر فئة",
     "fun": "مرح وعشوائي",
     "deep": "عميق وشخصي",
-    "dilemma": "ماذا تفضل"
+    "dilemma": "ماذا تفضل",
+    "spicy": "حار"
   },
   "choosingCategory": "يختار فئة...",
   "speedBonus": "مكافأة السرعة!",

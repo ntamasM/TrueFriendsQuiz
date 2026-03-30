@@ -64,7 +64,20 @@
     "deepPersonal": "Βαθιά & Προσωπικά",
     "funRandom": "Διασκέδαση & Τυχαία",
     "experiencesDreams": "Εμπειρίες & Όνειρα",
-    "deepSpicy": "Βαθιά & Πικάντικα"
+    "deepSpicy": "Βαθιά & Πικάντικα",
+    "hotTakes": "Καυτές Απόψεις",
+    "hypothetical": "Υποθετικά",
+    "memories": "Αναμνήσεις",
+    "relationships": "Σχέσεις",
+    "moneyPower": "Χρήμα & Εξουσία",
+    "darkSecrets": "Σκοτεινά Μυστικά",
+    "bodyCount": "Ερωτικό Ιστορικό",
+    "neverHaveIEver": "Δεν Έχω Ποτέ",
+    "afterDark": "Μετά τα Μεσάνυχτα",
+    "guilty": "Ένοχες Απολαύσεις",
+    "drunkConfessions": "Μεθυσμένες Εξομολογήσεις",
+    "conspiracyTheories": "Θεωρίες Συνωμοσίας",
+    "superlatives": "Υπερθετικοί"
   },
   "pointsGuide": {
     "title": "Σύστημα Πόντων",
@@ -80,7 +93,8 @@
     "title": "Διάλεξε Κατηγορία",
     "fun": "Διασκέδαση & Τυχαία",
     "deep": "Βαθιά & Προσωπικά",
-    "dilemma": "Θα Προτιμούσες"
+    "dilemma": "Θα Προτιμούσες",
+    "spicy": "Πικάντικα"
   },
   "choosingCategory": "διαλέγει κατηγορία...",
   "speedBonus": "μπόνους ταχύτητας!",

@@ -64,7 +64,20 @@
     "deepPersonal": "Derin ve Kişisel",
     "funRandom": "Eğlence ve Rastgele",
     "experiencesDreams": "Deneyimler ve Hayaller",
-    "deepSpicy": "Derin ve Baharatlı"
+    "deepSpicy": "Derin ve Baharatlı",
+    "hotTakes": "Ateşli Görüşler",
+    "hypothetical": "Varsayımsal",
+    "memories": "Anılar",
+    "relationships": "İlişkiler",
+    "moneyPower": "Para ve Güç",
+    "darkSecrets": "Karanlık Sırlar",
+    "bodyCount": "Aşk Geçmişi",
+    "neverHaveIEver": "Ben Hiç Yapmadım",
+    "afterDark": "Gece Yarısından Sonra",
+    "guilty": "Suçlu Zevkler",
+    "drunkConfessions": "Sarhoş İtiraflar",
+    "conspiracyTheories": "Komplo Teorileri",
+    "superlatives": "Üstünlükler"
   },
   "pointsGuide": {
     "title": "Puan Sistemi",
@@ -80,7 +93,8 @@
     "title": "Bir Kategori Seç",
     "fun": "Eğlence ve Rastgele",
     "deep": "Derin ve Kişisel",
-    "dilemma": "Ne Tercih Ederdin"
+    "dilemma": "Ne Tercih Ederdin",
+    "spicy": "Baharatlı"
   },
   "choosingCategory": "kategori seçiyor...",
   "speedBonus": "hız bonusu!",

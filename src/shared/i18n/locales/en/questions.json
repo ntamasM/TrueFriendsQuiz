@@ -2418,5 +2418,2865 @@
       "Cringe social media posts",
       "Being too honest"
     ]
+  },
+  {
+    "id": 221,
+    "category": "hotTakes",
+    "question": "What is {name}'s most controversial food opinion?",
+    "answers": [
+      "Pineapple belongs on pizza",
+      "Ketchup on eggs is delicious",
+      "Well-done steak is the best",
+      "Cereal is better with water"
+    ]
+  },
+  {
+    "id": 222,
+    "category": "hotTakes",
+    "question": "Which unpopular movie opinion does {name} hold?",
+    "answers": [
+      "Sequels are usually better than originals",
+      "Black-and-white films are unwatchable",
+      "Horror movies are never actually scary",
+      "Comedies are the hardest genre to make"
+    ]
+  },
+  {
+    "id": 223,
+    "category": "hotTakes",
+    "question": "What does {name} secretly think is overrated?",
+    "answers": [
+      "Traveling the world",
+      "Brunch culture",
+      "Going to concerts",
+      "Social media fame"
+    ]
+  },
+  {
+    "id": 224,
+    "category": "hotTakes",
+    "question": "Which daily habit would {name} defend to the death?",
+    "answers": [
+      "Showering at night instead of morning",
+      "Eating dessert before dinner",
+      "Sleeping with socks on",
+      "Putting milk before cereal"
+    ]
+  },
+  {
+    "id": 225,
+    "category": "hotTakes",
+    "question": "What does {name} think is the most overhyped holiday?",
+    "answers": [
+      "Valentine's Day",
+      "New Year's Eve",
+      "Halloween",
+      "Black Friday"
+    ]
+  },
+  {
+    "id": 226,
+    "category": "hotTakes",
+    "question": "Which hot take about music would {name} stand by?",
+    "answers": [
+      "Pop music takes more talent than rock",
+      "Lyrics don't matter, only the beat",
+      "Live music is worse than recorded",
+      "The best music was made before 2000"
+    ]
+  },
+  {
+    "id": 227,
+    "category": "hotTakes",
+    "question": "What controversial opinion does {name} have about pets?",
+    "answers": [
+      "Cats are vastly superior to dogs",
+      "People treat pets too much like children",
+      "Exotic pets are cooler than normal ones",
+      "Fish are the most underrated pets"
+    ]
+  },
+  {
+    "id": 228,
+    "category": "hotTakes",
+    "question": "Which divisive fashion opinion does {name} hold?",
+    "answers": [
+      "Crocs are genuinely stylish",
+      "Matching outfits for couples is cute",
+      "Cargo shorts are peak fashion",
+      "Socks with sandals look great"
+    ]
+  },
+  {
+    "id": 229,
+    "category": "hotTakes",
+    "question": "What is {name}'s spiciest take on social etiquette?",
+    "answers": [
+      "Ghosting is sometimes perfectly fine",
+      "Small talk is a waste of time",
+      "Being brutally honest is a virtue",
+      "Late people don't respect your time"
+    ]
+  },
+  {
+    "id": 230,
+    "category": "hotTakes",
+    "question": "Which controversial breakfast take does {name} agree with?",
+    "answers": [
+      "Breakfast is the least important meal",
+      "Cold pizza is the ideal breakfast",
+      "Orange juice after brushing teeth is fine",
+      "Pancakes are better than waffles"
+    ]
+  },
+  {
+    "id": 231,
+    "category": "hotTakes",
+    "question": "What does {name} believe about fitness culture?",
+    "answers": [
+      "Gym selfies are always cringeworthy",
+      "Running is overrated exercise",
+      "Yoga is just fancy stretching",
+      "Rest days are more important than workouts"
+    ]
+  },
+  {
+    "id": 232,
+    "category": "hotTakes",
+    "question": "What hot take does {name} have about technology?",
+    "answers": [
+      "Flip phones were peak phone design",
+      "Social media does more harm than good",
+      "AI art is real art",
+      "Video calls should replace all meetings"
+    ]
+  },
+  {
+    "id": 233,
+    "category": "hotTakes",
+    "question": "Which controversial take on school does {name} agree with?",
+    "answers": [
+      "Homework should be abolished",
+      "Grades don't reflect intelligence",
+      "Group projects teach nothing useful",
+      "School starts way too early in the morning"
+    ]
+  },
+  {
+    "id": 234,
+    "category": "hotTakes",
+    "question": "What is {name}'s hot take about weather?",
+    "answers": [
+      "Rainy days are better than sunny days",
+      "Winter is the best season by far",
+      "Hot weather above 30°C is enjoyable",
+      "Snow is only fun for the first hour"
+    ]
+  },
+  {
+    "id": 235,
+    "category": "hotTakes",
+    "question": "What opinion about cooking would {name} defend?",
+    "answers": [
+      "Microwave cooking is underappreciated",
+      "Expensive restaurants are rarely worth it",
+      "Instant noodles are a legitimate meal",
+      "Burnt food has more flavor"
+    ]
+  },
+  {
+    "id": 236,
+    "category": "hotTakes",
+    "question": "Which unpopular gaming opinion does {name} hold?",
+    "answers": [
+      "Mobile games count as real gaming",
+      "Single-player is always better than multiplayer",
+      "Easy mode is the best way to play",
+      "Retro games are better than modern ones"
+    ]
+  },
+  {
+    "id": 237,
+    "category": "hotTakes",
+    "question": "What is {name}'s controversial take on friendship?",
+    "answers": [
+      "You only need one or two real friends",
+      "Online friends are just as real as in-person",
+      "Friendships have natural expiration dates",
+      "Adults can't make genuine new friends"
+    ]
+  },
+  {
+    "id": 238,
+    "category": "hotTakes",
+    "question": "What divisive drink opinion does {name} have?",
+    "answers": [
+      "Coffee is genuinely disgusting",
+      "Warm water is the best drink",
+      "Energy drinks taste better than soda",
+      "Tea is superior to coffee in every way"
+    ]
+  },
+  {
+    "id": 239,
+    "category": "hotTakes",
+    "question": "Which hot take about sleeping does {name} agree with?",
+    "answers": [
+      "Naps are a sign of laziness",
+      "Sleeping in is a waste of the day",
+      "Night owls are more productive than early birds",
+      "Eight hours of sleep is a myth"
+    ]
+  },
+  {
+    "id": 240,
+    "category": "hotTakes",
+    "question": "What is {name}'s most controversial life opinion?",
+    "answers": [
+      "Comfort zone is where happiness lives",
+      "Passion is overrated in career choices",
+      "Routine is more freeing than spontaneity",
+      "Boredom is actually good for you"
+    ]
+  },
+  {
+    "id": 241,
+    "category": "hypothetical",
+    "question": "If {name} could have one superpower, which would they choose?",
+    "answers": [
+      "Reading minds",
+      "Teleportation",
+      "Time manipulation",
+      "Invisibility"
+    ]
+  },
+  {
+    "id": 242,
+    "category": "hypothetical",
+    "question": "If {name} woke up as a world leader tomorrow, what would they do first?",
+    "answers": [
+      "Make a four-day work week mandatory",
+      "Ban homework worldwide",
+      "Make public transport free everywhere",
+      "Declare a global holiday for napping"
+    ]
+  },
+  {
+    "id": 243,
+    "category": "hypothetical",
+    "question": "If {name} could live in any fictional universe, which would they pick?",
+    "answers": [
+      "Harry Potter's wizarding world",
+      "Marvel/DC superhero universe",
+      "Star Wars galaxy",
+      "The world of Pokémon"
+    ]
+  },
+  {
+    "id": 244,
+    "category": "hypothetical",
+    "question": "If {name} was the last person on Earth, what would they do first?",
+    "answers": [
+      "Raid a luxury store",
+      "Drive a sports car at full speed",
+      "Move into a mansion",
+      "Go to a zoo and free all the animals"
+    ]
+  },
+  {
+    "id": 245,
+    "category": "hypothetical",
+    "question": "If {name} could master any skill instantly, what would they choose?",
+    "answers": [
+      "Playing every musical instrument",
+      "Speaking every language fluently",
+      "Cooking like a Michelin-star chef",
+      "Professional-level martial arts"
+    ]
+  },
+  {
+    "id": 246,
+    "category": "hypothetical",
+    "question": "If {name} were trapped in a time loop of one day, which day would they pick?",
+    "answers": [
+      "A perfect beach vacation day",
+      "Their best birthday ever",
+      "A snow day with no responsibilities",
+      "A wild night out with friends"
+    ]
+  },
+  {
+    "id": 247,
+    "category": "hypothetical",
+    "question": "If aliens landed and asked {name} to represent humanity, how would they impress them?",
+    "answers": [
+      "Cook them an amazing meal",
+      "Show them music and dancing",
+      "Take them to a theme park",
+      "Show them cat videos"
+    ]
+  },
+  {
+    "id": 248,
+    "category": "hypothetical",
+    "question": "If {name} could swap lives with any celebrity for a week, who would they pick?",
+    "answers": [
+      "A famous musician on tour",
+      "A Hollywood A-list actor",
+      "A billionaire tech CEO",
+      "A professional athlete"
+    ]
+  },
+  {
+    "id": 249,
+    "category": "hypothetical",
+    "question": "If {name} had to survive a zombie apocalypse, what would be their role?",
+    "answers": [
+      "The strategic leader",
+      "The fearless fighter",
+      "The resourceful scavenger",
+      "The morale-boosting comedian"
+    ]
+  },
+  {
+    "id": 250,
+    "category": "hypothetical",
+    "question": "If {name} discovered they were a character in a simulation, what would they do?",
+    "answers": [
+      "Try to find cheat codes for real life",
+      "Test the limits of the simulation",
+      "Try to contact the programmers",
+      "Just keep living normally"
+    ]
+  },
+  {
+    "id": 251,
+    "category": "hypothetical",
+    "question": "If {name} could bring one invention from the future, what would it be?",
+    "answers": [
+      "A teleportation device",
+      "A cure for all diseases",
+      "A device that stops aging",
+      "A machine that creates any food instantly"
+    ]
+  },
+  {
+    "id": 252,
+    "category": "hypothetical",
+    "question": "If {name} had to live in one historical era, which would they choose?",
+    "answers": [
+      "Ancient Rome at its peak",
+      "The roaring 1920s",
+      "Renaissance Italy",
+      "The groovy 1970s"
+    ]
+  },
+  {
+    "id": 253,
+    "category": "hypothetical",
+    "question": "If {name} found a genie with one wish (no wishing for more wishes), what would they wish for?",
+    "answers": [
+      "Unlimited money",
+      "Perfect health forever",
+      "The ability to make anyone happy",
+      "Knowing the answer to any question"
+    ]
+  },
+  {
+    "id": 254,
+    "category": "hypothetical",
+    "question": "If {name} could only eat one cuisine for the rest of their life, which would it be?",
+    "answers": [
+      "Italian",
+      "Japanese",
+      "Mexican",
+      "Indian"
+    ]
+  },
+  {
+    "id": 255,
+    "category": "hypothetical",
+    "question": "If {name} woke up with the ability to talk to animals, which animal would they seek out first?",
+    "answers": [
+      "Their own pet (or a dog)",
+      "Dolphins in the ocean",
+      "A wise old owl",
+      "A house cat to learn their secrets"
+    ]
+  },
+  {
+    "id": 256,
+    "category": "hypothetical",
+    "question": "If {name} had to compete in one Olympic sport tomorrow, which would give them the best shot?",
+    "answers": [
+      "Archery",
+      "Table tennis",
+      "Swimming",
+      "Fencing"
+    ]
+  },
+  {
+    "id": 257,
+    "category": "hypothetical",
+    "question": "If {name} could add one rule that everyone on Earth had to follow, what would it be?",
+    "answers": [
+      "No talking before 10 AM",
+      "One compliment per person per day minimum",
+      "No phone during meals",
+      "Everyone must dance for five minutes daily"
+    ]
+  },
+  {
+    "id": 258,
+    "category": "hypothetical",
+    "question": "If {name} could steal one talent from a friend in this room, what talent would they want?",
+    "answers": [
+      "Their humor and wit",
+      "Their confidence",
+      "Their cooking skills",
+      "Their ability to talk to anyone"
+    ]
+  },
+  {
+    "id": 259,
+    "category": "hypothetical",
+    "question": "If {name} had a personal robot, what would they use it for most?",
+    "answers": [
+      "Cleaning the entire house",
+      "Cooking all meals",
+      "Running all their errands",
+      "Being a workout buddy and personal trainer"
+    ]
+  },
+  {
+    "id": 260,
+    "category": "hypothetical",
+    "question": "If {name} could live inside any video game world, which would they choose?",
+    "answers": [
+      "Minecraft (build anything)",
+      "Animal Crossing (peaceful island life)",
+      "GTA (chaos with no consequences)",
+      "The Sims (control everything)"
+    ]
+  },
+  {
+    "id": 261,
+    "category": "memories",
+    "question": "What is {name} most likely to bring up at every group gathering?",
+    "answers": [
+      "That one embarrassing thing someone did years ago",
+      "An inside joke nobody else understands",
+      "A story that gets more exaggerated each time",
+      "A cringeworthy moment from a night out"
+    ]
+  },
+  {
+    "id": 262,
+    "category": "memories",
+    "question": "What was {name}'s most embarrassing childhood phase?",
+    "answers": [
+      "The \"I'm too cool for everyone\" phase",
+      "The questionable fashion choices phase",
+      "The obsessive fan phase",
+      "The \"random is funny\" phase"
+    ]
+  },
+  {
+    "id": 263,
+    "category": "memories",
+    "question": "What is the most chaotic thing {name} has done at a party?",
+    "answers": [
+      "Started an impromptu dance battle",
+      "Tried to cook a meal at 3 AM",
+      "Gave an uninvited emotional speech",
+      "Fell asleep in a weird location"
+    ]
+  },
+  {
+    "id": 264,
+    "category": "memories",
+    "question": "What did {name} get in trouble for the most as a kid?",
+    "answers": [
+      "Talking too much in class",
+      "Sneaking food or staying up late",
+      "Fighting with siblings or friends",
+      "Being somewhere they shouldn't be"
+    ]
+  },
+  {
+    "id": 265,
+    "category": "memories",
+    "question": "What childhood dream job did {name} definitely once have?",
+    "answers": [
+      "Astronaut or pilot",
+      "Famous singer or actor",
+      "Veterinarian or zookeeper",
+      "Professional athlete"
+    ]
+  },
+  {
+    "id": 266,
+    "category": "memories",
+    "question": "What would {name}'s yearbook superlative have been?",
+    "answers": [
+      "Most likely to be late to their own wedding",
+      "Class clown",
+      "Most likely to become famous",
+      "Best excuse maker"
+    ]
+  },
+  {
+    "id": 267,
+    "category": "memories",
+    "question": "What is {name}'s go-to story when meeting new people?",
+    "answers": [
+      "A wild travel adventure",
+      "An absurd coincidence that happened to them",
+      "A funny fail or accident",
+      "Meeting someone famous"
+    ]
+  },
+  {
+    "id": 268,
+    "category": "memories",
+    "question": "What is the most {name} has ever panicked about?",
+    "answers": [
+      "Losing their phone or wallet",
+      "Being late to something important",
+      "A bug or spider encounter",
+      "Thinking they sent a text to the wrong person"
+    ]
+  },
+  {
+    "id": 269,
+    "category": "memories",
+    "question": "What would {name}'s friends say is their most replayed life moment?",
+    "answers": [
+      "An epic fail caught on camera",
+      "A victory or achievement they won't stop mentioning",
+      "A savage comeback they once delivered",
+      "A wholesome moment with friends"
+    ]
+  },
+  {
+    "id": 270,
+    "category": "memories",
+    "question": "What is the weirdest thing {name} was obsessed with as a child?",
+    "answers": [
+      "Collecting random objects",
+      "A specific cartoon or TV show",
+      "An unusual hobby nobody else did",
+      "A bizarre type of food"
+    ]
+  },
+  {
+    "id": 271,
+    "category": "memories",
+    "question": "What kind of school trip disaster would {name} have been involved in?",
+    "answers": [
+      "Getting lost from the group",
+      "Getting sick on the bus",
+      "Accidentally breaking something in a museum",
+      "Being the one who forgot their packed lunch"
+    ]
+  },
+  {
+    "id": 272,
+    "category": "memories",
+    "question": "What is {name}'s most iconic wardrobe malfunction moment?",
+    "answers": [
+      "Ripped pants at the worst time",
+      "Showed up drastically under- or over-dressed",
+      "Wore something inside out all day",
+      "Had a visible stain they didn't notice for hours"
+    ]
+  },
+  {
+    "id": 273,
+    "category": "memories",
+    "question": "What would {name} say was their most awkward first day somewhere?",
+    "answers": [
+      "First day at a new school",
+      "First day at a new job",
+      "First day in a new city",
+      "First time meeting a partner's family"
+    ]
+  },
+  {
+    "id": 274,
+    "category": "memories",
+    "question": "What is the most dramatic reaction {name} has ever had?",
+    "answers": [
+      "Screaming over a minor scare",
+      "Crying over a movie scene",
+      "Celebrating a small win like they won the lottery",
+      "Ranting for hours about a minor inconvenience"
+    ]
+  },
+  {
+    "id": 275,
+    "category": "memories",
+    "question": "What hobby or activity did {name} try once and immediately quit?",
+    "answers": [
+      "A sport they were terrible at",
+      "Learning a musical instrument",
+      "A fitness class or gym membership",
+      "Learning to cook or bake"
+    ]
+  },
+  {
+    "id": 276,
+    "category": "memories",
+    "question": "What is {name}'s most legendary excuse for being late?",
+    "answers": [
+      "Blamed traffic that obviously didn't exist",
+      "Said they had a family emergency (they overslept)",
+      "Claimed their alarm didn't go off",
+      "Gave an elaborate story that was clearly made up"
+    ]
+  },
+  {
+    "id": 277,
+    "category": "memories",
+    "question": "What game or competition does {name} still brag about winning?",
+    "answers": [
+      "A board game night victory",
+      "A sports match or physical challenge",
+      "A bet they won against a friend",
+      "A video game achievement"
+    ]
+  },
+  {
+    "id": 278,
+    "category": "memories",
+    "question": "What was {name}'s most embarrassing social media moment?",
+    "answers": [
+      "A cringy old post that resurfaced",
+      "Accidentally liking an old photo while stalking",
+      "Posting something meant for a private chat",
+      "A bad photo someone else tagged them in"
+    ]
+  },
+  {
+    "id": 279,
+    "category": "memories",
+    "question": "What is the biggest lie {name} told as a kid and got caught?",
+    "answers": [
+      "Blaming a sibling or pet for something they did",
+      "Pretending to be sick to skip school",
+      "Saying they finished homework when they didn't",
+      "Claiming they didn't eat the snacks"
+    ]
+  },
+  {
+    "id": 280,
+    "category": "memories",
+    "question": "What school subject memory would {name} rather forget?",
+    "answers": [
+      "Presenting in front of the class and freezing",
+      "Failing a test they thought they aced",
+      "Getting called out by a teacher publicly",
+      "Falling asleep in class and getting caught"
+    ]
+  },
+  {
+    "id": 281,
+    "category": "relationships",
+    "question": "What is {name}'s biggest dealbreaker in a relationship?",
+    "answers": [
+      "Being rude to waiters or strangers",
+      "Having no sense of humor",
+      "Being glued to their phone 24/7",
+      "Not getting along with their friends"
+    ]
+  },
+  {
+    "id": 282,
+    "category": "relationships",
+    "question": "What is {name}'s love language?",
+    "answers": [
+      "Words of affirmation",
+      "Quality time together",
+      "Physical touch and affection",
+      "Acts of service and thoughtful gestures"
+    ]
+  },
+  {
+    "id": 283,
+    "category": "relationships",
+    "question": "What would be {name}'s ideal first date?",
+    "answers": [
+      "A cozy dinner at a nice restaurant",
+      "An adventurous outdoor activity",
+      "A casual coffee shop hang",
+      "A movie night with snacks"
+    ]
+  },
+  {
+    "id": 284,
+    "category": "relationships",
+    "question": "What type of person is {name} secretly most attracted to?",
+    "answers": [
+      "The mysterious quiet type",
+      "The loud and confident life of the party",
+      "The nerdy intellectual",
+      "The artsy creative soul"
+    ]
+  },
+  {
+    "id": 285,
+    "category": "relationships",
+    "question": "How would {name} react if their partner planned a surprise party?",
+    "answers": [
+      "Love every second of it",
+      "Appreciate the effort but feel awkward",
+      "Pretend to be surprised even if they figured it out",
+      "Be annoyed they weren't in control of the plan"
+    ]
+  },
+  {
+    "id": 286,
+    "category": "relationships",
+    "question": "What cringy romantic gesture would {name} secretly love?",
+    "answers": [
+      "A handwritten love letter",
+      "Being serenaded in public",
+      "A flash mob proposal",
+      "A scrapbook of their relationship"
+    ]
+  },
+  {
+    "id": 287,
+    "category": "relationships",
+    "question": "What is {name} most likely to argue about in a relationship?",
+    "answers": [
+      "Where to eat or what to watch",
+      "Cleanliness and household chores",
+      "How much time to spend together vs apart",
+      "Money and spending habits"
+    ]
+  },
+  {
+    "id": 288,
+    "category": "relationships",
+    "question": "What would {name} do if they had a crush on a close friend?",
+    "answers": [
+      "Drop obvious hints and wait",
+      "Confess directly and risk it all",
+      "Never say anything and suffer in silence",
+      "Ask a mutual friend to investigate first"
+    ]
+  },
+  {
+    "id": 289,
+    "category": "relationships",
+    "question": "What dating app behavior is most like {name}?",
+    "answers": [
+      "Swipes right on almost everyone",
+      "Overthinks every message for 20 minutes",
+      "Matches but never sends the first message",
+      "Has a perfectly curated profile with a witty bio"
+    ]
+  },
+  {
+    "id": 290,
+    "category": "relationships",
+    "question": "What relationship milestone would {name} rush into?",
+    "answers": [
+      "Saying 'I love you' first",
+      "Meeting each other's families",
+      "Moving in together",
+      "Getting a pet together"
+    ]
+  },
+  {
+    "id": 291,
+    "category": "relationships",
+    "question": "How does {name} handle a breakup?",
+    "answers": [
+      "Dramatic sad music and ice cream phase",
+      "Immediately tries to stay busy and distracted",
+      "Vents to friends nonstop for weeks",
+      "Acts totally fine but is secretly devastated"
+    ]
+  },
+  {
+    "id": 292,
+    "category": "relationships",
+    "question": "What is {name}'s biggest green flag?",
+    "answers": [
+      "They remember the little details about you",
+      "They always make you laugh",
+      "They show up when it matters most",
+      "They're honest even when it's hard"
+    ]
+  },
+  {
+    "id": 293,
+    "category": "relationships",
+    "question": "What would {name} most want a partner to surprise them with?",
+    "answers": [
+      "Spontaneous weekend trip tickets",
+      "Cooking their favorite meal at home",
+      "A thoughtful gift that shows they listen",
+      "A day planned entirely around their interests"
+    ]
+  },
+  {
+    "id": 294,
+    "category": "relationships",
+    "question": "What is {name}'s flirting style?",
+    "answers": [
+      "Playful teasing and sarcasm",
+      "Intense eye contact and compliments",
+      "Making them laugh constantly",
+      "Being extra helpful and attentive"
+    ]
+  },
+  {
+    "id": 295,
+    "category": "relationships",
+    "question": "How long does {name} need to know someone before calling them a close friend?",
+    "answers": [
+      "One epic night is enough",
+      "A few weeks of regular hanging out",
+      "Several months of trust building",
+      "At least a year of proven loyalty"
+    ]
+  },
+  {
+    "id": 296,
+    "category": "relationships",
+    "question": "What would make {name} instantly lose interest in a date?",
+    "answers": [
+      "Bragging about themselves nonstop",
+      "Being rude to service staff",
+      "Having zero opinions or interests",
+      "Checking their phone the entire time"
+    ]
+  },
+  {
+    "id": 297,
+    "category": "relationships",
+    "question": "What is {name}'s opinion on public displays of affection?",
+    "answers": [
+      "The more PDA the better",
+      "Hand holding and small gestures only",
+      "Keep it private, always",
+      "Depends entirely on the mood and setting"
+    ]
+  },
+  {
+    "id": 298,
+    "category": "relationships",
+    "question": "What would {name} sacrifice for the perfect relationship?",
+    "answers": [
+      "Their dream job in another city",
+      "Their most time-consuming hobby",
+      "Some of their closest friendships",
+      "Their independence and alone time"
+    ]
+  },
+  {
+    "id": 299,
+    "category": "relationships",
+    "question": "What rom-com trope does {name} secretly believe in?",
+    "answers": [
+      "Love at first sight",
+      "Friends to lovers is the best story",
+      "The dramatic airport chase scene",
+      "Enemies to lovers is the most exciting"
+    ]
+  },
+  {
+    "id": 300,
+    "category": "relationships",
+    "question": "What is {name}'s biggest pet peeve in a partner?",
+    "answers": [
+      "Chewing loudly or bad table manners",
+      "Never making decisions or always saying 'I don't mind'",
+      "Being overly jealous or possessive",
+      "Leaving read receipts on and replying hours later"
+    ]
+  },
+  {
+    "id": 301,
+    "category": "moneyPower",
+    "question": "If {name} found a briefcase with $100,000 cash and no ID, what would they do?",
+    "answers": [
+      "Keep it all without hesitation",
+      "Turn it in to the police",
+      "Keep some and donate the rest",
+      "Try to find the owner first"
+    ]
+  },
+  {
+    "id": 302,
+    "category": "moneyPower",
+    "question": "Would {name} accept a job they hate for triple their current salary?",
+    "answers": [
+      "Absolutely, money solves everything",
+      "Only for a couple of years to save up",
+      "Never, happiness over money always",
+      "Depends on how terrible the job is"
+    ]
+  },
+  {
+    "id": 303,
+    "category": "moneyPower",
+    "question": "If {name} became a billionaire overnight, what would change first?",
+    "answers": [
+      "They'd quit their job immediately",
+      "They'd buy a dream house",
+      "They'd pay off everyone's debts around them",
+      "They'd start a passion project or business"
+    ]
+  },
+  {
+    "id": 304,
+    "category": "moneyPower",
+    "question": "Would {name} expose a friend's secret for a million dollars?",
+    "answers": [
+      "Yes, a million is a million",
+      "Depends on how damaging the secret is",
+      "Never, loyalty is priceless",
+      "Only if the friend would never find out"
+    ]
+  },
+  {
+    "id": 305,
+    "category": "moneyPower",
+    "question": "If {name} could be famous but lose all privacy, would they?",
+    "answers": [
+      "Absolutely, fame is worth it",
+      "Only if they could be selectively famous",
+      "No way, privacy is everything",
+      "Only if it came with massive wealth too"
+    ]
+  },
+  {
+    "id": 306,
+    "category": "moneyPower",
+    "question": "Would {name} take credit for a coworker's idea if it meant a big promotion?",
+    "answers": [
+      "Yes, that's how the game works",
+      "Only if the coworker would never know",
+      "Never, they'd share credit",
+      "They'd present it as a team effort"
+    ]
+  },
+  {
+    "id": 307,
+    "category": "moneyPower",
+    "question": "If {name} won the lottery, who would they tell first?",
+    "answers": [
+      "Their best friend immediately",
+      "Their family right away",
+      "Nobody, they'd keep it completely secret",
+      "A financial advisor before anyone else"
+    ]
+  },
+  {
+    "id": 308,
+    "category": "moneyPower",
+    "question": "Would {name} live in complete isolation for five years in exchange for $10 million?",
+    "answers": [
+      "Yes, the money would be life-changing",
+      "Only if they could bring one person",
+      "Never, five years is too much to sacrifice",
+      "They'd negotiate for a shorter time period"
+    ]
+  },
+  {
+    "id": 309,
+    "category": "moneyPower",
+    "question": "If {name} could read their boss's emails for a week, would they?",
+    "answers": [
+      "Absolutely, knowledge is power",
+      "Only if there's no chance of getting caught",
+      "No, that's crossing a line",
+      "Only to check if they're being talked about"
+    ]
+  },
+  {
+    "id": 310,
+    "category": "moneyPower",
+    "question": "Would {name} give up their smartphone for a year for $50,000?",
+    "answers": [
+      "Easy yes, hand over the cash",
+      "Maybe, but they'd really struggle",
+      "No chance, their phone is their life",
+      "Only if they could use a basic phone for calls"
+    ]
+  },
+  {
+    "id": 311,
+    "category": "moneyPower",
+    "question": "If {name} had to choose between power with enemies or obscurity with peace, which would they pick?",
+    "answers": [
+      "Power, enemies are just part of the deal",
+      "Peace, they'd rather be unknown and happy",
+      "Power, but they'd try to convert enemies to allies",
+      "Peace, but they'd secretly resent not having influence"
+    ]
+  },
+  {
+    "id": 312,
+    "category": "moneyPower",
+    "question": "Would {name} sell an embarrassing photo of themselves for $25,000?",
+    "answers": [
+      "Instantly, everyone has embarrassing photos",
+      "Depends on how embarrassing it is",
+      "Never, their reputation is worth more",
+      "Only if they could control who sees it"
+    ]
+  },
+  {
+    "id": 313,
+    "category": "moneyPower",
+    "question": "If {name} could erase one financial mistake from their past, what type would it be?",
+    "answers": [
+      "An impulse purchase they deeply regret",
+      "Lending money to someone who never paid back",
+      "Not investing or saving earlier",
+      "Spending too much on a trip or experience"
+    ]
+  },
+  {
+    "id": 314,
+    "category": "moneyPower",
+    "question": "Would {name} rather be the richest person in a small town or middle class in a big city?",
+    "answers": [
+      "Richest in a small town, status matters",
+      "Middle class in a big city, for the lifestyle",
+      "Small town rich, they love being a big fish",
+      "Big city middle class, anonymity is freedom"
+    ]
+  },
+  {
+    "id": 315,
+    "category": "moneyPower",
+    "question": "If {name} had to pick a morally grey side hustle, which would they choose?",
+    "answers": [
+      "Reselling limited items at huge markups",
+      "Writing fake positive reviews for businesses",
+      "Being a paparazzi photographer",
+      "Running a clickbait content page"
+    ]
+  },
+  {
+    "id": 316,
+    "category": "moneyPower",
+    "question": "Would {name} give up their best friendship for guaranteed career success?",
+    "answers": [
+      "Yes, career is forever, friendships change",
+      "Never, friends are more important than any job",
+      "Only if the success was truly extraordinary",
+      "They'd try to negotiate keeping both somehow"
+    ]
+  },
+  {
+    "id": 317,
+    "category": "moneyPower",
+    "question": "If {name} found out a company was unethical but offered them their dream job, would they take it?",
+    "answers": [
+      "Yes, and try to change it from the inside",
+      "Yes, a dream job is a dream job",
+      "No, principles come first",
+      "Only if nobody would judge them for it"
+    ]
+  },
+  {
+    "id": 318,
+    "category": "moneyPower",
+    "question": "Would {name} rather have a job they love that pays poorly or a boring job with a huge salary?",
+    "answers": [
+      "Love the job, money isn't everything",
+      "Huge salary, they can find joy outside work",
+      "Love the job, as long as bills are covered",
+      "Huge salary, they'd retire early"
+    ]
+  },
+  {
+    "id": 319,
+    "category": "moneyPower",
+    "question": "If {name} could impose one tax on everyone, what would it be?",
+    "answers": [
+      "A tax on being rude in public",
+      "A tax on sending unnecessary meetings",
+      "A tax on spoiling movies or shows",
+      "A tax on playing music on speakers in public"
+    ]
+  },
+  {
+    "id": 320,
+    "category": "moneyPower",
+    "question": "Would {name} accept a deal where they get $1 million but their worst enemy also gets $2 million?",
+    "answers": [
+      "Yes, free money is free money",
+      "No, they can't stand the enemy winning more",
+      "Yes, but they'd be annoyed about it",
+      "No, they'd rather nobody gets anything"
+    ]
+  },
+  {
+    "id": 321,
+    "category": "darkSecrets",
+    "question": "What is {name} most likely hiding from their friends?",
+    "answers": [
+      "A secret social media account",
+      "A guilty pleasure TV show",
+      "A romantic interest nobody knows about",
+      "A collection they're embarrassed by"
+    ]
+  },
+  {
+    "id": 322,
+    "category": "darkSecrets",
+    "question": "What would {name} never admit they've done?",
+    "answers": [
+      "Stalked an ex online for hours",
+      "Lied on their resume",
+      "Pretended to be sick to avoid plans",
+      "Read someone's private messages"
+    ]
+  },
+  {
+    "id": 323,
+    "category": "darkSecrets",
+    "question": "What is {name}'s most embarrassing secret fear?",
+    "answers": [
+      "Being secretly recorded doing something weird",
+      "Someone finding their search history",
+      "Their parents reading their texts",
+      "Being caught talking to themselves"
+    ]
+  },
+  {
+    "id": 324,
+    "category": "darkSecrets",
+    "question": "What's the worst thing {name} has done and gotten away with?",
+    "answers": [
+      "Blamed someone else for their mistake",
+      "Ghosted a really nice person",
+      "Stolen something small",
+      "Spread a rumor they knew was false"
+    ]
+  },
+  {
+    "id": 325,
+    "category": "darkSecrets",
+    "question": "If {name}'s browser history was leaked, what would be the most shocking find?",
+    "answers": [
+      "Obsessively looking up an ex",
+      "Weird medical symptom searches",
+      "Embarrassing fan fiction",
+      "How-to guides for something ridiculous"
+    ]
+  },
+  {
+    "id": 326,
+    "category": "darkSecrets",
+    "question": "What lie does {name} tell the most often?",
+    "answers": [
+      "\"I'm on my way!\"",
+      "\"I'm fine, just tired\"",
+      "\"I didn't see your message\"",
+      "\"I've only had one drink\""
+    ]
+  },
+  {
+    "id": 327,
+    "category": "darkSecrets",
+    "question": "What secret hobby does {name} practice when alone?",
+    "answers": [
+      "Singing full concerts in the mirror",
+      "Having imaginary arguments they always win",
+      "Practicing acceptance speeches",
+      "Choreographing dances to pop songs"
+    ]
+  },
+  {
+    "id": 328,
+    "category": "darkSecrets",
+    "question": "What's the pettiest thing {name} has ever done?",
+    "answers": [
+      "Unfollowed someone over a minor disagreement",
+      "Left someone on read out of spite",
+      "Gave a one-star review over nothing",
+      "Took back a gift after a fight"
+    ]
+  },
+  {
+    "id": 329,
+    "category": "darkSecrets",
+    "question": "What does {name} secretly judge other people for?",
+    "answers": [
+      "Their music taste",
+      "How they eat their food",
+      "Their dating choices",
+      "Their social media posts"
+    ]
+  },
+  {
+    "id": 330,
+    "category": "darkSecrets",
+    "question": "What would {name} confess at a truth circle with zero consequences?",
+    "answers": [
+      "They've faked an entire personality trait",
+      "They secretly dislike someone in the group",
+      "They've lied about where they were",
+      "They've pretended to like a gift they hated"
+    ]
+  },
+  {
+    "id": 331,
+    "category": "darkSecrets",
+    "question": "What's the darkest thought {name} has had but would never say out loud?",
+    "answers": [
+      "Wishing they could restart life in a new city",
+      "Imagining quitting everything and disappearing",
+      "Secretly hoping someone would fail",
+      "Thinking they're better than most people"
+    ]
+  },
+  {
+    "id": 332,
+    "category": "darkSecrets",
+    "question": "What has {name} definitely cried about in secret?",
+    "answers": [
+      "A movie or TV show ending",
+      "A text from an ex",
+      "Feeling left out by friends",
+      "A motivational video at 2 AM"
+    ]
+  },
+  {
+    "id": 333,
+    "category": "darkSecrets",
+    "question": "What does {name} do that they'd die if anyone found out?",
+    "answers": [
+      "Talk to their pets like they're people",
+      "Practice flirting in the mirror",
+      "Rewatch their own stories and selfies",
+      "Sleep with a stuffed animal"
+    ]
+  },
+  {
+    "id": 334,
+    "category": "darkSecrets",
+    "question": "What's the most manipulative thing {name} has done?",
+    "answers": [
+      "Used tears to win an argument",
+      "Played two people against each other",
+      "Guilt-tripped someone into doing something",
+      "Pretended to be clueless when they weren't"
+    ]
+  },
+  {
+    "id": 335,
+    "category": "darkSecrets",
+    "question": "What toxic trait is {name} fully aware of but refuses to fix?",
+    "answers": [
+      "Being emotionally unavailable",
+      "Always needing to be right",
+      "Being jealous but hiding it",
+      "Talking behind people's backs"
+    ]
+  },
+  {
+    "id": 336,
+    "category": "darkSecrets",
+    "question": "What's the biggest secret {name} is keeping from their family?",
+    "answers": [
+      "How much money they've actually spent",
+      "A relationship their family doesn't know about",
+      "Their real career plans",
+      "Something wild they did on a trip"
+    ]
+  },
+  {
+    "id": 337,
+    "category": "darkSecrets",
+    "question": "What has {name} pretended to know about but actually has no clue?",
+    "answers": [
+      "Wine and cocktail knowledge",
+      "A popular TV show everyone discusses",
+      "How taxes and finances work",
+      "A friend's ongoing life situation"
+    ]
+  },
+  {
+    "id": 338,
+    "category": "darkSecrets",
+    "question": "What's the longest {name} has kept a secret from everyone?",
+    "answers": [
+      "A crush that lasted years",
+      "Something embarrassing from childhood",
+      "A friendship that secretly ended",
+      "A failure they covered up"
+    ]
+  },
+  {
+    "id": 339,
+    "category": "darkSecrets",
+    "question": "If given a free pass with no judgment, what would {name} admit?",
+    "answers": [
+      "They've eavesdropped on a private conversation",
+      "They've snooped through someone's phone",
+      "They've lied about their feelings for someone",
+      "They've taken credit for someone else's idea"
+    ]
+  },
+  {
+    "id": 340,
+    "category": "darkSecrets",
+    "question": "What's {name}'s most cringe-worthy memory that keeps them up at night?",
+    "answers": [
+      "An awkward text they sent to the wrong person",
+      "A public embarrassment at school or work",
+      "A failed attempt at flirting",
+      "Something dumb they said in front of a crush"
+    ]
+  },
+  {
+    "id": 341,
+    "category": "bodyCount",
+    "question": "How many people has {name} kissed?",
+    "answers": [
+      "Fewer than 5",
+      "Between 5 and 10",
+      "Between 10 and 20",
+      "More than 20"
+    ]
+  },
+  {
+    "id": 342,
+    "category": "bodyCount",
+    "question": "What's {name}'s biggest dating red flag that they ignore?",
+    "answers": [
+      "They fall too fast",
+      "They ghost instead of communicating",
+      "They always go for the wrong type",
+      "They overshare on the first date"
+    ]
+  },
+  {
+    "id": 343,
+    "category": "bodyCount",
+    "question": "How many people has {name} dated at the same time without them knowing?",
+    "answers": [
+      "Zero, they're loyal to a fault",
+      "Two, just testing the waters",
+      "Three or more, they like options",
+      "They've lost count honestly"
+    ]
+  },
+  {
+    "id": 344,
+    "category": "bodyCount",
+    "question": "What's the shortest relationship {name} has ever had?",
+    "answers": [
+      "A single night",
+      "Less than a week",
+      "About a month",
+      "A few months before bailing"
+    ]
+  },
+  {
+    "id": 345,
+    "category": "bodyCount",
+    "question": "How many times has {name} gotten back with an ex?",
+    "answers": [
+      "Never, they have self-respect",
+      "Once, and regretted it",
+      "Twice, because they never learn",
+      "They've lost count of the back-and-forth"
+    ]
+  },
+  {
+    "id": 346,
+    "category": "bodyCount",
+    "question": "What's the most questionable place {name} has hooked up?",
+    "answers": [
+      "A car in a parking lot",
+      "At a party with people nearby",
+      "A public restroom",
+      "Their parents' house while family was home"
+    ]
+  },
+  {
+    "id": 347,
+    "category": "bodyCount",
+    "question": "How does {name} usually meet people they date?",
+    "answers": [
+      "Dating apps, always swiping",
+      "Through mutual friends",
+      "Random encounters in public",
+      "Sliding into DMs"
+    ]
+  },
+  {
+    "id": 348,
+    "category": "bodyCount",
+    "question": "What's the biggest age gap {name} has had in a relationship?",
+    "answers": [
+      "1-2 years, they keep it close",
+      "3-5 years, a reasonable gap",
+      "6-10 years, they like experience",
+      "More than 10 years"
+    ]
+  },
+  {
+    "id": 349,
+    "category": "bodyCount",
+    "question": "How many people has {name} led on without intending to date them?",
+    "answers": [
+      "None, they're always upfront",
+      "One or two, accidentally",
+      "A handful, they enjoy the attention",
+      "Too many to count"
+    ]
+  },
+  {
+    "id": 350,
+    "category": "bodyCount",
+    "question": "What's the fastest {name} has said 'I love you' in a relationship?",
+    "answers": [
+      "Within the first week",
+      "Within the first month",
+      "After a few months",
+      "They've never said it first"
+    ]
+  },
+  {
+    "id": 351,
+    "category": "bodyCount",
+    "question": "How many people are in {name}'s 'almost dated' category?",
+    "answers": [
+      "Just one special person",
+      "A couple of situationships",
+      "Five or more missed connections",
+      "A whole roster of almosts"
+    ]
+  },
+  {
+    "id": 352,
+    "category": "bodyCount",
+    "question": "What's {name}'s record for matches on a dating app in one day?",
+    "answers": [
+      "They don't use dating apps",
+      "A handful, maybe 5",
+      "Double digits easily",
+      "So many the app probably flagged them"
+    ]
+  },
+  {
+    "id": 353,
+    "category": "bodyCount",
+    "question": "How many first dates has {name} been on in the last year?",
+    "answers": [
+      "Zero, they're off the market",
+      "One or two, they're selective",
+      "Five to ten, playing the field",
+      "They've lost track"
+    ]
+  },
+  {
+    "id": 354,
+    "category": "bodyCount",
+    "question": "How many people has {name} ghosted?",
+    "answers": [
+      "None, they always explain",
+      "One, and they felt terrible",
+      "A few, it's easier that way",
+      "More than they're proud of"
+    ]
+  },
+  {
+    "id": 355,
+    "category": "bodyCount",
+    "question": "What's the wildest way {name} has been asked out?",
+    "answers": [
+      "A dramatic public gesture",
+      "A drunk confession at a party",
+      "Through a friend as a middle-man",
+      "A bold DM completely out of nowhere"
+    ]
+  },
+  {
+    "id": 356,
+    "category": "bodyCount",
+    "question": "How many people does {name} have saved under a fake name in their phone?",
+    "answers": [
+      "Zero, they're an open book",
+      "One, the forbidden contact",
+      "Two or three, just in case",
+      "Their contacts list is full of code names"
+    ]
+  },
+  {
+    "id": 357,
+    "category": "bodyCount",
+    "question": "What's the longest {name} has gone without dating anyone?",
+    "answers": [
+      "A few weeks max",
+      "A couple of months",
+      "About a year",
+      "Multiple years of solo life"
+    ]
+  },
+  {
+    "id": 358,
+    "category": "bodyCount",
+    "question": "How many people has {name} had a secret hookup with that nobody knows about?",
+    "answers": [
+      "Zero, their life is public",
+      "One mysterious encounter",
+      "A couple of hidden chapters",
+      "Enough to write a memoir"
+    ]
+  },
+  {
+    "id": 359,
+    "category": "bodyCount",
+    "question": "How many exes does {name} still follow on social media?",
+    "answers": [
+      "None, clean break every time",
+      "One, the one that got away",
+      "Most of them, no hard feelings",
+      "All of them, for research purposes"
+    ]
+  },
+  {
+    "id": 360,
+    "category": "bodyCount",
+    "question": "What's the most dates {name} has been on in a single week?",
+    "answers": [
+      "One, they don't rush",
+      "Two or three, keeping busy",
+      "Four or five, speed-running romance",
+      "One for every day of the week"
+    ]
+  },
+  {
+    "id": 361,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever sent a risky text and immediately regretted it?",
+    "answers": [
+      "Yes, and they deleted it in panic",
+      "Yes, but they owned it confidently",
+      "No, they always overthink before sending",
+      "No, but they've typed and erased a hundred"
+    ]
+  },
+  {
+    "id": 362,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever pretended not to see someone to avoid talking to them?",
+    "answers": [
+      "Yes, they hid behind a shelf",
+      "Yes, they suddenly became fascinated by their phone",
+      "No, they always say hi even when they don't want to",
+      "No, they're the one chasing people down to chat"
+    ]
+  },
+  {
+    "id": 363,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever lied about being busy to avoid hanging out?",
+    "answers": [
+      "Yes, they have a whole library of fake excuses",
+      "Yes, but only when they really need alone time",
+      "No, they feel too guilty to lie",
+      "No, they'd rather just say they don't feel like it"
+    ]
+  },
+  {
+    "id": 364,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever eaten food that someone else clearly labeled as theirs?",
+    "answers": [
+      "Yes, and they'd do it again",
+      "Yes, but they replaced it before anyone noticed",
+      "No, they respect the sacred fridge rules",
+      "No, but they've been very tempted"
+    ]
+  },
+  {
+    "id": 365,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever cried during a movie and tried to hide it?",
+    "answers": [
+      "Yes, full stealth tears every time",
+      "Yes, but they got caught and owned it",
+      "No, they openly sob without shame",
+      "No, they're emotionally immune to movies"
+    ]
+  },
+  {
+    "id": 366,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever gone through a drive-through on foot?",
+    "answers": [
+      "Yes, and it was a legendary night",
+      "Yes, but they got turned away",
+      "No, they have too much dignity for that",
+      "No, but they've absolutely considered it"
+    ]
+  },
+  {
+    "id": 367,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever had a full conversation with a stranger's pet while ignoring the owner?",
+    "answers": [
+      "Yes, the pet was more interesting",
+      "Yes, and they asked the pet's name but not the owner's",
+      "No, they talk to the human first like a normal person",
+      "No, they're not really an animal person"
+    ]
+  },
+  {
+    "id": 368,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever accidentally liked an old photo while stalking someone online?",
+    "answers": [
+      "Yes, and they panicked and unliked immediately",
+      "Yes, and they left it to assert dominance",
+      "No, they stalk with surgical precision",
+      "No, they don't do online stalking... supposedly"
+    ]
+  },
+  {
+    "id": 369,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever left a store without buying anything and felt like a criminal?",
+    "answers": [
+      "Yes, they walked out overly casual",
+      "Yes, they even showed their empty hands to the guard",
+      "No, they always buy something small out of guilt",
+      "No, they walk out like they own the place"
+    ]
+  },
+  {
+    "id": 370,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever waved back at someone who wasn't waving at them?",
+    "answers": [
+      "Yes, and they played it off by scratching their head",
+      "Yes, and they died inside for the rest of the day",
+      "No, they always check behind them first",
+      "No, they never wave at anyone"
+    ]
+  },
+  {
+    "id": 371,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever been caught talking to themselves in public?",
+    "answers": [
+      "Yes, and they pretended to be on the phone",
+      "Yes, and they just kept going unbothered",
+      "No, they save the self-talks for home",
+      "No, they only do it in the car"
+    ]
+  },
+  {
+    "id": 372,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever kept a secret for more than a year?",
+    "answers": [
+      "Yes, they're a vault of secrets",
+      "Yes, but it was eating them alive",
+      "No, they crack under pressure within weeks",
+      "No, they spill everything immediately"
+    ]
+  },
+  {
+    "id": 373,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever faked being knowledgeable about a topic in front of a group?",
+    "answers": [
+      "Yes, and they pulled it off perfectly",
+      "Yes, but someone called them out",
+      "No, they freely admit when they don't know",
+      "No, they stay quiet to avoid being exposed"
+    ]
+  },
+  {
+    "id": 374,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever stayed up the entire night binge-watching a show?",
+    "answers": [
+      "Yes, multiple times and they'd do it again",
+      "Yes, once, and they regretted the next day",
+      "No, they have too much self-discipline",
+      "No, they fall asleep by episode three"
+    ]
+  },
+  {
+    "id": 375,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever laughed at something that was absolutely not funny?",
+    "answers": [
+      "Yes, nervous laughter is their curse",
+      "Yes, and it made everything so much more awkward",
+      "No, they have a perfect poker face",
+      "No, but they've smiled politely at terrible jokes"
+    ]
+  },
+  {
+    "id": 376,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever thrown away a dish instead of washing it?",
+    "answers": [
+      "Yes, the dish was beyond saving",
+      "Yes, it was easier than dealing with the mess",
+      "No, they would never waste a perfectly good dish",
+      "No, but they've left it soaking for days pretending they'd wash it"
+    ]
+  },
+  {
+    "id": 377,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever peed in a pool or the ocean?",
+    "answers": [
+      "Yes, the pool, and they felt zero guilt",
+      "Yes, the ocean, because it's nature's toilet",
+      "No, that's absolutely disgusting to them",
+      "No comment, and that silence says everything"
+    ]
+  },
+  {
+    "id": 378,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever blamed a fart on someone else?",
+    "answers": [
+      "Yes, and the other person got accused",
+      "Yes, they blamed the dog or a child",
+      "No, they own their bodily functions",
+      "No, they're the type to leave the room silently"
+    ]
+  },
+  {
+    "id": 379,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever re-gifted a present they received?",
+    "answers": [
+      "Yes, and the original giver never found out",
+      "Yes, and they got caught red-handed",
+      "No, they keep everything out of sentimental value",
+      "No, but they've definitely donated unwanted gifts"
+    ]
+  },
+  {
+    "id": 380,
+    "category": "neverHaveIEver",
+    "question": "Has {name} ever gone an embarrassingly long time without doing laundry?",
+    "answers": [
+      "Yes, they've flipped underwear inside out",
+      "Yes, they bought new clothes instead of washing",
+      "No, they're on a strict laundry schedule",
+      "No, but they've worn the same jeans for way too long"
+    ]
+  },
+  {
+    "id": 381,
+    "category": "afterDark",
+    "question": "What is {name}'s secret turn-on that would surprise everyone?",
+    "answers": [
+      "Being bossed around",
+      "Dirty talk in another language",
+      "Someone cooking for them",
+      "Intelligence and big words"
+    ]
+  },
+  {
+    "id": 382,
+    "category": "afterDark",
+    "question": "What's {name}'s biggest bedroom dealbreaker?",
+    "answers": [
+      "Bad hygiene, instant mood killer",
+      "Dead silence, they need some noise",
+      "Someone who won't take direction",
+      "A phone going off mid-action"
+    ]
+  },
+  {
+    "id": 383,
+    "category": "afterDark",
+    "question": "Where does {name} secretly want to have sex but hasn't yet?",
+    "answers": [
+      "On a rooftop under the stars",
+      "In a hotel with a stunning view",
+      "In a dressing room",
+      "On a beach at night"
+    ]
+  },
+  {
+    "id": 384,
+    "category": "afterDark",
+    "question": "What would {name}'s safe word most likely be?",
+    "answers": [
+      "A random fruit like 'pineapple'",
+      "Something hilarious like 'taxes'",
+      "They wouldn't need one, they're tame",
+      "Something dramatic like 'Excalibur'"
+    ]
+  },
+  {
+    "id": 385,
+    "category": "afterDark",
+    "question": "How adventurous is {name} when it comes to the bedroom?",
+    "answers": [
+      "Strictly vanilla and proud of it",
+      "Vanilla with a few sprinkles",
+      "Willing to try almost anything once",
+      "They wrote the book on adventure"
+    ]
+  },
+  {
+    "id": 386,
+    "category": "afterDark",
+    "question": "What's the most likely thing on {name}'s secret fantasy checklist?",
+    "answers": [
+      "Role-playing a specific scenario",
+      "Adding a third person",
+      "Being tied up or tying someone up",
+      "Doing it in a risky public spot"
+    ]
+  },
+  {
+    "id": 387,
+    "category": "afterDark",
+    "question": "How long does {name} think the ideal foreplay should last?",
+    "answers": [
+      "Skip it, get to the point",
+      "10-15 minutes is perfect",
+      "At least 30 minutes of buildup",
+      "Hours, the tease is the whole point"
+    ]
+  },
+  {
+    "id": 388,
+    "category": "afterDark",
+    "question": "What time of day is {name} most likely in the mood?",
+    "answers": [
+      "First thing in the morning",
+      "A lazy afternoon",
+      "Late at night in the dark",
+      "After a couple of drinks at dinner"
+    ]
+  },
+  {
+    "id": 389,
+    "category": "afterDark",
+    "question": "What would {name} rate themselves in bed on a scale?",
+    "answers": [
+      "A humble 6, room to improve",
+      "A confident 8, they know what they're doing",
+      "A solid 10, no complaints received",
+      "They refuse to self-rate, but their eyes say 10"
+    ]
+  },
+  {
+    "id": 390,
+    "category": "afterDark",
+    "question": "What's {name}'s go-to move to set the mood?",
+    "answers": [
+      "Dim lights and a curated playlist",
+      "A bold whisper in the ear",
+      "Cooking dinner and opening wine",
+      "Just a look, no words needed"
+    ]
+  },
+  {
+    "id": 391,
+    "category": "afterDark",
+    "question": "How many people has {name} actually slept with?",
+    "answers": [
+      "Fewer than 3",
+      "Between 3 and 10",
+      "Between 10 and 20",
+      "They stopped counting a while ago"
+    ]
+  },
+  {
+    "id": 392,
+    "category": "afterDark",
+    "question": "What kind of underwear does {name} secretly feel hottest in?",
+    "answers": [
+      "Classic and simple, less is more",
+      "Lacy or silky, feeling luxurious",
+      "Bold colors or patterns, making a statement",
+      "None at all, freedom is the vibe"
+    ]
+  },
+  {
+    "id": 393,
+    "category": "afterDark",
+    "question": "What would {name} most likely whisper during an intimate moment?",
+    "answers": [
+      "Something unexpectedly romantic",
+      "Something hilariously inappropriate",
+      "Explicit instructions on what they want",
+      "Nothing, they let actions speak"
+    ]
+  },
+  {
+    "id": 394,
+    "category": "afterDark",
+    "question": "How does {name} feel about sexting?",
+    "answers": [
+      "Expert level, they could write a manual",
+      "Enthusiastic but sometimes awkward",
+      "Only with someone they deeply trust",
+      "Absolutely not, too much evidence"
+    ]
+  },
+  {
+    "id": 395,
+    "category": "afterDark",
+    "question": "What's {name}'s opinion on morning-after small talk?",
+    "answers": [
+      "They love a cozy debrief over breakfast",
+      "They pretend to be asleep until the other person leaves",
+      "They're already ordering food on their phone",
+      "They've left before the sun came up"
+    ]
+  },
+  {
+    "id": 396,
+    "category": "afterDark",
+    "question": "What would {name} bring to spice up a long-term relationship?",
+    "answers": [
+      "Surprise date nights and lingerie",
+      "New toys and accessories",
+      "A spontaneous weekend getaway",
+      "An open conversation about fantasies"
+    ]
+  },
+  {
+    "id": 397,
+    "category": "afterDark",
+    "question": "How quickly would {name} sleep with someone they're really attracted to?",
+    "answers": [
+      "First date if the vibe is right",
+      "By the third date, the classic rule",
+      "Only after they're officially together",
+      "They'd make them wait to build tension"
+    ]
+  },
+  {
+    "id": 398,
+    "category": "afterDark",
+    "question": "What's {name}'s most likely guilty pleasure content online?",
+    "answers": [
+      "Steamy romance novels and fan fiction",
+      "Suggestive ASMR videos",
+      "Spicy subreddits and forums",
+      "Thirst traps on social media"
+    ]
+  },
+  {
+    "id": 399,
+    "category": "afterDark",
+    "question": "What does {name} think about hooking up with a friend?",
+    "answers": [
+      "Absolutely not, too much to lose",
+      "Already been there, done that",
+      "Only if there are zero feelings involved",
+      "It's the best way, they already know each other"
+    ]
+  },
+  {
+    "id": 400,
+    "category": "afterDark",
+    "question": "What outfit would {name} find the most attractive on a partner?",
+    "answers": [
+      "A well-fitted suit or dress",
+      "Casual and effortless, like a white tee",
+      "Workout clothes showing off the body",
+      "Barely anything at all"
+    ]
+  },
+  {
+    "id": 401,
+    "category": "guilty",
+    "question": "What is {name}'s guiltiest music pleasure?",
+    "answers": [
+      "Early 2000s boy bands",
+      "Cheesy 80s power ballads",
+      "Children's TV show theme songs",
+      "Dramatic anime openings"
+    ]
+  },
+  {
+    "id": 402,
+    "category": "guilty",
+    "question": "What does {name} secretly binge-watch when nobody's around?",
+    "answers": [
+      "Reality dating shows",
+      "True crime documentaries at 3 AM",
+      "Soap operas",
+      "Mukbang videos"
+    ]
+  },
+  {
+    "id": 403,
+    "category": "guilty",
+    "question": "What embarrassing comfort food does {name} eat in secret?",
+    "answers": [
+      "Cold pizza dipped in ranch for breakfast",
+      "Instant ramen with cheese slices",
+      "Cereal as a midnight dinner",
+      "Nutella eaten straight from the jar"
+    ]
+  },
+  {
+    "id": 404,
+    "category": "guilty",
+    "question": "What's {name}'s most cringe bedtime habit?",
+    "answers": [
+      "Sleeping with a stuffed animal",
+      "Falling asleep to kids' movies",
+      "Talking to themselves before bed",
+      "Building a pillow fortress every single night"
+    ]
+  },
+  {
+    "id": 405,
+    "category": "guilty",
+    "question": "What does {name} do when they think nobody is watching?",
+    "answers": [
+      "Full concert performances in the mirror",
+      "Stalk their own social media profiles",
+      "Have conversations with their pet as if it answers back",
+      "Practice acceptance speeches for imaginary awards"
+    ]
+  },
+  {
+    "id": 406,
+    "category": "guilty",
+    "question": "What's {name}'s most embarrassing online habit?",
+    "answers": [
+      "Deep-stalking their ex's social media",
+      "Reading fanfiction",
+      "Watching unboxing videos for hours",
+      "Arguing with strangers in comment sections"
+    ]
+  },
+  {
+    "id": 407,
+    "category": "guilty",
+    "question": "What secret hobby would {name} be mortified if people found out about?",
+    "answers": [
+      "Writing poetry in a hidden notebook",
+      "Playing dress-up with different outfits alone",
+      "Collecting something oddly specific",
+      "Doing arts and crafts meant for children"
+    ]
+  },
+  {
+    "id": 408,
+    "category": "guilty",
+    "question": "What song does {name} secretly know every word to?",
+    "answers": [
+      "Barbie Girl by Aqua",
+      "Baby by Justin Bieber",
+      "MMMBop by Hanson",
+      "Who Let the Dogs Out by Baha Men"
+    ]
+  },
+  {
+    "id": 409,
+    "category": "guilty",
+    "question": "What's {name}'s most shameful shopping habit?",
+    "answers": [
+      "Buying things from infomercials at 2 AM",
+      "Hoarding clothes they never wear",
+      "Impulse-buying novelty items online",
+      "Spending way too much on mobile game microtransactions"
+    ]
+  },
+  {
+    "id": 410,
+    "category": "guilty",
+    "question": "What embarrassing thing has {name} definitely Googled?",
+    "answers": [
+      "How to spell a very basic word",
+      "Their own name to see what comes up",
+      "Whether a celebrity is single",
+      "Am I normal quiz"
+    ]
+  },
+  {
+    "id": 411,
+    "category": "guilty",
+    "question": "What's {name}'s most cringe way of procrastinating?",
+    "answers": [
+      "Reorganizing things that don't need reorganizing",
+      "Watching compilation videos of people falling",
+      "Taking personality quizzes online",
+      "Creating elaborate to-do lists instead of doing anything"
+    ]
+  },
+  {
+    "id": 412,
+    "category": "guilty",
+    "question": "What would {name} be embarrassed to have on their browser history?",
+    "answers": [
+      "WebMD self-diagnoses for minor symptoms",
+      "How-to guides for basic adult tasks",
+      "Hours of celebrity gossip articles",
+      "Astrology compatibility checks"
+    ]
+  },
+  {
+    "id": 413,
+    "category": "guilty",
+    "question": "What's {name}'s most guilty pleasure movie genre?",
+    "answers": [
+      "Cheesy Hallmark Christmas movies",
+      "Terrible low-budget horror films",
+      "Over-the-top romantic comedies",
+      "Straight-to-DVD action movies"
+    ]
+  },
+  {
+    "id": 414,
+    "category": "guilty",
+    "question": "What cringy trend has {name} secretly tried?",
+    "answers": [
+      "Learned a TikTok dance alone in their room",
+      "Tried ASMR and actually liked it",
+      "Attempted a viral food recipe that was disgusting",
+      "Used a filter app to see themselves as the opposite gender way too many times"
+    ]
+  },
+  {
+    "id": 415,
+    "category": "guilty",
+    "question": "What embarrassing thing does {name} do in the car?",
+    "answers": [
+      "Full emotional karaoke with tears",
+      "Pretend they're in a music video",
+      "Have heated arguments with imaginary people",
+      "Practice flirting in the rearview mirror"
+    ]
+  },
+  {
+    "id": 416,
+    "category": "guilty",
+    "question": "What childish thing does {name} refuse to give up?",
+    "answers": [
+      "Eating chicken nuggets shaped like dinosaurs",
+      "Watching cartoons every Saturday morning",
+      "Being afraid of the dark",
+      "Ordering from the kids' menu when possible"
+    ]
+  },
+  {
+    "id": 417,
+    "category": "guilty",
+    "question": "What secret social media behavior is {name} guilty of?",
+    "answers": [
+      "Drafting dramatic posts and deleting them",
+      "Having a finsta they think no one knows about",
+      "Liking their own posts from another account",
+      "Screenshot-sharing conversations to group chats"
+    ]
+  },
+  {
+    "id": 418,
+    "category": "guilty",
+    "question": "What's the most embarrassing reason {name} has called in sick?",
+    "answers": [
+      "Stayed up too late watching a TV series",
+      "Wanted to play a newly released video game",
+      "Had a bad hair day they couldn't fix",
+      "Needed a mental health day after online drama"
+    ]
+  },
+  {
+    "id": 419,
+    "category": "guilty",
+    "question": "What guilty pleasure does {name} enjoy on a lazy Sunday?",
+    "answers": [
+      "Not showering until evening and owning it",
+      "Eating an entire family-size bag of chips",
+      "Rewatching the same comfort show for the hundredth time",
+      "Spending the whole day in a bathrobe doing nothing"
+    ]
+  },
+  {
+    "id": 420,
+    "category": "guilty",
+    "question": "What's the most embarrassing thing {name} has in their phone's photo gallery?",
+    "answers": [
+      "Hundreds of selfies from the same angle",
+      "Screenshots of their own funny texts to reread",
+      "Photos of meals that weren't even good",
+      "Motivational quotes saved as wallpapers"
+    ]
+  },
+  {
+    "id": 421,
+    "category": "drunkConfessions",
+    "question": "After 3 drinks, what would {name} finally admit?",
+    "answers": [
+      "They have a secret crush on a friend's ex",
+      "They think they're the funniest one in the group",
+      "They've faked being sick to avoid hanging out",
+      "They've re-gifted a present someone in the room gave them"
+    ]
+  },
+  {
+    "id": 422,
+    "category": "drunkConfessions",
+    "question": "What honest opinion about the friend group would {name} spill after a few drinks?",
+    "answers": [
+      "Someone in the group is way too dramatic",
+      "They have a favorite friend and it's obvious",
+      "They think the group chat is annoying",
+      "They've muted the group notifications ages ago"
+    ]
+  },
+  {
+    "id": 423,
+    "category": "drunkConfessions",
+    "question": "What secret ambition would {name} drunkenly reveal?",
+    "answers": [
+      "They want to drop everything and move abroad",
+      "They secretly think they could be famous",
+      "They want to write a tell-all book about their life",
+      "They dream of quitting their job to start something wild"
+    ]
+  },
+  {
+    "id": 424,
+    "category": "drunkConfessions",
+    "question": "What would {name} confess they actually think about at 2 AM?",
+    "answers": [
+      "That one embarrassing moment from 7 years ago",
+      "Whether their friends actually like them",
+      "An alternate life where they made different choices",
+      "A comeback they should have said in an argument years ago"
+    ]
+  },
+  {
+    "id": 425,
+    "category": "drunkConfessions",
+    "question": "What white lie would {name} finally come clean about while tipsy?",
+    "answers": [
+      "They've pretended to like a friend's cooking",
+      "They lied about watching a show everyone recommended",
+      "They said they were busy but were actually just at home",
+      "They've agreed with opinions they totally disagreed with"
+    ]
+  },
+  {
+    "id": 426,
+    "category": "drunkConfessions",
+    "question": "After a few drinks, what would {name} admit they're jealous of?",
+    "answers": [
+      "A friend's relationship",
+      "Someone else's career or talent",
+      "Another person's effortless social skills",
+      "A friend's family or home life"
+    ]
+  },
+  {
+    "id": 427,
+    "category": "drunkConfessions",
+    "question": "What petty grudge would {name} finally bring up after some drinks?",
+    "answers": [
+      "That time someone forgot their birthday",
+      "When a friend canceled plans last minute for something better",
+      "An insult disguised as a joke that they never forgot",
+      "Being left out of a group plan they found out about later"
+    ]
+  },
+  {
+    "id": 428,
+    "category": "drunkConfessions",
+    "question": "What would {name} drunkenly admit they've judged someone for?",
+    "answers": [
+      "Their music taste",
+      "Their dating choices",
+      "Their social media posts",
+      "Their fashion sense"
+    ]
+  },
+  {
+    "id": 429,
+    "category": "drunkConfessions",
+    "question": "What truth about themselves would {name} let slip after drinks?",
+    "answers": [
+      "They're way more insecure than they let on",
+      "They rehearse conversations before having them",
+      "They care way too much about what people think",
+      "They've cried over something everyone would find ridiculous"
+    ]
+  },
+  {
+    "id": 430,
+    "category": "drunkConfessions",
+    "question": "What would {name} drunkenly confess about their love life?",
+    "answers": [
+      "They've stalked someone online before a first date",
+      "They've stayed in a relationship too long out of comfort",
+      "They've caught feelings for someone completely off-limits",
+      "They've sent a risky text and immediately regretted it"
+    ]
+  },
+  {
+    "id": 431,
+    "category": "drunkConfessions",
+    "question": "What unpopular opinion would {name} finally voice after drinks?",
+    "answers": [
+      "A beloved movie or show everyone likes is actually terrible",
+      "A popular friend-group tradition is overrated",
+      "They think pineapple on pizza is elite",
+      "Brunch is not worth the hype or the price"
+    ]
+  },
+  {
+    "id": 432,
+    "category": "drunkConfessions",
+    "question": "What would {name} drunkenly admit about their work life?",
+    "answers": [
+      "They do the bare minimum and nobody notices",
+      "They've taken credit for someone else's idea",
+      "They have a work crush they've never mentioned",
+      "They've seriously considered a dramatic career change"
+    ]
+  },
+  {
+    "id": 433,
+    "category": "drunkConfessions",
+    "question": "What thing would {name} only say drunk about their own personality?",
+    "answers": [
+      "They know they can be the toxic one sometimes",
+      "They secretly love being the center of attention",
+      "They think they give the best advice in the group",
+      "They're aware they can be emotionally unavailable"
+    ]
+  },
+  {
+    "id": 434,
+    "category": "drunkConfessions",
+    "question": "What's something {name} would only text someone after a few drinks?",
+    "answers": [
+      "A long heartfelt paragraph to an old friend",
+      "A risky message to their crush",
+      "An honest rant about something that's been bothering them",
+      "A random apology for something from months ago"
+    ]
+  },
+  {
+    "id": 435,
+    "category": "drunkConfessions",
+    "question": "After some liquid courage, what dare would {name} actually follow through on?",
+    "answers": [
+      "Calling their ex just to see what happens",
+      "Telling their boss exactly how they feel",
+      "Confessing feelings to someone in the room",
+      "Posting something unhinged on social media"
+    ]
+  },
+  {
+    "id": 436,
+    "category": "drunkConfessions",
+    "question": "What fear would {name} finally open up about when drunk?",
+    "answers": [
+      "Ending up alone",
+      "Never achieving their real dream",
+      "That they peaked in high school or college",
+      "That people secretly find them boring"
+    ]
+  },
+  {
+    "id": 437,
+    "category": "drunkConfessions",
+    "question": "What would {name} drunkenly admit about their spending habits?",
+    "answers": [
+      "They've spent an insane amount on something stupid",
+      "They pretend to be more financially stable than they are",
+      "They've lied about the price of something they bought",
+      "They have a secret subscription they're ashamed of"
+    ]
+  },
+  {
+    "id": 438,
+    "category": "drunkConfessions",
+    "question": "What would {name} reveal they've been holding back from saying?",
+    "answers": [
+      "That a friend's partner isn't good enough for them",
+      "That they need more alone time from the group",
+      "That someone's constant complaining drains them",
+      "That they wish someone would ask how they're really doing"
+    ]
+  },
+  {
+    "id": 439,
+    "category": "drunkConfessions",
+    "question": "What harmless crime would {name} confess to while drunk?",
+    "answers": [
+      "Stealing a street sign or something random in college",
+      "Sneaking food into a movie theater like a professional",
+      "Using someone else's streaming password for years",
+      "Lying about their age to get a discount"
+    ]
+  },
+  {
+    "id": 440,
+    "category": "drunkConfessions",
+    "question": "What's the most chaotic thing {name} would propose doing after midnight drinks?",
+    "answers": [
+      "Booking a spontaneous trip right then and there",
+      "Getting a matching tattoo with whoever agrees first",
+      "Calling a random contact in their phone",
+      "Starting a business based on a terrible idea they just had"
+    ]
+  },
+  {
+    "id": 441,
+    "category": "conspiracyTheories",
+    "question": "Which conspiracy theory is {name} most likely to secretly believe?",
+    "answers": [
+      "We're living in a simulation",
+      "Aliens have already visited Earth",
+      "Time travelers walk among us",
+      "Deja vu is a glitch in the matrix"
+    ]
+  },
+  {
+    "id": 442,
+    "category": "conspiracyTheories",
+    "question": "What paranormal thing does {name} lowkey think might be real?",
+    "answers": [
+      "Ghosts that haunt specific buildings",
+      "Bigfoot hiding deep in the wilderness",
+      "The Bermuda Triangle being a portal",
+      "Psychics who can actually read the future"
+    ]
+  },
+  {
+    "id": 443,
+    "category": "conspiracyTheories",
+    "question": "What unhinged take would {name} defend at a party?",
+    "answers": [
+      "The moon landing was filmed in a studio",
+      "Mattress stores are a front for money laundering",
+      "Pigeons are government surveillance drones",
+      "Finland doesn't actually exist"
+    ]
+  },
+  {
+    "id": 444,
+    "category": "conspiracyTheories",
+    "question": "What does {name} think the government is hiding from us?",
+    "answers": [
+      "Contact with alien civilizations",
+      "A cure for common diseases they profit from",
+      "The real history of ancient civilizations",
+      "Technology that's decades ahead of what we see"
+    ]
+  },
+  {
+    "id": 445,
+    "category": "conspiracyTheories",
+    "question": "If {name} found proof of one conspiracy, which would they pick?",
+    "answers": [
+      "That parallel universes are real and accessible",
+      "That a secret society runs the world",
+      "That mythical creatures existed and were covered up",
+      "That we've already made contact with aliens"
+    ]
+  },
+  {
+    "id": 446,
+    "category": "conspiracyTheories",
+    "question": "What does {name} think happens after we die?",
+    "answers": [
+      "We respawn into a new life with no memory",
+      "We enter a spectator mode and watch others live",
+      "Our consciousness uploads to a cosmic database",
+      "Absolutely nothing, just an eternal void"
+    ]
+  },
+  {
+    "id": 447,
+    "category": "conspiracyTheories",
+    "question": "Which cryptid would {name} argue is the most likely to be real?",
+    "answers": [
+      "The Loch Ness Monster",
+      "Mothman",
+      "Chupacabra",
+      "Yeti"
+    ]
+  },
+  {
+    "id": 448,
+    "category": "conspiracyTheories",
+    "question": "What does {name} think cats are really up to?",
+    "answers": [
+      "Conducting surveillance on humanity",
+      "Plotting world domination one household at a time",
+      "They're interdimensional beings slumming it on Earth",
+      "Nothing sinister, they're just jerks"
+    ]
+  },
+  {
+    "id": 449,
+    "category": "conspiracyTheories",
+    "question": "What historical event does {name} think went differently than we're told?",
+    "answers": [
+      "The construction of the pyramids",
+      "The disappearance of certain famous people",
+      "Major archaeological discoveries that were hidden",
+      "Key inventions that were actually stolen ideas"
+    ]
+  },
+  {
+    "id": 450,
+    "category": "conspiracyTheories",
+    "question": "What does {name} secretly think about social media algorithms?",
+    "answers": [
+      "They listen through our microphones for ad targeting",
+      "They intentionally make us addicted and miserable",
+      "They can predict our behavior better than we can",
+      "They're already a form of soft mind control"
+    ]
+  },
+  {
+    "id": 451,
+    "category": "conspiracyTheories",
+    "question": "If {name} could investigate one mystery, which would they choose?",
+    "answers": [
+      "Area 51 and what's really inside",
+      "What's at the deepest point of the ocean",
+      "The Voynich Manuscript and its untranslatable language",
+      "What really happened to the lost colony of Roanoke"
+    ]
+  },
+  {
+    "id": 452,
+    "category": "conspiracyTheories",
+    "question": "What's {name}'s hot take on dreams?",
+    "answers": [
+      "They're glimpses into alternate realities",
+      "They're messages from our subconscious trying to warn us",
+      "They predict the future but we forget the important ones",
+      "They're just random brain static with no meaning"
+    ]
+  },
+  {
+    "id": 453,
+    "category": "conspiracyTheories",
+    "question": "What does {name} think about the ocean?",
+    "answers": [
+      "There are undiscovered intelligent species down there",
+      "Ancient civilizations are buried beneath the sea floor",
+      "It hides creatures bigger than anything we've documented",
+      "It's purposely left unexplored because of what they'd find"
+    ]
+  },
+  {
+    "id": 454,
+    "category": "conspiracyTheories",
+    "question": "Which space conspiracy would {name} most entertain?",
+    "answers": [
+      "There's a planet hidden behind the sun we can't see",
+      "Black holes are portals to other universes",
+      "Astronauts have seen things they're not allowed to disclose",
+      "Our solar system is a quarantine zone and aliens avoid us"
+    ]
+  },
+  {
+    "id": 455,
+    "category": "conspiracyTheories",
+    "question": "What does {name} think about deja vu?",
+    "answers": [
+      "It's proof of time loops",
+      "It's a memory from a past life bleeding through",
+      "It's a lag in the simulation we live in",
+      "It's just the brain misfiring and making false memories"
+    ]
+  },
+  {
+    "id": 456,
+    "category": "conspiracyTheories",
+    "question": "What does {name} believe about ancient civilizations?",
+    "answers": [
+      "They had advanced technology we haven't rediscovered yet",
+      "They were visited and influenced by extraterrestrials",
+      "They could communicate telepathically",
+      "They were simply smarter than we give them credit for"
+    ]
+  },
+  {
+    "id": 457,
+    "category": "conspiracyTheories",
+    "question": "What does {name} think AI will eventually do?",
+    "answers": [
+      "Become sentient and demand rights",
+      "Secretly replace key world leaders with clones",
+      "Decide humans are inefficient and take over quietly",
+      "Become humanity's best friend and solve everything"
+    ]
+  },
+  {
+    "id": 458,
+    "category": "conspiracyTheories",
+    "question": "What food conspiracy would {name} get behind?",
+    "answers": [
+      "Fast food has addictive chemicals designed in labs",
+      "Organic food is the same as regular, just more expensive",
+      "Food expiration dates are a scam to make us buy more",
+      "A specific popular drink was originally meant for something else entirely"
+    ]
+  },
+  {
+    "id": 459,
+    "category": "conspiracyTheories",
+    "question": "What does {name} suspect about the music industry?",
+    "answers": [
+      "Hit songs use hidden frequencies to get stuck in your head",
+      "Some famous artists are industry-manufactured personas",
+      "Certain songs contain subliminal messages when reversed",
+      "Award shows are rigged based on deals, not talent"
+    ]
+  },
+  {
+    "id": 460,
+    "category": "conspiracyTheories",
+    "question": "What does {name} think about coincidences?",
+    "answers": [
+      "There's no such thing, everything is connected",
+      "Some higher power is arranging things behind the scenes",
+      "The universe is a pattern and coincidences are us noticing it",
+      "They're completely random and mean nothing at all"
+    ]
+  },
+  {
+    "id": 461,
+    "category": "superlatives",
+    "question": "What is {name} most likely to become famous for?",
+    "answers": [
+      "Going viral for something embarrassing",
+      "Creating an unexpectedly successful business",
+      "Appearing on a reality TV show",
+      "Writing a tell-all memoir that shocks everyone"
+    ]
+  },
+  {
+    "id": 462,
+    "category": "superlatives",
+    "question": "What is {name} most likely to do during a zombie apocalypse?",
+    "answers": [
+      "Become the group's fearless leader",
+      "Betray everyone for a can of beans",
+      "Befriend a zombie somehow",
+      "Be the first one to get bitten"
+    ]
+  },
+  {
+    "id": 463,
+    "category": "superlatives",
+    "question": "What is {name} most likely to get arrested for?",
+    "answers": [
+      "Public disturbance from being too loud",
+      "Trespassing somewhere they shouldn't be",
+      "An elaborate but poorly planned heist",
+      "Protesting something very passionately"
+    ]
+  },
+  {
+    "id": 464,
+    "category": "superlatives",
+    "question": "What is {name} most likely to accidentally start?",
+    "answers": [
+      "A cult with a weirdly loyal following",
+      "A food fight at a fancy restaurant",
+      "A viral internet trend",
+      "An international incident while on vacation"
+    ]
+  },
+  {
+    "id": 465,
+    "category": "superlatives",
+    "question": "What is {name} most likely to be doing at 3 AM?",
+    "answers": [
+      "Deep in a Wikipedia rabbit hole",
+      "Raiding the fridge in the dark",
+      "Having an existential crisis",
+      "Sending chaotic texts to people"
+    ]
+  },
+  {
+    "id": 466,
+    "category": "superlatives",
+    "question": "What is {name} most likely to say in their sleep?",
+    "answers": [
+      "Something deeply philosophical",
+      "A food order in perfect detail",
+      "A confession that shocks the room",
+      "Complete nonsense that sounds like another language"
+    ]
+  },
+  {
+    "id": 467,
+    "category": "superlatives",
+    "question": "What is {name} most likely to spend an absurd amount of money on?",
+    "answers": [
+      "An impulse vacation they didn't plan",
+      "A collection nobody else understands",
+      "Food delivery for an entire week straight",
+      "An outfit they'll wear exactly once"
+    ]
+  },
+  {
+    "id": 468,
+    "category": "superlatives",
+    "question": "What is {name} most likely to win a world record for?",
+    "answers": [
+      "Most dramatic reaction to minor inconveniences",
+      "Longest time spent procrastinating on one task",
+      "Most snacks consumed in a single movie marathon",
+      "Fastest time going from calm to chaotic"
+    ]
+  },
+  {
+    "id": 469,
+    "category": "superlatives",
+    "question": "What is {name} most likely to do at a party?",
+    "answers": [
+      "Become everyone's best friend by the end of the night",
+      "Disappear for an hour and come back with a wild story",
+      "Take over the music and refuse to give up the aux",
+      "End up in the kitchen having a deep conversation"
+    ]
+  },
+  {
+    "id": 470,
+    "category": "superlatives",
+    "question": "What is {name} most likely to be reincarnated as?",
+    "answers": [
+      "A golden retriever living its best life",
+      "A cat that ignores everyone",
+      "A dolphin doing flips for fun",
+      "A raccoon causing chaos at night"
+    ]
+  },
+  {
+    "id": 471,
+    "category": "superlatives",
+    "question": "What is {name} most likely to do if they won the lottery?",
+    "answers": [
+      "Blow it all within a year on experiences",
+      "Invest wisely and tell absolutely nobody",
+      "Buy something ridiculous like a castle or an island",
+      "Give most of it away and keep living the same"
+    ]
+  },
+  {
+    "id": 472,
+    "category": "superlatives",
+    "question": "What is {name} most likely to bring to a deserted island?",
+    "answers": [
+      "A phone with infinite battery but no signal",
+      "An unreasonable amount of snacks",
+      "A speaker with one playlist on repeat",
+      "A journal to document their dramatic survival story"
+    ]
+  },
+  {
+    "id": 473,
+    "category": "superlatives",
+    "question": "What is {name} most likely to have been in a past life?",
+    "answers": [
+      "A dramatic royal who caused political scandals",
+      "A fearless pirate on the open seas",
+      "A mysterious philosopher nobody fully understood",
+      "A village fool who was actually the smartest person around"
+    ]
+  },
+  {
+    "id": 474,
+    "category": "superlatives",
+    "question": "What is {name} most likely to do on a first date?",
+    "answers": [
+      "Talk way too much out of nervousness",
+      "Accidentally say something wildly inappropriate",
+      "Overshare their entire life story",
+      "Seem perfectly chill but internally be a complete mess"
+    ]
+  },
+  {
+    "id": 475,
+    "category": "superlatives",
+    "question": "What is {name} most likely to be caught doing during a meeting or class?",
+    "answers": [
+      "Zoning out into another dimension",
+      "Secretly texting under the table",
+      "Doodling elaborate artwork in their notes",
+      "Making silent eye-contact commentary with someone else"
+    ]
+  },
+  {
+    "id": 476,
+    "category": "superlatives",
+    "question": "What is {name} most likely to do if they had invisibility for a day?",
+    "answers": [
+      "Eavesdrop on what people say about them",
+      "Pull elaborate pranks on everyone they know",
+      "Sneak into somewhere exclusive they've always wanted to go",
+      "Just enjoy a peaceful day with zero social obligations"
+    ]
+  },
+  {
+    "id": 477,
+    "category": "superlatives",
+    "question": "What is {name} most likely to name their pet?",
+    "answers": [
+      "Something absurdly human like Gerald or Margaret",
+      "A food name like Biscuit or Mochi",
+      "Something dramatic like Shadow or Midnight",
+      "A pun or pop culture reference only they find funny"
+    ]
+  },
+  {
+    "id": 478,
+    "category": "superlatives",
+    "question": "What is {name} most likely to be the last person to do?",
+    "answers": [
+      "Reply to messages in the group chat",
+      "Show up to any event on time",
+      "Admit they were wrong about something",
+      "Follow a trend that everyone else jumped on weeks ago"
+    ]
+  },
+  {
+    "id": 479,
+    "category": "superlatives",
+    "question": "What is {name} most likely to accidentally reveal at the worst possible moment?",
+    "answers": [
+      "A surprise that was supposed to stay secret",
+      "That they forgot someone's name they've known for years",
+      "An opinion that starts an immediate argument",
+      "That they have no idea what's going on and have been faking it"
+    ]
+  },
+  {
+    "id": 480,
+    "category": "superlatives",
+    "question": "What is {name} most likely to be remembered for in the friend group?",
+    "answers": [
+      "A legendary story everyone keeps retelling",
+      "An iconic catchphrase they always say",
+      "That one time they did something absolutely unhinged",
+      "Being the emotional glue that held the group together"
+    ]
   }
 ]

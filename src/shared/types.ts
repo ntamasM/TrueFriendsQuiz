@@ -22,7 +22,7 @@ export type ControllerView =
   | "result"
   | "leaderboard";
 
-export type CategoryVoteOption = "fun" | "deep" | "dilemma";
+export type CategoryVoteOption = "fun" | "deep" | "dilemma" | "spicy";
 
 // ─── Data Models ───
 
@@ -219,6 +219,7 @@ export interface UiText {
     fun: string;
     deep: string;
     dilemma: string;
+    spicy: string;
   };
   choosingCategory: string;
   speedBonus: string;

@@ -64,7 +64,20 @@
     "deepPersonal": "Tief & Persönlich",
     "funRandom": "Spaß & Zufall",
     "experiencesDreams": "Erfahrungen & Träume",
-    "deepSpicy": "Tief & Scharf"
+    "deepSpicy": "Tief & Scharf",
+    "hotTakes": "Heiße Meinungen",
+    "hypothetical": "Hypothetisch",
+    "memories": "Erinnerungen",
+    "relationships": "Beziehungen",
+    "moneyPower": "Geld & Macht",
+    "darkSecrets": "Dunkle Geheimnisse",
+    "bodyCount": "Liebesgeschichte",
+    "neverHaveIEver": "Ich Hab Noch Nie",
+    "afterDark": "Nach Mitternacht",
+    "guilty": "Heimliche Freuden",
+    "drunkConfessions": "Betrunkene Geständnisse",
+    "conspiracyTheories": "Verschwörungstheorien",
+    "superlatives": "Superlative"
   },
   "pointsGuide": {
     "title": "Punktesystem",
@@ -80,7 +93,8 @@
     "title": "Wähle eine Kategorie",
     "fun": "Spaß & Zufall",
     "deep": "Tief & Persönlich",
-    "dilemma": "Würdest du lieber"
+    "dilemma": "Würdest du lieber",
+    "spicy": "Scharf"
   },
   "choosingCategory": "wählt eine Kategorie...",
   "speedBonus": "Geschwindigkeitsbonus!",

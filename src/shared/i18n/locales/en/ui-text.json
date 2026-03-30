@@ -65,7 +65,20 @@
     "deepPersonal": "Deep & Personal",
     "funRandom": "Fun & Random",
     "experiencesDreams": "Experiences & Dreams",
-    "deepSpicy": "Deep & Spicy"
+    "hotTakes": "Hot Takes",
+    "hypothetical": "Hypothetical",
+    "memories": "Memories",
+    "deepSpicy": "Deep & Spicy",
+    "relationships": "Relationships",
+    "moneyPower": "Money & Power",
+    "darkSecrets": "Dark Secrets",
+    "bodyCount": "Body Count",
+    "neverHaveIEver": "Never Have I Ever",
+    "afterDark": "After Dark",
+    "guilty": "Guilty Pleasures",
+    "drunkConfessions": "Drunk Confessions",
+    "conspiracyTheories": "Conspiracy Theories",
+    "superlatives": "Superlatives"
   },
   "pointsGuide": {
     "title": "Points System",
@@ -81,7 +94,8 @@
     "title": "Choose a Category",
     "fun": "Fun & Random",
     "deep": "Deep & Personal",
-    "dilemma": "Would You Rather"
+    "dilemma": "Would You Rather",
+    "spicy": "Spicy"
   },
   "choosingCategory": "is choosing a category...",
   "speedBonus": "speed bonus!",

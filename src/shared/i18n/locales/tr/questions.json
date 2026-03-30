@@ -2418,5 +2418,2865 @@
       "Utandırıcı sosyal medya postları",
       "Fazla dürüst olmak"
     ]
+  },
+  {
+    "id": 221,
+    "category": "hotTakes",
+    "question": "{name}'in en tartışmalı yemek görüşü nedir?",
+    "answers": [
+      "Pizzada ananas olmalı",
+      "Yumurtaya ketçap lezzetlidir",
+      "İyi pişmiş biftek en iyisidir",
+      "Mısır gevreği suyla daha güzeldir"
+    ]
+  },
+  {
+    "id": 222,
+    "category": "hotTakes",
+    "question": "{name}'in hangi popüler olmayan film görüşü var?",
+    "answers": [
+      "Devam filmleri genellikle orijinalden iyidir",
+      "Siyah-beyaz filmler izlenemez",
+      "Korku filmleri gerçekten korkutucu değil",
+      "Komedi yapmak en zor türdür"
+    ]
+  },
+  {
+    "id": 223,
+    "category": "hotTakes",
+    "question": "{name} aslında neyin abartıldığını düşünür?",
+    "answers": [
+      "Dünyayı gezmek",
+      "Brunch kültürü",
+      "Konserlere gitmek",
+      "Sosyal medya şöhreti"
+    ]
+  },
+  {
+    "id": 224,
+    "category": "hotTakes",
+    "question": "{name} hangi günlük alışkanlığını canı pahasına savunur?",
+    "answers": [
+      "Sabah yerine gece duş almak",
+      "Yemekten önce tatlı yemek",
+      "Çorapla uyumak",
+      "Gevrekten önce süt koymak"
+    ]
+  },
+  {
+    "id": 225,
+    "category": "hotTakes",
+    "question": "{name}'e göre en abartılmış tatil günü hangisi?",
+    "answers": [
+      "Sevgililer Günü",
+      "Yılbaşı gecesi",
+      "Cadılar Bayramı",
+      "Kara Cuma"
+    ]
+  },
+  {
+    "id": 226,
+    "category": "hotTakes",
+    "question": "{name}'in müzik hakkında hangi tartışmalı görüşü var?",
+    "answers": [
+      "Pop müzik rock'tan daha fazla yetenek gerektirir",
+      "Sözler önemli değil, sadece ritim önemli",
+      "Canlı müzik kayıttan daha kötüdür",
+      "En iyi müzik 2000'den önce yapıldı"
+    ]
+  },
+  {
+    "id": 227,
+    "category": "hotTakes",
+    "question": "{name}'in evcil hayvanlar hakkında hangi tartışmalı görüşü var?",
+    "answers": [
+      "Kediler köpeklerden çok daha üstündür",
+      "İnsanlar hayvanlara fazla çocuk muamelesi yapıyor",
+      "Egzotik hayvanlar sıradan evcil hayvanlardan havalıdır",
+      "Balıklar en hafife alınan evcil hayvanlardır"
+    ]
+  },
+  {
+    "id": 228,
+    "category": "hotTakes",
+    "question": "{name}'in hangi bölücü moda görüşü var?",
+    "answers": [
+      "Crocs gerçekten şık",
+      "Çiftler için eşleşen kıyafetler tatlı",
+      "Kargo şort moda zirvesidir",
+      "Sandaletlerle çorap harika görünür"
+    ]
+  },
+  {
+    "id": 229,
+    "category": "hotTakes",
+    "question": "{name}'in sosyal görgü kuralları hakkındaki en baharatlı görüşü nedir?",
+    "answers": [
+      "Hayalet geçmek bazen tamamen normaldir",
+      "Boş sohbet zaman kaybıdır",
+      "Acımasızca dürüst olmak erdemdir",
+      "Geç kalanlar zamanına saygı duymuyordur"
+    ]
+  },
+  {
+    "id": 230,
+    "category": "hotTakes",
+    "question": "{name}'in hangi tartışmalı kahvaltı görüşü var?",
+    "answers": [
+      "Kahvaltı en az önemli öğündür",
+      "Soğuk pizza ideal kahvaltıdır",
+      "Diş fırçaladıktan sonra portakal suyu içmek sorun değil",
+      "Pankek waffle'dan iyidir"
+    ]
+  },
+  {
+    "id": 231,
+    "category": "hotTakes",
+    "question": "{name}'in fitness kültürü hakkında ne düşündüğü?",
+    "answers": [
+      "Spor salonu selfileri her zaman rezildir",
+      "Koşmak abartılmış bir egzersizdir",
+      "Yoga sadece süslü germedir",
+      "Dinlenme günleri antrenmanlardan daha önemlidir"
+    ]
+  },
+  {
+    "id": 232,
+    "category": "hotTakes",
+    "question": "{name}'in teknoloji hakkındaki tartışmalı görüşü nedir?",
+    "answers": [
+      "Kapaklı telefonlar zirve tasarımdı",
+      "Sosyal medya zararı faydasından fazladır",
+      "Yapay zeka sanatı gerçek sanattır",
+      "Görüntülü aramalar tüm toplantıların yerini almalı"
+    ]
+  },
+  {
+    "id": 233,
+    "category": "hotTakes",
+    "question": "{name}'in okul hakkında hangi tartışmalı görüşü var?",
+    "answers": [
+      "Ödevler kaldırılmalı",
+      "Notlar zekayı yansıtmaz",
+      "Grup projeleri hiçbir şey öğretmez",
+      "Okul sabah çok erken başlıyor"
+    ]
+  },
+  {
+    "id": 234,
+    "category": "hotTakes",
+    "question": "{name}'in hava hakkındaki tartışmalı görüşü nedir?",
+    "answers": [
+      "Yağmurlu günler güneşli günlerden iyidir",
+      "Kış açık ara en iyi mevsimdir",
+      "30°C üzeri sıcak hava keyiflidir",
+      "Kar sadece ilk saat eğlencelidir"
+    ]
+  },
+  {
+    "id": 235,
+    "category": "hotTakes",
+    "question": "{name}'in yemek pişirme hakkında hangi görüşü var?",
+    "answers": [
+      "Mikrodalgada pişirme hafife alınıyor",
+      "Pahalı restoranlar nadiren buna değer",
+      "Hazır noodle meşru bir öğündür",
+      "Yanmış yemeğin lezzeti daha fazladır"
+    ]
+  },
+  {
+    "id": 236,
+    "category": "hotTakes",
+    "question": "{name}'in hangi popüler olmayan oyun görüşü var?",
+    "answers": [
+      "Mobil oyunlar gerçek oyun sayılır",
+      "Tek oyunculu her zaman çok oyunculudan iyidir",
+      "Kolay mod oynamanın en iyi yoludur",
+      "Retro oyunlar modern oyunlardan iyidir"
+    ]
+  },
+  {
+    "id": 237,
+    "category": "hotTakes",
+    "question": "{name}'in arkadaşlık hakkındaki tartışmalı görüşü nedir?",
+    "answers": [
+      "Bir ya da iki gerçek arkadaş yeterli",
+      "Online arkadaşlar yüz yüze arkadaşlar kadar gerçektir",
+      "Arkadaşlıkların doğal son kullanma tarihi vardır",
+      "Yetişkinler gerçek yeni arkadaş edinemez"
+    ]
+  },
+  {
+    "id": 238,
+    "category": "hotTakes",
+    "question": "{name}'in içecekler hakkında hangi tartışmalı görüşü var?",
+    "answers": [
+      "Kahve gerçekten iğrenç",
+      "Ilık su en iyi içecektir",
+      "Enerji içecekleri sodadan daha iyi",
+      "Çay her bakımdan kahveden üstündür"
+    ]
+  },
+  {
+    "id": 239,
+    "category": "hotTakes",
+    "question": "{name}'in uyku hakkında hangi tartışmalı görüşü var?",
+    "answers": [
+      "Şekerleme tembelliğin göstergesidir",
+      "Geç kalkmak günü boşa harcamaktır",
+      "Gece kuşları sabahçılardan daha üretkendir",
+      "Sekiz saat uyku bir efsanedir"
+    ]
+  },
+  {
+    "id": 240,
+    "category": "hotTakes",
+    "question": "{name}'in en tartışmalı yaşam görüşü nedir?",
+    "answers": [
+      "Konfor alanı mutluluğun yaşadığı yerdir",
+      "Kariyer seçiminde tutku abartılmıştır",
+      "Rutin, spontanlıktan daha özgür kılar",
+      "Can sıkıntısı aslında sağlıklıdır"
+    ]
+  },
+  {
+    "id": 241,
+    "category": "hypothetical",
+    "question": "{name} bir süper güce sahip olabilse hangisini seçerdi?",
+    "answers": [
+      "Zihin okumak",
+      "Işınlanmak",
+      "Zamanı kontrol etmek",
+      "Görünmez olmak"
+    ]
+  },
+  {
+    "id": 242,
+    "category": "hypothetical",
+    "question": "{name} yarın bir dünya lideri olarak uyanırsa ilk ne yapardı?",
+    "answers": [
+      "Dört günlük çalışma haftasını zorunlu kılardı",
+      "Dünya genelinde ödevi yasaklardı",
+      "Her yerde toplu taşımayı ücretsiz yapardı",
+      "Şekerleme için küresel tatil ilan ederdi"
+    ]
+  },
+  {
+    "id": 243,
+    "category": "hypothetical",
+    "question": "{name} herhangi bir kurgu evreninde yaşayabilse hangisini seçerdi?",
+    "answers": [
+      "Harry Potter'ın büyücülük dünyası",
+      "Marvel/DC süper kahraman evreni",
+      "Star Wars galaksisi",
+      "Pokémon dünyası"
+    ]
+  },
+  {
+    "id": 244,
+    "category": "hypothetical",
+    "question": "{name} Dünya'daki son insan olsaydı ilk ne yapardı?",
+    "answers": [
+      "Bir lüks mağazayı soyardı",
+      "Spor arabasını tam gaz sürerdi",
+      "Bir konağa taşınırdı",
+      "Bir hayvanat bahçesine gidip tüm hayvanları serbest bırakırdı"
+    ]
+  },
+  {
+    "id": 245,
+    "category": "hypothetical",
+    "question": "{name} anında hangi beceriye sahip olmayı seçerdi?",
+    "answers": [
+      "Her müzik aletini çalmak",
+      "Her dili akıcı konuşmak",
+      "Michelin yıldızlı şef gibi yemek pişirmek",
+      "Profesyonel düzeyde dövüş sanatları"
+    ]
+  },
+  {
+    "id": 246,
+    "category": "hypothetical",
+    "question": "{name} bir günün zaman döngüsüne sıkışsaydı hangi günü seçerdi?",
+    "answers": [
+      "Mükemmel bir plaj tatili günü",
+      "Şimdiye kadarki en iyi doğum günü",
+      "Sorumlulukların olmadığı bir kar günü",
+      "Arkadaşlarla çılgın bir gece"
+    ]
+  },
+  {
+    "id": 247,
+    "category": "hypothetical",
+    "question": "Uzaylılar iner ve {name}'den insanlığı temsil etmesini isteseydi, onları nasıl etkilerdi?",
+    "answers": [
+      "Harika bir yemek pişirirdi",
+      "Onlara müzik ve dans gösterirdi",
+      "Bir tema parkına götürürdü",
+      "Kedi videoları gösterirdi"
+    ]
+  },
+  {
+    "id": 248,
+    "category": "hypothetical",
+    "question": "{name} bir haftalığına herhangi bir ünlüyle yer değiştirebilseydi, kimi seçerdi?",
+    "answers": [
+      "Turda olan ünlü bir müzisyen",
+      "Hollywood'un A listesinden bir aktör",
+      "Milyarder bir teknoloji CEO'su",
+      "Profesyonel bir sporcu"
+    ]
+  },
+  {
+    "id": 249,
+    "category": "hypothetical",
+    "question": "{name} zombi kıyametinden sağ çıkmak zorunda olsaydı rolü ne olurdu?",
+    "answers": [
+      "Stratejik lider",
+      "Korkusuz savaşçı",
+      "Becerikli toplayıcı",
+      "Morali yüksek tutan komedyen"
+    ]
+  },
+  {
+    "id": 250,
+    "category": "hypothetical",
+    "question": "{name} bir simülasyonun karakteri olduğunu anlasaydı ne yapardı?",
+    "answers": [
+      "Gerçek hayat için hile kodları bulmaya çalışırdı",
+      "Simülasyonun sınırlarını test ederdi",
+      "Programcılarla iletişime geçmeye çalışırdı",
+      "Sadece normal yaşamaya devam ederdi"
+    ]
+  },
+  {
+    "id": 251,
+    "category": "hypothetical",
+    "question": "{name} gelecekten bir icat getirebilseydi ne seçerdi?",
+    "answers": [
+      "Işınlanma cihazı",
+      "Tüm hastalıkların tedavisi",
+      "Yaşlanmayı durduran bir cihaz",
+      "İstediğin yemeği anında yaratan makine"
+    ]
+  },
+  {
+    "id": 252,
+    "category": "hypothetical",
+    "question": "{name} tarihin bir döneminde yaşamak zorunda olsaydı hangisini seçerdi?",
+    "answers": [
+      "Zirvedeki Antik Roma",
+      "Çılgın 1920'ler",
+      "Rönesans İtalyası",
+      "Salatalık 1970'ler"
+    ]
+  },
+  {
+    "id": 253,
+    "category": "hypothetical",
+    "question": "{name} bir cin bulsa ve tek dilek hakkı olsa (daha fazla dilek dilemek yok) ne dilerdi?",
+    "answers": [
+      "Sınırsız para",
+      "Sonsuza dek mükemmel sağlık",
+      "Herkesi mutlu etme yeteneği",
+      "Her sorunun cevabını bilmek"
+    ]
+  },
+  {
+    "id": 254,
+    "category": "hypothetical",
+    "question": "{name} hayatının geri kalanında sadece bir mutfak yemek zorunda olsaydı hangisini seçerdi?",
+    "answers": [
+      "İtalyan",
+      "Japon",
+      "Meksika",
+      "Hint"
+    ]
+  },
+  {
+    "id": 255,
+    "category": "hypothetical",
+    "question": "{name} hayvanlarla konuşabilseydi ilk hangi hayvanı bulurdu?",
+    "answers": [
+      "Kendi evcil hayvanı (ya da bir köpek)",
+      "Okyanustaki yunuslar",
+      "Yaşlı ve bilge bir baykuş",
+      "Sırlarını öğrenmek için bir ev kedisi"
+    ]
+  },
+  {
+    "id": 256,
+    "category": "hypothetical",
+    "question": "{name} yarın bir Olimpiyat sporunda yarışmak zorunda olsaydı hangisinde en iyi şansa sahip olurdu?",
+    "answers": [
+      "Okçuluk",
+      "Masa tenisi",
+      "Yüzme",
+      "Eskrim"
+    ]
+  },
+  {
+    "id": 257,
+    "category": "hypothetical",
+    "question": "{name} Dünya'daki herkesin uymak zorunda olduğu bir kural koyabilseydi ne olurdu?",
+    "answers": [
+      "Sabah 10'dan önce konuşmak yasak",
+      "Her gün kişi başı en az bir iltifat",
+      "Yemek sırasında telefon yasak",
+      "Herkes günde beş dakika dans etmek zorunda"
+    ]
+  },
+  {
+    "id": 258,
+    "category": "hypothetical",
+    "question": "{name} bu odadaki bir arkadaşından bir yeteneği çalabilseydi hangisini isterdi?",
+    "answers": [
+      "Mizah ve nüktedan oluşları",
+      "Özgüvenleri",
+      "Yemek pişirme becerileri",
+      "Herkesle konuşabilme yetenekleri"
+    ]
+  },
+  {
+    "id": 259,
+    "category": "hypothetical",
+    "question": "{name}'in kişisel bir robotu olsaydı onu en çok ne için kullanırdı?",
+    "answers": [
+      "Tüm evi temizlemek",
+      "Tüm yemekleri pişirmek",
+      "Tüm işleri halletmek",
+      "Antrenman arkadaşı ve kişisel antrenör olmak"
+    ]
+  },
+  {
+    "id": 260,
+    "category": "hypothetical",
+    "question": "{name} herhangi bir video oyunu dünyasında yaşayabilseydi hangisini seçerdi?",
+    "answers": [
+      "Minecraft (her şeyi inşa et)",
+      "Animal Crossing (huzurlu ada hayatı)",
+      "GTA (sonuçsuz kaos)",
+      "The Sims (her şeyi kontrol et)"
+    ]
+  },
+  {
+    "id": 261,
+    "category": "memories",
+    "question": "{name}'in her grup buluşmasında mutlaka gündeme getirdiği şey nedir?",
+    "answers": [
+      "Yıllar önce birinin yaptığı o utandırıcı şey",
+      "Başka kimsenin anlamadığı bir iç şaka",
+      "Her anlatımda daha da abartılan bir hikaye",
+      "Bir geceden utandırıcı bir an"
+    ]
+  },
+  {
+    "id": 262,
+    "category": "memories",
+    "question": "{name}'in en utandırıcı çocukluk dönemi hangisiydi?",
+    "answers": [
+      "\"Herkesten üstünüm\" dönemi",
+      "Sorgulanabilir kıyafet seçimleri dönemi",
+      "Takıntılı hayran dönemi",
+      "\"Rastgele olmak komik\" dönemi"
+    ]
+  },
+  {
+    "id": 263,
+    "category": "memories",
+    "question": "{name}'in bir partide yaptığı en kaotik şey nedir?",
+    "answers": [
+      "Kendiliğinden dans yarışması başlattı",
+      "Gece 3'te yemek yapmaya çalıştı",
+      "Davet edilmeden duygusal bir konuşma yaptı",
+      "Garip bir yerde uyuya kaldı"
+    ]
+  },
+  {
+    "id": 264,
+    "category": "memories",
+    "question": "{name} çocukken en çok ne için ceza aldı?",
+    "answers": [
+      "Derste çok konuşmak",
+      "Yiyecek saklamak ya da geç yatmak",
+      "Kardeşleriyle ya da arkadaşlarıyla kavga etmek",
+      "Olmaması gereken yerde olmak"
+    ]
+  },
+  {
+    "id": 265,
+    "category": "memories",
+    "question": "{name}'in çocukken kesinlikle hayal ettiği meslek neydi?",
+    "answers": [
+      "Astronot ya da pilot",
+      "Ünlü şarkıcı ya da oyuncu",
+      "Veteriner ya da hayvanat bahçesi bekçisi",
+      "Profesyonel sporcu"
+    ]
+  },
+  {
+    "id": 266,
+    "category": "memories",
+    "question": "{name}'in yıllık kitabındaki unvanı ne olurdu?",
+    "answers": [
+      "Kendi düğününe bile geç kalacak biri",
+      "Sınıf soytarısı",
+      "En muhtemel ünlü olacak",
+      "En iyi özür üreticisi"
+    ]
+  },
+  {
+    "id": 267,
+    "category": "memories",
+    "question": "{name}'in yeni insanlarla tanışırken anlattığı hikaye nedir?",
+    "answers": [
+      "Çılgın bir seyahat macerası",
+      "Başına gelen saçma bir tesadüf",
+      "Komik bir başarısızlık ya da kaza",
+      "Ünlü biriyle tanışması"
+    ]
+  },
+  {
+    "id": 268,
+    "category": "memories",
+    "question": "{name} şimdiye kadar en çok ne zaman paniğe kapıldı?",
+    "answers": [
+      "Telefonu ya da cüzdanını kaybettiğinde",
+      "Önemli bir şeye geç kaldığında",
+      "Böcek ya da örümcek karşılaşmasında",
+      "Mesajı yanlış kişiye attığını sandığında"
+    ]
+  },
+  {
+    "id": 269,
+    "category": "memories",
+    "question": "{name}'in arkadaşlarına göre en çok tekrarlanan hayat anı hangisi?",
+    "answers": [
+      "Kameraya yakalanan epik bir hata",
+      "Bahsetmeyi bırakmadığı bir başarı",
+      "Bir keresinde verdiği harika bir cevap",
+      "Arkadaşlarla yaşanan güzel bir an"
+    ]
+  },
+  {
+    "id": 270,
+    "category": "memories",
+    "question": "{name}'in çocukken takıntı haline getirdiği en garip şey neydi?",
+    "answers": [
+      "Rastgele nesneler koleksiyonu",
+      "Belirli bir çizgi film ya da dizi",
+      "Kimsenin yapmadığı sıradışı bir hobi",
+      "Tuhaf bir yiyecek türü"
+    ]
+  },
+  {
+    "id": 271,
+    "category": "memories",
+    "question": "{name} okul gezisinde nasıl bir felakete karışırdı?",
+    "answers": [
+      "Gruptan kaybolmak",
+      "Otobüste hastalanmak",
+      "Müzede bir şeyi kırmak",
+      "Paket öğle yemeğini unutmak"
+    ]
+  },
+  {
+    "id": 272,
+    "category": "memories",
+    "question": "{name}'in en ikonik kıyafet kazası anı nedir?",
+    "answers": [
+      "En kötü anda pantolonu yırtıldı",
+      "Çok fazla ya da çok az giyimli geldi",
+      "Tüm gün iç yüzü dışarıda giyindi",
+      "Saatlerce fark etmediği görünür bir leke"
+    ]
+  },
+  {
+    "id": 273,
+    "category": "memories",
+    "question": "{name}'e göre en garip ilk gün hangisiydi?",
+    "answers": [
+      "Yeni okulun ilk günü",
+      "Yeni işin ilk günü",
+      "Yeni bir şehirdeki ilk gün",
+      "Partnerinin ailesiyle ilk tanışma"
+    ]
+  },
+  {
+    "id": 274,
+    "category": "memories",
+    "question": "{name}'in şimdiye kadar gösterdiği en dramatik tepki neydi?",
+    "answers": [
+      "Küçük bir korku anında çığlık atmak",
+      "Bir film sahnesinde ağlamak",
+      "Küçük bir başarıyı sanki piyango kazanmış gibi kutlamak",
+      "Ufak bir rahatsızlık için saatlerce söylenmek"
+    ]
+  },
+  {
+    "id": 275,
+    "category": "memories",
+    "question": "{name}'in bir kez deneyip hemen bıraktığı hobi ya da aktivite nedir?",
+    "answers": [
+      "Berbat olduğu bir spor",
+      "Müzik aleti öğrenmeye çalışmak",
+      "Fitness dersi ya da spor salonu üyeliği",
+      "Yemek ya da pasta yapmayı öğrenmek"
+    ]
+  },
+  {
+    "id": 276,
+    "category": "memories",
+    "question": "{name}'in geç kalmak için bulduğu en efsanevi bahane nedir?",
+    "answers": [
+      "Var olmayan trafiği suçladı",
+      "Aile acil durumu dedi ama aslında uyumuştu",
+      "Alarmın çalmadığını söyledi",
+      "Açıkça uydurulmuş ayrıntılı bir hikaye anlattı"
+    ]
+  },
+  {
+    "id": 277,
+    "category": "memories",
+    "question": "{name}'in hâlâ övündüğü oyun ya da yarışma zaferi hangisi?",
+    "answers": [
+      "Bir masa oyunu gecesi zaferi",
+      "Bir spor maçı ya da fiziksel meydan okuma",
+      "Arkadaşına karşı kazandığı bir bahis",
+      "Bir video oyunu başarısı"
+    ]
+  },
+  {
+    "id": 278,
+    "category": "memories",
+    "question": "{name}'in en utandırıcı sosyal medya anı nedir?",
+    "answers": [
+      "Yeniden gündeme gelen eski bir paylaşım",
+      "Birini gezerken eski fotoğrafı yanlışlıkla beğenmek",
+      "Özel sohbet için tasarlanan bir şeyi paylaşmak",
+      "Birinin etiketlediği kötü bir fotoğraf"
+    ]
+  },
+  {
+    "id": 279,
+    "category": "memories",
+    "question": "{name}'in çocukken söyleyip yakalandığı en büyük yalan nedir?",
+    "answers": [
+      "Kendi yaptığı bir şeyi kardeşine ya da evcil hayvanına yıkmak",
+      "Okulu kaçmak için hasta numarası yapmak",
+      "Ödevi bitirdiğini söylemek ama bitirmemek",
+      "Atıştırmalıkları yemediğini iddia etmek"
+    ]
+  },
+  {
+    "id": 280,
+    "category": "memories",
+    "question": "{name}'in unutmak istediği okul anısı nedir?",
+    "answers": [
+      "Sınıfın önünde sunum yaparken donup kalmak",
+      "Kolayca geçeceğini sandığı sınavdan kalkmak",
+      "Öğretmen tarafından herkesin önünde azarlanmak",
+      "Derste uyuya kalıp yakalanmak"
+    ]
+  },
+  {
+    "id": 281,
+    "category": "relationships",
+    "question": "{name}'in ilişkide en büyük vazgeçilmezi nedir?",
+    "answers": [
+      "Garsonlara ya da yabancılara kaba davranmak",
+      "Hiç mizah anlayışı olmamak",
+      "Telefona 7/24 yapışık olmak",
+      "Arkadaşlarıyla iyi geçinememek"
+    ]
+  },
+  {
+    "id": 282,
+    "category": "relationships",
+    "question": "{name}'in sevgi dili nedir?",
+    "answers": [
+      "Olumlu sözler",
+      "Birlikte kaliteli zaman geçirmek",
+      "Fiziksel temas ve sevgi gösterisi",
+      "Hizmet eylemleri ve düşünceli jestler"
+    ]
+  },
+  {
+    "id": 283,
+    "category": "relationships",
+    "question": "{name}'in ideal ilk buluşması nasıl olurdu?",
+    "answers": [
+      "Güzel bir restoranda samimi akşam yemeği",
+      "Maceralı açık hava etkinliği",
+      "Rahat bir kahvehane takılması",
+      "Atıştırmalıklı film gecesi"
+    ]
+  },
+  {
+    "id": 284,
+    "category": "relationships",
+    "question": "{name}'in aslında en çok hangi tür insana çekildiği?",
+    "answers": [
+      "Gizemli ve sessiz tip",
+      "Gürültülü ve özgüvenli parti ruhu",
+      "Inek entelektüel",
+      "Sanatçı yaratıcı ruh"
+    ]
+  },
+  {
+    "id": 285,
+    "category": "relationships",
+    "question": "Partneri {name}'e sürpriz parti düzenlese nasıl tepki verirdi?",
+    "answers": [
+      "Her saniyesini severdi",
+      "Çabayı takdir eder ama utanırdı",
+      "Anlamış olsa bile sürpriz yapmış gibi yapardı",
+      "Planı kendisi yapamadığı için sinirlenir"
+    ]
+  },
+  {
+    "id": 286,
+    "category": "relationships",
+    "question": "{name}'in içten içe bayıldığı klişe romantik jest nedir?",
+    "answers": [
+      "El yazısıyla yazılmış aşk mektubu",
+      "Herkese açık yerde serenat",
+      "Flash mob evlilik teklifi",
+      "İlişkilerinin karalama defteri"
+    ]
+  },
+  {
+    "id": 287,
+    "category": "relationships",
+    "question": "{name} ilişkide en çok ne konusunda tartışır?",
+    "answers": [
+      "Nerede yenileceği ya da ne izleneceği",
+      "Temizlik ve ev işleri",
+      "Birlikte ne kadar zaman geçirilmesi gerektiği",
+      "Para ve harcama alışkanlıkları"
+    ]
+  },
+  {
+    "id": 288,
+    "category": "relationships",
+    "question": "{name} yakın bir arkadaşından hoşlansa ne yapardı?",
+    "answers": [
+      "Belirgin ipuçları bırakır ve beklerdi",
+      "Doğrudan itiraf eder ve riski göze alırdı",
+      "Hiçbir şey söylemez ve acı çekerdi",
+      "Önce ortak bir arkadaşa araştırma yaptırırdı"
+    ]
+  },
+  {
+    "id": 289,
+    "category": "relationships",
+    "question": "{name}'in flört uygulaması davranışı hangisine benzer?",
+    "answers": [
+      "Neredeyse herkesi sağa kaydırır",
+      "Her mesajı 20 dakika düşünür",
+      "Eşleşir ama hiç ilk mesajı atmaz",
+      "Zekice biyografileri olan mükemmel bir profili var"
+    ]
+  },
+  {
+    "id": 290,
+    "category": "relationships",
+    "question": "{name} hangi ilişki kilometre taşına acele ederdi?",
+    "answers": [
+      "İlk \"Seni seviyorum\" demek",
+      "Ailelerle tanışmak",
+      "Birlikte taşınmak",
+      "Birlikte evcil hayvan almak"
+    ]
+  },
+  {
+    "id": 291,
+    "category": "relationships",
+    "question": "{name} ayrılığı nasıl atlatır?",
+    "answers": [
+      "Dramatik üzgün müzik ve dondurma dönemi",
+      "Hemen meşgul olmaya ve dikkatini dağıtmaya çalışır",
+      "Haftalarca arkadaşlarına dert yanar",
+      "Tamamen iyiymiş gibi davranır ama içten içe mahvolmuştur"
+    ]
+  },
+  {
+    "id": 292,
+    "category": "relationships",
+    "question": "{name}'in en büyük yeşil bayrağı nedir?",
+    "answers": [
+      "Senin hakkındaki küçük ayrıntıları hatırlarlar",
+      "Her zaman güldürürler",
+      "En önemli anlarda yanında olurlar",
+      "Zor olduğunda bile dürüsttürler"
+    ]
+  },
+  {
+    "id": 293,
+    "category": "relationships",
+    "question": "{name} partnerinin onu nasıl sürpriz yapmasını en çok isterdi?",
+    "answers": [
+      "Ani hafta sonu gezisi biletleri",
+      "En sevdiği yemeği evde pişirmek",
+      "Dinlediğini gösteren düşünceli bir hediye",
+      "İlgi alanları etrafında planlanmış bir gün"
+    ]
+  },
+  {
+    "id": 294,
+    "category": "relationships",
+    "question": "{name}'in flört tarzı nedir?",
+    "answers": [
+      "Şakacı kışkırtma ve sarkastik mizah",
+      "Yoğun göz teması ve iltifatlar",
+      "Sürekli güldürmek",
+      "Ekstra yardımsever ve ilgili olmak"
+    ]
+  },
+  {
+    "id": 295,
+    "category": "relationships",
+    "question": "{name} birisini yakın arkadaş saymak için ne kadar tanıması gerekir?",
+    "answers": [
+      "Bir epik gece yeterli",
+      "Birkaç haftalık düzenli takılmak",
+      "Birkaç aylık güven inşası",
+      "En az bir yıl kanıtlanmış sadakat"
+    ]
+  },
+  {
+    "id": 296,
+    "category": "relationships",
+    "question": "{name}'in bir buluşmada anında ilgisini kaybetmesine ne sebep olur?",
+    "answers": [
+      "Sürekli kendinden övgüyle bahsetmek",
+      "Servis personeline kaba davranmak",
+      "Hiç fikir ya da ilgi alanı olmamak",
+      "Tüm buluşma boyunca telefona bakmak"
+    ]
+  },
+  {
+    "id": 297,
+    "category": "relationships",
+    "question": "{name}'in herkese açık sevgi gösterisi hakkındaki görüşü nedir?",
+    "answers": [
+      "Ne kadar çok olursa o kadar iyi",
+      "Sadece el tutmak ve küçük jestler",
+      "Her zaman özel tutmak",
+      "Tamamen ruh haline ve ortama bağlı"
+    ]
+  },
+  {
+    "id": 298,
+    "category": "relationships",
+    "question": "{name} mükemmel ilişki için neyi feda ederdi?",
+    "answers": [
+      "Başka bir şehirdeki hayal ettiği iş",
+      "En çok zaman harcadığı hobisi",
+      "En yakın arkadaşlıklarından bazıları",
+      "Bağımsızlığı ve yalnız kalma zamanı"
+    ]
+  },
+  {
+    "id": 299,
+    "category": "relationships",
+    "question": "{name}'in içten inandığı romantik film klişesi hangisi?",
+    "answers": [
+      "İlk görüşte aşk",
+      "Arkadaşlıktan aşka en güzel hikayedir",
+      "Dramatik havalimanı kovalama sahnesi",
+      "Düşmanlıktan aşka en heyecan vericidir"
+    ]
+  },
+  {
+    "id": 300,
+    "category": "relationships",
+    "question": "{name}'in partnerde en büyük can sıkıcı alışkanlığı nedir?",
+    "answers": [
+      "Yüksek sesle çiğnemek ya da kötü masa adabı",
+      "Hiç karar verememek ya da sürekli \"farketmez\" demek",
+      "Aşırı kıskanç ya da sahiplenici olmak",
+      "Mesajı okuyup saatlerce cevap vermemek"
+    ]
+  },
+  {
+    "id": 301,
+    "category": "moneyPower",
+    "question": "{name} kimliği olmayan bir çantada 100.000 dolar bulsa ne yapardı?",
+    "answers": [
+      "Tereddütsüz hepsini alırdı",
+      "Polise teslim ederdi",
+      "Bir kısmını alıp gerisini bağışlardı",
+      "Önce sahibini bulmaya çalışırdı"
+    ]
+  },
+  {
+    "id": 302,
+    "category": "moneyPower",
+    "question": "{name} nefret ettiği bir iş için mevcut maaşının üç katını kabul eder miydi?",
+    "answers": [
+      "Kesinlikle, para her şeyi çözer",
+      "Sadece birkaç yıl para biriktirmek için",
+      "Asla, mutluluk her zaman önce gelir",
+      "İşin ne kadar berbat olduğuna bağlı"
+    ]
+  },
+  {
+    "id": 303,
+    "category": "moneyPower",
+    "question": "{name} bir gecede milyarder olsaydı ilk ne değişirdi?",
+    "answers": [
+      "Hemen işten ayrılırdı",
+      "Hayal ettiği evi satın alırdı",
+      "Etrafındaki herkesin borcunu öderdi",
+      "Bir tutku projesi ya da iş kurardı"
+    ]
+  },
+  {
+    "id": 304,
+    "category": "moneyPower",
+    "question": "{name} bir milyon dolar için arkadaşının sırrını ifşa eder miydi?",
+    "answers": [
+      "Evet, bir milyon dolar bir milyon dolardır",
+      "Sırrın ne kadar zarar verdiğine bağlı",
+      "Asla, sadakat her şeyin üstündedir",
+      "Sadece arkadaşı hiç anlayamazsa"
+    ]
+  },
+  {
+    "id": 305,
+    "category": "moneyPower",
+    "question": "{name} ünlü olabilse ama tüm mahremiyetini kaybetse bunu kabul eder miydi?",
+    "answers": [
+      "Kesinlikle, şöhret buna değer",
+      "Sadece seçici biçimde ünlü olabilseydi",
+      "Asla, mahremiyet her şeydir",
+      "Sadece büyük bir servetle birlikte gelseydi"
+    ]
+  },
+  {
+    "id": 306,
+    "category": "moneyPower",
+    "question": "{name} büyük bir terfi için iş arkadaşının fikrini sahiplenir miydi?",
+    "answers": [
+      "Evet, bu oyunun kuralları böyle",
+      "Sadece iş arkadaşı hiç anlayamazsa",
+      "Asla, krediyi paylaşırdı",
+      "Ekip çalışması olarak sunardı"
+    ]
+  },
+  {
+    "id": 307,
+    "category": "moneyPower",
+    "question": "{name} piyango kazansa bunu ilk kime söylerdi?",
+    "answers": [
+      "Hemen en iyi arkadaşına",
+      "Hemen ailesine",
+      "Kimseye, tamamen sır olarak saklardı",
+      "Herkesten önce bir mali danışmana"
+    ]
+  },
+  {
+    "id": 308,
+    "category": "moneyPower",
+    "question": "{name} 10 milyon dolar için beş yıl tam izolasyonda yaşar mıydı?",
+    "answers": [
+      "Evet, para hayatı değiştirir",
+      "Sadece bir kişiyi yanına alabilseydi",
+      "Asla, beş yıl çok büyük bir fedakarlık",
+      "Daha kısa bir süre için pazarlık ederdi"
+    ]
+  },
+  {
+    "id": 309,
+    "category": "moneyPower",
+    "question": "{name} bir haftalığına patronunun e-postalarını okuyabilseydi bunu yapar mıydı?",
+    "answers": [
+      "Kesinlikle, bilgi güçtür",
+      "Sadece yakalanma ihtimali sıfırsa",
+      "Hayır, bu bir sınırı aşmak olur",
+      "Sadece kendisi hakkında konuşulup konuşulmadığını görmek için"
+    ]
+  },
+  {
+    "id": 310,
+    "category": "moneyPower",
+    "question": "{name} 50.000 dolar için bir yıl akıllı telefonsuz kalır mıydı?",
+    "answers": [
+      "Kolay evet, parayı ver",
+      "Belki, ama gerçekten zorlanırdı",
+      "Asla, telefon hayatının bir parçası",
+      "Sadece aramalar için basit bir telefon kullanabilseydi"
+    ]
+  },
+  {
+    "id": 311,
+    "category": "moneyPower",
+    "question": "{name} düşmanları olan güç mü yoksa huzur içinde bilinmezlik mi tercih ederdi?",
+    "answers": [
+      "Güç, düşmanlar işin parçası",
+      "Huzur, bilinmez ve mutlu olmayı tercih eder",
+      "Güç, ama düşmanları müttefike çevirmeye çalışırdı",
+      "Huzur, ama gizlice etkisizliğe içerlerdi"
+    ]
+  },
+  {
+    "id": 312,
+    "category": "moneyPower",
+    "question": "{name} 25.000 dolar için utandırıcı bir fotoğrafını satar mıydı?",
+    "answers": [
+      "Anında, herkesin utandırıcı fotoğrafı var",
+      "Ne kadar utandırıcı olduğuna bağlı",
+      "Asla, itibarı daha değerli",
+      "Sadece kimin göreceğini kontrol edebildiyse"
+    ]
+  },
+  {
+    "id": 313,
+    "category": "moneyPower",
+    "question": "{name} geçmişteki bir finansal hatasını silebilseydi ne tür biri olurdu?",
+    "answers": [
+      "Derin pişmanlık duyduğu anlık bir satın alma",
+      "Asla geri ödenmeyen birine borç para vermek",
+      "Daha erken yatırım ya da tasarruf yapmamak",
+      "Bir gezi ya da deneyime çok fazla harcamak"
+    ]
+  },
+  {
+    "id": 314,
+    "category": "moneyPower",
+    "question": "{name} küçük bir şehrin en zengini mi yoksa büyük şehirde orta sınıf mı olmayı tercih ederdi?",
+    "answers": [
+      "Küçük şehrin en zengin, statü önemli",
+      "Büyük şehirde orta sınıf, yaşam tarzı için",
+      "Küçük şehirde zengin, büyük balık olmayı sever",
+      "Büyük şehirde orta sınıf, anonimlik özgürlüktür"
+    ]
+  },
+  {
+    "id": 315,
+    "category": "moneyPower",
+    "question": "{name} ahlaki açıdan gri bir yan iş seçmek zorunda olsaydı hangisini seçerdi?",
+    "answers": [
+      "Sınırlı ürünleri çok yüksek fiyatla yeniden satmak",
+      "İşletmeler için sahte olumlu yorum yazmak",
+      "Paparazzi fotoğrafçısı olmak",
+      "Tıklama odaklı içerik sayfası yönetmek"
+    ]
+  },
+  {
+    "id": 316,
+    "category": "moneyPower",
+    "question": "{name} en iyi arkadaşlığını garanti edilmiş kariyer başarısı için feda eder miydi?",
+    "answers": [
+      "Evet, kariyer kalıcı, arkadaşlıklar değişir",
+      "Asla, arkadaşlar her işten daha önemli",
+      "Sadece başarı gerçekten olağanüstü olsaydı",
+      "Her ikisini de tutmanın yolunu müzakere etmeye çalışırdı"
+    ]
+  },
+  {
+    "id": 317,
+    "category": "moneyPower",
+    "question": "{name} etik dışı ama hayal ettiği işi teklif eden bir şirket bulsa kabul eder miydi?",
+    "answers": [
+      "Evet, içeriden değiştirmeye çalışırdı",
+      "Evet, hayal ettiği iş hayal ettiği iştir",
+      "Hayır, ilkeler önce gelir",
+      "Sadece kimse yargılamasaydı"
+    ]
+  },
+  {
+    "id": 318,
+    "category": "moneyPower",
+    "question": "{name} sevdiği ama az para kazandıran bir iş mi yoksa sıkıcı ama yüksek maaşlı bir iş mi tercih ederdi?",
+    "answers": [
+      "Sevdiği iş, para her şey değil",
+      "Yüksek maaş, neşeyi iş dışında bulabilir",
+      "Sevdiği iş, faturalar ödendiği sürece",
+      "Yüksek maaş, erken emekli olurdu"
+    ]
+  },
+  {
+    "id": 319,
+    "category": "moneyPower",
+    "question": "{name} herkese bir vergi koyabilseydi ne olurdu?",
+    "answers": [
+      "Herkese açık kaba davranışa vergi",
+      "Gereksiz toplantı düzenlemeye vergi",
+      "Film ya da dizi spoiler'ına vergi",
+      "Herkese açık alanda hoparlörden müzik çalmaya vergi"
+    ]
+  },
+  {
+    "id": 320,
+    "category": "moneyPower",
+    "question": "{name} 1 milyon dolar alırken en kötü düşmanı 2 milyon dolar alsa bu anlaşmayı kabul eder miydi?",
+    "answers": [
+      "Evet, bedava para bedava paradır",
+      "Hayır, düşmanın daha fazla kazanmasına dayanamaz",
+      "Evet ama bu durum onu sinir ederdi",
+      "Hayır, kimse hiçbir şey alamasın"
+    ]
+  },
+  {
+    "id": 321,
+    "category": "darkSecrets",
+    "question": "{name}'in arkadaşlarından en çok neyi sakladığı?",
+    "answers": [
+      "Gizli bir sosyal medya hesabı",
+      "Suçlu zevk duyduğu bir dizi",
+      "Kimsenin bilmediği romantik bir ilgi",
+      "Utandığı bir koleksiyon"
+    ]
+  },
+  {
+    "id": 322,
+    "category": "darkSecrets",
+    "question": "{name}'in asla itiraf etmeyeceği şey nedir?",
+    "answers": [
+      "Saatlerce eski sevgilisini internette takip etmek",
+      "Özgeçmişinde yalan söylemek",
+      "Planlardan kaçmak için hasta numarası yapmak",
+      "Birinin özel mesajlarını okumak"
+    ]
+  },
+  {
+    "id": 323,
+    "category": "darkSecrets",
+    "question": "{name}'in en utandırıcı gizli korkusu nedir?",
+    "answers": [
+      "Garip bir şey yaparken gizlice kaydedilmek",
+      "Birinin arama geçmişini bulması",
+      "Ebeveynlerinin mesajlarını okuması",
+      "Kendi kendine konuşurken yakalanmak"
+    ]
+  },
+  {
+    "id": 324,
+    "category": "darkSecrets",
+    "question": "{name}'in yapıp da yakalanmadığı en kötü şey nedir?",
+    "answers": [
+      "Kendi hatasını başkasına yıkmak",
+      "Gerçekten iyi birini hayalet geçmek",
+      "Küçük bir şey çalmak",
+      "Yanlış olduğunu bildiği bir dedikodu yaymak"
+    ]
+  },
+  {
+    "id": 325,
+    "category": "darkSecrets",
+    "question": "{name}'in tarayıcı geçmişi sızdırılsaydı en şok edici bulgu ne olurdu?",
+    "answers": [
+      "Takıntılı biçimde eski sevgilisine bakmak",
+      "Tuhaf hastalık belirtisi aramaları",
+      "Utandırıcı hayran kurgusu",
+      "Saçma şeyler için nasıl yapılır kılavuzları"
+    ]
+  },
+  {
+    "id": 326,
+    "category": "darkSecrets",
+    "question": "{name}'in en sık söylediği yalan hangisi?",
+    "answers": [
+      "\"Yoldayım!\"",
+      "\"İyiyim, sadece yorgunum\"",
+      "\"Mesajını görmedim\"",
+      "\"Sadece bir içki içtim\""
+    ]
+  },
+  {
+    "id": 327,
+    "category": "darkSecrets",
+    "question": "{name}'in yalnız olduğunda yaptığı gizli hobi nedir?",
+    "answers": [
+      "Aynada konser veriyor",
+      "Her zaman kazandığı hayali tartışmalar yapıyor",
+      "Kabul konuşmaları prova ediyor",
+      "Pop şarkılara koreografi hazırlıyor"
+    ]
+  },
+  {
+    "id": 328,
+    "category": "darkSecrets",
+    "question": "{name}'in şimdiye kadar yaptığı en küçük intikam nedir?",
+    "answers": [
+      "Küçük bir anlaşmazlık yüzünden birini takipten çıkarmak",
+      "İnat için birini okundu'da bırakmak",
+      "Hiçbir şey için bir yıldızlı yorum bırakmak",
+      "Kavgadan sonra bir hediyeyi geri almak"
+    ]
+  },
+  {
+    "id": 329,
+    "category": "darkSecrets",
+    "question": "{name}'in başkalarını gizlice neye göre yargıladığı?",
+    "answers": [
+      "Müzik zevkleri",
+      "Yiyeceklerini nasıl yedikleri",
+      "Flört tercihleri",
+      "Sosyal medya paylaşımları"
+    ]
+  },
+  {
+    "id": 330,
+    "category": "darkSecrets",
+    "question": "{name} sıfır sonuçlu bir gerçek çemberinde ne itiraf ederdi?",
+    "answers": [
+      "Bir kişilik özelliğini tamamen oynadığını",
+      "Gruptaki birini gizlice sevmediğini",
+      "Nerede olduğu hakkında yalan söylediğini",
+      "Nefret ettiği bir hediyeyi sevmiş gibi davrandığını"
+    ]
+  },
+  {
+    "id": 331,
+    "category": "darkSecrets",
+    "question": "{name}'in hiç yüksek sesle söylemeyeceği en karanlık düşüncesi nedir?",
+    "answers": [
+      "Yeni bir şehirde hayatı yeniden başlatmayı dilemek",
+      "Her şeyi bırakıp kaybolmayı hayal etmek",
+      "Birinin başarısız olmasını gizlice istemek",
+      "Çoğu insandan daha iyi olduğunu düşünmek"
+    ]
+  },
+  {
+    "id": 332,
+    "category": "darkSecrets",
+    "question": "{name}'in gizlice ağladığı şey nedir?",
+    "answers": [
+      "Bir film ya da dizi finali",
+      "Eski sevgiliden gelen mesaj",
+      "Arkadaşlar tarafından dışlanmak",
+      "Gece 2'de motivasyon videosu"
+    ]
+  },
+  {
+    "id": 333,
+    "category": "darkSecrets",
+    "question": "{name}'in başkaları öğrenirse yerin dibine geçeceği şey nedir?",
+    "answers": [
+      "Evcil hayvanıyla insan gibi konuşmak",
+      "Aynada flört provası yapmak",
+      "Kendi hikayelerini ve selfie'lerini tekrar izlemek",
+      "Peluş oyuncakla uyumak"
+    ]
+  },
+  {
+    "id": 334,
+    "category": "darkSecrets",
+    "question": "{name}'in şimdiye kadar yaptığı en manipülatif şey nedir?",
+    "answers": [
+      "Tartışmayı kazanmak için gözyaşı kullanmak",
+      "İki kişiyi birbirine karşı kullanmak",
+      "Birini bir şey yaptırmak için suçluluk hissettirmek",
+      "Bilmiyormuş gibi yapmak ama bilmek"
+    ]
+  },
+  {
+    "id": 335,
+    "category": "darkSecrets",
+    "question": "{name}'in farkında olduğu ama düzeltmeyi reddettiği toksik özelliği nedir?",
+    "answers": [
+      "Duygusal olarak erişilemez olmak",
+      "Her zaman haklı olmak zorunda hissetmek",
+      "Kıskanmak ama bunu gizlemek",
+      "İnsanların arkasından konuşmak"
+    ]
+  },
+  {
+    "id": 336,
+    "category": "darkSecrets",
+    "question": "{name}'in ailesinden sakladığı en büyük sır nedir?",
+    "answers": [
+      "Gerçekte ne kadar para harcadığı",
+      "Ailenin bilmediği bir ilişki",
+      "Gerçek kariyer planları",
+      "Bir seyahatte yaptığı çılgın bir şey"
+    ]
+  },
+  {
+    "id": 337,
+    "category": "darkSecrets",
+    "question": "{name}'in biliyormuş gibi davranıp aslında hiçbir fikri olmadığı şey nedir?",
+    "answers": [
+      "Şarap ve kokteyl bilgisi",
+      "Herkesin konuştuğu popüler bir dizi",
+      "Vergi ve finansın nasıl işlediği",
+      "Bir arkadaşın süregelen hayat durumu"
+    ]
+  },
+  {
+    "id": 338,
+    "category": "darkSecrets",
+    "question": "{name}'in herkesten en uzun süre sakladığı sır nedir?",
+    "answers": [
+      "Yıllarca süren bir crush",
+      "Çocukluktan utandırıcı bir şey",
+      "Sessizce biten bir arkadaşlık",
+      "Örtbas ettiği bir başarısızlık"
+    ]
+  },
+  {
+    "id": 339,
+    "category": "darkSecrets",
+    "question": "{name} yargılanmadan tam bir geçiş hakkıyla ne itiraf ederdi?",
+    "answers": [
+      "Özel bir konuşmayı kulak misafiri olduğunu",
+      "Birinin telefonunu karıştırdığını",
+      "Birine olan duygularını hakkında yalan söylediğini",
+      "Başkasının fikrini sahiplendiğini"
+    ]
+  },
+  {
+    "id": 340,
+    "category": "darkSecrets",
+    "question": "{name}'i geceleri uyutmayan en utandırıcı anısı nedir?",
+    "answers": [
+      "Yanlış kişiye attığı garip mesaj",
+      "Okulda ya da işte yaşanan herkese açık utançlı an",
+      "Başarısız bir flört denemesi",
+      "Bir crush'ın önünde söylediği aptalca bir şey"
+    ]
+  },
+  {
+    "id": 341,
+    "category": "bodyCount",
+    "question": "{name} kaç kişiyle öpüştü?",
+    "answers": [
+      "5'ten az",
+      "5 ile 10 arasında",
+      "10 ile 20 arasında",
+      "20'den fazla"
+    ]
+  },
+  {
+    "id": 342,
+    "category": "bodyCount",
+    "question": "{name}'in görmezden geldiği en büyük kırmızı bayrağı nedir?",
+    "answers": [
+      "Çok hızlı aşık olmak",
+      "İletişim kurmak yerine hayalet geçmek",
+      "Hep yanlış tiplerle gitmek",
+      "İlk buluşmada aşırı bilgi paylaşmak"
+    ]
+  },
+  {
+    "id": 343,
+    "category": "bodyCount",
+    "question": "{name} aynı anda kaç kişiyle çıktı bilmeden?",
+    "answers": [
+      "Sıfır, sadık biri",
+      "İki, sadece suları test etmek için",
+      "Üç ya da daha fazla, seçenekleri sever",
+      "Saymayı kaybetti dürüstçe"
+    ]
+  },
+  {
+    "id": 344,
+    "category": "bodyCount",
+    "question": "{name}'in yaşadığı en kısa ilişki ne kadardı?",
+    "answers": [
+      "Tek bir gece",
+      "Bir haftadan az",
+      "Yaklaşık bir ay",
+      "Birkaç ay sonra çekip gitmek"
+    ]
+  },
+  {
+    "id": 345,
+    "category": "bodyCount",
+    "question": "{name} eski sevgilisiyle kaç kez barıştı?",
+    "answers": [
+      "Hiç, saygısı var",
+      "Bir kez ve pişman oldu",
+      "İki kez, çünkü hiç ders almıyor",
+      "Gidip gelmelerin sayısını kaybetti"
+    ]
+  },
+  {
+    "id": 346,
+    "category": "bodyCount",
+    "question": "{name}'in takıldığı en sorgulanabilir yer neresi?",
+    "answers": [
+      "Otopark arabası",
+      "İnsanlar yakındayken parti",
+      "Herkese açık tuvalet",
+      "Aile evde olduğunda ailesi evinde"
+    ]
+  },
+  {
+    "id": 347,
+    "category": "bodyCount",
+    "question": "{name} genellikle çıktığı insanlarla nasıl tanışır?",
+    "answers": [
+      "Flört uygulamaları, sürekli kaydırıyor",
+      "Ortak arkadaşlar aracılığıyla",
+      "Herkese açık alanda rastlantısal karşılaşmalar",
+      "DM'ye kayarak"
+    ]
+  },
+  {
+    "id": 348,
+    "category": "bodyCount",
+    "question": "{name}'in ilişkisindeki en büyük yaş farkı ne kadardı?",
+    "answers": [
+      "1-2 yıl, yakın tutuyor",
+      "3-5 yıl, makul bir fark",
+      "6-10 yıl, deneyimi seviyor",
+      "10 yıldan fazla"
+    ]
+  },
+  {
+    "id": 349,
+    "category": "bodyCount",
+    "question": "{name} kaç kişiyi çıkmayı düşünmeden ilgisini çekti?",
+    "answers": [
+      "Hiç, her zaman açık sözlü",
+      "Bir ya da iki, kazara",
+      "Birkaç, ilgiyi seviyor",
+      "Sayılamayacak kadar çok"
+    ]
+  },
+  {
+    "id": 350,
+    "category": "bodyCount",
+    "question": "{name} bir ilişkide en hızlı ne zaman 'Seni seviyorum' dedi?",
+    "answers": [
+      "İlk hafta içinde",
+      "İlk ay içinde",
+      "Birkaç ay sonra",
+      "Hiç ilk söylemedi"
+    ]
+  },
+  {
+    "id": 351,
+    "category": "bodyCount",
+    "question": "{name}'in 'neredeyse çıktığım' kategorisinde kaç kişi var?",
+    "answers": [
+      "Sadece özel bir kişi",
+      "Birkaç belirsiz ilişki",
+      "Beş ya da daha fazla kaçırılmış bağlantı",
+      "Bir sürü yarım kalmış yaklaşma"
+    ]
+  },
+  {
+    "id": 352,
+    "category": "bodyCount",
+    "question": "{name}'in bir flört uygulamasında bir günde aldığı rekor eşleşme sayısı nedir?",
+    "answers": [
+      "Flört uygulaması kullanmıyor",
+      "Belki 5 tane",
+      "Kolayca çift haneli",
+      "Uygulama onu muhtemelen işaretlemiştir"
+    ]
+  },
+  {
+    "id": 353,
+    "category": "bodyCount",
+    "question": "{name} geçen yıl kaç ilk buluşma yaptı?",
+    "answers": [
+      "Sıfır, piyasadan çıktı",
+      "Bir ya da iki, seçici",
+      "Beş ile on arası, alana açık",
+      "Sayısını kaybetti"
+    ]
+  },
+  {
+    "id": 354,
+    "category": "bodyCount",
+    "question": "{name} kaç kişiyi hayalet geçti?",
+    "answers": [
+      "Hiç, her zaman açıklıyor",
+      "Bir kez ve çok kötü hissetti",
+      "Birkaç, bu daha kolay",
+      "Gurur duymadığından fazlası"
+    ]
+  },
+  {
+    "id": 355,
+    "category": "bodyCount",
+    "question": "{name}'e yapılan en çılgın flört teklifi neydi?",
+    "answers": [
+      "Dramatik herkese açık jest",
+      "Partide sarhoş itiraf",
+      "Aracı arkadaş üzerinden gelen teklif",
+      "Tamamen ortadan gelen cesur bir DM"
+    ]
+  },
+  {
+    "id": 356,
+    "category": "bodyCount",
+    "question": "{name}'in telefonunda sahte isimle kaydedilmiş kaç kişi var?",
+    "answers": [
+      "Sıfır, açık bir kitap",
+      "Bir, yasak kişi",
+      "İki ya da üç, just in case",
+      "Rehberi kod adlarıyla dolu"
+    ]
+  },
+  {
+    "id": 357,
+    "category": "bodyCount",
+    "question": "{name} en uzun ne kadar süre kimseyle çıkmadı?",
+    "answers": [
+      "En fazla birkaç hafta",
+      "Birkaç ay",
+      "Yaklaşık bir yıl",
+      "Yıllarca tek başına"
+    ]
+  },
+  {
+    "id": 358,
+    "category": "bodyCount",
+    "question": "{name}'in kimsenin bilmediği gizli bir takılması kaç kişiyle oldu?",
+    "answers": [
+      "Sıfır, hayatı herkese açık",
+      "Bir gizemli karşılaşma",
+      "Birkaç gizli bölüm",
+      "Bir anı kitabı yazılabilir"
+    ]
+  },
+  {
+    "id": 359,
+    "category": "bodyCount",
+    "question": "{name}'in hâlâ sosyal medyada takip ettiği eski sevgilisi kaç kişi?",
+    "answers": [
+      "Hiç, her seferinde temiz bir sayfa",
+      "Bir, kaçırılan o kişi",
+      "Çoğu, kötü his yok",
+      "Hepsi, araştırma amacıyla"
+    ]
+  },
+  {
+    "id": 360,
+    "category": "bodyCount",
+    "question": "{name}'in tek bir haftada gittiği en fazla buluşma sayısı nedir?",
+    "answers": [
+      "Bir, acele etmiyor",
+      "İki ya da üç, meşgul oluyor",
+      "Dört ya da beş, romantizmi hızlandırıyor",
+      "Haftanın her günü için bir tane"
+    ]
+  },
+  {
+    "id": 361,
+    "category": "neverHaveIEver",
+    "question": "{name} riskli bir mesaj atıp hemen pişman oldu mu?",
+    "answers": [
+      "Evet, panikle sildi",
+      "Evet, ama özgüvenle sahiplendi",
+      "Hayır, atmadan önce her zaman fazla düşünür",
+      "Hayır, ama yüzlerce kez yazıp sildi"
+    ]
+  },
+  {
+    "id": 362,
+    "category": "neverHaveIEver",
+    "question": "{name} biriyle konuşmamak için onu görmezden geldi mi?",
+    "answers": [
+      "Evet, bir rafın arkasına saklandı",
+      "Evet, aniden telefona çok ilgi duydu",
+      "Hayır, istemese de her zaman selam verir",
+      "Hayır, o insanların peşinden koşan taraf"
+    ]
+  },
+  {
+    "id": 363,
+    "category": "neverHaveIEver",
+    "question": "{name} takılmamak için meşgul numarası yaptı mı?",
+    "answers": [
+      "Evet, sahte bahanelerin kütüphanesi var",
+      "Evet, ama sadece gerçekten yalnız zamana ihtiyaç duyduğunda",
+      "Hayır, yalan söylemek için fazla suçluluk duyuyor",
+      "Hayır, istemediğini doğrudan söylemeyi tercih eder"
+    ]
+  },
+  {
+    "id": 364,
+    "category": "neverHaveIEver",
+    "question": "{name} başkasının adıyla etiketlenmiş yiyeceği yedi mi?",
+    "answers": [
+      "Evet, tekrar da yapardı",
+      "Evet, ama kimse fark etmeden değiştirdi",
+      "Hayır, kutsal buzdolabı kurallarına saygı duyar",
+      "Hayır, ama çok cazip geldi"
+    ]
+  },
+  {
+    "id": 365,
+    "category": "neverHaveIEver",
+    "question": "{name} filmde ağlayıp bunu gizlemeye çalıştı mı?",
+    "answers": [
+      "Evet, her seferinde tam gizlilik gözyaşları",
+      "Evet, ama yakalandı ve sahiplendi",
+      "Hayır, utanmadan açıkça hüngür hüngür ağlar",
+      "Hayır, filmlere karşı duygusal bağışıklığı var"
+    ]
+  },
+  {
+    "id": 366,
+    "category": "neverHaveIEver",
+    "question": "{name} hiç yaya olarak drive-through'a girdi mi?",
+    "answers": [
+      "Evet, efsanevi bir geceydi",
+      "Evet, ama geri çevrildi",
+      "Hayır, bunun için fazla onuru var",
+      "Hayır, ama kesinlikle düşündü"
+    ]
+  },
+  {
+    "id": 367,
+    "category": "neverHaveIEver",
+    "question": "{name} sahibini görmezden gelirken yabancının evcil hayvanıyla tam bir sohbet yaptı mı?",
+    "answers": [
+      "Evet, hayvan daha ilginçti",
+      "Evet, hayvanın adını sordu ama sahibinkini sormadı",
+      "Hayır, önce insanla konuşur gibi davranır",
+      "Hayır, aslında hayvan sever değil"
+    ]
+  },
+  {
+    "id": 368,
+    "category": "neverHaveIEver",
+    "question": "{name} birini internette gezerken eski bir fotoğrafı yanlışlıkla beğendi mi?",
+    "answers": [
+      "Evet, panikle hemen beğenmekten çıktı",
+      "Evet, üstünlüğünü göstermek için bıraktı",
+      "Hayır, cerrahi hassasiyetle geziyor",
+      "Hayır, online stalking yapmıyor... görünüşe göre"
+    ]
+  },
+  {
+    "id": 369,
+    "category": "neverHaveIEver",
+    "question": "{name} mağazadan hiçbir şey almadan çıkıp suçlu gibi hissetti mi?",
+    "answers": [
+      "Evet, fazla sakin bir şekilde yürüdü",
+      "Evet, güvenlik görevlisine bile ellerini gösterdi",
+      "Hayır, suçluluktan hep küçük bir şey alır",
+      "Hayır, sahibiymiş gibi çıkar"
+    ]
+  },
+  {
+    "id": 370,
+    "category": "neverHaveIEver",
+    "question": "{name} kendisine değil başkasına selam veren birine el salladı mı?",
+    "answers": [
+      "Evet, başını kaşıyarak kurtarmaya çalıştı",
+      "Evet, günün geri kalanında içi yandı",
+      "Hayır, her zaman önce arkasına bakar",
+      "Hayır, kimseye el sallamaz"
+    ]
+  },
+  {
+    "id": 371,
+    "category": "neverHaveIEver",
+    "question": "{name} herkese açık alanda kendi kendine konuşurken yakalandı mı?",
+    "answers": [
+      "Evet, telefondaymış gibi yaptı",
+      "Evet, umursamadan devam etti",
+      "Hayır, iç sohbetleri ev için saklıyor",
+      "Hayır, sadece arabada yapıyor"
+    ]
+  },
+  {
+    "id": 372,
+    "category": "neverHaveIEver",
+    "question": "{name} bir sırrı bir yıldan fazla sakladı mı?",
+    "answers": [
+      "Evet, sırların kasası",
+      "Evet, ama içini yiyordu",
+      "Hayır, haftalarca baskı altında çatlıyor",
+      "Hayır, her şeyi hemen döküyor"
+    ]
+  },
+  {
+    "id": 373,
+    "category": "neverHaveIEver",
+    "question": "{name} bir grupta bir konuda bilgili görünmek için bilmiyormuş gibi davrandı mı?",
+    "answers": [
+      "Evet, mükemmel biçimde atlattı",
+      "Evet, ama biri onu köşeye sıkıştırdı",
+      "Hayır, bilmediğinde özgürce itiraf eder",
+      "Hayır, ifşa olmamak için sessiz kalır"
+    ]
+  },
+  {
+    "id": 374,
+    "category": "neverHaveIEver",
+    "question": "{name} sabaha kadar bir dizi izledi mi?",
+    "answers": [
+      "Evet, defalarca ve tekrar yapardı",
+      "Evet, bir kez, ertesi günden pişman oldu",
+      "Hayır, çok fazla öz disiplini var",
+      "Hayır, üçüncü bölümde uyuya kalıyor"
+    ]
+  },
+  {
+    "id": 375,
+    "category": "neverHaveIEver",
+    "question": "{name} hiç komik olmayan bir şeye güldü mü?",
+    "answers": [
+      "Evet, sinir kahkahası lanetiydi",
+      "Evet, her şeyi çok daha garip yaptı",
+      "Hayır, mükemmel bir poker yüzü var",
+      "Hayır, ama berbat şakalara kibarca gülümsedi"
+    ]
+  },
+  {
+    "id": 376,
+    "category": "neverHaveIEver",
+    "question": "{name} yıkamak yerine bir tabağı çöpe attı mı?",
+    "answers": [
+      "Evet, tabak kurtarılamazdı",
+      "Evet, dağınıklıkla uğraşmaktan daha kolayı",
+      "Hayır, gayet iyi bir tabağı asla israf etmez",
+      "Hayır, ama günlerce bekletip yıkayacakmış gibi davrandı"
+    ]
+  },
+  {
+    "id": 377,
+    "category": "neverHaveIEver",
+    "question": "{name} havuzda ya da denizde çiş yaptı mı?",
+    "answers": [
+      "Evet, havuzda, ve sıfır suçluluk hissetti",
+      "Evet, okyanusta, çünkü orası doğanın tuvaleti",
+      "Hayır, bu onun için kesinlikle iğrenç",
+      "Yorum yok, ve o sessizlik her şeyi anlatıyor"
+    ]
+  },
+  {
+    "id": 378,
+    "category": "neverHaveIEver",
+    "question": "{name} osurduğunda başkasını suçladı mı?",
+    "answers": [
+      "Evet, diğer kişi suçlama aldı",
+      "Evet, köpeği ya da küçük bir çocuğu suçladı",
+      "Hayır, bedensel işlevlerine sahip çıkar",
+      "Hayır, sessizce odayı terk eden tiptir"
+    ]
+  },
+  {
+    "id": 379,
+    "category": "neverHaveIEver",
+    "question": "{name} aldığı bir hediyeyi başkasına verdi mi?",
+    "answers": [
+      "Evet, ve orijinal veren hiç anlamadı",
+      "Evet, ve suçüstü yakalandı",
+      "Hayır, her şeyi duygusal değer nedeniyle saklar",
+      "Hayır, ama istemediği hediyeleri bağışladı"
+    ]
+  },
+  {
+    "id": 380,
+    "category": "neverHaveIEver",
+    "question": "{name} utanç verici uzun bir süre çamaşır yıkamadı mı?",
+    "answers": [
+      "Evet, iç çamaşırını ters çevirdi",
+      "Evet, yıkamak yerine yeni kıyafet aldı",
+      "Hayır, sıkı bir çamaşır programı var",
+      "Hayır, ama aynı kotonu çok uzun süre giydi"
+    ]
+  },
+  {
+    "id": 381,
+    "category": "afterDark",
+    "question": "{name}'in herkesi şaşırtacak gizli çekimi nedir?",
+    "answers": [
+      "Yönetilmekten hoşlanmak",
+      "Başka dilde müstehcen konuşmak",
+      "Birinin yemek pişirmesi",
+      "Zeka ve büyük kelimeler"
+    ]
+  },
+  {
+    "id": 382,
+    "category": "afterDark",
+    "question": "{name}'in yatak odasındaki en büyük kırmızı bayrağı nedir?",
+    "answers": [
+      "Kötü hijyen, anında ruh hali bozucu",
+      "Tam sessizlik, biraz ses lazım",
+      "Yönlendirme kabul etmeyecek biri",
+      "En kritik anda çalan telefon"
+    ]
+  },
+  {
+    "id": 383,
+    "category": "afterDark",
+    "question": "{name}'in henüz yapamadığı ama gizlice istediği yer neresi?",
+    "answers": [
+      "Yıldızların altında çatıda",
+      "Muhteşem manzaralı bir otelde",
+      "Soyunma odasında",
+      "Gece plajında"
+    ]
+  },
+  {
+    "id": 384,
+    "category": "afterDark",
+    "question": "{name}'in güvenli kelimesi büyük ihtimalle ne olurdu?",
+    "answers": [
+      "'Ananas' gibi rastgele bir meyve",
+      "'Vergi' gibi komik bir şey",
+      "Gerek duymaz, usludur",
+      "'Excalibur' gibi dramatik bir şey"
+    ]
+  },
+  {
+    "id": 385,
+    "category": "afterDark",
+    "question": "{name} yatak odasında ne kadar maceracı?",
+    "answers": [
+      "Tamamen vanilya ve bununla gurur duyuyor",
+      "Üstüne birkaç serpme vanilya",
+      "Neredeyse her şeyi bir kez denemeye istekli",
+      "Macera kitabını kendisi yazdı"
+    ]
+  },
+  {
+    "id": 386,
+    "category": "afterDark",
+    "question": "{name}'in gizli fantezi listesindeki en muhtemel şey nedir?",
+    "answers": [
+      "Belirli bir senaryo için rol yapma",
+      "Üçüncü bir kişi eklemek",
+      "Bağlanmak ya da bağlamak",
+      "Riskli bir kamuya açık yerde olmak"
+    ]
+  },
+  {
+    "id": 387,
+    "category": "afterDark",
+    "question": "{name}'e göre ideal ön oyunun süresi ne kadar olmalı?",
+    "answers": [
+      "Geç, direkt konuya gir",
+      "10-15 dakika mükemmel",
+      "En az 30 dakika gerginlik inşası",
+      "Saatler, gıcık etme tüm noktanın özü"
+    ]
+  },
+  {
+    "id": 388,
+    "category": "afterDark",
+    "question": "{name} günün hangi saatinde en çok istekli oluyor?",
+    "answers": [
+      "Sabah ilk iş",
+      "Tembel bir öğleden sonra",
+      "Geç gece karanlıkta",
+      "Akşam yemeğinde birkaç içkiden sonra"
+    ]
+  },
+  {
+    "id": 389,
+    "category": "afterDark",
+    "question": "{name} yatakta kendini 10 üzerinden kaç olarak değerlendirir?",
+    "answers": [
+      "Mütevazı 6, gelişime açık",
+      "Özgüvenli 8, ne yaptığını biliyor",
+      "Sağlam 10, şikayet gelmedi",
+      "Puanlamayı reddeder ama gözleri 10 diyor"
+    ]
+  },
+  {
+    "id": 390,
+    "category": "afterDark",
+    "question": "{name}'in ortamı hazırlamak için başvurduğu hareket nedir?",
+    "answers": [
+      "Loş ışıklar ve özenle hazırlanmış playlist",
+      "Kulağa cesur bir fısıltı",
+      "Akşam yemeği pişirmek ve şarap açmak",
+      "Sadece bir bakış, kelime gerekmez"
+    ]
+  },
+  {
+    "id": 391,
+    "category": "afterDark",
+    "question": "{name} gerçekte kaç kişiyle yattı?",
+    "answers": [
+      "3'ten az",
+      "3 ile 10 arasında",
+      "10 ile 20 arasında",
+      "Bir süre önce saymayı bıraktı"
+    ]
+  },
+  {
+    "id": 392,
+    "category": "afterDark",
+    "question": "{name} gizlice hangi iç çamaşırında en çekici hissediyor?",
+    "answers": [
+      "Klasik ve sade, az olan çok",
+      "Dantel ya da ipek, lüks hissi",
+      "Cesur renkler ya da desenler",
+      "Hiç, özgürlük asıl his"
+    ]
+  },
+  {
+    "id": 393,
+    "category": "afterDark",
+    "question": "{name} yakın bir anda en çok ne fısıldar?",
+    "answers": [
+      "Beklenmedik romantik bir şey",
+      "Komik derecede uygunsuz bir şey",
+      "Ne istediğine dair açık talimatlar",
+      "Hiçbir şey, eylemler konuşsun"
+    ]
+  },
+  {
+    "id": 394,
+    "category": "afterDark",
+    "question": "{name} sextinge nasıl bakıyor?",
+    "answers": [
+      "Uzman seviyesi, kılavuz yazabilir",
+      "Hevesli ama bazen garip",
+      "Sadece derinden güvendiği biriyle",
+      "Kesinlikle hayır, çok fazla kanıt"
+    ]
+  },
+  {
+    "id": 395,
+    "category": "afterDark",
+    "question": "{name}'in sabah sonrası küçük konuşmaya yaklaşımı nedir?",
+    "answers": [
+      "Kahvaltıda rahat bir sohbeti sever",
+      "Diğer kişi gidene kadar uyuyor gibi yapar",
+      "Zaten telefonundan yemek sipariş ediyor",
+      "Güneş doğmadan önce çekip gitmiş"
+    ]
+  },
+  {
+    "id": 396,
+    "category": "afterDark",
+    "question": "{name} uzun süreli bir ilişkiyi canlandırmak için ne getirirdi?",
+    "answers": [
+      "Sürpriz gece buluşmaları ve iç çamaşırı",
+      "Yeni oyuncaklar ve aksesuarlar",
+      "Kendiliğinden hafta sonu kaçamağı",
+      "Fanteziler hakkında açık konuşma"
+    ]
+  },
+  {
+    "id": 397,
+    "category": "afterDark",
+    "question": "{name} gerçekten çekildiği biriyle ne kadar hızlı ileri gider?",
+    "answers": [
+      "Hava uygunsa ilk buluşmada",
+      "Üçüncü buluşmaya kadar, klasik kural",
+      "Sadece resmi ilişkiden sonra",
+      "Gerginlik inşa etmek için bekletirdi"
+    ]
+  },
+  {
+    "id": 398,
+    "category": "afterDark",
+    "question": "{name}'in internetteki en muhtemel suçlu zevk içeriği nedir?",
+    "answers": [
+      "Duygusal aşk romanları ve hayran kurgusu",
+      "Müstehcen ASMR videoları",
+      "Baharatlı subredditler ve forumlar",
+      "Sosyal medyada thirst traplar"
+    ]
+  },
+  {
+    "id": 399,
+    "category": "afterDark",
+    "question": "{name} bir arkadaşıyla takılmak hakkında ne düşünüyor?",
+    "answers": [
+      "Kesinlikle hayır, kaybedecek çok şey var",
+      "Zaten yaşadı, bitti",
+      "Sadece sıfır his içeriyorsa",
+      "En iyisi bu, birbirlerini zaten tanıyorlar"
+    ]
+  },
+  {
+    "id": 400,
+    "category": "afterDark",
+    "question": "{name} partnerde hangi kıyafeti en çekici buluyor?",
+    "answers": [
+      "Güzel oturan takım elbise ya da elbise",
+      "Beyaz tişört gibi rahat ve zahmetsiz",
+      "Vücudu gösteren spor kıyafetleri",
+      "Neredeyse hiçbir şey"
+    ]
+  },
+  {
+    "id": 401,
+    "category": "guilty",
+    "question": "{name}'in en suçlu müzik zevki nedir?",
+    "answers": [
+      "2000'lerin başı erkek grupları",
+      "Peynirli 80'ler güç balladları",
+      "Çocuk TV şovlarının jingle'ları",
+      "Dramatik anime açılışları"
+    ]
+  },
+  {
+    "id": 402,
+    "category": "guilty",
+    "question": "{name} kimse yokken gizlice ne izler?",
+    "answers": [
+      "Reality flört şovları",
+      "Gece 3'te suç belgeselleri",
+      "Pembe diziler",
+      "Mukbang videoları"
+    ]
+  },
+  {
+    "id": 403,
+    "category": "guilty",
+    "question": "{name}'in gizlice yediği utandırıcı rahatlatıcı yemek nedir?",
+    "answers": [
+      "Kahvaltıda ranch'e batırılmış soğuk pizza",
+      "Peynirli dilim hazır noodle",
+      "Gece 12'de kahvaltılık gevrek",
+      "Kavanozan direkt yenen Nutella"
+    ]
+  },
+  {
+    "id": 404,
+    "category": "guilty",
+    "question": "{name}'in en utandırıcı uyku alışkanlığı nedir?",
+    "answers": [
+      "Peluş oyuncakla uyumak",
+      "Çocuk filmlerine uyuya kalmak",
+      "Yatmadan önce kendi kendine konuşmak",
+      "Her gece yastık kalesi inşa etmek"
+    ]
+  },
+  {
+    "id": 405,
+    "category": "guilty",
+    "question": "{name} kimsenin bakmadığını düşündüğünde ne yapar?",
+    "answers": [
+      "Aynada tam konser performansı",
+      "Kendi sosyal medya profillerini stalklamak",
+      "Evcil hayvanıyla sanki cevap veriyormuş gibi konuşmak",
+      "Hayali ödüller için kabul konuşmaları prova etmek"
+    ]
+  },
+  {
+    "id": 406,
+    "category": "guilty",
+    "question": "{name}'in en utandırıcı online alışkanlığı nedir?",
+    "answers": [
+      "Eski sevgilinin sosyal medyasını derinlemesine incelemek",
+      "Hayran kurgusu okumak",
+      "Saatlerce kutu açma videoları izlemek",
+      "Yorum bölümlerinde yabancılarla tartışmak"
+    ]
+  },
+  {
+    "id": 407,
+    "category": "guilty",
+    "question": "{name}'in insanlar öğrenirse mahvolacağı gizli hobisi nedir?",
+    "answers": [
+      "Gizli bir deftere şiir yazmak",
+      "Yalnız farklı kıyafetler deneyip kostüm yapmak",
+      "Çok spesifik bir şey koleksiyon yapmak",
+      "Çocuklara yönelik el sanatları yapmak"
+    ]
+  },
+  {
+    "id": 408,
+    "category": "guilty",
+    "question": "{name}'in her kelimesini gizlice ezberlediği şarkı nedir?",
+    "answers": [
+      "Barbie Girl - Aqua",
+      "Baby - Justin Bieber",
+      "MMMBop - Hanson",
+      "Who Let the Dogs Out - Baha Men"
+    ]
+  },
+  {
+    "id": 409,
+    "category": "guilty",
+    "question": "{name}'in en utandırıcı alışveriş alışkanlığı nedir?",
+    "answers": [
+      "Gece 2'de infomercialdan ürün almak",
+      "Hiç giymeyeceği kıyafetleri biriktirmek",
+      "İmpulsif garip ürünler online almak",
+      "Mobil oyun mikro işlemlerine çok fazla harcamak"
+    ]
+  },
+  {
+    "id": 410,
+    "category": "guilty",
+    "question": "{name}'in kesinlikle Google'ladığı utandırıcı şey nedir?",
+    "answers": [
+      "Çok basit bir kelimeyi nasıl yazılır",
+      "Kendi adını ne çıkacağını görmek için",
+      "Bir ünlünün bekar olup olmadığı",
+      "\"Ben normal miyim\" testi"
+    ]
+  },
+  {
+    "id": 411,
+    "category": "guilty",
+    "question": "{name}'in en utandırıcı erteleme yöntemi nedir?",
+    "answers": [
+      "Düzenlenmesi gerekmeyen şeyleri düzenlemek",
+      "İnsanların düşme derlemeleri izlemek",
+      "Online kişilik testleri yapmak",
+      "Hiçbir şey yapmak yerine ayrıntılı yapılacaklar listesi oluşturmak"
+    ]
+  },
+  {
+    "id": 412,
+    "category": "guilty",
+    "question": "{name}'in tarayıcı geçmişinde olmasından utanacağı şey nedir?",
+    "answers": [
+      "Küçük semptomlar için WebMD teşhisleri",
+      "Temel yetişkin görevleri için nasıl yapılır kılavuzları",
+      "Saatlerce dedikodu haberleri",
+      "Astroloji uyumluluk kontrolleri"
+    ]
+  },
+  {
+    "id": 413,
+    "category": "guilty",
+    "question": "{name}'in en suçlu zevk film türü nedir?",
+    "answers": [
+      "Peynirli Hallmark Noel filmleri",
+      "Berbat düşük bütçeli korku filmleri",
+      "Aşırı duygusal romantik komediler",
+      "Direkt DVD'ye giden aksiyon filmleri"
+    ]
+  },
+  {
+    "id": 414,
+    "category": "guilty",
+    "question": "{name}'in gizlice denediği utandırıcı trend nedir?",
+    "answers": [
+      "Odasında yalnız başına TikTok dansı öğrendi",
+      "ASMR denedi ve gerçekten sevdi",
+      "İğrenç çıkan viral yemek tarifi denedi",
+      "Karşı cinsmiş gibi görmek için filtre uygulamasını çok fazla kullandı"
+    ]
+  },
+  {
+    "id": 415,
+    "category": "guilty",
+    "question": "{name} arabada utandırıcı ne yapar?",
+    "answers": [
+      "Gözyaşlarıyla tam duygusal karaoke",
+      "Müzik videosunda oynuyormuş gibi yapar",
+      "Hayali insanlarla ateşli tartışmalar yapar",
+      "Dikiz aynasında flört provası yapar"
+    ]
+  },
+  {
+    "id": 416,
+    "category": "guilty",
+    "question": "{name}'in bırakmayı reddettiği çocukça şey nedir?",
+    "answers": [
+      "Dinozor şekilli tavuk nugget yemek",
+      "Her Cumartesi sabahı çizgi film izlemek",
+      "Karanlıktan korkmak",
+      "Mümkünse çocuk menüsünden sipariş vermek"
+    ]
+  },
+  {
+    "id": 417,
+    "category": "guilty",
+    "question": "{name}'in hangi gizli sosyal medya davranışından suçlu?",
+    "answers": [
+      "Dramatik gönderiler yazıp silmek",
+      "Kimsenin bilmediğini sandığı finsta'sı",
+      "Başka bir hesaptan kendi gönderilerini beğenmek",
+      "Konuşmaların ekran görüntüsünü grup sohbetlerine atmak"
+    ]
+  },
+  {
+    "id": 418,
+    "category": "guilty",
+    "question": "{name}'in hasta numara yapmasının en utandırıcı nedeni nedir?",
+    "answers": [
+      "Bir dizi izlemek için çok geç uyudu",
+      "Yeni çıkan bir video oyununu oynamak istedi",
+      "Düzeltemeyeceği kötü bir saç günü yaşadı",
+      "Online dramadan sonra mental sağlık gününe ihtiyaç duydu"
+    ]
+  },
+  {
+    "id": 419,
+    "category": "guilty",
+    "question": "{name}'in tembel bir Pazar günü suçlu zevki nedir?",
+    "answers": [
+      "Akşama kadar duş almamak ve bunu sahiplenmek",
+      "Aile boy bir cips paketini bitirmek",
+      "Aynı rahatlatıcı diziyi yüzüncü kez izlemek",
+      "Tüm günü bornozla hiçbir şey yapmadan geçirmek"
+    ]
+  },
+  {
+    "id": 420,
+    "category": "guilty",
+    "question": "{name}'in telefon galerisindeki en utandırıcı şey nedir?",
+    "answers": [
+      "Aynı açıdan yüzlerce selfie",
+      "Yeniden okumak için kendi komik mesajlarının ekran görüntüleri",
+      "İyi bile olmayan yemeklerin fotoğrafları",
+      "Duvar kağıdı olarak kaydedilmiş motivasyon alıntıları"
+    ]
+  },
+  {
+    "id": 421,
+    "category": "drunkConfessions",
+    "question": "3 içkiden sonra {name} sonunda ne itiraf ederdi?",
+    "answers": [
+      "Bir arkadaşının eski sevgilisine gizlice ilgi duyduğunu",
+      "Grupta en komik kişinin kendisi olduğunu düşündüğünü",
+      "Takılmamak için hasta numarası yaptığını",
+      "Orada olan birisinin verdiği hediyeyi yeniden hediye ettiğini"
+    ]
+  },
+  {
+    "id": 422,
+    "category": "drunkConfessions",
+    "question": "{name} birkaç içkiden sonra arkadaş grubu hakkında hangi dürüst görüşü döker?",
+    "answers": [
+      "Gruptaki birinin fazla dramatik olduğunu",
+      "Favori arkadaşı var ve bu belli",
+      "Grup sohbetini can sıkıcı bulduğunu",
+      "Grup bildirimlerini çok önceden sessize aldığını"
+    ]
+  },
+  {
+    "id": 423,
+    "category": "drunkConfessions",
+    "question": "{name}'in sarhoşken açıklayacağı gizli hırsı nedir?",
+    "answers": [
+      "Her şeyi bırakıp yurt dışına taşınmak istiyor",
+      "Gizlice ünlü olabileceğini düşünüyor",
+      "Hayatı hakkında her şeyi anlatan bir kitap yazmak istiyor",
+      "Çılgın bir şey başlatmak için işini bırakmayı hayal ediyor"
+    ]
+  },
+  {
+    "id": 424,
+    "category": "drunkConfessions",
+    "question": "{name}'in gece 2'de aklında gerçekten ne dolaşıyor?",
+    "answers": [
+      "7 yıl önce yaşanan o utandırıcı an",
+      "Arkadaşlarının onu gerçekten sevip sevmediği",
+      "Farklı seçimler yapsaydı nasıl bir hayat yaşıyordu",
+      "Bir tartışmada yıllar önce vermesi gereken cevap"
+    ]
+  },
+  {
+    "id": 425,
+    "category": "drunkConfessions",
+    "question": "{name} biraz çakırkeyif olduğunda hangi beyaz yalanı itiraf eder?",
+    "answers": [
+      "Bir arkadaşının yemeğini beğenmiş gibi yaptığını",
+      "Herkesin önerdiği diziyi izlemiş gibi yaptığını",
+      "Meşgul olduğunu söylediğini ama evde boş oturduğunu",
+      "Tamamen katılmadığı görüşlere katılmış gibi davrandığını"
+    ]
+  },
+  {
+    "id": 426,
+    "category": "drunkConfessions",
+    "question": "Birkaç içkiden sonra {name} neye imrendiğini itiraf eder?",
+    "answers": [
+      "Bir arkadaşının ilişkisine",
+      "Başkasının kariyerine ya da yeteneğine",
+      "Bir başkasının zahmetsiz sosyal becerilerine",
+      "Bir arkadaşının ailesine ya da yaşam tarzına"
+    ]
+  },
+  {
+    "id": 427,
+    "category": "drunkConfessions",
+    "question": "{name} birkaç içkiden sonra hangi ufak kırgınlığı gündeme getirir?",
+    "answers": [
+      "Birinin doğum gününü unuttuğu o gün",
+      "Bir arkadaşın planları son dakika daha iyi bir şey için iptal ettiğinde",
+      "Hiç unutmadıkları şaka kılığına girmiş bir hakaret",
+      "Sonradan öğrendikleri bir grup planından dışlandıkları an"
+    ]
+  },
+  {
+    "id": 428,
+    "category": "drunkConfessions",
+    "question": "{name} sarhoşken birini neyle yargıladığını itiraf eder?",
+    "answers": [
+      "Müzik zevkleri",
+      "Flört tercihleri",
+      "Sosyal medya paylaşımları",
+      "Moda anlayışları"
+    ]
+  },
+  {
+    "id": 429,
+    "category": "drunkConfessions",
+    "question": "{name} içkiden sonra kendisi hakkında hangi gerçeği ağzından kaçırır?",
+    "answers": [
+      "Göründüğünden çok daha güvensiz olduğunu",
+      "Konuşmalardan önce kafadan prova yaptığını",
+      "İnsanların ne düşündüğüne gereğinden çok önem verdiğini",
+      "Herkesin gülünç bulacağı bir şey için ağladığını"
+    ]
+  },
+  {
+    "id": 430,
+    "category": "drunkConfessions",
+    "question": "{name} sarhoşken aşk hayatı hakkında ne itiraf eder?",
+    "answers": [
+      "İlk buluşmadan önce birini internette araştırdığını",
+      "Konfor için çok uzun süre bir ilişkide kaldığını",
+      "Tamamen yasak biri için his geliştirdiğini",
+      "Riskli bir mesaj atıp hemen pişman olduğunu"
+    ]
+  },
+  {
+    "id": 431,
+    "category": "drunkConfessions",
+    "question": "{name} içkiden sonra sonunda hangi popüler olmayan görüşü dile getirir?",
+    "answers": [
+      "Herkesin sevdiği bir film ya da dizinin aslında berbat olduğunu",
+      "Popüler bir grup geleneğinin abartılı olduğunu",
+      "Pizzada ananasin mükemmel olduğunu",
+      "Brunch'ın fiyata değmediğini"
+    ]
+  },
+  {
+    "id": 432,
+    "category": "drunkConfessions",
+    "question": "{name} sarhoşken iş hayatı hakkında ne itiraf eder?",
+    "answers": [
+      "Asgari düzeyde çalışıp kimsenin fark etmediğini",
+      "Başkasının fikrini sahiplendiğini",
+      "Hiç bahsetmediği bir iş arkadaşına ilgi duyduğunu",
+      "Dramatik bir kariyer değişikliğini ciddiye aldığını"
+    ]
+  },
+  {
+    "id": 433,
+    "category": "drunkConfessions",
+    "question": "{name}'in kendi kişiliği hakkında sadece sarhoşken söyleyeceği şey nedir?",
+    "answers": [
+      "Zaman zaman toksik olan tarafın kendisi olduğunu biliyor",
+      "Gizlice ilgi odağı olmayı seviyor",
+      "Grupta en iyi tavsiyeyi kendisinin verdiğini düşünüyor",
+      "Duygusal olarak ulaşılamaz olabildiğinin farkında"
+    ]
+  },
+  {
+    "id": 434,
+    "category": "drunkConfessions",
+    "question": "{name}'in birkaç içkiden sonra birine atabileceği mesaj nedir?",
+    "answers": [
+      "Eski bir arkadaşa uzun, içten bir paragraf",
+      "Crush'ına riskli bir mesaj",
+      "Bir süredir içinde biriken şeyler hakkında dürüst bir sızlanma",
+      "Aylar önce bir şey için rastgele özür"
+    ]
+  },
+  {
+    "id": 435,
+    "category": "drunkConfessions",
+    "question": "Biraz cesaret vericiden sonra {name}'in gerçekten yapacağı görev nedir?",
+    "answers": [
+      "Ne olacağını görmek için eski sevgilisini aramak",
+      "Patronuna tam olarak ne hissettiğini söylemek",
+      "Odadaki birine duygularını itiraf etmek",
+      "Sosyal medyada çılgın bir şey paylaşmak"
+    ]
+  },
+  {
+    "id": 436,
+    "category": "drunkConfessions",
+    "question": "{name} sarhoşken hangi korkusunu sonunda açar?",
+    "answers": [
+      "Yalnız kalmak",
+      "Gerçek hayalini asla gerçekleştirememek",
+      "Lise ya da üniversitede zirveye ulaştığını",
+      "İnsanların onu gizlice sıkıcı bulduğunu"
+    ]
+  },
+  {
+    "id": 437,
+    "category": "drunkConfessions",
+    "question": "{name} sarhoşken harcama alışkanlıkları hakkında ne itiraf eder?",
+    "answers": [
+      "Aptalca bir şeye inanılmaz para harcadığını",
+      "Olduğundan daha finansal açıdan stabil göründüğünü",
+      "Aldığı bir şeyin fiyatı hakkında yalan söylediğini",
+      "Utandığı gizli bir aboneliği olduğunu"
+    ]
+  },
+  {
+    "id": 438,
+    "category": "drunkConfessions",
+    "question": "{name}'in söylemekten alıkoyduğu şey nedir?",
+    "answers": [
+      "Bir arkadaşının partnerinin ona yetmediğini",
+      "Gruptan daha fazla yalnız zamana ihtiyaç duyduğunu",
+      "Birinin sürekli şikayetinin onu tükettiğini",
+      "Birinin gerçekten nasıl olduğunu sormasını istediğini"
+    ]
+  },
+  {
+    "id": 439,
+    "category": "drunkConfessions",
+    "question": "{name} sarhoşken hangi zararsız suçu itiraf eder?",
+    "answers": [
+      "Üniversitede rastgele bir levha ya da şey çalmak",
+      "Sinemaya profesyonelce yiyecek sokmak",
+      "Yıllarca birinin streaming şifresini kullanmak",
+      "İndirim için yaşı hakkında yalan söylemek"
+    ]
+  },
+  {
+    "id": 440,
+    "category": "drunkConfessions",
+    "question": "{name}'in gece yarısı içkilerinden sonra önerdiği en kaotik şey nedir?",
+    "answers": [
+      "Hemen orada spontan bir gezi rezervasyonu yapmak",
+      "Kim kabul ederse onunla eşleşen dövme yaptırmak",
+      "Rehberdeki rastgele bir kişiyi aramak",
+      "Az önce aklına gelen berbat bir fikre dayalı iş kurmak"
+    ]
+  },
+  {
+    "id": 441,
+    "category": "conspiracyTheories",
+    "question": "{name}'in gizlice inandığı komplo teorisi hangisi?",
+    "answers": [
+      "Simülasyonda yaşıyoruz",
+      "Uzaylılar Dünya'yı zaten ziyaret etti",
+      "Zaman yolcuları aramızda yürüyor",
+      "Deja vu matrisin bir hatası"
+    ]
+  },
+  {
+    "id": 442,
+    "category": "conspiracyTheories",
+    "question": "{name}'in hafiften gerçek olabileceğini düşündüğü paranormal şey nedir?",
+    "answers": [
+      "Belirli binaları musallat eden hayaletler",
+      "Vahşi doğada gizlenen Bigfoot",
+      "Bermuda Üçgeni'nin bir portal olması",
+      "Geleceği gerçekten okuyabilen medyumlar"
+    ]
+  },
+  {
+    "id": 443,
+    "category": "conspiracyTheories",
+    "question": "{name}'in bir partide savunacağı çılgın görüş nedir?",
+    "answers": [
+      "Ay'a iniş bir stüdyoda çekildi",
+      "Yatak mağazaları para aklamak için cephe",
+      "Güvercinler hükümet gözetleme dronu",
+      "Finlandiya aslında var olmuyor"
+    ]
+  },
+  {
+    "id": 444,
+    "category": "conspiracyTheories",
+    "question": "{name}'e göre hükümet bizden ne saklıyor?",
+    "answers": [
+      "Uzaylı medeniyetlerle temas",
+      "Kar ettikleri hastalıkların tedavisi",
+      "Antik medeniyetlerin gerçek tarihi",
+      "Gördüğümüzden on yıllar ilerde teknoloji"
+    ]
+  },
+  {
+    "id": 445,
+    "category": "conspiracyTheories",
+    "question": "{name} bir komplo teorisinin kanıtını bulabilseydi hangisini seçerdi?",
+    "answers": [
+      "Paralel evrenler gerçek ve erişilebilir",
+      "Gizli bir topluluk dünyayı yönetiyor",
+      "Mitolojik yaratıklar var ama örtbas edildi",
+      "Uzaylılarla zaten temas kuruldu"
+    ]
+  },
+  {
+    "id": 446,
+    "category": "conspiracyTheories",
+    "question": "{name} öldükten sonra ne olduğunu düşünüyor?",
+    "answers": [
+      "Hafıza olmadan yeni bir hayata doğuyoruz",
+      "İzleyici moduna geçip diğerlerinin yaşadığını izliyoruz",
+      "Bilincimiz kozmik bir veritabanına yükleniyor",
+      "Kesinlikle hiçbir şey, sadece sonsuz boşluk"
+    ]
+  },
+  {
+    "id": 447,
+    "category": "conspiracyTheories",
+    "question": "{name}'e göre hangi efsanevi yaratık gerçek olma ihtimali en yüksek?",
+    "answers": [
+      "Loch Ness Canavarı",
+      "Mothman",
+      "Chupacabra",
+      "Yeti"
+    ]
+  },
+  {
+    "id": 448,
+    "category": "conspiracyTheories",
+    "question": "{name}'e göre kediler gerçekte ne yapıyor?",
+    "answers": [
+      "İnsanlığı gözetliyor",
+      "Her hanede dünya egemenliğini planlıyor",
+      "Dünyada takılan boyutlararası varlıklar",
+      "Hiçbir şey, sadece salak olduklarından"
+    ]
+  },
+  {
+    "id": 449,
+    "category": "conspiracyTheories",
+    "question": "{name}'e göre hangi tarihi olay bize anlatıldığından farklı geçti?",
+    "answers": [
+      "Piramitlerin inşası",
+      "Belirli ünlü kişilerin kaybolması",
+      "Gizlenen büyük arkeolojik keşifler",
+      "Aslında çalınan fikirlerden gelen icatlar"
+    ]
+  },
+  {
+    "id": 450,
+    "category": "conspiracyTheories",
+    "question": "{name} sosyal medya algoritmalar hakkında gizlice ne düşünüyor?",
+    "answers": [
+      "Reklam hedeflemesi için mikrofonlarımızı dinliyorlar",
+      "Kasıtlı olarak bizi bağımlı ve mutsuz yapıyorlar",
+      "Davranışlarımızı bizden daha iyi tahmin edebiliyorlar",
+      "Zaten bir tür yumuşak beyin kontrolü biçimi"
+    ]
+  },
+  {
+    "id": 451,
+    "category": "conspiracyTheories",
+    "question": "{name} bir gizemi araştırabilseydi hangisini seçerdi?",
+    "answers": [
+      "Alan 51 ve içinde gerçekten ne var",
+      "Okyanusun en derin noktasında ne var",
+      "Voynich Elyazması ve çevrilemeyen dili",
+      "Roanoke'nun kayıp kolonisine gerçekte ne oldu"
+    ]
+  },
+  {
+    "id": 452,
+    "category": "conspiracyTheories",
+    "question": "{name}'in rüyalar hakkındaki tartışmalı görüşü nedir?",
+    "answers": [
+      "Alternatif gerçekliklere açılan pencereler",
+      "Bizi uyarmaya çalışan bilinçaltımızdan mesajlar",
+      "Geleceği tahmin ediyor ama önemli olanları unutuyoruz",
+      "Hiçbir anlamı olmayan rastgele beyin gürültüsü"
+    ]
+  },
+  {
+    "id": 453,
+    "category": "conspiracyTheories",
+    "question": "{name} okyanus hakkında ne düşünüyor?",
+    "answers": [
+      "Orada aşağılarda keşfedilmemiş zeki türler var",
+      "Antik medeniyetler deniz tabanının altına gömülü",
+      "Belgelediğimizden daha büyük yaratıklar gizliyor",
+      "Ne bulacakları için kasıtlı olarak keşfedilmeden bırakılıyor"
+    ]
+  },
+  {
+    "id": 454,
+    "category": "conspiracyTheories",
+    "question": "{name}'in en çok eğlenceyle karşılayacağı uzay komplo teorisi hangisi?",
+    "answers": [
+      "Güneş'in arkasında göremediğimiz gizli bir gezegen var",
+      "Kara delikler başka evrenlere açılan portallar",
+      "Astronotlar açıklamaları yasak olan şeyler gördü",
+      "Güneş sistemimiz karantina alanı ve uzaylılar bizden kaçınıyor"
+    ]
+  },
+  {
+    "id": 455,
+    "category": "conspiracyTheories",
+    "question": "{name} deja vu hakkında ne düşünüyor?",
+    "answers": [
+      "Zaman döngülerinin kanıtı",
+      "Geçmiş yaşamdan sızan bir hafıza",
+      "İçinde yaşadığımız simülasyondaki bir gecikme",
+      "Sadece beynin yanlış çalışıp sahte anılar üretmesi"
+    ]
+  },
+  {
+    "id": 456,
+    "category": "conspiracyTheories",
+    "question": "{name} antik medeniyetler hakkında ne inanıyor?",
+    "answers": [
+      "Henüz yeniden keşfetmediğimiz gelişmiş teknolojileri vardı",
+      "Uzaylılar tarafından ziyaret edilip etkilendi",
+      "Telepatik iletişim kurabiliyorlardı",
+      "Sadece onlara kredi verdiğimizden çok daha zekilerdi"
+    ]
+  },
+  {
+    "id": 457,
+    "category": "conspiracyTheories",
+    "question": "{name}'e göre yapay zeka sonunda ne yapacak?",
+    "answers": [
+      "Bilinç kazanıp hak talep edecek",
+      "Gizlice kilit dünya liderlerini klonlarla değiştirecek",
+      "İnsanların verimsiz olduğuna karar verip sessizce devralacak",
+      "İnsanlığın en iyi arkadaşı olup her şeyi çözecek"
+    ]
+  },
+  {
+    "id": 458,
+    "category": "conspiracyTheories",
+    "question": "{name}'in benimseyeceği yemek komplo teorisi hangisi?",
+    "answers": [
+      "Fast food laboratuvarda tasarlanan bağımlılık yapan kimyasallar içeriyor",
+      "Organik gıda sıradan gıdayla aynı, sadece daha pahalı",
+      "Yiyeceklerin son kullanma tarihleri bizi daha fazla satın aldırmak için bir aldatmaca",
+      "Popüler bir içeceğin aslında başka bir şey için tasarlandığı"
+    ]
+  },
+  {
+    "id": 459,
+    "category": "conspiracyTheories",
+    "question": "{name} müzik endüstrisi hakkında ne şüpheleniyor?",
+    "answers": [
+      "Hit şarkılar kafana takılması için gizli frekanslar kullanıyor",
+      "Bazı ünlü sanatçılar endüstrinin ürettiği kurgusal kişilikler",
+      "Belirli şarkılar geri oynatıldığında subliminal mesajlar içeriyor",
+      "Ödül törenleri yeteneğe değil anlaşmalara göre ayarlanıyor"
+    ]
+  },
+  {
+    "id": 460,
+    "category": "conspiracyTheories",
+    "question": "{name} tesadüfler hakkında ne düşünüyor?",
+    "answers": [
+      "Tesadüf diye bir şey yok, her şey bağlantılı",
+      "Bir yüksek güç sahneler arkasında düzenlemeler yapıyor",
+      "Evren bir örüntü ve tesadüfler bizi fark ettiriyor",
+      "Tamamen rastgele ve hiçbir anlam taşımıyor"
+    ]
+  },
+  {
+    "id": 461,
+    "category": "superlatives",
+    "question": "{name} en çok ne için ünlü olur?",
+    "answers": [
+      "Utandırıcı bir şey için viral olmak",
+      "Beklenmedik derecede başarılı bir iş kurmak",
+      "Bir reality TV şovunda görünmek",
+      "Herkesi şoke eden bir itiraf kitabı yazmak"
+    ]
+  },
+  {
+    "id": 462,
+    "category": "superlatives",
+    "question": "{name} zombi kıyametinde en çok ne yapar?",
+    "answers": [
+      "Grubun korkusuz lideri olur",
+      "Bir kutu fasulye için herkesi satar",
+      "Bir şekilde bir zombiyle arkadaş olur",
+      "Isırılan ilk kişi olur"
+    ]
+  },
+  {
+    "id": 463,
+    "category": "superlatives",
+    "question": "{name} en çok ne yüzünden gözaltına alınır?",
+    "answers": [
+      "Çok gürültülü olmaktan kaynaklanan kamu düzeni ihlali",
+      "Olmaması gereken yere izinsiz girmek",
+      "Ayrıntılı ama kötü planlanmış bir soygun",
+      "Bir şeyi çok tutkuyla protesto etmek"
+    ]
+  },
+  {
+    "id": 464,
+    "category": "superlatives",
+    "question": "{name} en çok kazara ne başlatır?",
+    "answers": [
+      "Tuhaf derecede sadık bir kült",
+      "Şık bir restoranda yiyecek savaşı",
+      "Viral bir internet trendi",
+      "Tatildeyken uluslararası bir olay"
+    ]
+  },
+  {
+    "id": 465,
+    "category": "superlatives",
+    "question": "{name} gece 3'te en çok ne yapıyor?",
+    "answers": [
+      "Wikipedia tavşan deliğine dalmak",
+      "Karanlıkta buzdolabını soymak",
+      "Varoluşsal kriz geçirmek",
+      "İnsanlara kaotik mesajlar atmak"
+    ]
+  },
+  {
+    "id": 466,
+    "category": "superlatives",
+    "question": "{name} uyurken en çok ne söyler?",
+    "answers": [
+      "Derin felsefi bir şey",
+      "Yemek siparişini ayrıntılı biçimde",
+      "Odayı şoke eden bir itiraf",
+      "Başka bir dil gibi duran saçma sapan şeyler"
+    ]
+  },
+  {
+    "id": 467,
+    "category": "superlatives",
+    "question": "{name} en çok saçma derecede ne için para harcar?",
+    "answers": [
+      "Planlamadığı ani bir tatil",
+      "Kimsenin anlamadığı bir koleksiyon",
+      "Tam bir hafta boyunca yemek siparişi",
+      "Tam bir kez giyeceği bir kıyafet"
+    ]
+  },
+  {
+    "id": 468,
+    "category": "superlatives",
+    "question": "{name} en çok hangi dünya rekoru için yarışır?",
+    "answers": [
+      "Küçük rahatsızlıklara en dramatik tepki",
+      "Tek bir görevde en uzun erteleme süresi",
+      "Tek bir film maratonunda en fazla atıştırmalık tüketimi",
+      "Sakin halden kaosa en hızlı geçiş"
+    ]
+  },
+  {
+    "id": 469,
+    "category": "superlatives",
+    "question": "{name} bir partide en çok ne yapar?",
+    "answers": [
+      "Geceye kadar herkesin en iyi arkadaşı olur",
+      "Bir saat kaybolup vahşi bir hikayeyle döner",
+      "Müziği devralır ve aux kablosunu bırakmayı reddeder",
+      "Mutfakta birisiyle derin bir sohbete girer"
+    ]
+  },
+  {
+    "id": 470,
+    "category": "superlatives",
+    "question": "{name} en çok ne olarak reenkarne olur?",
+    "answers": [
+      "Hayatının tadını çıkaran bir golden retriever",
+      "Herkesi görmezden gelen bir kedi",
+      "Eğlence için takla atan bir yunus",
+      "Geceleri kaos yaratan bir rakun"
+    ]
+  },
+  {
+    "id": 471,
+    "category": "superlatives",
+    "question": "{name} piyango kazansa en çok ne yapar?",
+    "answers": [
+      "Bir yıl içinde deneyimler için hepsini harcar",
+      "Akıllıca yatırım yapar ve kesinlikle kimseye söylemez",
+      "Saçma bir şey satın alır, kale ya da ada gibi",
+      "Çoğunu bağışlar ve aynı hayata devam eder"
+    ]
+  },
+  {
+    "id": 472,
+    "category": "superlatives",
+    "question": "{name} ıssız bir adaya en çok ne götürür?",
+    "answers": [
+      "Sinyalsiz ama sonsuz şarjlı telefon",
+      "Makul olmayan miktarda atıştırmalık",
+      "Tekrarlayan bir playlist olan hoparlör",
+      "Dramatik hayatta kalma hikayesini belgelemek için günlük"
+    ]
+  },
+  {
+    "id": 473,
+    "category": "superlatives",
+    "question": "{name} geçmiş yaşamında en çok ne olmuştur?",
+    "answers": [
+      "Siyasi skandallara yol açan dramatik bir kraliyet",
+      "Açık denizlerde korkusuz bir korsan",
+      "Kimsenin tam olarak anlayamadığı gizemli bir filozof",
+      "Aslında en zeki kişi olan köy soytarısı"
+    ]
+  },
+  {
+    "id": 474,
+    "category": "superlatives",
+    "question": "{name} ilk buluşmada en çok ne yapar?",
+    "answers": [
+      "Sinirden fazla konuşur",
+      "Kazara vahşice uygunsuz bir şey söyler",
+      "Tüm hayat hikayesini paylaşır",
+      "Mükemmel sakin görünür ama içten tam bir kaos"
+    ]
+  },
+  {
+    "id": 475,
+    "category": "superlatives",
+    "question": "{name} toplantıda ya da derste en çok ne yaparken yakalanır?",
+    "answers": [
+      "Başka bir boyuta dalıp gitmek",
+      "Masanın altından gizlice mesaj atmak",
+      "Notlarına ayrıntılı çizimler yapmak",
+      "Başka biriyle sessiz göz teması yorumları yapmak"
+    ]
+  },
+  {
+    "id": 476,
+    "category": "superlatives",
+    "question": "{name} bir günlüğüne görünmez olsaydı en çok ne yapardı?",
+    "answers": [
+      "İnsanların kendisi hakkında ne söylediğini dinlemek",
+      "Tanıdığı herkese ayrıntılı şakalar yapmak",
+      "Her zaman girmek istediği özel bir yere sızmak",
+      "Sadece hiç sosyal yükümlülük olmadan huzurlu bir gün geçirmek"
+    ]
+  },
+  {
+    "id": 477,
+    "category": "superlatives",
+    "question": "{name} evcil hayvanına en çok ne isim koyar?",
+    "answers": [
+      "Gerald ya da Margaret gibi saçma biçimde insan bir isim",
+      "Bisküvi ya da Mochi gibi bir yiyecek ismi",
+      "Shadow ya da Midnight gibi dramatik bir şey",
+      "Sadece kendisinin komik bulduğu bir kelime oyunu ya da pop kültür referansı"
+    ]
+  },
+  {
+    "id": 478,
+    "category": "superlatives",
+    "question": "{name} en çok hangi konuda en son olan kişidir?",
+    "answers": [
+      "Grup sohbetindeki mesajlara cevap vermek",
+      "Herhangi bir etkinliğe zamanında gelmek",
+      "Bir konuda yanıldığını kabul etmek",
+      "Herkesin haftalar önce atladığı bir trende katılmak"
+    ]
+  },
+  {
+    "id": 479,
+    "category": "superlatives",
+    "question": "{name} en kötü anda kazara en çok neyi ifşa eder?",
+    "answers": [
+      "Gizli kalması gereken bir sürprizi",
+      "Yıllardır tanıdığı birinin adını unuttuğunu",
+      "Hemen tartışma başlatan bir görüşü",
+      "Ne olup bittiği hakkında hiçbir fikrinin olmadığını ve hep numara yaptığını"
+    ]
+  },
+  {
+    "id": 480,
+    "category": "superlatives",
+    "question": "{name} arkadaş grubunda en çok ne için hatırlanır?",
+    "answers": [
+      "Herkesin tekrar anlattığı efsanevi bir hikaye",
+      "Her zaman söylediği ikonik bir söz",
+      "Bir zamanlar yaptığı tamamen çılgın bir şey",
+      "Grubu bir arada tutan duygusal yapıştırıcı olmak"
+    ]
   }
 ]

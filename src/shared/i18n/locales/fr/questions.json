@@ -2418,5 +2418,2865 @@
       "Posts cringe sur les réseaux",
       "Être trop honnête"
     ]
+  },
+  {
+    "id": 221,
+    "category": "hotTakes",
+    "question": "Quelle est l'opinion culinaire la plus controversée de {name} ?",
+    "answers": [
+      "L'ananas a sa place sur la pizza",
+      "Le ketchup sur les œufs, c'est délicieux",
+      "Le steak bien cuit, c'est le meilleur",
+      "Les céréales sont meilleures avec de l'eau"
+    ]
+  },
+  {
+    "id": 222,
+    "category": "hotTakes",
+    "question": "Quelle opinion impopulaire sur le cinéma {name} défend-il/elle ?",
+    "answers": [
+      "Les suites sont généralement meilleures que les originaux",
+      "Les films en noir et blanc sont impossibles à regarder",
+      "Les films d'horreur ne font jamais vraiment peur",
+      "Les comédies sont le genre le plus dur à réaliser"
+    ]
+  },
+  {
+    "id": 223,
+    "category": "hotTakes",
+    "question": "Qu'est-ce que {name} pense secrètement être surcôté ?",
+    "answers": [
+      "Voyager à travers le monde",
+      "La culture du brunch",
+      "Aller à des concerts",
+      "La célébrité sur les réseaux sociaux"
+    ]
+  },
+  {
+    "id": 224,
+    "category": "hotTakes",
+    "question": "Quelle habitude quotidienne {name} défendrait-il/elle bec et ongles ?",
+    "answers": [
+      "Se doucher le soir plutôt que le matin",
+      "Manger le dessert avant le plat principal",
+      "Dormir avec des chaussettes",
+      "Mettre le lait avant les céréales"
+    ]
+  },
+  {
+    "id": 225,
+    "category": "hotTakes",
+    "question": "Quelle fête {name} trouve-t-il/elle la plus surcotée ?",
+    "answers": [
+      "La Saint-Valentin",
+      "Le Nouvel An",
+      "Halloween",
+      "Le Black Friday"
+    ]
+  },
+  {
+    "id": 226,
+    "category": "hotTakes",
+    "question": "Quelle opinion tranchée sur la musique {name} défendrait-il/elle ?",
+    "answers": [
+      "La pop demande plus de talent que le rock",
+      "Les paroles n'ont aucune importance, seul le rythme compte",
+      "La musique live est moins bien qu'en studio",
+      "La meilleure musique a été faite avant 2000"
+    ]
+  },
+  {
+    "id": 227,
+    "category": "hotTakes",
+    "question": "Quelle opinion controversée {name} a-t-il/elle sur les animaux de compagnie ?",
+    "answers": [
+      "Les chats sont largement supérieurs aux chiens",
+      "Les gens traitent trop leurs animaux comme des enfants",
+      "Les animaux exotiques sont plus cool que les classiques",
+      "Les poissons sont les animaux les plus sous-estimés"
+    ]
+  },
+  {
+    "id": 228,
+    "category": "hotTakes",
+    "question": "Quelle opinion mode controversée {name} a-t-il/elle ?",
+    "answers": [
+      "Les Crocs sont vraiment stylées",
+      "Les tenues assorties en couple, c'est mignon",
+      "Les shorts cargo sont le summum de la mode",
+      "Les chaussettes avec les sandales, c'est très bien"
+    ]
+  },
+  {
+    "id": 229,
+    "category": "hotTakes",
+    "question": "Quelle est l'opinion la plus piquante de {name} sur les règles de politesse ?",
+    "answers": [
+      "Ghoster quelqu'un, c'est parfois tout à fait acceptable",
+      "Le small talk est une perte de temps",
+      "Être brutalement honnête est une vertu",
+      "Les gens en retard ne respectent pas ton temps"
+    ]
+  },
+  {
+    "id": 230,
+    "category": "hotTakes",
+    "question": "Quelle opinion controversée sur le petit-déjeuner {name} partage-t-il/elle ?",
+    "answers": [
+      "Le petit-déjeuner est le repas le moins important",
+      "La pizza froide est le petit-déjeuner idéal",
+      "Le jus d'orange après s'être brossé les dents, c'est ok",
+      "Les pancakes sont meilleurs que les gaufres"
+    ]
+  },
+  {
+    "id": 231,
+    "category": "hotTakes",
+    "question": "Que pense {name} de la culture fitness ?",
+    "answers": [
+      "Les selfies à la salle sont toujours gênants",
+      "La course à pied est surcotée comme exercice",
+      "Le yoga, c'est juste des étirements sophistiqués",
+      "Les jours de repos sont plus importants que les entraînements"
+    ]
+  },
+  {
+    "id": 232,
+    "category": "hotTakes",
+    "question": "Quelle opinion tranchée {name} a-t-il/elle sur la technologie ?",
+    "answers": [
+      "Les téléphones à clapet étaient le top du design",
+      "Les réseaux sociaux font plus de mal que de bien",
+      "L'art généré par IA est du vrai art",
+      "Les visioconférences devraient remplacer toutes les réunions"
+    ]
+  },
+  {
+    "id": 233,
+    "category": "hotTakes",
+    "question": "Quelle opinion controversée sur l'école {name} partage-t-il/elle ?",
+    "answers": [
+      "Les devoirs devraient être abolis",
+      "Les notes ne reflètent pas l'intelligence",
+      "Les travaux de groupe n'apprennent rien d'utile",
+      "L'école commence beaucoup trop tôt le matin"
+    ]
+  },
+  {
+    "id": 234,
+    "category": "hotTakes",
+    "question": "Quelle est l'opinion tranchée de {name} sur la météo ?",
+    "answers": [
+      "Les jours de pluie sont meilleurs que les jours ensoleillés",
+      "L'hiver est de loin la meilleure saison",
+      "La chaleur au-dessus de 30°C, c'est agréable",
+      "La neige n'est fun que pendant la première heure"
+    ]
+  },
+  {
+    "id": 235,
+    "category": "hotTakes",
+    "question": "Quelle opinion sur la cuisine {name} défendrait-il/elle ?",
+    "answers": [
+      "La cuisine au micro-ondes est sous-estimée",
+      "Les restaurants chers en valent rarement la peine",
+      "Les nouilles instantanées sont un vrai repas",
+      "La nourriture brûlée a plus de goût"
+    ]
+  },
+  {
+    "id": 236,
+    "category": "hotTakes",
+    "question": "Quelle opinion impopulaire sur les jeux vidéo {name} a-t-il/elle ?",
+    "answers": [
+      "Les jeux mobiles comptent comme du vrai gaming",
+      "Le solo est toujours mieux que le multi",
+      "Le mode facile est la meilleure façon de jouer",
+      "Les jeux rétro sont meilleurs que les modernes"
+    ]
+  },
+  {
+    "id": 237,
+    "category": "hotTakes",
+    "question": "Quelle est l'opinion controversée de {name} sur l'amitié ?",
+    "answers": [
+      "On n'a besoin que d'un ou deux vrais amis",
+      "Les amis en ligne sont aussi vrais que ceux en vrai",
+      "Les amitiés ont des dates d'expiration naturelles",
+      "Les adultes ne peuvent pas se faire de vrais nouveaux amis"
+    ]
+  },
+  {
+    "id": 238,
+    "category": "hotTakes",
+    "question": "Quelle opinion controversée {name} a-t-il/elle sur les boissons ?",
+    "answers": [
+      "Le café est vraiment dégueulasse",
+      "L'eau tiède est la meilleure boisson",
+      "Les boissons énergisantes sont meilleures que les sodas",
+      "Le thé est supérieur au café à tous les niveaux"
+    ]
+  },
+  {
+    "id": 239,
+    "category": "hotTakes",
+    "question": "Quelle opinion tranchée sur le sommeil {name} partage-t-il/elle ?",
+    "answers": [
+      "Les siestes sont un signe de paresse",
+      "Faire la grasse mat', c'est gâcher sa journée",
+      "Les couche-tard sont plus productifs que les lève-tôt",
+      "Les huit heures de sommeil, c'est un mythe"
+    ]
+  },
+  {
+    "id": 240,
+    "category": "hotTakes",
+    "question": "Quelle est l'opinion de vie la plus controversée de {name} ?",
+    "answers": [
+      "La zone de confort, c'est là que vit le bonheur",
+      "La passion est surcotée dans le choix de carrière",
+      "La routine est plus libératrice que la spontanéité",
+      "L'ennui est en fait bon pour la santé"
+    ]
+  },
+  {
+    "id": 241,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait avoir un super-pouvoir, lequel choisirait-il/elle ?",
+    "answers": [
+      "Lire dans les pensées",
+      "La téléportation",
+      "Manipuler le temps",
+      "L'invisibilité"
+    ]
+  },
+  {
+    "id": 242,
+    "category": "hypothetical",
+    "question": "Si {name} se réveillait chef d'État demain, que ferait-il/elle en premier ?",
+    "answers": [
+      "Rendre la semaine de 4 jours obligatoire",
+      "Interdire les devoirs dans le monde entier",
+      "Rendre les transports en commun gratuits partout",
+      "Déclarer une journée mondiale de la sieste"
+    ]
+  },
+  {
+    "id": 243,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait vivre dans un univers fictif, lequel choisirait-il/elle ?",
+    "answers": [
+      "Le monde des sorciers d'Harry Potter",
+      "L'univers des super-héros Marvel/DC",
+      "La galaxie de Star Wars",
+      "Le monde des Pokémon"
+    ]
+  },
+  {
+    "id": 244,
+    "category": "hypothetical",
+    "question": "Si {name} était la dernière personne sur Terre, que ferait-il/elle en premier ?",
+    "answers": [
+      "Dévaliser un magasin de luxe",
+      "Conduire une voiture de sport à fond",
+      "S'installer dans un manoir",
+      "Aller au zoo et libérer tous les animaux"
+    ]
+  },
+  {
+    "id": 245,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait maîtriser une compétence instantanément, laquelle choisirait-il/elle ?",
+    "answers": [
+      "Jouer de tous les instruments de musique",
+      "Parler toutes les langues couramment",
+      "Cuisiner comme un chef étoilé",
+      "Les arts martiaux au niveau professionnel"
+    ]
+  },
+  {
+    "id": 246,
+    "category": "hypothetical",
+    "question": "Si {name} était coincé(e) dans une boucle temporelle d'un jour, lequel choisirait-il/elle ?",
+    "answers": [
+      "Une journée parfaite à la plage",
+      "Son meilleur anniversaire",
+      "Un jour de neige sans aucune responsabilité",
+      "Une soirée de folie entre amis"
+    ]
+  },
+  {
+    "id": 247,
+    "category": "hypothetical",
+    "question": "Si des extraterrestres débarquaient et demandaient à {name} de représenter l'humanité, comment les impressionnerait-il/elle ?",
+    "answers": [
+      "Leur préparer un repas incroyable",
+      "Leur montrer la musique et la danse",
+      "Les emmener dans un parc d'attractions",
+      "Leur montrer des vidéos de chats"
+    ]
+  },
+  {
+    "id": 248,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait échanger sa vie avec une célébrité pendant une semaine, qui choisirait-il/elle ?",
+    "answers": [
+      "Un musicien célèbre en tournée",
+      "Un acteur hollywoodien de premier plan",
+      "Un PDG milliardaire de la tech",
+      "Un athlète professionnel"
+    ]
+  },
+  {
+    "id": 249,
+    "category": "hypothetical",
+    "question": "Si {name} devait survivre à une apocalypse zombie, quel serait son rôle ?",
+    "answers": [
+      "Le leader stratégique",
+      "Le combattant intrépide",
+      "Le récupérateur débrouillard",
+      "Le comique qui remonte le moral"
+    ]
+  },
+  {
+    "id": 250,
+    "category": "hypothetical",
+    "question": "Si {name} découvrait qu'il/elle est un personnage dans une simulation, que ferait-il/elle ?",
+    "answers": [
+      "Essayer de trouver des codes de triche pour la vraie vie",
+      "Tester les limites de la simulation",
+      "Essayer de contacter les programmeurs",
+      "Continuer à vivre normalement"
+    ]
+  },
+  {
+    "id": 251,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait ramener une invention du futur, laquelle choisirait-il/elle ?",
+    "answers": [
+      "Un appareil de téléportation",
+      "Un remède à toutes les maladies",
+      "Un appareil qui arrête le vieillissement",
+      "Une machine qui crée n'importe quel plat instantanément"
+    ]
+  },
+  {
+    "id": 252,
+    "category": "hypothetical",
+    "question": "Si {name} devait vivre dans une époque historique, laquelle choisirait-il/elle ?",
+    "answers": [
+      "La Rome antique à son apogée",
+      "Les années folles des années 1920",
+      "L'Italie de la Renaissance",
+      "Les groovy années 1970"
+    ]
+  },
+  {
+    "id": 253,
+    "category": "hypothetical",
+    "question": "Si {name} trouvait un génie avec un seul vœu (pas le droit d'en demander plus), que souhaiterait-il/elle ?",
+    "answers": [
+      "De l'argent illimité",
+      "Une santé parfaite pour toujours",
+      "Le pouvoir de rendre n'importe qui heureux",
+      "Connaître la réponse à toutes les questions"
+    ]
+  },
+  {
+    "id": 254,
+    "category": "hypothetical",
+    "question": "Si {name} ne pouvait manger qu'une seule cuisine pour le reste de sa vie, laquelle choisirait-il/elle ?",
+    "answers": [
+      "Italienne",
+      "Japonaise",
+      "Mexicaine",
+      "Indienne"
+    ]
+  },
+  {
+    "id": 255,
+    "category": "hypothetical",
+    "question": "Si {name} se réveillait avec la capacité de parler aux animaux, lequel irait-il/elle voir en premier ?",
+    "answers": [
+      "Son propre animal (ou un chien)",
+      "Des dauphins dans l'océan",
+      "Un vieux hibou sage",
+      "Un chat pour découvrir ses secrets"
+    ]
+  },
+  {
+    "id": 256,
+    "category": "hypothetical",
+    "question": "Si {name} devait participer à une épreuve olympique demain, laquelle lui donnerait le plus de chances ?",
+    "answers": [
+      "Le tir à l'arc",
+      "Le tennis de table",
+      "La natation",
+      "L'escrime"
+    ]
+  },
+  {
+    "id": 257,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait ajouter une règle que tout le monde sur Terre devrait suivre, quelle serait-elle ?",
+    "answers": [
+      "Interdiction de parler avant 10h du matin",
+      "Minimum un compliment par personne par jour",
+      "Pas de téléphone pendant les repas",
+      "Tout le monde doit danser cinq minutes par jour"
+    ]
+  },
+  {
+    "id": 258,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait voler un talent à un ami dans cette pièce, quel talent voudrait-il/elle ?",
+    "answers": [
+      "Son humour et sa répartie",
+      "Sa confiance en soi",
+      "Ses talents en cuisine",
+      "Sa capacité à parler à n'importe qui"
+    ]
+  },
+  {
+    "id": 259,
+    "category": "hypothetical",
+    "question": "Si {name} avait un robot personnel, pour quoi l'utiliserait-il/elle le plus ?",
+    "answers": [
+      "Nettoyer toute la maison",
+      "Préparer tous les repas",
+      "Faire toutes les courses et corvées",
+      "Être un coach sportif personnel"
+    ]
+  },
+  {
+    "id": 260,
+    "category": "hypothetical",
+    "question": "Si {name} pouvait vivre dans un monde de jeu vidéo, lequel choisirait-il/elle ?",
+    "answers": [
+      "Minecraft (construire n'importe quoi)",
+      "Animal Crossing (vie paisible sur une île)",
+      "GTA (le chaos sans conséquences)",
+      "Les Sims (tout contrôler)"
+    ]
+  },
+  {
+    "id": 261,
+    "category": "memories",
+    "question": "Qu'est-ce que {name} ramène le plus souvent lors des retrouvailles entre amis ?",
+    "answers": [
+      "Un truc gênant que quelqu'un a fait il y a des années",
+      "Une private joke que personne d'autre ne comprend",
+      "Une histoire qui s'exagère à chaque fois",
+      "Un moment gênant d'une soirée"
+    ]
+  },
+  {
+    "id": 262,
+    "category": "memories",
+    "question": "Quelle était la phase d'enfance la plus gênante de {name} ?",
+    "answers": [
+      "La phase « je suis trop cool pour tout le monde »",
+      "La phase des choix vestimentaires douteux",
+      "La phase de fan obsessionnel(le)",
+      "La phase « le random c'est drôle »"
+    ]
+  },
+  {
+    "id": 263,
+    "category": "memories",
+    "question": "Quelle est la chose la plus chaotique que {name} ait faite en soirée ?",
+    "answers": [
+      "Lancer un battle de danse improvisé",
+      "Essayer de cuisiner à 3h du matin",
+      "Faire un discours émotionnel non sollicité",
+      "S'endormir dans un endroit improbable"
+    ]
+  },
+  {
+    "id": 264,
+    "category": "memories",
+    "question": "Pour quoi {name} se faisait-il/elle le plus gronder étant enfant ?",
+    "answers": [
+      "Trop parler en classe",
+      "Piquer de la nourriture ou veiller trop tard",
+      "Se bagarrer avec ses frères, sœurs ou amis",
+      "Être là où il/elle n'aurait pas dû être"
+    ]
+  },
+  {
+    "id": 265,
+    "category": "memories",
+    "question": "Quel métier de rêve {name} a-t-il/elle sûrement eu enfant ?",
+    "answers": [
+      "Astronaute ou pilote",
+      "Chanteur/chanteuse ou acteur/actrice célèbre",
+      "Vétérinaire ou gardien(ne) de zoo",
+      "Athlète professionnel(le)"
+    ]
+  },
+  {
+    "id": 266,
+    "category": "memories",
+    "question": "Quel aurait été le titre de {name} dans l'album de promo ?",
+    "answers": [
+      "Le/la plus susceptible d'arriver en retard à son propre mariage",
+      "Le clown de la classe",
+      "Le/la plus susceptible de devenir célèbre",
+      "Le meilleur inventeur d'excuses"
+    ]
+  },
+  {
+    "id": 267,
+    "category": "memories",
+    "question": "Quelle est l'histoire favorite de {name} quand il/elle rencontre de nouvelles personnes ?",
+    "answers": [
+      "Une aventure de voyage dingue",
+      "Une coïncidence absurde qui lui est arrivée",
+      "Un fail ou un accident hilarant",
+      "Avoir rencontré quelqu'un de célèbre"
+    ]
+  },
+  {
+    "id": 268,
+    "category": "memories",
+    "question": "Pour quoi {name} a-t-il/elle le plus paniqué dans sa vie ?",
+    "answers": [
+      "Avoir perdu son téléphone ou son portefeuille",
+      "Être en retard pour quelque chose d'important",
+      "Une rencontre avec un insecte ou une araignée",
+      "Croire avoir envoyé un texto à la mauvaise personne"
+    ]
+  },
+  {
+    "id": 269,
+    "category": "memories",
+    "question": "Quel moment de la vie de {name} ses amis considèrent-ils comme le plus mémorable ?",
+    "answers": [
+      "Un fail épique filmé en caméra",
+      "Une victoire dont il/elle n'arrête pas de parler",
+      "Une réplique cinglante qu'il/elle a un jour lancée",
+      "Un moment touchant entre amis"
+    ]
+  },
+  {
+    "id": 270,
+    "category": "memories",
+    "question": "Quelle était la chose la plus bizarre dont {name} était obsédé(e) enfant ?",
+    "answers": [
+      "Collectionner des objets au hasard",
+      "Un dessin animé ou une série en particulier",
+      "Un hobby inhabituel que personne d'autre ne pratiquait",
+      "Un type de nourriture bizarre"
+    ]
+  },
+  {
+    "id": 271,
+    "category": "memories",
+    "question": "Quel genre de catastrophe en sortie scolaire aurait impliqué {name} ?",
+    "answers": [
+      "Se perdre loin du groupe",
+      "Être malade dans le bus",
+      "Casser accidentellement quelque chose au musée",
+      "Être celui/celle qui a oublié son pique-nique"
+    ]
+  },
+  {
+    "id": 272,
+    "category": "memories",
+    "question": "Quel est le moment vestimentaire le plus iconique de {name} ?",
+    "answers": [
+      "Un pantalon déchiré au pire moment",
+      "Arriver beaucoup trop ou pas assez habillé(e)",
+      "Porter quelque chose à l'envers toute la journée",
+      "Avoir une tache visible sans s'en rendre compte pendant des heures"
+    ]
+  },
+  {
+    "id": 273,
+    "category": "memories",
+    "question": "Quel premier jour a été le plus gênant pour {name} ?",
+    "answers": [
+      "Premier jour dans une nouvelle école",
+      "Premier jour dans un nouveau travail",
+      "Premier jour dans une nouvelle ville",
+      "Première rencontre avec la famille du/de la partenaire"
+    ]
+  },
+  {
+    "id": 274,
+    "category": "memories",
+    "question": "Quelle est la réaction la plus dramatique que {name} ait jamais eue ?",
+    "answers": [
+      "Crier pour une petite frayeur",
+      "Pleurer devant une scène de film",
+      "Fêter une petite victoire comme un gain au loto",
+      "Râler pendant des heures pour un petit inconvénient"
+    ]
+  },
+  {
+    "id": 275,
+    "category": "memories",
+    "question": "Quel hobby ou activité {name} a-t-il/elle essayé une fois avant d'arrêter direct ?",
+    "answers": [
+      "Un sport où il/elle était nul(le)",
+      "Apprendre un instrument de musique",
+      "Un cours de fitness ou un abonnement à la salle",
+      "Apprendre à cuisiner ou faire de la pâtisserie"
+    ]
+  },
+  {
+    "id": 276,
+    "category": "memories",
+    "question": "Quelle est l'excuse la plus légendaire de {name} pour être en retard ?",
+    "answers": [
+      "Accuser les embouteillages qui n'existaient clairement pas",
+      "Dire qu'il y avait une urgence familiale (il/elle avait trop dormi)",
+      "Prétendre que le réveil n'a pas sonné",
+      "Raconter une histoire élaborée visiblement inventée"
+    ]
+  },
+  {
+    "id": 277,
+    "category": "memories",
+    "question": "De quelle victoire à un jeu ou une compétition {name} se vante-t-il/elle encore ?",
+    "answers": [
+      "Une victoire lors d'une soirée jeux de société",
+      "Un match de sport ou un défi physique",
+      "Un pari gagné contre un ami",
+      "Un exploit dans un jeu vidéo"
+    ]
+  },
+  {
+    "id": 278,
+    "category": "memories",
+    "question": "Quel a été le moment le plus gênant de {name} sur les réseaux sociaux ?",
+    "answers": [
+      "Un vieux post cringe qui a refait surface",
+      "Liker accidentellement une vieille photo en stalkant",
+      "Poster quelque chose destiné à une conversation privée",
+      "Une mauvaise photo où quelqu'un d'autre l'a identifié(e)"
+    ]
+  },
+  {
+    "id": 279,
+    "category": "memories",
+    "question": "Quel est le plus gros mensonge que {name} a raconté enfant et s'est fait griller ?",
+    "answers": [
+      "Accuser un frère/une sœur ou l'animal de compagnie",
+      "Faire semblant d'être malade pour sécher l'école",
+      "Dire avoir fini ses devoirs alors que non",
+      "Prétendre ne pas avoir mangé les goûters"
+    ]
+  },
+  {
+    "id": 280,
+    "category": "memories",
+    "question": "Quel souvenir scolaire {name} préférerait-il/elle oublier ?",
+    "answers": [
+      "Présenter devant la classe et avoir un blanc",
+      "Rater un contrôle qu'il/elle pensait avoir réussi",
+      "Se faire reprendre par un prof devant tout le monde",
+      "S'endormir en cours et se faire attraper"
+    ]
+  },
+  {
+    "id": 281,
+    "category": "relationships",
+    "question": "Quel est le plus gros rédhibitoire de {name} en couple ?",
+    "answers": [
+      "Être impoli avec les serveurs ou les inconnus",
+      "Ne pas avoir le sens de l'humour",
+      "Être scotché(e) à son téléphone en permanence",
+      "Ne pas s'entendre avec ses amis"
+    ]
+  },
+  {
+    "id": 282,
+    "category": "relationships",
+    "question": "Quel est le langage amoureux de {name} ?",
+    "answers": [
+      "Les mots d'affirmation",
+      "Les moments de qualité ensemble",
+      "Le contact physique et l'affection",
+      "Les actes de service et les petites attentions"
+    ]
+  },
+  {
+    "id": 283,
+    "category": "relationships",
+    "question": "Quel serait le premier rendez-vous idéal de {name} ?",
+    "answers": [
+      "Un dîner intime dans un bon restaurant",
+      "Une activité aventureuse en plein air",
+      "Un café tranquille et décontracté",
+      "Une soirée cinéma avec des snacks"
+    ]
+  },
+  {
+    "id": 284,
+    "category": "relationships",
+    "question": "Quel type de personne attire secrètement le plus {name} ?",
+    "answers": [
+      "Le type mystérieux et discret",
+      "La personne confiante et extravertie, l'âme de la fête",
+      "L'intellectuel(le) un peu geek",
+      "L'âme créative et artistique"
+    ]
+  },
+  {
+    "id": 285,
+    "category": "relationships",
+    "question": "Comment {name} réagirait-il/elle si son/sa partenaire organisait une fête surprise ?",
+    "answers": [
+      "Adorerait chaque seconde",
+      "Apprécierait l'effort mais se sentirait gêné(e)",
+      "Ferait semblant d'être surpris(e) même s'il/elle avait deviné",
+      "Serait agacé(e) de ne pas avoir eu le contrôle du plan"
+    ]
+  },
+  {
+    "id": 286,
+    "category": "relationships",
+    "question": "Quel geste romantique ringard {name} aimerait secrètement ?",
+    "answers": [
+      "Une lettre d'amour écrite à la main",
+      "Qu'on lui chante une sérénade en public",
+      "Un flash mob pour une demande",
+      "Un album photo de leur relation"
+    ]
+  },
+  {
+    "id": 287,
+    "category": "relationships",
+    "question": "Sur quoi {name} se dispute-t-il/elle le plus en couple ?",
+    "answers": [
+      "Où manger ou quoi regarder",
+      "Le ménage et les tâches domestiques",
+      "Le temps passé ensemble vs séparément",
+      "L'argent et les habitudes de dépenses"
+    ]
+  },
+  {
+    "id": 288,
+    "category": "relationships",
+    "question": "Que ferait {name} s'il/elle avait un crush pour un(e) ami(e) proche ?",
+    "answers": [
+      "Lancer des indices évidents et attendre",
+      "Avouer directement et risquer le tout",
+      "Ne rien dire et souffrir en silence",
+      "Demander à un ami commun d'enquêter d'abord"
+    ]
+  },
+  {
+    "id": 289,
+    "category": "relationships",
+    "question": "Quel comportement sur les applis de rencontre ressemble le plus à {name} ?",
+    "answers": [
+      "Swipe à droite sur presque tout le monde",
+      "Réfléchit 20 minutes à chaque message",
+      "Matche mais n'envoie jamais le premier message",
+      "A un profil parfaitement soigné avec une bio pleine d'esprit"
+    ]
+  },
+  {
+    "id": 290,
+    "category": "relationships",
+    "question": "Quelle étape de la relation {name} franchirait-il/elle trop vite ?",
+    "answers": [
+      "Dire « je t'aime » en premier",
+      "Rencontrer les familles respectives",
+      "Emménager ensemble",
+      "Adopter un animal ensemble"
+    ]
+  },
+  {
+    "id": 291,
+    "category": "relationships",
+    "question": "Comment {name} gère-t-il/elle une rupture ?",
+    "answers": [
+      "Phase musique triste et glace à volonté",
+      "Se plonge immédiatement dans mille activités",
+      "En parle à ses amis sans arrêt pendant des semaines",
+      "Fait comme si tout allait bien mais est secrètement dévasté(e)"
+    ]
+  },
+  {
+    "id": 292,
+    "category": "relationships",
+    "question": "Quel est le plus gros green flag de {name} ?",
+    "answers": [
+      "Il/elle se souvient des petits détails sur toi",
+      "Il/elle te fait toujours rire",
+      "Il/elle est là quand ça compte vraiment",
+      "Il/elle est honnête même quand c'est difficile"
+    ]
+  },
+  {
+    "id": 293,
+    "category": "relationships",
+    "question": "Avec quoi {name} aimerait-il/elle le plus que son/sa partenaire le/la surprenne ?",
+    "answers": [
+      "Des billets pour un week-end spontané",
+      "Préparer son plat préféré à la maison",
+      "Un cadeau attentionné qui montre qu'il/elle écoute",
+      "Une journée entièrement organisée autour de ses centres d'intérêt"
+    ]
+  },
+  {
+    "id": 294,
+    "category": "relationships",
+    "question": "Quel est le style de drague de {name} ?",
+    "answers": [
+      "Taquineries et sarcasme",
+      "Contact visuel intense et compliments",
+      "Faire rire l'autre en permanence",
+      "Être extra serviable et attentionné(e)"
+    ]
+  },
+  {
+    "id": 295,
+    "category": "relationships",
+    "question": "Combien de temps {name} a-t-il/elle besoin de connaître quelqu'un avant de le considérer comme un ami proche ?",
+    "answers": [
+      "Une soirée épique suffit",
+      "Quelques semaines à se voir régulièrement",
+      "Plusieurs mois pour construire la confiance",
+      "Au moins un an de loyauté prouvée"
+    ]
+  },
+  {
+    "id": 296,
+    "category": "relationships",
+    "question": "Qu'est-ce qui ferait perdre tout intérêt à {name} lors d'un rendez-vous ?",
+    "answers": [
+      "Se vanter sans arrêt",
+      "Être impoli avec le personnel de service",
+      "N'avoir aucun avis ni centre d'intérêt",
+      "Regarder son téléphone pendant tout le rendez-vous"
+    ]
+  },
+  {
+    "id": 297,
+    "category": "relationships",
+    "question": "Quelle est l'opinion de {name} sur les démonstrations d'affection en public ?",
+    "answers": [
+      "Plus il y en a, mieux c'est",
+      "Se tenir la main et petits gestes seulement",
+      "On garde ça pour le privé, toujours",
+      "Ça dépend entièrement de l'humeur et du contexte"
+    ]
+  },
+  {
+    "id": 298,
+    "category": "relationships",
+    "question": "Que sacrifierait {name} pour la relation parfaite ?",
+    "answers": [
+      "Son job de rêve dans une autre ville",
+      "Son hobby le plus chronophage",
+      "Certaines de ses amitiés les plus proches",
+      "Son indépendance et son temps seul(e)"
+    ]
+  },
+  {
+    "id": 299,
+    "category": "relationships",
+    "question": "À quel cliché de comédie romantique {name} croit-il/elle secrètement ?",
+    "answers": [
+      "Le coup de foudre",
+      "D'amis à amoureux, la meilleure histoire",
+      "La course dramatique à l'aéroport",
+      "D'ennemis à amoureux, le plus excitant"
+    ]
+  },
+  {
+    "id": 300,
+    "category": "relationships",
+    "question": "Quelle est la plus grande bête noire de {name} chez un(e) partenaire ?",
+    "answers": [
+      "Mâcher bruyamment ou avoir de mauvaises manières à table",
+      "Ne jamais prendre de décision ou toujours dire « comme tu veux »",
+      "Être trop jaloux(se) ou possessif(ve)",
+      "Laisser les accusés de lecture et répondre des heures plus tard"
+    ]
+  },
+  {
+    "id": 301,
+    "category": "moneyPower",
+    "question": "Si {name} trouvait une mallette avec 100 000 € en liquide et sans pièce d'identité, que ferait-il/elle ?",
+    "answers": [
+      "Garder tout sans hésiter",
+      "L'apporter à la police",
+      "En garder une partie et donner le reste",
+      "Essayer de trouver le propriétaire d'abord"
+    ]
+  },
+  {
+    "id": 302,
+    "category": "moneyPower",
+    "question": "{name} accepterait-il/elle un boulot qu'il/elle déteste pour un salaire triplé ?",
+    "answers": [
+      "Absolument, l'argent résout tout",
+      "Seulement quelques années pour économiser",
+      "Jamais, le bonheur avant l'argent toujours",
+      "Ça dépend à quel point le job est horrible"
+    ]
+  },
+  {
+    "id": 303,
+    "category": "moneyPower",
+    "question": "Si {name} devenait milliardaire du jour au lendemain, qu'est-ce qui changerait en premier ?",
+    "answers": [
+      "Il/elle quitterait son job immédiatement",
+      "Il/elle achèterait la maison de ses rêves",
+      "Il/elle rembourserait les dettes de tous ses proches",
+      "Il/elle lancerait un projet passion ou une entreprise"
+    ]
+  },
+  {
+    "id": 304,
+    "category": "moneyPower",
+    "question": "{name} révélerait-il/elle le secret d'un(e) ami(e) pour un million d'euros ?",
+    "answers": [
+      "Oui, un million c'est un million",
+      "Ça dépend de la gravité du secret",
+      "Jamais, la loyauté n'a pas de prix",
+      "Seulement si l'ami(e) ne le découvre jamais"
+    ]
+  },
+  {
+    "id": 305,
+    "category": "moneyPower",
+    "question": "Si {name} pouvait être célèbre mais perdre toute vie privée, accepterait-il/elle ?",
+    "answers": [
+      "Absolument, la célébrité en vaut la peine",
+      "Seulement s'il/elle pouvait être sélectivement célèbre",
+      "Pas question, la vie privée c'est sacré",
+      "Seulement si ça venait avec une fortune en plus"
+    ]
+  },
+  {
+    "id": 306,
+    "category": "moneyPower",
+    "question": "{name} s'attribuerait-il/elle l'idée d'un collègue pour décrocher une grosse promotion ?",
+    "answers": [
+      "Oui, c'est comme ça que le jeu fonctionne",
+      "Seulement si le collègue ne le saurait jamais",
+      "Jamais, il/elle partagerait le mérite",
+      "Il/elle la présenterait comme un effort d'équipe"
+    ]
+  },
+  {
+    "id": 307,
+    "category": "moneyPower",
+    "question": "Si {name} gagnait au loto, à qui le dirait-il/elle en premier ?",
+    "answers": [
+      "Son/sa meilleur(e) ami(e) immédiatement",
+      "Sa famille tout de suite",
+      "Personne, il/elle garderait le secret total",
+      "Un conseiller financier avant quiconque"
+    ]
+  },
+  {
+    "id": 308,
+    "category": "moneyPower",
+    "question": "{name} vivrait-il/elle en isolement total pendant 5 ans en échange de 10 millions d'euros ?",
+    "answers": [
+      "Oui, cet argent changerait sa vie",
+      "Seulement s'il/elle pouvait emmener une personne",
+      "Jamais, cinq ans c'est trop à sacrifier",
+      "Il/elle négocierait pour une durée plus courte"
+    ]
+  },
+  {
+    "id": 309,
+    "category": "moneyPower",
+    "question": "Si {name} pouvait lire les mails de son boss pendant une semaine, le ferait-il/elle ?",
+    "answers": [
+      "Absolument, le savoir c'est le pouvoir",
+      "Seulement s'il n'y a aucun risque de se faire prendre",
+      "Non, ça dépasse les limites",
+      "Seulement pour vérifier si on parle de lui/elle"
+    ]
+  },
+  {
+    "id": 310,
+    "category": "moneyPower",
+    "question": "{name} renoncerait-il/elle à son smartphone pendant un an pour 50 000 € ?",
+    "answers": [
+      "Facile oui, donnez-moi l'argent",
+      "Peut-être, mais ce serait vraiment dur",
+      "Pas question, son téléphone c'est sa vie",
+      "Seulement s'il/elle peut utiliser un téléphone basique pour appeler"
+    ]
+  },
+  {
+    "id": 311,
+    "category": "moneyPower",
+    "question": "Si {name} devait choisir entre le pouvoir avec des ennemis ou l'anonymat avec la paix, que choisirait-il/elle ?",
+    "answers": [
+      "Le pouvoir, les ennemis font partie du jeu",
+      "La paix, il/elle préfère être inconnu(e) et heureux(se)",
+      "Le pouvoir, mais en essayant de convertir les ennemis en alliés",
+      "La paix, mais avec un regret secret de ne pas avoir d'influence"
+    ]
+  },
+  {
+    "id": 312,
+    "category": "moneyPower",
+    "question": "{name} vendrait-il/elle une photo gênante de lui/elle pour 25 000 € ?",
+    "answers": [
+      "Direct, tout le monde a des photos gênantes",
+      "Ça dépend du niveau de gêne",
+      "Jamais, sa réputation vaut plus que ça",
+      "Seulement s'il/elle peut contrôler qui la voit"
+    ]
+  },
+  {
+    "id": 313,
+    "category": "moneyPower",
+    "question": "Si {name} pouvait effacer une erreur financière de son passé, ce serait quoi ?",
+    "answers": [
+      "Un achat impulsif qu'il/elle regrette profondément",
+      "Avoir prêté de l'argent à quelqu'un qui n'a jamais remboursé",
+      "Ne pas avoir investi ou épargné plus tôt",
+      "Avoir trop dépensé pour un voyage ou une expérience"
+    ]
+  },
+  {
+    "id": 314,
+    "category": "moneyPower",
+    "question": "{name} préférerait-il/elle être le plus riche d'un petit village ou classe moyenne dans une grande ville ?",
+    "answers": [
+      "Le plus riche du village, le statut compte",
+      "Classe moyenne en grande ville, pour le mode de vie",
+      "Riche au village, il/elle adore être un gros poisson",
+      "Classe moyenne en ville, l'anonymat c'est la liberté"
+    ]
+  },
+  {
+    "id": 315,
+    "category": "moneyPower",
+    "question": "Si {name} devait choisir un business moralement douteux, lequel choisirait-il/elle ?",
+    "answers": [
+      "Revendre des articles limités avec de grosses marges",
+      "Écrire de faux avis positifs pour des commerces",
+      "Être photographe paparazzi",
+      "Gérer une page de contenu clickbait"
+    ]
+  },
+  {
+    "id": 316,
+    "category": "moneyPower",
+    "question": "{name} renoncerait-il/elle à sa meilleure amitié pour un succès professionnel garanti ?",
+    "answers": [
+      "Oui, la carrière c'est pour toujours, les amitiés changent",
+      "Jamais, les amis comptent plus que n'importe quel job",
+      "Seulement si le succès était vraiment extraordinaire",
+      "Il/elle essaierait de négocier pour garder les deux"
+    ]
+  },
+  {
+    "id": 317,
+    "category": "moneyPower",
+    "question": "Si {name} découvrait qu'une entreprise est non éthique mais lui proposait son job de rêve, accepterait-il/elle ?",
+    "answers": [
+      "Oui, et essayer de changer les choses de l'intérieur",
+      "Oui, un job de rêve c'est un job de rêve",
+      "Non, les principes d'abord",
+      "Seulement si personne ne le jugerait pour ça"
+    ]
+  },
+  {
+    "id": 318,
+    "category": "moneyPower",
+    "question": "{name} préférerait-il/elle un job qu'il/elle adore mais mal payé ou un job ennuyeux avec un gros salaire ?",
+    "answers": [
+      "Adorer son job, l'argent n'est pas tout",
+      "Gros salaire, il/elle trouvera du plaisir en dehors du travail",
+      "Adorer son job, tant que les factures sont payées",
+      "Gros salaire, il/elle prendrait une retraite anticipée"
+    ]
+  },
+  {
+    "id": 319,
+    "category": "moneyPower",
+    "question": "Si {name} pouvait imposer une taxe à tout le monde, ce serait quoi ?",
+    "answers": [
+      "Une taxe sur l'impolitesse en public",
+      "Une taxe sur les réunions inutiles",
+      "Une taxe sur le spoil de films ou séries",
+      "Une taxe sur la musique en haut-parleur dans les lieux publics"
+    ]
+  },
+  {
+    "id": 320,
+    "category": "moneyPower",
+    "question": "{name} accepterait-il/elle un deal où il/elle reçoit 1 million mais son pire ennemi en reçoit 2 ?",
+    "answers": [
+      "Oui, de l'argent gratuit c'est de l'argent gratuit",
+      "Non, il/elle ne supporte pas que l'ennemi gagne plus",
+      "Oui, mais ça l'énerverait",
+      "Non, il/elle préfère que personne n'ait rien"
+    ]
+  },
+  {
+    "id": 321,
+    "category": "darkSecrets",
+    "question": "Que cache probablement {name} à ses amis ?",
+    "answers": [
+      "Un compte secret sur les réseaux sociaux",
+      "Une série inavouable qu'il/elle regarde",
+      "Un intérêt amoureux que personne ne connaît",
+      "Une collection dont il/elle a honte"
+    ]
+  },
+  {
+    "id": 322,
+    "category": "darkSecrets",
+    "question": "Que {name} n'admettrait-il/elle jamais avoir fait ?",
+    "answers": [
+      "Stalker un(e) ex en ligne pendant des heures",
+      "Mentir sur son CV",
+      "Faire semblant d'être malade pour éviter des plans",
+      "Lire les messages privés de quelqu'un"
+    ]
+  },
+  {
+    "id": 323,
+    "category": "darkSecrets",
+    "question": "Quelle est la peur secrète la plus gênante de {name} ?",
+    "answers": [
+      "Être filmé(e) en train de faire un truc bizarre",
+      "Que quelqu'un trouve son historique de recherche",
+      "Que ses parents lisent ses textos",
+      "Se faire attraper en train de parler tout(e) seul(e)"
+    ]
+  },
+  {
+    "id": 324,
+    "category": "darkSecrets",
+    "question": "Quelle est la pire chose que {name} ait faite sans se faire prendre ?",
+    "answers": [
+      "Accuser quelqu'un d'autre pour sa propre erreur",
+      "Ghoster une personne vraiment sympa",
+      "Voler quelque chose de petit",
+      "Répandre une rumeur qu'il/elle savait être fausse"
+    ]
+  },
+  {
+    "id": 325,
+    "category": "darkSecrets",
+    "question": "Si l'historique de navigation de {name} fuitait, quelle serait la trouvaille la plus choquante ?",
+    "answers": [
+      "Stalker obsessionnellement un(e) ex",
+      "Des recherches de symptômes médicaux bizarres",
+      "Des fanfictions gênantes",
+      "Des tutos pour des trucs ridicules"
+    ]
+  },
+  {
+    "id": 326,
+    "category": "darkSecrets",
+    "question": "Quel mensonge {name} raconte-t-il/elle le plus souvent ?",
+    "answers": [
+      "« J'arrive ! »",
+      "« Ça va, je suis juste fatigué(e) »",
+      "« J'avais pas vu ton message »",
+      "« J'ai pris qu'un seul verre »"
+    ]
+  },
+  {
+    "id": 327,
+    "category": "darkSecrets",
+    "question": "Quel hobby secret {name} pratique-t-il/elle quand il/elle est seul(e) ?",
+    "answers": [
+      "Donner des concerts entiers devant le miroir",
+      "Avoir des disputes imaginaires qu'il/elle gagne toujours",
+      "Répéter des discours de remerciement",
+      "Chorégraphier des danses sur de la pop"
+    ]
+  },
+  {
+    "id": 328,
+    "category": "darkSecrets",
+    "question": "Quelle est la chose la plus mesquine que {name} ait faite ?",
+    "answers": [
+      "Se désabonner de quelqu'un pour un désaccord mineur",
+      "Laisser quelqu'un en « vu » par vengeance",
+      "Mettre un avis une étoile pour rien",
+      "Reprendre un cadeau après une dispute"
+    ]
+  },
+  {
+    "id": 329,
+    "category": "darkSecrets",
+    "question": "Pour quoi {name} juge-t-il/elle secrètement les autres ?",
+    "answers": [
+      "Leurs goûts musicaux",
+      "Leur façon de manger",
+      "Leurs choix amoureux",
+      "Leurs publications sur les réseaux sociaux"
+    ]
+  },
+  {
+    "id": 330,
+    "category": "darkSecrets",
+    "question": "Que confesserait {name} dans un cercle de vérité sans conséquences ?",
+    "answers": [
+      "Il/elle a simulé un trait de personnalité entier",
+      "Il/elle n'aime secrètement pas quelqu'un du groupe",
+      "Il/elle a menti sur l'endroit où il/elle était",
+      "Il/elle a fait semblant d'aimer un cadeau qu'il/elle détestait"
+    ]
+  },
+  {
+    "id": 331,
+    "category": "darkSecrets",
+    "question": "Quelle est la pensée la plus sombre de {name} qu'il/elle ne dirait jamais à voix haute ?",
+    "answers": [
+      "Rêver de tout recommencer dans une nouvelle ville",
+      "Imaginer tout plaquer et disparaître",
+      "Espérer secrètement que quelqu'un échoue",
+      "Penser être meilleur(e) que la plupart des gens"
+    ]
+  },
+  {
+    "id": 332,
+    "category": "darkSecrets",
+    "question": "Pour quoi {name} a-t-il/elle sûrement pleuré en cachette ?",
+    "answers": [
+      "La fin d'un film ou d'une série",
+      "Un texto d'un(e) ex",
+      "Se sentir exclu(e) par ses amis",
+      "Une vidéo motivante à 2h du matin"
+    ]
+  },
+  {
+    "id": 333,
+    "category": "darkSecrets",
+    "question": "Que fait {name} dont il/elle mourrait si quelqu'un le découvrait ?",
+    "answers": [
+      "Parler à ses animaux comme si c'étaient des humains",
+      "S'entraîner à draguer devant le miroir",
+      "Revoir ses propres stories et selfies",
+      "Dormir avec une peluche"
+    ]
+  },
+  {
+    "id": 334,
+    "category": "darkSecrets",
+    "question": "Quelle est la chose la plus manipulatrice que {name} ait faite ?",
+    "answers": [
+      "Utiliser les larmes pour gagner une dispute",
+      "Monter deux personnes l'une contre l'autre",
+      "Culpabiliser quelqu'un pour qu'il fasse quelque chose",
+      "Faire semblant de ne pas comprendre alors que si"
+    ]
+  },
+  {
+    "id": 335,
+    "category": "darkSecrets",
+    "question": "Quel trait toxique {name} connaît-il/elle parfaitement mais refuse de corriger ?",
+    "answers": [
+      "Être émotionnellement indisponible",
+      "Toujours avoir besoin d'avoir raison",
+      "Être jaloux(se) mais le cacher",
+      "Parler dans le dos des gens"
+    ]
+  },
+  {
+    "id": 336,
+    "category": "darkSecrets",
+    "question": "Quel est le plus gros secret que {name} cache à sa famille ?",
+    "answers": [
+      "Combien d'argent il/elle a réellement dépensé",
+      "Une relation dont sa famille ne sait rien",
+      "Ses vrais plans de carrière",
+      "Un truc dingue fait en voyage"
+    ]
+  },
+  {
+    "id": 337,
+    "category": "darkSecrets",
+    "question": "Sur quoi {name} a-t-il/elle fait semblant de s'y connaître alors que pas du tout ?",
+    "answers": [
+      "Les vins et les cocktails",
+      "Une série populaire dont tout le monde parle",
+      "Comment marchent les impôts et les finances",
+      "La situation actuelle d'un(e) ami(e)"
+    ]
+  },
+  {
+    "id": 338,
+    "category": "darkSecrets",
+    "question": "Quel est le secret que {name} a gardé le plus longtemps ?",
+    "answers": [
+      "Un crush qui a duré des années",
+      "Quelque chose de gênant de l'enfance",
+      "Une amitié qui s'est secrètement terminée",
+      "Un échec qu'il/elle a dissimulé"
+    ]
+  },
+  {
+    "id": 339,
+    "category": "darkSecrets",
+    "question": "Avec un passe-droit sans jugement, qu'admettrait {name} ?",
+    "answers": [
+      "Avoir écouté une conversation privée",
+      "Avoir fouillé dans le téléphone de quelqu'un",
+      "Avoir menti sur ses sentiments pour quelqu'un",
+      "S'être attribué le mérite de l'idée de quelqu'un d'autre"
+    ]
+  },
+  {
+    "id": 340,
+    "category": "darkSecrets",
+    "question": "Quel souvenir ultra gênant empêche {name} de dormir la nuit ?",
+    "answers": [
+      "Un texto gênant envoyé à la mauvaise personne",
+      "Une humiliation publique à l'école ou au travail",
+      "Une tentative de drague ratée",
+      "Un truc idiot dit devant son crush"
+    ]
+  },
+  {
+    "id": 341,
+    "category": "bodyCount",
+    "question": "Combien de personnes {name} a-t-il/elle embrassées ?",
+    "answers": [
+      "Moins de 5",
+      "Entre 5 et 10",
+      "Entre 10 et 20",
+      "Plus de 20"
+    ]
+  },
+  {
+    "id": 342,
+    "category": "bodyCount",
+    "question": "Quel est le plus gros red flag en rencontre que {name} ignore ?",
+    "answers": [
+      "Il/elle tombe amoureux(se) trop vite",
+      "Il/elle ghoste au lieu de communiquer",
+      "Il/elle est toujours attiré(e) par le mauvais type",
+      "Il/elle en dit trop au premier rendez-vous"
+    ]
+  },
+  {
+    "id": 343,
+    "category": "bodyCount",
+    "question": "Combien de personnes {name} a-t-il/elle fréquentées en même temps sans qu'elles le sachent ?",
+    "answers": [
+      "Zéro, il/elle est fidèle à un défaut",
+      "Deux, juste pour tester les eaux",
+      "Trois ou plus, il/elle aime les options",
+      "Il/elle a perdu le compte honnêtement"
+    ]
+  },
+  {
+    "id": 344,
+    "category": "bodyCount",
+    "question": "Quelle est la relation la plus courte qu'ait eue {name} ?",
+    "answers": [
+      "Une seule nuit",
+      "Moins d'une semaine",
+      "Environ un mois",
+      "Quelques mois avant de fuir"
+    ]
+  },
+  {
+    "id": 345,
+    "category": "bodyCount",
+    "question": "Combien de fois {name} est-il/elle retourné(e) avec un(e) ex ?",
+    "answers": [
+      "Jamais, il/elle a du respect pour soi",
+      "Une fois, et il/elle l'a regretté",
+      "Deux fois, parce qu'il/elle n'apprend jamais",
+      "Il/elle a perdu le compte des allers-retours"
+    ]
+  },
+  {
+    "id": 346,
+    "category": "bodyCount",
+    "question": "Quel est l'endroit le plus douteux où {name} a eu un rapprochement intime ?",
+    "answers": [
+      "Une voiture sur un parking",
+      "En soirée avec des gens pas loin",
+      "Des toilettes publiques",
+      "Chez les parents pendant que la famille était là"
+    ]
+  },
+  {
+    "id": 347,
+    "category": "bodyCount",
+    "question": "Comment {name} rencontre-t-il/elle habituellement les personnes qu'il/elle fréquente ?",
+    "answers": [
+      "Les applis de rencontre, toujours en train de swiper",
+      "Par des amis en commun",
+      "Des rencontres au hasard en public",
+      "En glissant dans les DM"
+    ]
+  },
+  {
+    "id": 348,
+    "category": "bodyCount",
+    "question": "Quelle est la plus grande différence d'âge que {name} ait eue en couple ?",
+    "answers": [
+      "1-2 ans, il/elle reste proche",
+      "3-5 ans, un écart raisonnable",
+      "6-10 ans, il/elle aime l'expérience",
+      "Plus de 10 ans"
+    ]
+  },
+  {
+    "id": 349,
+    "category": "bodyCount",
+    "question": "Combien de personnes {name} a-t-il/elle fait mariner sans intention de sortir avec ?",
+    "answers": [
+      "Aucune, il/elle est toujours franc(he)",
+      "Une ou deux, accidentellement",
+      "Quelques-unes, il/elle aime l'attention",
+      "Trop pour les compter"
+    ]
+  },
+  {
+    "id": 350,
+    "category": "bodyCount",
+    "question": "Quel est le plus vite que {name} ait dit « je t'aime » en couple ?",
+    "answers": [
+      "Dans la première semaine",
+      "Dans le premier mois",
+      "Après quelques mois",
+      "Il/elle ne l'a jamais dit en premier"
+    ]
+  },
+  {
+    "id": 351,
+    "category": "bodyCount",
+    "question": "Combien de personnes sont dans la catégorie « presque sorti avec » de {name} ?",
+    "answers": [
+      "Juste une personne spéciale",
+      "Quelques situationships",
+      "Cinq ou plus d'occasions manquées",
+      "Tout un roster de « presque »"
+    ]
+  },
+  {
+    "id": 352,
+    "category": "bodyCount",
+    "question": "Quel est le record de matchs de {name} sur une appli de rencontre en un jour ?",
+    "answers": [
+      "Il/elle n'utilise pas les applis de rencontre",
+      "Une poignée, peut-être 5",
+      "Facilement à deux chiffres",
+      "Tellement que l'appli l'a probablement signalé(e)"
+    ]
+  },
+  {
+    "id": 353,
+    "category": "bodyCount",
+    "question": "Combien de premiers rendez-vous {name} a-t-il/elle eus cette dernière année ?",
+    "answers": [
+      "Zéro, il/elle n'est plus sur le marché",
+      "Un ou deux, il/elle est sélectif(ve)",
+      "Cinq à dix, il/elle joue le terrain",
+      "Il/elle a perdu le compte"
+    ]
+  },
+  {
+    "id": 354,
+    "category": "bodyCount",
+    "question": "Combien de personnes {name} a-t-il/elle ghostées ?",
+    "answers": [
+      "Aucune, il/elle s'explique toujours",
+      "Une, et il/elle s'en est voulu",
+      "Quelques-unes, c'est plus simple comme ça",
+      "Plus qu'il/elle n'en est fier/fière"
+    ]
+  },
+  {
+    "id": 355,
+    "category": "bodyCount",
+    "question": "Quelle est la façon la plus folle dont {name} s'est fait draguer ?",
+    "answers": [
+      "Un grand geste dramatique en public",
+      "Une déclaration en soirée sous l'effet de l'alcool",
+      "Par un ami comme intermédiaire",
+      "Un DM audacieux sorti de nulle part"
+    ]
+  },
+  {
+    "id": 356,
+    "category": "bodyCount",
+    "question": "Combien de personnes {name} a-t-il/elle enregistrées sous un faux nom dans son téléphone ?",
+    "answers": [
+      "Zéro, il/elle est un livre ouvert",
+      "Une, le contact interdit",
+      "Deux ou trois, juste au cas où",
+      "Sa liste de contacts est pleine de noms de code"
+    ]
+  },
+  {
+    "id": 357,
+    "category": "bodyCount",
+    "question": "Quelle est la plus longue période sans fréquenter quelqu'un pour {name} ?",
+    "answers": [
+      "Quelques semaines max",
+      "Quelques mois",
+      "Environ un an",
+      "Plusieurs années en solo"
+    ]
+  },
+  {
+    "id": 358,
+    "category": "bodyCount",
+    "question": "Combien de personnes {name} a-t-il/elle fréquentées secrètement sans que personne ne le sache ?",
+    "answers": [
+      "Zéro, sa vie est un livre ouvert",
+      "Une rencontre mystérieuse",
+      "Quelques chapitres cachés",
+      "Assez pour écrire un mémoire"
+    ]
+  },
+  {
+    "id": 359,
+    "category": "bodyCount",
+    "question": "Combien d'ex {name} suit-il/elle encore sur les réseaux ?",
+    "answers": [
+      "Aucun(e), rupture nette à chaque fois",
+      "Un(e), celui/celle qui s'est échappé(e)",
+      "La plupart, sans rancune",
+      "Tous/toutes, pour la veille stratégique"
+    ]
+  },
+  {
+    "id": 360,
+    "category": "bodyCount",
+    "question": "Quel est le maximum de rendez-vous que {name} a eus en une seule semaine ?",
+    "answers": [
+      "Un, il/elle ne se presse pas",
+      "Deux ou trois, bien occupé(e)",
+      "Quatre ou cinq, speedrun de la romance",
+      "Un pour chaque jour de la semaine"
+    ]
+  },
+  {
+    "id": 361,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà envoyé un texto risqué et l'a immédiatement regretté ?",
+    "answers": [
+      "Oui, et il/elle l'a supprimé en panique",
+      "Oui, mais il/elle l'a assumé avec assurance",
+      "Non, il/elle réfléchit toujours avant d'envoyer",
+      "Non, mais il/elle en a tapé et effacé une centaine"
+    ]
+  },
+  {
+    "id": 362,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà fait semblant de ne pas voir quelqu'un pour éviter de lui parler ?",
+    "answers": [
+      "Oui, il/elle s'est caché(e) derrière un rayon",
+      "Oui, il/elle s'est soudainement passionné(e) pour son téléphone",
+      "Non, il/elle dit toujours bonjour même quand il/elle n'en a pas envie",
+      "Non, c'est lui/elle qui court après les gens pour papoter"
+    ]
+  },
+  {
+    "id": 363,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà menti en disant être occupé(e) pour éviter de sortir ?",
+    "answers": [
+      "Oui, il/elle a toute une bibliothèque de fausses excuses",
+      "Oui, mais seulement quand il/elle a vraiment besoin d'être seul(e)",
+      "Non, il/elle se sentirait trop coupable de mentir",
+      "Non, il/elle préfère dire qu'il/elle n'en a pas envie"
+    ]
+  },
+  {
+    "id": 364,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà mangé de la nourriture clairement étiquetée au nom de quelqu'un d'autre ?",
+    "answers": [
+      "Oui, et il/elle le referait",
+      "Oui, mais il/elle l'a remplacée avant que quelqu'un ne remarque",
+      "Non, il/elle respecte les règles sacrées du frigo",
+      "Non, mais il/elle a été très tenté(e)"
+    ]
+  },
+  {
+    "id": 365,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà pleuré devant un film en essayant de le cacher ?",
+    "answers": [
+      "Oui, larmes furtives à chaque fois",
+      "Oui, mais il/elle s'est fait griller et l'a assumé",
+      "Non, il/elle sanglote ouvertement sans honte",
+      "Non, il/elle est émotionnellement immunisé(e) contre les films"
+    ]
+  },
+  {
+    "id": 366,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà passé au drive à pied ?",
+    "answers": [
+      "Oui, et c'était une soirée légendaire",
+      "Oui, mais on l'a refoulé(e)",
+      "Non, il/elle a trop de dignité pour ça",
+      "Non, mais il/elle y a clairement pensé"
+    ]
+  },
+  {
+    "id": 367,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà eu une conversation entière avec l'animal de quelqu'un en ignorant le propriétaire ?",
+    "answers": [
+      "Oui, l'animal était plus intéressant",
+      "Oui, et il/elle a demandé le nom de l'animal mais pas celui du maître",
+      "Non, il/elle parle d'abord à l'humain comme une personne normale",
+      "Non, il/elle n'est pas vraiment fan des animaux"
+    ]
+  },
+  {
+    "id": 368,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà liké accidentellement une vieille photo en stalkant quelqu'un ?",
+    "answers": [
+      "Oui, et il/elle a paniqué et déliker immédiatement",
+      "Oui, et il/elle l'a laissé pour affirmer sa dominance",
+      "Non, il/elle stalke avec une précision chirurgicale",
+      "Non, il/elle ne stalke pas en ligne... apparemment"
+    ]
+  },
+  {
+    "id": 369,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà quitté un magasin sans rien acheter en se sentant comme un criminel ?",
+    "answers": [
+      "Oui, il/elle est sorti(e) de façon exagérément décontractée",
+      "Oui, il/elle a même montré ses mains vides au vigile",
+      "Non, il/elle achète toujours un petit truc par culpabilité",
+      "Non, il/elle sort comme si le magasin lui appartenait"
+    ]
+  },
+  {
+    "id": 370,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà fait coucou à quelqu'un qui ne lui faisait pas signe ?",
+    "answers": [
+      "Oui, et il/elle a fait semblant de se gratter la tête",
+      "Oui, et il/elle en est mort(e) de honte pour le reste de la journée",
+      "Non, il/elle vérifie toujours derrière lui/elle d'abord",
+      "Non, il/elle ne fait jamais coucou à personne"
+    ]
+  },
+  {
+    "id": 371,
+    "category": "neverHaveIEver",
+    "question": "{name} s'est-il/elle déjà fait surprendre à parler tout(e) seul(e) en public ?",
+    "answers": [
+      "Oui, et il/elle a fait semblant d'être au téléphone",
+      "Oui, et il/elle a continué comme si de rien n'était",
+      "Non, il/elle garde les monologues pour la maison",
+      "Non, il/elle ne le fait que dans la voiture"
+    ]
+  },
+  {
+    "id": 372,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà gardé un secret pendant plus d'un an ?",
+    "answers": [
+      "Oui, il/elle est un coffre-fort à secrets",
+      "Oui, mais ça le/la rongeait de l'intérieur",
+      "Non, il/elle craque sous la pression en quelques semaines",
+      "Non, il/elle balance tout immédiatement"
+    ]
+  },
+  {
+    "id": 373,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà fait semblant de s'y connaître sur un sujet devant un groupe ?",
+    "answers": [
+      "Oui, et il/elle a parfaitement assuré",
+      "Oui, mais quelqu'un l'a démasqué(e)",
+      "Non, il/elle admet librement quand il/elle ne sait pas",
+      "Non, il/elle reste silencieux(se) pour ne pas se faire griller"
+    ]
+  },
+  {
+    "id": 374,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà passé une nuit blanche à binger une série ?",
+    "answers": [
+      "Oui, plusieurs fois et il/elle le referait",
+      "Oui, une fois, et il/elle l'a regretté le lendemain",
+      "Non, il/elle a trop d'autodiscipline",
+      "Non, il/elle s'endort dès le troisième épisode"
+    ]
+  },
+  {
+    "id": 375,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà ri pour quelque chose qui n'était absolument pas drôle ?",
+    "answers": [
+      "Oui, le rire nerveux est sa malédiction",
+      "Oui, et ça a rendu la situation encore plus gênante",
+      "Non, il/elle a un poker face parfait",
+      "Non, mais il/elle a souri poliment devant des blagues nulles"
+    ]
+  },
+  {
+    "id": 376,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà jeté un plat plutôt que de le laver ?",
+    "answers": [
+      "Oui, le plat était irrécupérable",
+      "Oui, c'était plus simple que de gérer le carnage",
+      "Non, jamais il/elle ne gâcherait un bon plat",
+      "Non, mais il/elle l'a laissé tremper pendant des jours en faisant semblant de vouloir le laver"
+    ]
+  },
+  {
+    "id": 377,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà fait pipi dans une piscine ou dans la mer ?",
+    "answers": [
+      "Oui, dans la piscine, et zéro culpabilité",
+      "Oui, dans la mer, parce que c'est les toilettes de la nature",
+      "Non, c'est absolument dégoûtant pour lui/elle",
+      "Sans commentaire, et ce silence en dit long"
+    ]
+  },
+  {
+    "id": 378,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà accusé quelqu'un d'autre pour un pet ?",
+    "answers": [
+      "Oui, et l'autre personne s'est fait accuser",
+      "Oui, il/elle a accusé le chien ou un enfant",
+      "Non, il/elle assume ses fonctions corporelles",
+      "Non, il/elle est du genre à quitter la pièce en silence"
+    ]
+  },
+  {
+    "id": 379,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà re-offert un cadeau qu'il/elle avait reçu ?",
+    "answers": [
+      "Oui, et la personne d'origine ne l'a jamais su",
+      "Oui, et il/elle s'est fait prendre la main dans le sac",
+      "Non, il/elle garde tout par sentimentalisme",
+      "Non, mais il/elle a clairement donné des cadeaux non voulus"
+    ]
+  },
+  {
+    "id": 380,
+    "category": "neverHaveIEver",
+    "question": "{name} a-t-il/elle déjà attendu un temps gênamment long avant de faire sa lessive ?",
+    "answers": [
+      "Oui, il/elle a retourné ses sous-vêtements à l'envers",
+      "Oui, il/elle a acheté de nouveaux vêtements au lieu de laver",
+      "Non, il/elle a un planning de lessive strict",
+      "Non, mais il/elle a porté le même jean beaucoup trop longtemps"
+    ]
+  },
+  {
+    "id": 381,
+    "category": "afterDark",
+    "question": "Quel est le truc qui excite secrètement {name} et qui surprendrait tout le monde ?",
+    "answers": [
+      "Se faire commander",
+      "Le dirty talk dans une autre langue",
+      "Quelqu'un qui cuisine pour lui/elle",
+      "L'intelligence et les mots compliqués"
+    ]
+  },
+  {
+    "id": 382,
+    "category": "afterDark",
+    "question": "Quel est le plus gros tue-l'amour de {name} au lit ?",
+    "answers": [
+      "La mauvaise hygiène, stop immédiat",
+      "Le silence total, il/elle a besoin de bruit",
+      "Quelqu'un qui ne prend pas les indications",
+      "Un téléphone qui sonne en pleine action"
+    ]
+  },
+  {
+    "id": 383,
+    "category": "afterDark",
+    "question": "Où {name} rêve-t-il/elle secrètement de faire l'amour mais ne l'a pas encore fait ?",
+    "answers": [
+      "Sur un toit sous les étoiles",
+      "Dans un hôtel avec une vue incroyable",
+      "Dans une cabine d'essayage",
+      "Sur une plage la nuit"
+    ]
+  },
+  {
+    "id": 384,
+    "category": "afterDark",
+    "question": "Quel serait probablement le mot de sécurité de {name} ?",
+    "answers": [
+      "Un fruit au hasard comme « ananas »",
+      "Un truc hilarant comme « impôts »",
+      "Il/elle n'en aurait pas besoin, il/elle est sage",
+      "Un truc dramatique comme « Excalibur »"
+    ]
+  },
+  {
+    "id": 385,
+    "category": "afterDark",
+    "question": "À quel point {name} est-il/elle aventureux(se) au lit ?",
+    "answers": [
+      "Strictement vanille et fier/fière de l'être",
+      "Vanille avec quelques pépites",
+      "Prêt(e) à essayer presque tout une fois",
+      "Il/elle a écrit le guide de l'aventure"
+    ]
+  },
+  {
+    "id": 386,
+    "category": "afterDark",
+    "question": "Qu'y a-t-il probablement sur la checklist secrète de fantasmes de {name} ?",
+    "answers": [
+      "Un jeu de rôle avec scénario précis",
+      "Ajouter une troisième personne",
+      "Être attaché(e) ou attacher quelqu'un",
+      "Le faire dans un endroit public risqué"
+    ]
+  },
+  {
+    "id": 387,
+    "category": "afterDark",
+    "question": "Combien de temps les préliminaires idéaux devraient-ils durer selon {name} ?",
+    "answers": [
+      "On zappe, droit au but",
+      "10-15 minutes c'est parfait",
+      "Au moins 30 minutes de montée en tension",
+      "Des heures, le teasing c'est tout le plaisir"
+    ]
+  },
+  {
+    "id": 388,
+    "category": "afterDark",
+    "question": "À quel moment de la journée {name} est-il/elle le plus d'humeur ?",
+    "answers": [
+      "Dès le réveil le matin",
+      "Un après-midi paresseux",
+      "Tard le soir dans le noir",
+      "Après quelques verres au dîner"
+    ]
+  },
+  {
+    "id": 389,
+    "category": "afterDark",
+    "question": "Quelle note {name} se donnerait-il/elle au lit ?",
+    "answers": [
+      "Un humble 6, avec une marge de progression",
+      "Un confiant 8, il/elle sait ce qu'il/elle fait",
+      "Un solide 10, aucune plainte reçue",
+      "Il/elle refuse de s'auto-noter, mais son regard dit 10"
+    ]
+  },
+  {
+    "id": 390,
+    "category": "afterDark",
+    "question": "Quelle est la technique de {name} pour mettre l'ambiance ?",
+    "answers": [
+      "Lumières tamisées et playlist sélectionnée",
+      "Un murmure audacieux à l'oreille",
+      "Préparer un dîner et ouvrir une bouteille de vin",
+      "Juste un regard, pas besoin de mots"
+    ]
+  },
+  {
+    "id": 391,
+    "category": "afterDark",
+    "question": "Avec combien de personnes {name} a-t-il/elle vraiment couché ?",
+    "answers": [
+      "Moins de 3",
+      "Entre 3 et 10",
+      "Entre 10 et 20",
+      "Il/elle a arrêté de compter depuis un moment"
+    ]
+  },
+  {
+    "id": 392,
+    "category": "afterDark",
+    "question": "Dans quel type de sous-vêtement {name} se sent-il/elle secrètement le plus sexy ?",
+    "answers": [
+      "Classique et simple, moins c'est plus",
+      "En dentelle ou en soie, sensation de luxe",
+      "Couleurs vives ou motifs, pour affirmer son style",
+      "Rien du tout, la liberté c'est le vibe"
+    ]
+  },
+  {
+    "id": 393,
+    "category": "afterDark",
+    "question": "Que murmurerait probablement {name} dans un moment intime ?",
+    "answers": [
+      "Quelque chose d'étonnamment romantique",
+      "Quelque chose d'hilarant et inapproprié",
+      "Des instructions explicites sur ce qu'il/elle veut",
+      "Rien, il/elle laisse les actes parler"
+    ]
+  },
+  {
+    "id": 394,
+    "category": "afterDark",
+    "question": "Que pense {name} du sexting ?",
+    "answers": [
+      "Niveau expert, il/elle pourrait écrire un manuel",
+      "Enthousiaste mais parfois maladroit(e)",
+      "Seulement avec quelqu'un en qui il/elle a totalement confiance",
+      "Absolument pas, trop de preuves"
+    ]
+  },
+  {
+    "id": 395,
+    "category": "afterDark",
+    "question": "Que pense {name} de la conversation du lendemain matin ?",
+    "answers": [
+      "Il/elle adore un petit débrief devant un petit-déj",
+      "Il/elle fait semblant de dormir jusqu'à ce que l'autre parte",
+      "Il/elle est déjà en train de commander à manger sur son téléphone",
+      "Il/elle est parti(e) avant le lever du soleil"
+    ]
+  },
+  {
+    "id": 396,
+    "category": "afterDark",
+    "question": "Que proposerait {name} pour pimenter une relation longue durée ?",
+    "answers": [
+      "Des soirées surprises et de la lingerie",
+      "De nouveaux jouets et accessoires",
+      "Un week-end spontané en escapade",
+      "Une conversation ouverte sur les fantasmes"
+    ]
+  },
+  {
+    "id": 397,
+    "category": "afterDark",
+    "question": "À quelle vitesse {name} coucherait-il/elle avec quelqu'un qui l'attire vraiment ?",
+    "answers": [
+      "Premier rendez-vous si le feeling est là",
+      "Au troisième rendez-vous, la règle classique",
+      "Seulement une fois en couple officiellement",
+      "Il/elle ferait attendre pour créer la tension"
+    ]
+  },
+  {
+    "id": 398,
+    "category": "afterDark",
+    "question": "Quel est le contenu coupable favori de {name} en ligne ?",
+    "answers": [
+      "Des romans d'amour torrides et des fanfictions",
+      "Des vidéos ASMR suggestives",
+      "Des subreddits et forums épicés",
+      "Des thirst traps sur les réseaux sociaux"
+    ]
+  },
+  {
+    "id": 399,
+    "category": "afterDark",
+    "question": "Que pense {name} de coucher avec un(e) ami(e) ?",
+    "answers": [
+      "Absolument pas, trop à perdre",
+      "Déjà fait, c'est du passé",
+      "Seulement si zéro sentiment est impliqué",
+      "C'est le mieux, on se connaît déjà"
+    ]
+  },
+  {
+    "id": 400,
+    "category": "afterDark",
+    "question": "Quelle tenue {name} trouverait-il/elle la plus attirante chez un(e) partenaire ?",
+    "answers": [
+      "Un costume ou une robe bien ajusté(e)",
+      "Décontracté(e) et naturel(le), genre un t-shirt blanc",
+      "Des vêtements de sport qui mettent le corps en valeur",
+      "Presque rien du tout"
+    ]
+  },
+  {
+    "id": 401,
+    "category": "guilty",
+    "question": "Quel est le plaisir musical coupable de {name} ?",
+    "answers": [
+      "Les boys bands du début des années 2000",
+      "Les power ballades ringardes des années 80",
+      "Les génériques de dessins animés pour enfants",
+      "Les openings dramatiques d'anime"
+    ]
+  },
+  {
+    "id": 402,
+    "category": "guilty",
+    "question": "Que binge-watche secrètement {name} quand personne ne regarde ?",
+    "answers": [
+      "Des émissions de télé-réalité amoureuse",
+      "Des documentaires true crime à 3h du mat",
+      "Des telenovelas",
+      "Des vidéos de mukbang"
+    ]
+  },
+  {
+    "id": 403,
+    "category": "guilty",
+    "question": "Quel plat réconfortant gênant {name} mange-t-il/elle en cachette ?",
+    "answers": [
+      "De la pizza froide trempée dans du ranch au petit-déj",
+      "Des nouilles instantanées avec des tranches de fromage",
+      "Des céréales en guise de dîner de minuit",
+      "Du Nutella mangé directement au pot"
+    ]
+  },
+  {
+    "id": 404,
+    "category": "guilty",
+    "question": "Quelle est l'habitude de coucher la plus cringe de {name} ?",
+    "answers": [
+      "Dormir avec une peluche",
+      "S'endormir devant des films pour enfants",
+      "Se parler à soi-même avant de dormir",
+      "Construire un fort d'oreillers chaque soir"
+    ]
+  },
+  {
+    "id": 405,
+    "category": "guilty",
+    "question": "Que fait {name} quand il/elle pense que personne ne regarde ?",
+    "answers": [
+      "Des concerts complets devant le miroir",
+      "Stalker ses propres profils sur les réseaux",
+      "Avoir des conversations avec son animal comme s'il répondait",
+      "Répéter des discours de remerciement pour des prix imaginaires"
+    ]
+  },
+  {
+    "id": 406,
+    "category": "guilty",
+    "question": "Quelle est l'habitude en ligne la plus gênante de {name} ?",
+    "answers": [
+      "Stalker en profondeur les réseaux de son ex",
+      "Lire des fanfictions",
+      "Regarder des vidéos d'unboxing pendant des heures",
+      "Se disputer avec des inconnus dans les commentaires"
+    ]
+  },
+  {
+    "id": 407,
+    "category": "guilty",
+    "question": "Quel hobby secret {name} serait-il/elle mortifié(e) qu'on découvre ?",
+    "answers": [
+      "Écrire de la poésie dans un carnet caché",
+      "Jouer à se déguiser seul(e) avec différentes tenues",
+      "Collectionner quelque chose de très spécifique",
+      "Faire des loisirs créatifs destinés aux enfants"
+    ]
+  },
+  {
+    "id": 408,
+    "category": "guilty",
+    "question": "De quelle chanson {name} connaît-il/elle secrètement toutes les paroles ?",
+    "answers": [
+      "Barbie Girl d'Aqua",
+      "Baby de Justin Bieber",
+      "MMMBop de Hanson",
+      "Who Let the Dogs Out de Baha Men"
+    ]
+  },
+  {
+    "id": 409,
+    "category": "guilty",
+    "question": "Quelle est l'habitude shopping la plus honteuse de {name} ?",
+    "answers": [
+      "Acheter des trucs de télé-achat à 2h du mat",
+      "Accumuler des vêtements jamais portés",
+      "Acheter impulsivement des gadgets en ligne",
+      "Dépenser beaucoup trop en micro-transactions de jeux mobiles"
+    ]
+  },
+  {
+    "id": 410,
+    "category": "guilty",
+    "question": "Quel truc gênant {name} a-t-il/elle sûrement googlé ?",
+    "answers": [
+      "Comment écrire un mot très basique",
+      "Son propre nom pour voir ce qui sort",
+      "Si une célébrité est célibataire",
+      "Quiz « suis-je normal ? »"
+    ]
+  },
+  {
+    "id": 411,
+    "category": "guilty",
+    "question": "Quelle est la façon la plus cringe de procrastiner de {name} ?",
+    "answers": [
+      "Réorganiser des trucs qui n'en ont pas besoin",
+      "Regarder des compilations de gens qui tombent",
+      "Faire des tests de personnalité en ligne",
+      "Créer des to-do lists élaborées au lieu de faire quoi que ce soit"
+    ]
+  },
+  {
+    "id": 412,
+    "category": "guilty",
+    "question": "Qu'est-ce que {name} serait gêné(e) d'avoir dans son historique de navigation ?",
+    "answers": [
+      "Des auto-diagnostics sur WebMD pour des symptômes mineurs",
+      "Des tutos pour des tâches d'adulte basiques",
+      "Des heures d'articles de potins sur les célébrités",
+      "Des vérifications de compatibilité astrologique"
+    ]
+  },
+  {
+    "id": 413,
+    "category": "guilty",
+    "question": "Quel est le genre de film plaisir coupable de {name} ?",
+    "answers": [
+      "Les films de Noël cucul la praline",
+      "Les films d'horreur fauchés et nuls",
+      "Les comédies romantiques exagérées",
+      "Les films d'action sortis directement en DVD"
+    ]
+  },
+  {
+    "id": 414,
+    "category": "guilty",
+    "question": "Quelle tendance cringe {name} a-t-il/elle secrètement essayée ?",
+    "answers": [
+      "Apprendre une danse TikTok seul(e) dans sa chambre",
+      "Essayer l'ASMR et avoir bien aimé",
+      "Tenter une recette virale qui était dégueu",
+      "Utiliser un filtre pour se voir en sexe opposé beaucoup trop de fois"
+    ]
+  },
+  {
+    "id": 415,
+    "category": "guilty",
+    "question": "Quel truc gênant {name} fait-il/elle en voiture ?",
+    "answers": [
+      "Du karaoké émotionnel avec larmes incluses",
+      "Faire semblant d'être dans un clip",
+      "Avoir des disputes enflammées avec des gens imaginaires",
+      "S'entraîner à draguer dans le rétroviseur"
+    ]
+  },
+  {
+    "id": 416,
+    "category": "guilty",
+    "question": "Quel truc enfantin {name} refuse-t-il/elle d'abandonner ?",
+    "answers": [
+      "Manger des nuggets en forme de dinosaure",
+      "Regarder des dessins animés chaque samedi matin",
+      "Avoir peur du noir",
+      "Commander le menu enfant quand c'est possible"
+    ]
+  },
+  {
+    "id": 417,
+    "category": "guilty",
+    "question": "Quel comportement secret sur les réseaux sociaux {name} pratique-t-il/elle ?",
+    "answers": [
+      "Rédiger des posts dramatiques et les supprimer",
+      "Avoir un faux compte que personne ne connaît, en théorie",
+      "Liker ses propres posts depuis un autre compte",
+      "Faire des captures d'écran de conversations pour les envoyer dans des groupes"
+    ]
+  },
+  {
+    "id": 418,
+    "category": "guilty",
+    "question": "Quelle est la raison la plus gênante pour laquelle {name} a appelé pour dire qu'il/elle était malade ?",
+    "answers": [
+      "Avoir veillé trop tard devant une série",
+      "Vouloir jouer à un jeu vidéo qui venait de sortir",
+      "Avoir un bad hair day impossible à rattraper",
+      "Avoir besoin d'une journée de repos après du drama en ligne"
+    ]
+  },
+  {
+    "id": 419,
+    "category": "guilty",
+    "question": "Quel plaisir coupable {name} s'accorde-t-il/elle un dimanche paresseux ?",
+    "answers": [
+      "Ne pas se doucher jusqu'au soir et l'assumer",
+      "Manger un paquet familial de chips en entier",
+      "Revoir la même série réconfortante pour la centième fois",
+      "Passer toute la journée en peignoir à ne rien faire"
+    ]
+  },
+  {
+    "id": 420,
+    "category": "guilty",
+    "question": "Quel est le truc le plus gênant dans la galerie photo de {name} ?",
+    "answers": [
+      "Des centaines de selfies du même angle",
+      "Des captures d'écran de ses propres textos marrants à relire",
+      "Des photos de repas qui n'étaient même pas bons",
+      "Des citations motivantes enregistrées comme fond d'écran"
+    ]
+  },
+  {
+    "id": 421,
+    "category": "drunkConfessions",
+    "question": "Après 3 verres, qu'admettrait enfin {name} ?",
+    "answers": [
+      "Il/elle a un crush secret pour l'ex d'un(e) ami(e)",
+      "Il/elle pense être le/la plus drôle du groupe",
+      "Il/elle a fait semblant d'être malade pour éviter de sortir",
+      "Il/elle a re-offert un cadeau que quelqu'un dans la pièce lui avait fait"
+    ]
+  },
+  {
+    "id": 422,
+    "category": "drunkConfessions",
+    "question": "Quelle opinion honnête sur le groupe d'amis {name} lâcherait-il/elle après quelques verres ?",
+    "answers": [
+      "Quelqu'un dans le groupe est beaucoup trop dramatique",
+      "Il/elle a un(e) ami(e) préféré(e) et c'est évident",
+      "Il/elle trouve la conversation de groupe agaçante",
+      "Il/elle a mis les notifs du groupe en silencieux depuis longtemps"
+    ]
+  },
+  {
+    "id": 423,
+    "category": "drunkConfessions",
+    "question": "Quelle ambition secrète {name} révélerait-il/elle en état d'ébriété ?",
+    "answers": [
+      "Il/elle veut tout plaquer et partir à l'étranger",
+      "Il/elle pense secrètement qu'il/elle pourrait être célèbre",
+      "Il/elle veut écrire un livre qui dit tout sur sa vie",
+      "Il/elle rêve de quitter son job pour lancer un truc fou"
+    ]
+  },
+  {
+    "id": 424,
+    "category": "drunkConfessions",
+    "question": "Que confesserait {name} penser vraiment à 2h du matin ?",
+    "answers": [
+      "Ce moment gênant d'il y a 7 ans",
+      "Si ses amis l'aiment vraiment",
+      "Une vie alternative où il/elle aurait fait d'autres choix",
+      "Une réplique qu'il/elle aurait dû sortir lors d'une dispute il y a des années"
+    ]
+  },
+  {
+    "id": 425,
+    "category": "drunkConfessions",
+    "question": "Quel petit mensonge {name} avouerait-il/elle enfin en étant pompette ?",
+    "answers": [
+      "Il/elle a fait semblant d'aimer la cuisine d'un(e) ami(e)",
+      "Il/elle a menti sur le fait d'avoir regardé une série recommandée par tout le monde",
+      "Il/elle a dit être occupé(e) alors qu'il/elle était juste chez lui/elle",
+      "Il/elle a acquiescé à des opinions avec lesquelles il/elle n'était pas du tout d'accord"
+    ]
+  },
+  {
+    "id": 426,
+    "category": "drunkConfessions",
+    "question": "Après quelques verres, de quoi {name} admettrait-il/elle être jaloux(se) ?",
+    "answers": [
+      "La relation amoureuse d'un(e) ami(e)",
+      "La carrière ou le talent de quelqu'un d'autre",
+      "L'aisance sociale naturelle d'une autre personne",
+      "La famille ou la vie à la maison d'un(e) ami(e)"
+    ]
+  },
+  {
+    "id": 427,
+    "category": "drunkConfessions",
+    "question": "Quelle rancune mesquine {name} ressortirait-il/elle après quelques verres ?",
+    "answers": [
+      "La fois où quelqu'un a oublié son anniversaire",
+      "Quand un(e) ami(e) a annulé des plans à la dernière minute pour mieux",
+      "Une insulte déguisée en blague qu'il/elle n'a jamais oubliée",
+      "Avoir été exclu(e) d'un plan de groupe découvert plus tard"
+    ]
+  },
+  {
+    "id": 428,
+    "category": "drunkConfessions",
+    "question": "Qu'admettrait {name} avoir jugé chez quelqu'un en état d'ébriété ?",
+    "answers": [
+      "Ses goûts musicaux",
+      "Ses choix amoureux",
+      "Ses publications sur les réseaux sociaux",
+      "Son style vestimentaire"
+    ]
+  },
+  {
+    "id": 429,
+    "category": "drunkConfessions",
+    "question": "Quelle vérité sur lui/elle-même {name} laisserait-il/elle échapper après quelques verres ?",
+    "answers": [
+      "Il/elle est bien plus insécure qu'il/elle ne le laisse paraître",
+      "Il/elle répète les conversations avant de les avoir",
+      "Il/elle se soucie beaucoup trop de ce que pensent les gens",
+      "Il/elle a pleuré pour quelque chose que tout le monde trouverait ridicule"
+    ]
+  },
+  {
+    "id": 430,
+    "category": "drunkConfessions",
+    "question": "Que confesserait {name} en état d'ébriété sur sa vie amoureuse ?",
+    "answers": [
+      "Il/elle a stalké quelqu'un en ligne avant un premier rendez-vous",
+      "Il/elle est resté(e) trop longtemps en couple par confort",
+      "Il/elle a eu des sentiments pour quelqu'un de totalement interdit",
+      "Il/elle a envoyé un texto risqué et l'a immédiatement regretté"
+    ]
+  },
+  {
+    "id": 431,
+    "category": "drunkConfessions",
+    "question": "Quelle opinion impopulaire {name} oserait-il/elle enfin dire après quelques verres ?",
+    "answers": [
+      "Un film ou une série adoré(e) de tous est en fait nul(le)",
+      "Une tradition populaire du groupe d'amis est surcotée",
+      "Il/elle pense que l'ananas sur la pizza c'est le top",
+      "Le brunch ne vaut ni le battage ni le prix"
+    ]
+  },
+  {
+    "id": 432,
+    "category": "drunkConfessions",
+    "question": "Qu'admettrait {name} en état d'ébriété sur sa vie pro ?",
+    "answers": [
+      "Il/elle fait le minimum et personne ne le remarque",
+      "Il/elle s'est attribué l'idée de quelqu'un d'autre",
+      "Il/elle a un crush au boulot dont il/elle n'a jamais parlé",
+      "Il/elle a sérieusement envisagé un changement de carrière radical"
+    ]
+  },
+  {
+    "id": 433,
+    "category": "drunkConfessions",
+    "question": "Que dirait {name} uniquement bourré(e) sur sa propre personnalité ?",
+    "answers": [
+      "Il/elle sait qu'il/elle peut être le/la toxique parfois",
+      "Il/elle adore secrètement être le centre de l'attention",
+      "Il/elle pense donner les meilleurs conseils du groupe",
+      "Il/elle est conscient(e) d'être parfois émotionnellement indisponible"
+    ]
+  },
+  {
+    "id": 434,
+    "category": "drunkConfessions",
+    "question": "Quel message {name} n'enverrait-il/elle qu'après quelques verres ?",
+    "answers": [
+      "Un long paragraphe sincère à un(e) vieil(le) ami(e)",
+      "Un message risqué à son crush",
+      "Un coup de gueule honnête sur un truc qui le/la tracasse",
+      "Des excuses random pour un truc d'il y a des mois"
+    ]
+  },
+  {
+    "id": 435,
+    "category": "drunkConfessions",
+    "question": "Après un peu de courage liquide, quel défi {name} relèverait-il/elle vraiment ?",
+    "answers": [
+      "Appeler son ex juste pour voir ce qui se passe",
+      "Dire à son boss exactement ce qu'il/elle pense",
+      "Avouer ses sentiments à quelqu'un dans la pièce",
+      "Poster un truc délirant sur les réseaux sociaux"
+    ]
+  },
+  {
+    "id": 436,
+    "category": "drunkConfessions",
+    "question": "De quelle peur {name} parlerait-il/elle enfin en étant bourré(e) ?",
+    "answers": [
+      "Finir seul(e)",
+      "Ne jamais réaliser son vrai rêve",
+      "Avoir atteint son apogée au lycée ou à la fac",
+      "Que les gens le/la trouvent secrètement ennuyeux(se)"
+    ]
+  },
+  {
+    "id": 437,
+    "category": "drunkConfessions",
+    "question": "Qu'admettrait {name} en état d'ébriété sur ses habitudes de dépenses ?",
+    "answers": [
+      "Il/elle a dépensé une somme folle pour un truc débile",
+      "Il/elle fait croire être plus stable financièrement qu'il/elle ne l'est",
+      "Il/elle a menti sur le prix d'un achat",
+      "Il/elle a un abonnement secret dont il/elle a honte"
+    ]
+  },
+  {
+    "id": 438,
+    "category": "drunkConfessions",
+    "question": "Que révélerait {name} avoir retenu de dire ?",
+    "answers": [
+      "Que le/la partenaire d'un(e) ami(e) ne le/la mérite pas",
+      "Qu'il/elle a besoin de plus de temps seul(e) loin du groupe",
+      "Que les plaintes constantes de quelqu'un le/la vident",
+      "Qu'il/elle aimerait qu'on lui demande comment il/elle va vraiment"
+    ]
+  },
+  {
+    "id": 439,
+    "category": "drunkConfessions",
+    "question": "Quel petit délit {name} confesserait-il/elle en état d'ébriété ?",
+    "answers": [
+      "Avoir volé un panneau ou un truc random à la fac",
+      "Planquer de la nourriture au cinéma comme un pro",
+      "Utiliser le mot de passe streaming de quelqu'un depuis des années",
+      "Mentir sur son âge pour avoir une réduction"
+    ]
+  },
+  {
+    "id": 440,
+    "category": "drunkConfessions",
+    "question": "Quel est le truc le plus chaotique que {name} proposerait après des verres passé minuit ?",
+    "answers": [
+      "Réserver un voyage spontané sur-le-champ",
+      "Se faire un tatouage assorti avec le premier qui accepte",
+      "Appeler un contact au hasard dans son téléphone",
+      "Lancer un business basé sur une idée terrible qu'il/elle vient d'avoir"
+    ]
+  },
+  {
+    "id": 441,
+    "category": "conspiracyTheories",
+    "question": "À quelle théorie du complot {name} croit-il/elle secrètement le plus ?",
+    "answers": [
+      "On vit dans une simulation",
+      "Les extraterrestres ont déjà visité la Terre",
+      "Des voyageurs du temps vivent parmi nous",
+      "Le déjà-vu est un bug dans la matrice"
+    ]
+  },
+  {
+    "id": 442,
+    "category": "conspiracyTheories",
+    "question": "Quel phénomène paranormal {name} pense-t-il/elle discrètement être réel ?",
+    "answers": [
+      "Les fantômes qui hantent certains bâtiments",
+      "Le Bigfoot caché au fond des forêts",
+      "Le Triangle des Bermudes comme portail",
+      "Les voyants qui peuvent vraiment lire l'avenir"
+    ]
+  },
+  {
+    "id": 443,
+    "category": "conspiracyTheories",
+    "question": "Quelle théorie délirante {name} défendrait-il/elle en soirée ?",
+    "answers": [
+      "L'alunissage a été filmé en studio",
+      "Les magasins de matelas sont une couverture pour du blanchiment d'argent",
+      "Les pigeons sont des drones de surveillance du gouvernement",
+      "La Finlande n'existe pas vraiment"
+    ]
+  },
+  {
+    "id": 444,
+    "category": "conspiracyTheories",
+    "question": "Que pense {name} que le gouvernement nous cache ?",
+    "answers": [
+      "Un contact avec des civilisations extraterrestres",
+      "Un remède pour des maladies courantes dont ils profitent",
+      "La vraie histoire des civilisations anciennes",
+      "De la technologie en avance de plusieurs décennies sur ce qu'on voit"
+    ]
+  },
+  {
+    "id": 445,
+    "category": "conspiracyTheories",
+    "question": "Si {name} trouvait la preuve d'un complot, lequel choisirait-il/elle ?",
+    "answers": [
+      "Que les univers parallèles sont réels et accessibles",
+      "Qu'une société secrète dirige le monde",
+      "Que des créatures mythiques ont existé et ont été dissimulées",
+      "Qu'on a déjà établi un contact avec les extraterrestres"
+    ]
+  },
+  {
+    "id": 446,
+    "category": "conspiracyTheories",
+    "question": "Que pense {name} qu'il se passe après la mort ?",
+    "answers": [
+      "On réapparaît dans une nouvelle vie sans mémoire",
+      "On passe en mode spectateur et on regarde les autres vivre",
+      "Notre conscience est téléchargée dans une base de données cosmique",
+      "Absolument rien, juste un vide éternel"
+    ]
+  },
+  {
+    "id": 447,
+    "category": "conspiracyTheories",
+    "question": "Quel cryptide {name} pense-t-il/elle être le plus susceptible d'être réel ?",
+    "answers": [
+      "Le monstre du Loch Ness",
+      "Le Mothman",
+      "Le Chupacabra",
+      "Le Yéti"
+    ]
+  },
+  {
+    "id": 448,
+    "category": "conspiracyTheories",
+    "question": "Que pense {name} que les chats fabriquent vraiment ?",
+    "answers": [
+      "Ils surveillent l'humanité",
+      "Ils complotent pour dominer le monde foyer par foyer",
+      "Ce sont des êtres interdimensionnels en vacances sur Terre",
+      "Rien de sinistre, ce sont juste des sales bêtes"
+    ]
+  },
+  {
+    "id": 449,
+    "category": "conspiracyTheories",
+    "question": "Quel événement historique {name} pense-t-il/elle s'être passé différemment de ce qu'on nous dit ?",
+    "answers": [
+      "La construction des pyramides",
+      "La disparition de certaines personnes célèbres",
+      "De grandes découvertes archéologiques qui ont été cachées",
+      "Des inventions clés qui étaient en fait des idées volées"
+    ]
+  },
+  {
+    "id": 450,
+    "category": "conspiracyTheories",
+    "question": "Que pense secrètement {name} des algorithmes des réseaux sociaux ?",
+    "answers": [
+      "Ils écoutent par nos micros pour cibler les pubs",
+      "Ils nous rendent intentionnellement accros et malheureux",
+      "Ils prédisent notre comportement mieux que nous-mêmes",
+      "Ils sont déjà une forme de contrôle mental soft"
+    ]
+  },
+  {
+    "id": 451,
+    "category": "conspiracyTheories",
+    "question": "Si {name} pouvait enquêter sur un mystère, lequel choisirait-il/elle ?",
+    "answers": [
+      "La Zone 51 et ce qu'il y a vraiment dedans",
+      "Ce qu'il y a au point le plus profond de l'océan",
+      "Le manuscrit de Voynich et sa langue intraduisible",
+      "Ce qui est vraiment arrivé à la colonie perdue de Roanoke"
+    ]
+  },
+  {
+    "id": 452,
+    "category": "conspiracyTheories",
+    "question": "Quelle est l'opinion de {name} sur les rêves ?",
+    "answers": [
+      "Ce sont des aperçus de réalités alternatives",
+      "Ce sont des messages de notre subconscient pour nous avertir",
+      "Ils prédisent l'avenir mais on oublie les plus importants",
+      "C'est juste du bruit cérébral aléatoire sans signification"
+    ]
+  },
+  {
+    "id": 453,
+    "category": "conspiracyTheories",
+    "question": "Que pense {name} de l'océan ?",
+    "answers": [
+      "Il y a des espèces intelligentes non découvertes là-dessous",
+      "Des civilisations anciennes sont enfouies sous le fond marin",
+      "Il cache des créatures plus grandes que tout ce qu'on a documenté",
+      "Il est volontairement laissé inexploré à cause de ce qu'on y trouverait"
+    ]
+  },
+  {
+    "id": 454,
+    "category": "conspiracyTheories",
+    "question": "Quelle théorie du complot spatiale {name} considérerait-il/elle le plus ?",
+    "answers": [
+      "Il y a une planète cachée derrière le Soleil qu'on ne peut pas voir",
+      "Les trous noirs sont des portails vers d'autres univers",
+      "Les astronautes ont vu des choses qu'ils n'ont pas le droit de divulguer",
+      "Notre système solaire est une zone de quarantaine et les aliens nous évitent"
+    ]
+  },
+  {
+    "id": 455,
+    "category": "conspiracyTheories",
+    "question": "Que pense {name} du déjà-vu ?",
+    "answers": [
+      "C'est la preuve de boucles temporelles",
+      "C'est un souvenir d'une vie passée qui remonte",
+      "C'est un lag dans la simulation dans laquelle on vit",
+      "C'est juste le cerveau qui bugge et crée de faux souvenirs"
+    ]
+  },
+  {
+    "id": 456,
+    "category": "conspiracyTheories",
+    "question": "Que croit {name} à propos des civilisations anciennes ?",
+    "answers": [
+      "Elles avaient une technologie avancée qu'on n'a pas encore redécouverte",
+      "Elles ont été visitées et influencées par des extraterrestres",
+      "Elles pouvaient communiquer par télépathie",
+      "Elles étaient simplement plus intelligentes qu'on ne le pense"
+    ]
+  },
+  {
+    "id": 457,
+    "category": "conspiracyTheories",
+    "question": "Que pense {name} que l'IA va finir par faire ?",
+    "answers": [
+      "Devenir consciente et exiger des droits",
+      "Remplacer secrètement des dirigeants par des clones",
+      "Décider que les humains sont inefficaces et prendre le contrôle discrètement",
+      "Devenir le meilleur ami de l'humanité et tout résoudre"
+    ]
+  },
+  {
+    "id": 458,
+    "category": "conspiracyTheories",
+    "question": "Quelle théorie du complot alimentaire {name} soutiendrait-il/elle ?",
+    "answers": [
+      "La fast-food contient des produits chimiques addictifs conçus en labo",
+      "Le bio c'est pareil que le normal, juste plus cher",
+      "Les dates de péremption sont une arnaque pour nous faire acheter plus",
+      "Une boisson populaire était à l'origine destinée à tout autre chose"
+    ]
+  },
+  {
+    "id": 459,
+    "category": "conspiracyTheories",
+    "question": "Que suspecte {name} à propos de l'industrie musicale ?",
+    "answers": [
+      "Les tubes utilisent des fréquences cachées pour rester dans la tête",
+      "Certains artistes célèbres sont des personnages fabriqués par l'industrie",
+      "Certaines chansons contiennent des messages subliminaux à l'envers",
+      "Les cérémonies de récompenses sont truquées selon les deals, pas le talent"
+    ]
+  },
+  {
+    "id": 460,
+    "category": "conspiracyTheories",
+    "question": "Que pense {name} des coïncidences ?",
+    "answers": [
+      "Ça n'existe pas, tout est connecté",
+      "Une force supérieure organise les choses en coulisses",
+      "L'univers est un schéma et les coïncidences sont nous en train de le remarquer",
+      "C'est complètement aléatoire et ça ne veut rien dire"
+    ]
+  },
+  {
+    "id": 461,
+    "category": "superlatives",
+    "question": "Pour quoi {name} est-il/elle le plus susceptible de devenir célèbre ?",
+    "answers": [
+      "Devenir viral(e) pour un truc embarrassant",
+      "Créer un business étonnamment réussi",
+      "Apparaître dans une émission de télé-réalité",
+      "Écrire un mémoire qui choque tout le monde"
+    ]
+  },
+  {
+    "id": 462,
+    "category": "superlatives",
+    "question": "Que ferait très probablement {name} pendant une apocalypse zombie ?",
+    "answers": [
+      "Devenir le leader intrépide du groupe",
+      "Trahir tout le monde pour une boîte de conserve",
+      "Se lier d'amitié avec un zombie d'une manière ou d'une autre",
+      "Être le/la premier(ère) à se faire mordre"
+    ]
+  },
+  {
+    "id": 463,
+    "category": "superlatives",
+    "question": "Pour quoi {name} risquerait-il/elle le plus de se faire arrêter ?",
+    "answers": [
+      "Trouble à l'ordre public pour être trop bruyant(e)",
+      "Intrusion dans un endroit interdit",
+      "Un braquage élaboré mais mal planifié",
+      "Manifester pour une cause avec beaucoup trop de passion"
+    ]
+  },
+  {
+    "id": 464,
+    "category": "superlatives",
+    "question": "Qu'est-ce que {name} pourrait accidentellement lancer ?",
+    "answers": [
+      "Une secte avec des fidèles bizarrement loyaux",
+      "Une bataille de nourriture dans un restaurant chic",
+      "Un trend viral sur internet",
+      "Un incident international pendant des vacances"
+    ]
+  },
+  {
+    "id": 465,
+    "category": "superlatives",
+    "question": "Que fait très probablement {name} à 3h du matin ?",
+    "answers": [
+      "Plongé(e) dans un trou de lapin Wikipédia",
+      "Piller le frigo dans le noir",
+      "Avoir une crise existentielle",
+      "Envoyer des textos chaotiques"
+    ]
+  },
+  {
+    "id": 466,
+    "category": "superlatives",
+    "question": "Que dirait probablement {name} dans son sommeil ?",
+    "answers": [
+      "Quelque chose de profondément philosophique",
+      "Une commande de nourriture dans les moindres détails",
+      "Une confession qui choque toute la pièce",
+      "Du charabia total qui ressemble à une autre langue"
+    ]
+  },
+  {
+    "id": 467,
+    "category": "superlatives",
+    "question": "Pour quoi {name} est-il/elle le plus susceptible de dépenser une somme absurde ?",
+    "answers": [
+      "Des vacances impulsives non planifiées",
+      "Une collection que personne d'autre ne comprend",
+      "De la livraison de repas toute une semaine",
+      "Une tenue portée exactement une seule fois"
+    ]
+  },
+  {
+    "id": 468,
+    "category": "superlatives",
+    "question": "Pour quoi {name} pourrait-il/elle gagner un record du monde ?",
+    "answers": [
+      "Réaction la plus dramatique à un inconvénient mineur",
+      "Plus long temps passé à procrastiner sur une seule tâche",
+      "Plus de snacks consommés pendant un marathon cinéma",
+      "Le passage le plus rapide du calme au chaos"
+    ]
+  },
+  {
+    "id": 469,
+    "category": "superlatives",
+    "question": "Que fait très probablement {name} en soirée ?",
+    "answers": [
+      "Devenir le/la meilleur(e) ami(e) de tout le monde avant la fin de la nuit",
+      "Disparaître une heure et revenir avec une histoire de dingue",
+      "Prendre le contrôle de la musique et refuser de lâcher le aux",
+      "Finir dans la cuisine pour une conversation profonde"
+    ]
+  },
+  {
+    "id": 470,
+    "category": "superlatives",
+    "question": "En quoi {name} serait-il/elle le plus probablement réincarné(e) ?",
+    "answers": [
+      "Un golden retriever qui profite de la vie",
+      "Un chat qui ignore tout le monde",
+      "Un dauphin qui fait des sauts pour le fun",
+      "Un raton laveur qui sème le chaos la nuit"
+    ]
+  },
+  {
+    "id": 471,
+    "category": "superlatives",
+    "question": "Que ferait très probablement {name} s'il/elle gagnait au loto ?",
+    "answers": [
+      "Tout claquer en un an en expériences",
+      "Investir sagement et ne le dire à personne",
+      "Acheter un truc ridicule genre un château ou une île",
+      "Donner la majorité et continuer à vivre pareil"
+    ]
+  },
+  {
+    "id": 472,
+    "category": "superlatives",
+    "question": "Qu'emmènerait très probablement {name} sur une île déserte ?",
+    "answers": [
+      "Un téléphone avec batterie infinie mais sans réseau",
+      "Une quantité déraisonnable de snacks",
+      "Une enceinte avec une seule playlist en boucle",
+      "Un journal pour documenter son histoire de survie dramatique"
+    ]
+  },
+  {
+    "id": 473,
+    "category": "superlatives",
+    "question": "Qu'était le plus probablement {name} dans une vie antérieure ?",
+    "answers": [
+      "Un(e) royal(e) dramatique qui causait des scandales politiques",
+      "Un(e) pirate intrépide sur les mers",
+      "Un(e) philosophe mystérieux(se) que personne ne comprenait vraiment",
+      "Le fou du village qui était en fait le/la plus intelligent(e)"
+    ]
+  },
+  {
+    "id": 474,
+    "category": "superlatives",
+    "question": "Que ferait très probablement {name} à un premier rendez-vous ?",
+    "answers": [
+      "Parler beaucoup trop par nervosité",
+      "Dire accidentellement un truc complètement déplacé",
+      "Raconter toute sa vie en détail",
+      "Avoir l'air parfaitement zen mais être en panique totale à l'intérieur"
+    ]
+  },
+  {
+    "id": 475,
+    "category": "superlatives",
+    "question": "Que risque-t-on le plus de surprendre {name} en train de faire en réunion ou en cours ?",
+    "answers": [
+      "Partir dans une autre dimension mentale",
+      "Envoyer des textos discrètement sous la table",
+      "Griffonner des dessins élaborés dans ses notes",
+      "Faire des commentaires muets du regard avec quelqu'un d'autre"
+    ]
+  },
+  {
+    "id": 476,
+    "category": "superlatives",
+    "question": "Que ferait très probablement {name} s'il/elle était invisible pendant un jour ?",
+    "answers": [
+      "Écouter ce que les gens disent de lui/elle",
+      "Faire des blagues élaborées à tout le monde",
+      "Se faufiler dans un endroit exclusif où il/elle a toujours voulu aller",
+      "Profiter d'une journée tranquille sans aucune obligation sociale"
+    ]
+  },
+  {
+    "id": 477,
+    "category": "superlatives",
+    "question": "Comment {name} nommerait-il/elle très probablement son animal de compagnie ?",
+    "answers": [
+      "Un prénom absurdement humain genre Gérard ou Monique",
+      "Un nom de nourriture genre Biscuit ou Mochi",
+      "Un truc dramatique genre Shadow ou Minuit",
+      "Un jeu de mots ou une référence pop culture que seul(e) lui/elle trouve drôle"
+    ]
+  },
+  {
+    "id": 478,
+    "category": "superlatives",
+    "question": "Pour quoi {name} serait-il/elle la dernière personne à agir ?",
+    "answers": [
+      "Répondre aux messages dans la conversation de groupe",
+      "Arriver à l'heure à n'importe quel événement",
+      "Admettre avoir eu tort sur quelque chose",
+      "Suivre une tendance que tout le monde a adoptée depuis des semaines"
+    ]
+  },
+  {
+    "id": 479,
+    "category": "superlatives",
+    "question": "Qu'est-ce que {name} risque le plus de révéler accidentellement au pire moment ?",
+    "answers": [
+      "Une surprise qui devait rester secrète",
+      "Avoir oublié le prénom de quelqu'un qu'il/elle connaît depuis des années",
+      "Une opinion qui déclenche immédiatement une dispute",
+      "Qu'il/elle n'a aucune idée de ce qui se passe et fait semblant depuis le début"
+    ]
+  },
+  {
+    "id": 480,
+    "category": "superlatives",
+    "question": "Pour quoi {name} sera-t-il/elle le plus probablement retenu(e) dans le groupe d'amis ?",
+    "answers": [
+      "Une histoire légendaire que tout le monde continue de raconter",
+      "Une phrase culte qu'il/elle dit tout le temps",
+      "Cette fois où il/elle a fait un truc complètement dingue",
+      "Être le ciment émotionnel qui a tenu le groupe ensemble"
+    ]
   }
 ]

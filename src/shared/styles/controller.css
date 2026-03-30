@@ -720,6 +720,11 @@ select,
   background: rgba(52, 152, 219, 0.12);
 }
 
+.category-vote-btn:nth-child(4) {
+  border-color: rgba(231, 76, 60, 0.4);
+  background: rgba(231, 76, 60, 0.12);
+}
+
 /* Emoji reaction buttons */
 .emoji-reaction-bar {
   display: flex;

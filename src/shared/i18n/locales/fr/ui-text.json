@@ -64,7 +64,20 @@
     "deepPersonal": "Profond et Personnel",
     "funRandom": "Fun et Divers",
     "experiencesDreams": "Expériences et Rêves",
-    "deepSpicy": "Profond et Épicé"
+    "deepSpicy": "Profond et Épicé",
+    "hotTakes": "Avis Brûlants",
+    "hypothetical": "Hypothétique",
+    "memories": "Souvenirs",
+    "relationships": "Relations",
+    "moneyPower": "Argent et Pouvoir",
+    "darkSecrets": "Secrets Sombres",
+    "bodyCount": "Historique Amoureux",
+    "neverHaveIEver": "Je N'ai Jamais",
+    "afterDark": "Après Minuit",
+    "guilty": "Plaisirs Coupables",
+    "drunkConfessions": "Confessions de Soirée",
+    "conspiracyTheories": "Théories du Complot",
+    "superlatives": "Superlatifs"
   },
   "pointsGuide": {
     "title": "Système de Points",
@@ -80,7 +93,8 @@
     "title": "Choisis une Catégorie",
     "fun": "Fun et Divers",
     "deep": "Profond et Personnel",
-    "dilemma": "Tu Préfères"
+    "dilemma": "Tu Préfères",
+    "spicy": "Épicé"
   },
   "choosingCategory": "choisit une catégorie...",
   "speedBonus": "bonus de vitesse !",

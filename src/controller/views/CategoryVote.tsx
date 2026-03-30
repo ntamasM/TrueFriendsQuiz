@@ -12,9 +12,10 @@ const ICONS: Record<CategoryVoteOption, string> = {
   fun: "😂",
   deep: "💭",
   dilemma: "🤔",
+  spicy: "🔥",
 };
 
-const options: CategoryVoteOption[] = ["fun", "deep", "dilemma"];
+const options: CategoryVoteOption[] = ["fun", "deep", "dilemma", "spicy"];
 
 export default function CategoryVote({ ac }: CategoryVoteProps) {
   const state = useControllerState();
