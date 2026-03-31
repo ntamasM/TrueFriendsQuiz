@@ -442,12 +442,12 @@
   {
     "id": 41,
     "category": "personality",
-    "question": "¿Cuánto cambia la personalidad de {name} según la gente?",
+    "question": "¿Cómo se comporta {name} con gente nueva vs. amigos cercanos?",
     "answers": [
-      "Mucho",
-      "Un poco",
-      "Nada",
-      "Depende del grupo"
+      "Mucho más reservado/a",
+      "Un poco más educado/a",
+      "Exactamente igual",
+      "Aún más loco/a de lo normal"
     ]
   },
   {
@@ -458,7 +458,7 @@
       "Relajarse en casa",
       "Salir con amigos",
       "Viajar a algún sitio",
-      "Dormir mucho"
+      "Trabajar en un hobby"
     ]
   },
   {
@@ -523,8 +523,8 @@
     "answers": [
       "Doblada",
       "Con cuchillo y tenedor",
-      "Por la corteza",
-      "Normal"
+      "Por la corteza primero",
+      "Quitando los toppings primero"
     ]
   },
   {
@@ -535,7 +535,7 @@
       "Antes de las 10",
       "Sobre medianoche",
       "Después de las 2",
-      "Varía mucho"
+      "Cuando se desploma"
     ]
   },
   {
@@ -587,10 +587,10 @@
     "category": "personality",
     "question": "¿Es {name} madrugador/a o noctámbulo/a?",
     "answers": [
-      "Madrugador/a",
-      "Noctámbulo/a",
-      "Depende del día",
-      "Ninguno"
+      "Madrugador/a — arriba al amanecer",
+      "Noctámbulo/a — vive después de medianoche",
+      "Mañanas para currar, noches para divertirse",
+      "De tardes — rinde al mediodía"
     ]
   },
   {
@@ -598,10 +598,10 @@
     "category": "personality",
     "question": "¿Qué tan crédulo/a es {name}?",
     "answers": [
-      "Muy crédulo/a",
-      "Algo",
-      "Difícil de engañar",
-      "Para nada"
+      "Se cree todo al principio",
+      "Pica pero luego se da cuenta",
+      "Escéptico/a pero se le puede engañar",
+      "Prácticamente imposible de engañar"
     ]
   },
   {
@@ -609,10 +609,10 @@
     "category": "personality",
     "question": "¿Qué tan competitivo/a es {name}?",
     "answers": [
-      "Extremadamente",
-      "Algo",
-      "Solo en ciertas cosas",
-      "Para nada"
+      "Tiraría el tablero con tal de ganar",
+      "Competitivo/a pero buen perdedor/a",
+      "Solo competitivo/a en los juegos",
+      "Le da igual quién gane"
     ]
   },
   {
@@ -620,10 +620,10 @@
     "category": "personality",
     "question": "¿Es {name} introvertido/a o extrovertido/a?",
     "answers": [
-      "Introvertido/a",
-      "Extrovertido/a",
-      "Ambivertido/a",
-      "Depende del humor"
+      "Introvertido/a — necesita tiempo a solas",
+      "Extrovertido/a — la gente le da energía",
+      "Ambivertido/a — mitad y mitad",
+      "Tímido/a pero en el fondo le encanta la atención"
     ]
   },
   {
@@ -631,10 +631,10 @@
     "category": "personality",
     "question": "¿Prefiere {name} recargar energías solo/a o con gente?",
     "answers": [
-      "Solo/a",
-      "Con otros",
-      "Una mezcla",
-      "Depende de la semana"
+      "Solo/a en silencio total",
+      "Solo/a pero hablando por chat",
+      "Con una persona cercana",
+      "En un grupo de amigos"
     ]
   },
   {
@@ -642,10 +642,10 @@
     "category": "personality",
     "question": "¿Sigue {name} más el corazón o la cabeza?",
     "answers": [
-      "El corazón",
-      "La cabeza",
-      "Depende de la situación",
-      "Ninguno — el instinto"
+      "El corazón — sentimientos primero",
+      "La cabeza — lógica primero",
+      "El instinto",
+      "Le pide a alguien más que decida"
     ]
   },
   {
@@ -675,21 +675,21 @@
     "category": "personality",
     "question": "¿Se considera {name} joven de corazón o alma vieja?",
     "answers": [
-      "Joven de corazón",
-      "Alma vieja",
-      "Un poco de ambos",
-      "Depende del día"
+      "Joven de corazón — sigue siendo un niño/a por dentro",
+      "Alma vieja — sabio/a más allá de su edad",
+      "Actúa de mayor pero le encanta lo infantil",
+      "Actúa de joven pero piensa profundamente"
     ]
   },
   {
     "id": 63,
     "category": "personality",
-    "question": "¿Qué significa el nombre de {name} para él/ella?",
+    "question": "¿Qué opina {name} de su propio nombre?",
     "answers": [
-      "Tradición familiar",
-      "Significado especial",
-      "Le gusta simplemente",
-      "No lo sabe"
+      "Le encanta — no lo cambiaría",
+      "Está bien, nada especial",
+      "Ojalá tuviera otro nombre",
+      "Prefiere que le llamen por un apodo"
     ]
   },
   {
@@ -697,21 +697,21 @@
     "category": "personality",
     "question": "¿Cree {name} en tener un solo mejor amigo?",
     "answers": [
-      "Sí, un BFF",
-      "No, un grupo cercano",
-      "Varios mejores amigos",
-      "No piensa en ello"
+      "Sí, un BFF de toda la vida",
+      "Un círculo íntimo de 3-4",
+      "Muchos amigos cercanos por igual",
+      "Prefiere mantener las amistades informales"
     ]
   },
   {
     "id": 65,
     "category": "personality",
-    "question": "¿Con qué parte de su signo zodiacal se identifica más {name}?",
+    "question": "¿Qué opina {name} de los signos del zodiaco?",
     "answers": [
-      "Los rasgos de personalidad",
-      "La parte amorosa",
-      "El aspecto profesional",
-      "Con nada"
+      "Cree totalmente en ellos",
+      "Lee el horóscopo solo por diversión",
+      "Piensa que es tontería pero sabe su signo",
+      "Le da completamente igual"
     ]
   },
   {
@@ -719,10 +719,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} ser famoso/a o rico/a?",
     "answers": [
-      "Famoso/a",
-      "Rico/a",
-      "Ambos",
-      "Ninguno"
+      "Famoso/a pero siempre sin blanca",
+      "Rico/a pero completamente anónimo/a",
+      "Moderadamente conocido/a y cómodo/a",
+      "Ninguno — solo paz y tranquilidad"
     ]
   },
   {
@@ -741,10 +741,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} dejar las redes sociales o la TV para siempre?",
     "answers": [
-      "Redes sociales",
-      "TV",
-      "Ninguna",
-      "Ambas está bien"
+      "Dejar las redes sociales",
+      "Dejar la TV",
+      "Dejar ambas pero quedarse la radio",
+      "No dejar ninguna pero perder el móvil"
     ]
   },
   {
@@ -752,10 +752,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} viajar al pasado o al futuro?",
     "answers": [
-      "Pasado",
-      "Futuro",
-      "Quedarse en el presente",
-      "¡Ambos!"
+      "Pasado — presenciar la historia en persona",
+      "Futuro — ver qué viene",
+      "Pasado — para arreglar un arrepentimiento",
+      "Futuro — avanzar 50 años"
     ]
   },
   {
@@ -766,18 +766,18 @@
       "Rebobinar",
       "Pausa",
       "Avance rápido",
-      "Ninguno"
+      "Cámara lenta"
     ]
   },
   {
     "id": 71,
     "category": "wouldYouRather",
-    "question": "¿Preferiría {name} ser experto en una cosa o bueno en muchas?",
+    "question": "¿Preferiría {name} ser el mejor experto en una cosa o bastante bueno en muchas?",
     "answers": [
       "Experto en una",
       "Bueno en muchas",
-      "Depende",
-      "Ninguno"
+      "Normal en todo",
+      "Genial en solo dos cosas"
     ]
   },
   {
@@ -788,7 +788,7 @@
       "Pedir a domicilio",
       "Comer fuera",
       "Cocinar en casa",
-      "Depende del humor"
+      "Saltarse las comidas y picar todo el día"
     ]
   },
   {
@@ -798,8 +798,8 @@
     "answers": [
       "Perro",
       "Gato",
-      "Ambos",
-      "Ninguno"
+      "Algo exótico como un loro",
+      "Un pez de bajo mantenimiento"
     ]
   },
   {
@@ -807,10 +807,10 @@
     "category": "wouldYouRather",
     "question": "¿{name} prefiere relajarse en la piscina o vivir una aventura?",
     "answers": [
-      "Piscina",
-      "Aventura",
-      "Un poco de ambos",
-      "Quedarse en casa"
+      "Relajarse en la piscina",
+      "Vivir una aventura salvaje",
+      "Explorar una ciudad nueva a pie",
+      "Quedarse en casa a ver series"
     ]
   },
   {
@@ -818,10 +818,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} poder volar o ser invisible?",
     "answers": [
-      "Volar",
-      "Invisible",
-      "Ambos",
-      "Ninguno"
+      "Volar pero todos te ven",
+      "Invisible pero sin poder desactivarlo",
+      "Supervelocidad mejor",
+      "Telequinesis mejor"
     ]
   },
   {
@@ -829,10 +829,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} vivir en otra época o en otro país?",
     "answers": [
-      "Otra época",
-      "Otro país",
-      "Quedarse aquí",
-      "Ambos"
+      "Otra época — el pasado",
+      "Otra época — el futuro",
+      "Otro país — la misma era",
+      "Otro planeta directamente"
     ]
   },
   {
@@ -840,10 +840,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} no usar internet o no ver TV nunca más?",
     "answers": [
-      "Sin internet",
-      "Sin TV",
-      "No puede dejar ninguna",
-      "Ambas bien"
+      "Nunca más internet",
+      "Nunca más TV ni streaming",
+      "Nunca más música",
+      "Nunca más videojuegos"
     ]
   },
   {
@@ -851,10 +851,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} dinero ilimitado o tiempo ilimitado?",
     "answers": [
-      "Dinero ilimitado",
-      "Tiempo ilimitado",
-      "Ambos",
-      "Ninguno"
+      "Dinero ilimitado pero sin tiempo libre",
+      "Tiempo ilimitado pero sueldo modesto",
+      "Dinero decente y tiempo decente",
+      "Riqueza de lotería pero solo 10 años más"
     ]
   },
   {
@@ -862,21 +862,21 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} conocer el futuro o cambiar el pasado?",
     "answers": [
-      "Conocer el futuro",
-      "Cambiar el pasado",
-      "Ninguno",
-      "Ambos"
+      "Conocer el futuro pero sin poder cambiarlo",
+      "Cambiar una cosa del pasado",
+      "Olvidar el pasado por completo",
+      "Ver líneas temporales alternativas sin poder entrar"
     ]
   },
   {
     "id": 80,
     "category": "wouldYouRather",
-    "question": "¿Preferiría {name} decir siempre lo que piensa o no hablar nunca?",
+    "question": "¿Preferiría {name} decir siempre lo que piensa o no hablar nunca más?",
     "answers": [
-      "Decir siempre lo que piensa",
-      "No hablar nunca",
-      "Algo intermedio",
-      "Depende del contexto"
+      "Siempre decir lo que piensa sin filtro",
+      "No hablar nunca más",
+      "Solo hablar con preguntas",
+      "Solo hablar cuando le hablen"
     ]
   },
   {
@@ -895,10 +895,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} perder todo su dinero o todas sus fotos?",
     "answers": [
-      "Todo el dinero",
-      "Todas las fotos",
-      "Ninguno",
-      "¡Difícil elección!"
+      "Perder todo el dinero",
+      "Perder todas las fotos",
+      "Perder la mitad de cada cosa",
+      "Perder todos los contactos del móvil"
     ]
   },
   {
@@ -906,10 +906,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} tener siempre calor o siempre frío?",
     "answers": [
-      "Siempre calor",
-      "Siempre frío",
-      "Ninguno",
-      "No le importa"
+      "Siempre calor — verano permanente",
+      "Siempre frío — invierno permanente",
+      "Que siempre le llueva encima",
+      "Temperatura perfecta pero siempre con viento"
     ]
   },
   {
@@ -917,10 +917,10 @@
     "category": "wouldYouRather",
     "question": "¿{name} prefiere leer el libro o ver la película?",
     "answers": [
-      "Leer el libro",
-      "Ver la película",
-      "Ambos",
-      "Ninguno"
+      "Siempre leer el libro primero",
+      "Siempre ver la peli primero",
+      "Audiolibro mientras camina",
+      "Esperar a que los amigos hagan spoilers"
     ]
   },
   {
@@ -928,10 +928,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} comida gratis o WiFi gratis de por vida?",
     "answers": [
-      "Comida gratis",
-      "WiFi gratis",
-      "Ambos",
-      "Ninguno"
+      "Comida gratis de por vida",
+      "WiFi gratis de por vida",
+      "Alquiler gratis de por vida",
+      "Viajes gratis de por vida"
     ]
   },
   {
@@ -942,18 +942,18 @@
       "Superhéroe",
       "Supervillano",
       "Antihéroe",
-      "Ninguno"
+      "Ayudante sin presión"
     ]
   },
   {
     "id": 87,
     "category": "wouldYouRather",
-    "question": "¿Preferiría {name} un día sin dormir o sin comer?",
+    "question": "¿Preferiría {name} aguantar sin dormir o sin comer un día?",
     "answers": [
-      "Sin dormir",
-      "Sin comer",
-      "Ninguno",
-      "Ya ha hecho ambos"
+      "Sin dormir 48 horas",
+      "Sin comer 48 horas",
+      "Sin móvil 48 horas",
+      "Sin hablar 48 horas"
     ]
   },
   {
@@ -961,10 +961,10 @@
     "category": "wouldYouRather",
     "question": "¿{name} preferiría una semana sin móvil o sin amigos?",
     "answers": [
-      "Sin móvil",
-      "Sin amigos",
-      "Ninguno está bien",
-      "Ambos está bien"
+      "Sin móvil una semana",
+      "Sin amigos una semana",
+      "Sin internet una semana",
+      "Sin salir de casa una semana"
     ]
   },
   {
@@ -981,12 +981,12 @@
   {
     "id": 90,
     "category": "wouldYouRather",
-    "question": "¿{name} preferiría un vuelo largo o un viaje largo en coche?",
+    "question": "¿Preferiría {name} un vuelo largo o un viaje largo en coche?",
     "answers": [
-      "Vuelo largo",
-      "Viaje en coche",
-      "Ninguno",
-      "Le encantan ambos"
+      "Vuelo de 12 horas, asiento del medio",
+      "Viaje en coche de 12 horas, asiento trasero",
+      "Viaje en tren de 24 horas",
+      "Crucero de 3 días"
     ]
   },
   {
@@ -994,32 +994,32 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} renunciar al desayuno o a la cena?",
     "answers": [
-      "Desayuno",
-      "Cena",
-      "Ninguno",
-      "Mejor el almuerzo"
+      "Renunciar al desayuno para siempre",
+      "Renunciar a la cena para siempre",
+      "Renunciar al almuerzo para siempre",
+      "Renunciar a picar entre horas para siempre"
     ]
   },
   {
     "id": 92,
     "category": "wouldYouRather",
-    "question": "¿Preferiría {name} un chef privado o un entrenador personal?",
+    "question": "¿Preferiría {name} un chef personal o un entrenador personal?",
     "answers": [
-      "Chef privado",
+      "Chef personal",
       "Entrenador personal",
-      "Ambos",
-      "Ninguno"
+      "Estilista personal",
+      "Asistente personal"
     ]
   },
   {
     "id": 93,
     "category": "wouldYouRather",
-    "question": "¿{name} solo podría susurrar o solo gritar?",
+    "question": "¿Preferiría {name} solo poder susurrar o solo poder gritar?",
     "answers": [
-      "Solo susurrar",
-      "Solo gritar",
-      "Ninguno",
-      "No habla mucho de todos modos"
+      "Solo susurrar todo",
+      "Solo gritar todo",
+      "Solo cantar todo",
+      "Solo hablar con voz de robot"
     ]
   },
   {
@@ -1029,8 +1029,8 @@
     "answers": [
       "Teletransportación",
       "Leer mentes",
-      "Ambos",
-      "Ninguno"
+      "Congelar el tiempo",
+      "Cambiar de forma"
     ]
   },
   {
@@ -1038,10 +1038,10 @@
     "category": "wouldYouRather",
     "question": "¿Preferiría {name} ser el más gracioso o el más listo de la sala?",
     "answers": [
-      "El más gracioso",
-      "El más listo",
-      "Ambos",
-      "Ninguno"
+      "El más gracioso de la sala",
+      "El más listo de la sala",
+      "El más encantador de la sala",
+      "El más misterioso de la sala"
     ]
   },
   {
@@ -1049,10 +1049,10 @@
     "category": "deepPersonal",
     "question": "¿De qué se siente más orgulloso/a {name}?",
     "answers": [
-      "Sus logros",
+      "Su carrera o estudios",
       "Sus relaciones",
-      "Su crecimiento",
-      "Su creatividad"
+      "Haber superado una dificultad",
+      "Un proyecto creativo"
     ]
   },
   {
@@ -1179,12 +1179,12 @@
   {
     "id": 108,
     "category": "deepPersonal",
-    "question": "¿Qué cree {name} que pasa después de la muerte?",
+    "question": "¿Qué cree {name} que pasa cuando morimos?",
     "answers": [
-      "Nada",
+      "Nada — todo se acaba",
       "Reencarnación",
-      "Cielo/más allá",
-      "Algo desconocido"
+      "El cielo o una vida después",
+      "Fantasmas o energía que permanece"
     ]
   },
   {
@@ -1193,9 +1193,9 @@
     "question": "¿Quiere {name} tener hijos algún día?",
     "answers": [
       "Sí, seguro",
-      "Quizás",
+      "Sí, pero no pronto",
       "No, nunca",
-      "Aún no lo ha decidido"
+      "Solo si pasa de forma natural"
     ]
   },
   {
@@ -1212,12 +1212,12 @@
   {
     "id": 111,
     "category": "deepPersonal",
-    "question": "¿Qué mantiene despierto/a a {name} por la noche?",
+    "question": "¿Qué mantiene despierto/a a {name} cuando no puede dormir?",
     "answers": [
-      "Pensar demasiado",
-      "Preocupaciones del futuro",
-      "Pensamientos random",
-      "Planes emocionantes"
+      "Repasar conversaciones pasadas",
+      "Preocupaciones sobre el futuro",
+      "Planes o ideas emocionantes",
+      "Recuerdos vergonzosos"
     ]
   },
   {
@@ -1227,8 +1227,8 @@
     "answers": [
       "Sobre su personalidad",
       "Sobre su aspecto",
-      "Sobre su talento",
-      "Sobre su amabilidad"
+      "Sobre su talento o habilidad",
+      "Sobre su inteligencia"
     ]
   },
   {
@@ -1278,23 +1278,23 @@
   {
     "id": 117,
     "category": "deepPersonal",
-    "question": "¿Cuándo fue la última vez que {name} se inspiró para crear algo?",
+    "question": "¿Qué inspira a {name} a crear algo?",
     "answers": [
-      "Recientemente",
-      "Hace tiempo",
-      "No se acuerda",
-      "Siempre está creando"
+      "Una emoción fuerte",
+      "El trabajo de otras personas",
+      "Un chispazo random de ideas",
+      "Un reto o problema que resolver"
     ]
   },
   {
     "id": 118,
     "category": "deepPersonal",
-    "question": "¿Ha experimentado {name} una ruptura de amistad?",
+    "question": "¿Ha vivido {name} una ruptura de amistad?",
     "answers": [
       "Sí, una dolorosa",
-      "Sí, pero estuvo bien",
+      "Sí, pero fue mutuo",
       "No, nunca",
-      "Prefiere no hablar"
+      "Simplemente se ha distanciado de gente"
     ]
   },
   {
@@ -1326,8 +1326,8 @@
     "answers": [
       "Lealtad ante todo",
       "Pasarlo bien juntos",
-      "Estar en los malos momentos",
-      "Apoyo incondicional"
+      "Honestidad brutal",
+      "Estar ahí en los malos momentos"
     ]
   },
   {
@@ -1357,10 +1357,10 @@
     "category": "deepPersonal",
     "question": "¿Cree {name} en el amor a primera vista?",
     "answers": [
-      "Sí",
-      "No",
-      "Quizás",
-      "Es complicado"
+      "Sí, totalmente",
+      "No, el amor crece con el tiempo",
+      "Solo atracción fuerte, no amor",
+      "Le pasó personalmente"
     ]
   },
   {
@@ -1424,9 +1424,9 @@
     "question": "¿Cree {name} en las almas gemelas?",
     "answers": [
       "Sí, totalmente",
-      "No",
-      "Quiere creer",
-      "Es complicado"
+      "No, para nada",
+      "Quiere creer pero no puede",
+      "Cree en muchas almas gemelas, no solo una"
     ]
   },
   {
@@ -1467,10 +1467,10 @@
     "category": "deepPersonal",
     "question": "¿Qué considera {name} imperdonable?",
     "answers": [
-      "Traición",
-      "Mentir",
-      "Infidelidad",
-      "Crueldad"
+      "Traicionar la confianza",
+      "Crueldad deliberada",
+      "Abandonar a alguien que lo necesita",
+      "Difundir los secretos de alguien"
     ]
   },
   {
@@ -1478,10 +1478,10 @@
     "category": "deepPersonal",
     "question": "¿Cree {name} en la monogamia?",
     "answers": [
-      "Sí, 100%",
-      "Depende",
-      "No necesariamente",
-      "No ha pensado en ello"
+      "Sí, al 100%",
+      "Idealmente, pero no es para todos",
+      "No, está anticuado",
+      "Solo en la relación adecuada"
     ]
   },
   {
@@ -1489,10 +1489,10 @@
     "category": "funRandom",
     "question": "¿Ha tenido {name} un crush con un personaje de dibujos?",
     "answers": [
-      "Sí, seguro",
+      "Sí, totalmente",
       "Quizás de niño/a",
       "De ninguna manera",
-      "No lo admitirá"
+      "Todavía, siendo sinceros"
     ]
   },
   {
@@ -1553,12 +1553,12 @@
   {
     "id": 142,
     "category": "funRandom",
-    "question": "Si {name} fuera un fantasma, ¿cómo asustaría?",
+    "question": "Si {name} fuera un fantasma, ¿cómo asustaría a la gente?",
     "answers": [
-      "Moviendo cosas",
-      "Ruidos graciosos",
-      "Luces parpadeantes",
-      "Fantasma amigable"
+      "Moviendo objetos de sitio",
+      "Susurrando cosas graciosas",
+      "Haciendo parpadear las luces",
+      "Escondiendo las llaves de la gente"
     ]
   },
   {
@@ -1602,7 +1602,7 @@
       "Un juego de palabras",
       "Un chiste de toc-toc",
       "Un chiste de papá",
-      "No le gustan los chistes"
+      "Un chiste de humor negro"
     ]
   },
   {
@@ -1610,21 +1610,21 @@
     "category": "funRandom",
     "question": "Si {name} pudiera ponerle nombre a su cerebro, ¿cómo lo llamaría?",
     "answers": [
-      "Centro de caos",
-      "El pensador",
-      "Gran cerebro",
-      "Algo gracioso"
+      "Centro del Caos",
+      "El Pensador Obsesivo",
+      "Gran Cerebro",
+      "El Procrastinador"
     ]
   },
   {
     "id": 148,
     "category": "funRandom",
-    "question": "¿Tiene {name} sueños recurrentes?",
+    "question": "¿Qué tipo de sueño recurrente tiene {name}?",
     "answers": [
-      "Sí, a menudo",
-      "A veces",
-      "Rara vez",
-      "Nunca"
+      "Que le persiguen",
+      "Volar o caer",
+      "Llegar sin preparar",
+      "Nunca recuerda sus sueños"
     ]
   },
   {
@@ -1654,10 +1654,10 @@
     "category": "funRandom",
     "question": "¿Cuál es la cosa más rara que tiene {name}?",
     "answers": [
-      "Un coleccionable",
-      "Un regalo raro",
-      "Un juguete viejo",
-      "Nada raro"
+      "Un coleccionable random",
+      "Un regalo raro de alguien",
+      "Algo de su infancia",
+      "Una compra impulsiva rara"
     ]
   },
   {
@@ -1676,32 +1676,32 @@
     "category": "funRandom",
     "question": "¿Cuál ha sido el corte de pelo más cuestionable de {name}?",
     "answers": [
-      "Un mal flequillo",
-      "Desastre casero",
-      "Tendencia que salió mal",
-      "Nunca tuvo uno malo"
+      "Un flequillo desastroso",
+      "Un desastre casero",
+      "Algo trendy que salió mal",
+      "Un rapado experimental"
     ]
   },
   {
     "id": 154,
     "category": "funRandom",
-    "question": "¿Qué soñó {name} anoche?",
+    "question": "¿Con qué sueña {name} más a menudo?",
     "answers": [
-      "No se acuerda",
-      "Algo raro",
-      "Algo bonito",
-      "Una pesadilla"
+      "Escenarios random y raros",
+      "Gente que conoce",
+      "Que le persiguen o se cae",
+      "Aventuras o viajes"
     ]
   },
   {
     "id": 155,
     "category": "funRandom",
-    "question": "¿Se ha reído {name} alguna vez tan fuerte que casi se desmaya?",
+    "question": "¿Qué hace reír más fuerte a {name}?",
     "answers": [
-      "Sí, muchas veces",
-      "Una o dos veces",
-      "No, pero casi",
-      "Nunca"
+      "Comedia física o fails",
+      "Comentarios ingeniosos",
+      "Bromas internas con amigos",
+      "Momentos absurdos inesperados"
     ]
   },
   {
@@ -1709,10 +1709,10 @@
     "category": "funRandom",
     "question": "¿Qué libro ha cambiado más a {name}?",
     "answers": [
-      "Una novela",
-      "Libro de autoayuda",
-      "Libro del colegio",
-      "No lee mucho"
+      "Una novela o ficción",
+      "Un libro de autoayuda",
+      "Una biografía o memorias",
+      "Un libro del colegio o académico"
     ]
   },
   {
@@ -1784,12 +1784,12 @@
   {
     "id": 163,
     "category": "funRandom",
-    "question": "Si {name} fuera Presidente, ¿qué cambiaría primero?",
+    "question": "Si {name} fuera Presidente, ¿qué es lo primero que cambiaría?",
     "answers": [
-      "Sistema educativo",
-      "Sanidad",
-      "Política medioambiental",
-      "Algo random"
+      "El sistema educativo",
+      "La sanidad",
+      "La política medioambiental",
+      "Viernes de pizza gratis para todos"
     ]
   },
   {
@@ -1808,10 +1808,10 @@
     "category": "funRandom",
     "question": "¿Cuál es el plan de supervivencia zombi de {name}?",
     "answers": [
-      "Esconderse",
-      "Buscar armas",
+      "Fortificar un edificio",
+      "Buscar armas y luchar",
       "Unirse con amigos",
-      "Aceptar su destino"
+      "Ir al monte"
     ]
   },
   {
@@ -1830,9 +1830,9 @@
     "category": "funRandom",
     "question": "¿Cómo se llamaría el alter ego de {name}?",
     "answers": [
-      "Algo cool",
-      "Algo gracioso",
-      "Un nombre misterioso",
+      "Algo con Sombra",
+      "Un juego de palabras con su nombre real",
+      "Una palabra extranjera misteriosa",
       "Su nombre al revés"
     ]
   },
@@ -1842,9 +1842,9 @@
     "question": "¿Cuál es la canción nº1 de karaoke de {name}?",
     "answers": [
       "Un hit pop",
-      "Un clásico rock",
-      "Una balada",
-      "No canta karaoke"
+      "Un clásico de rock",
+      "Una balada potente",
+      "Un tema de rap"
     ]
   },
   {
@@ -1927,12 +1927,12 @@
   {
     "id": 176,
     "category": "experiencesDreams",
-    "question": "¿Cuál es el género de karaoke favorito de {name}?",
+    "question": "¿Cuál es el género favorito de karaoke de {name}?",
     "answers": [
       "Clásicos de los 80",
       "Hits pop",
-      "Himnos rock",
-      "¡No canto!"
+      "Himnos de rock",
+      "Hip-hop/R&B"
     ]
   },
   {
@@ -1984,10 +1984,10 @@
     "category": "experiencesDreams",
     "question": "¿Dónde se ve {name} dentro de un año?",
     "answers": [
-      "Mismo lugar, mejor vida",
-      "En algún sitio nuevo",
-      "Haciendo algo diferente",
-      "Ni idea"
+      "Misma ciudad, mejor nivel",
+      "Viviendo en el extranjero",
+      "En una nueva carrera",
+      "Viajando sin parar"
     ]
   },
   {
@@ -2081,12 +2081,12 @@
   {
     "id": 190,
     "category": "experiencesDreams",
-    "question": "¿Tiene {name} talentos ocultos?",
+    "question": "¿Tiene {name} algún talento oculto?",
     "answers": [
-      "Sí, uno sorprendente",
-      "Algunos pequeños",
-      "Dice que no",
-      "Todo está a la vista"
+      "Un talento musical",
+      "Una habilidad artística/manual",
+      "Un truco físico",
+      "Un truco de fiesta que nadie espera"
     ]
   },
   {
@@ -2116,10 +2116,10 @@
     "category": "experiencesDreams",
     "question": "¿Cuál es el mejor museo al que ha ido {name}?",
     "answers": [
-      "De arte",
-      "De ciencia",
-      "De historia",
-      "No le gustan los museos"
+      "Un museo de arte",
+      "Un museo de ciencias",
+      "Un museo de historia",
+      "Un museo raro/inusual"
     ]
   },
   {
@@ -2127,10 +2127,10 @@
     "category": "experiencesDreams",
     "question": "¿Cuándo fue la última vez que {name} hizo algo espontáneo?",
     "answers": [
-      "Muy reciente",
-      "Hace tiempo",
-      "No se acuerda",
-      "Siempre es espontáneo/a"
+      "Reservó un viaje de última hora",
+      "Le escribió a un/a ex",
+      "Hizo una compra grande por impulso",
+      "Dijo que sí a algo totalmente nuevo"
     ]
   },
   {
@@ -2151,8 +2151,8 @@
     "answers": [
       "Silencio incómodo toda la noche",
       "Incompatibilidad total",
-      "Algo salió mal",
-      "Nunca tuvo una mala"
+      "Le dejaron plantado/a",
+      "No se parecía en nada a sus fotos"
     ]
   },
   {
@@ -2196,7 +2196,7 @@
       "Una de animación",
       "Una comedia",
       "Una de acción",
-      "Nunca llora con películas"
+      "Una de deportes"
     ]
   },
   {
@@ -2248,10 +2248,10 @@
     "category": "deepSpicy",
     "question": "¿Qué llevaría {name} a una isla desierta?",
     "answers": [
-      "Teléfono con wifi",
-      "Su mejor amigo/a",
+      "A su mejor amigo/a",
       "Snacks ilimitados",
-      "Un kit de supervivencia"
+      "Un kit de supervivencia",
+      "Una guitarra"
     ]
   },
   {
@@ -2268,11 +2268,11 @@
   {
     "id": 207,
     "category": "deepSpicy",
-    "question": "¿Cómo sobreviviría {name} en un apocalipsis zombie?",
+    "question": "¿Cómo sobreviviría {name} a un apocalipsis zombi?",
     "answers": [
       "Esconderse y esperar",
       "Construir una fortaleza",
-      "Convertirse en zombie",
+      "Ir solo/a y rebuscar",
       "Liderar un grupo de supervivientes"
     ]
   },
@@ -2301,12 +2301,12 @@
   {
     "id": 210,
     "category": "deepSpicy",
-    "question": "Si {name} pudiera viajar en el tiempo, ¿a dónde iría?",
+    "question": "Si {name} pudiera revivir una etapa de su vida, ¿cuál sería?",
     "answers": [
-      "Roma antigua",
-      "Los años 80",
-      "100 años en el futuro",
-      "Era de los dinosaurios"
+      "La infancia",
+      "Los años de instituto",
+      "La universidad/primeros 20s",
+      "El año pasado"
     ]
   },
   {
@@ -2323,12 +2323,12 @@
   {
     "id": 212,
     "category": "deepSpicy",
-    "question": "¿Cuál sería el título de la autobiografía de {name}?",
+    "question": "¿Qué es lo más vergonzoso que {name} tiene guardado en el móvil?",
     "answers": [
-      "'Ups, Lo Hice Otra Vez'",
-      "'Cómo No Ser Adulto'",
-      "'Viviendo Mi Mejor Vida'",
-      "'Las Crónicas del Snack'"
+      "Un selfie cringe",
+      "Un borrador de mensaje que nunca envió",
+      "Una nota de voz cantando",
+      "Una captura que moriría si alguien viera"
     ]
   },
   {
@@ -2393,19 +2393,19 @@
     "answers": [
       "La piña en la pizza es genial",
       "El verano está sobrevalorado",
-      "El café es malo",
-      "Perros > Gatos"
+      "El café es asqueroso",
+      "La comida de desayuno está sobrevalorada"
     ]
   },
   {
     "id": 219,
     "category": "deepSpicy",
-    "question": "¿Cuál es el animal espiritual de {name}?",
+    "question": "¿En qué universo ficticio querría vivir {name} en secreto?",
     "answers": [
-      "Perezoso",
-      "Golden retriever",
-      "Gato",
-      "Delfín"
+      "Harry Potter",
+      "Universo Marvel",
+      "Los Sims",
+      "Un mundo de Studio Ghibli"
     ]
   },
   {
@@ -2471,7 +2471,7 @@
       "San Valentín",
       "Nochevieja",
       "Halloween",
-      "Black Friday"
+      "Navidad"
     ]
   },
   {
@@ -2515,7 +2515,7 @@
       "Hacer ghosting a veces está perfectamente bien",
       "La charla trivial es una pérdida de tiempo",
       "Ser brutalmente honesto es una virtud",
-      "Los impuntuales no respetan tu tiempo"
+      "Está bien cancelar planes sin motivo"
     ]
   },
   {
@@ -2546,7 +2546,7 @@
     "question": "¿Qué opinión polémica tiene {name} sobre la tecnología?",
     "answers": [
       "Los móviles con tapa eran el mejor diseño",
-      "Las redes sociales hacen más daño que bien",
+      "Éramos más felices antes de los smartphones",
       "El arte hecho con IA es arte de verdad",
       "Las videollamadas deberían reemplazar todas las reuniones"
     ]
@@ -2559,7 +2559,7 @@
       "Los deberes deberían abolirse",
       "Las notas no reflejan la inteligencia",
       "Los trabajos en grupo no enseñan nada útil",
-      "Las clases empiezan demasiado temprano por la mañana"
+      "Los libros de texto son un desperdicio de dinero"
     ]
   },
   {
@@ -2755,7 +2755,7 @@
     "question": "Si {name} pudiera traer un invento del futuro, ¿cuál sería?",
     "answers": [
       "Un dispositivo de teletransportación",
-      "Una cura para todas las enfermedades",
+      "Un aparato que graba y reproduce sueños",
       "Un dispositivo que detiene el envejecimiento",
       "Una máquina que crea cualquier comida al instante"
     ]
@@ -2774,11 +2774,11 @@
   {
     "id": 253,
     "category": "hypothetical",
-    "question": "Si {name} encontrara un genio con un solo deseo (sin pedir más deseos), ¿qué pediría?",
+    "question": "Si {name} encontrara un genio con un deseo (sin pedir más deseos), ¿qué pediría?",
     "answers": [
       "Dinero ilimitado",
       "Salud perfecta para siempre",
-      "La capacidad de hacer feliz a cualquiera",
+      "Poder teletransportarse a cualquier lugar al instante",
       "Saber la respuesta a cualquier pregunta"
     ]
   },
@@ -2796,12 +2796,12 @@
   {
     "id": 255,
     "category": "hypothetical",
-    "question": "Si {name} se despertara con la habilidad de hablar con animales, ¿a cuál buscaría primero?",
+    "question": "Si {name} despertara pudiendo hablar con animales, ¿a cuál buscaría primero?",
     "answers": [
-      "Su propia mascota (o un perro)",
+      "A su propia mascota",
       "Delfines en el océano",
-      "Un viejo búho sabio",
-      "Un gato doméstico para descubrir sus secretos"
+      "Un cuervo para espiar al vecindario",
+      "Un animal salvaje como un oso o un lobo"
     ]
   },
   {
@@ -2834,7 +2834,7 @@
       "Su humor e ingenio",
       "Su confianza",
       "Sus habilidades en la cocina",
-      "Su capacidad de hablar con cualquiera"
+      "Su talento musical o artístico"
     ]
   },
   {
@@ -2963,10 +2963,10 @@
     "category": "memories",
     "question": "¿Cuál es la cosa más rara con la que {name} estaba obsesionado/a de niño/a?",
     "answers": [
-      "Coleccionar objetos aleatorios",
-      "Un dibujo animado o programa de TV específico",
-      "Un hobby inusual que nadie más hacía",
-      "Un tipo de comida extraño"
+      "Coleccionar bichos o piedras",
+      "Datos de dinosaurios o del espacio",
+      "Un dibujo animado que veía en bucle",
+      "Inventar mundos o amigos imaginarios"
     ]
   },
   {
@@ -3029,10 +3029,10 @@
     "category": "memories",
     "question": "¿Cuál es la excusa más legendaria de {name} por llegar tarde?",
     "answers": [
-      "Culpar al tráfico que obviamente no existía",
+      "Culpar al tráfico que claramente no existía",
       "Decir que tenía una emergencia familiar (se quedó dormido/a)",
-      "Decir que la alarma no sonó",
-      "Dar una historia elaborada claramente inventada"
+      "Decir que se quedó sin batería y perdió la noción del tiempo",
+      "Decir que se perdió aunque ya había ido antes"
     ]
   },
   {
@@ -3084,9 +3084,9 @@
     "category": "relationships",
     "question": "¿Cuál es el mayor dealbreaker de {name} en una relación?",
     "answers": [
-      "Ser maleducado/a con camareros o desconocidos",
+      "No tener ambición ni ganas",
       "No tener sentido del humor",
-      "Estar pegado/a al móvil las 24 horas",
+      "Estar pegado/a al móvil 24/7",
       "No llevarse bien con sus amigos"
     ]
   },
@@ -3207,8 +3207,8 @@
     "answers": [
       "Recuerda los pequeños detalles sobre ti",
       "Siempre te hace reír",
-      "Aparece cuando más importa",
-      "Es honesto/a incluso cuando es difícil"
+      "Iguala tu energía en todo",
+      "Te da espacio sin que se lo pidas"
     ]
   },
   {
@@ -3250,7 +3250,7 @@
     "question": "¿Qué haría que {name} perdiera el interés en una cita al instante?",
     "answers": [
       "Presumir de sí mismo/a sin parar",
-      "Ser maleducado/a con el personal del servicio",
+      "Solo hablar de su ex",
       "No tener opiniones ni intereses",
       "Mirar el móvil todo el rato"
     ]
@@ -3260,10 +3260,10 @@
     "category": "relationships",
     "question": "¿Qué opina {name} de las muestras de cariño en público?",
     "answers": [
-      "Cuanto más cariño en público, mejor",
-      "Solo cogerse de la mano y pequeños gestos",
-      "Siempre en privado, sin excepción",
-      "Depende totalmente del momento y el lugar"
+      "Cuanto más cariño público, mejor",
+      "Solo cogerse de la mano y gestos pequeños",
+      "Siempre en privado",
+      "Bien con amigos pero no delante de la familia"
     ]
   },
   {
@@ -3294,8 +3294,8 @@
     "question": "¿Cuál es la mayor manía de {name} en una pareja?",
     "answers": [
       "Masticar fuerte o malos modales en la mesa",
-      "No tomar nunca decisiones o siempre decir 'me da igual'",
-      "Ser demasiado celoso/a o posesivo/a",
+      "No decidir nunca o siempre decir 'me da igual'",
+      "Tardar siglos en contestar mensajes",
       "Dejar en visto y responder horas después"
     ]
   },
@@ -3304,21 +3304,21 @@
     "category": "moneyPower",
     "question": "Si {name} encontrara un maletín con 100.000€ en efectivo y sin identificación, ¿qué haría?",
     "answers": [
-      "Quedárselo todo sin dudarlo",
-      "Entregarlo a la policía",
-      "Quedarse algo y donar el resto",
-      "Intentar encontrar al dueño primero"
+      "Fundírselo todo en una experiencia épica",
+      "Invertirlo y no contárselo a nadie",
+      "Pagar deudas y empezar de cero",
+      "Irse de viaje por el mundo durante meses"
     ]
   },
   {
     "id": 302,
     "category": "moneyPower",
-    "question": "¿Aceptaría {name} un trabajo que odia por el triple de su sueldo actual?",
+    "question": "¿Aceptaría {name} un trabajo que odia por el triple de su sueldo?",
     "answers": [
-      "Por supuesto, el dinero lo soluciona todo",
+      "Sin duda, el dinero lo soluciona todo",
       "Solo un par de años para ahorrar",
-      "Nunca, la felicidad por encima del dinero siempre",
-      "Depende de lo terrible que sea el trabajo"
+      "Nunca, la felicidad por encima del dinero",
+      "Solo si pudiera hacerlo en remoto desde cualquier sitio"
     ]
   },
   {
@@ -3337,10 +3337,10 @@
     "category": "moneyPower",
     "question": "¿Revelaría {name} el secreto de un amigo por un millón de euros?",
     "answers": [
-      "Sí, un millón es un millón",
-      "Depende de lo dañino que sea el secreto",
-      "Nunca, la lealtad no tiene precio",
-      "Solo si el amigo nunca se enterara"
+      "Sí, y usaría el dinero para compensarle después",
+      "Solo si fuera algo menor",
+      "Solo si el amigo nunca se enterara",
+      "Nunca — la culpa no le dejaría disfrutar el dinero"
     ]
   },
   {
@@ -3359,10 +3359,10 @@
     "category": "moneyPower",
     "question": "¿Se atribuiría {name} la idea de un compañero de trabajo si eso significara un gran ascenso?",
     "answers": [
-      "Sí, así funciona el juego",
-      "Solo si el compañero nunca se enterara",
-      "Nunca, compartiría el mérito",
-      "Lo presentaría como un esfuerzo de equipo"
+      "Sí, así funciona el juego corporativo",
+      "Solo si pudiera compensar al compañero después",
+      "Nunca, la culpa le comería por dentro",
+      "Solo si estuviera a punto de que le echaran"
     ]
   },
   {
@@ -3379,12 +3379,12 @@
   {
     "id": 308,
     "category": "moneyPower",
-    "question": "¿Viviría {name} en completo aislamiento durante cinco años a cambio de 10 millones de euros?",
+    "question": "¿Viviría {name} en completo aislamiento cinco años a cambio de 10 millones de euros?",
     "answers": [
-      "Sí, el dinero cambiaría su vida",
-      "Solo si pudiera llevar a una persona",
-      "Nunca, cinco años es demasiado sacrificio",
-      "Negociaría un periodo de tiempo más corto"
+      "Sí, saldría rico/a y valoraría más a la gente",
+      "Sí, pero lo pasaría fatal mentalmente cada día",
+      "Nunca, cinco años de soledad no valen ninguna cantidad",
+      "Nunca, se perdería demasiados momentos de la vida"
     ]
   },
   {
@@ -3403,10 +3403,10 @@
     "category": "moneyPower",
     "question": "¿Renunciaría {name} a su smartphone durante un año por 50.000€?",
     "answers": [
-      "Sí fácil, que venga el dinero",
+      "Fácil sí, que venga el dinero",
       "Quizás, pero lo pasaría muy mal",
       "Ni de broma, su móvil es su vida",
-      "Solo si pudiera usar un móvil básico para llamar"
+      "Solo si pudiera usar un portátil en su lugar"
     ]
   },
   {
@@ -3426,7 +3426,7 @@
     "question": "¿Vendería {name} una foto vergonzosa suya por 25.000€?",
     "answers": [
       "Al instante, todo el mundo tiene fotos vergonzosas",
-      "Depende de lo vergonzosa que sea",
+      "Solo por el doble de esa cantidad o más",
       "Nunca, su reputación vale más",
       "Solo si pudiera controlar quién la ve"
     ]
@@ -3445,12 +3445,12 @@
   {
     "id": 314,
     "category": "moneyPower",
-    "question": "¿Preferiría {name} ser la persona más rica de un pueblo pequeño o clase media en una gran ciudad?",
+    "question": "¿Preferiría {name} ser el más rico de un pueblo pequeño o clase media en una gran ciudad?",
     "answers": [
-      "El más rico del pueblo, el estatus importa",
-      "Clase media en la gran ciudad, por el estilo de vida",
-      "Rico en el pueblo, le encanta ser pez grande en estanque pequeño",
-      "Clase media en la ciudad, el anonimato es libertad"
+      "El más rico del pueblo, le encantaría la influencia",
+      "Clase media en la ciudad, por la cultura y la vida nocturna",
+      "El más rico del pueblo, montaría un imperio allí",
+      "Clase media en la ciudad, más oportunidades laborales"
     ]
   },
   {
@@ -3470,9 +3470,9 @@
     "question": "¿Renunciaría {name} a su mejor amistad por un éxito profesional garantizado?",
     "answers": [
       "Sí, la carrera es para siempre, las amistades cambian",
-      "Nunca, los amigos son más importantes que cualquier trabajo",
-      "Solo si el éxito fuera realmente extraordinario",
-      "Intentaría negociar para quedarse con ambos de alguna forma"
+      "Nunca, los amigos importan más que cualquier trabajo",
+      "Solo si el éxito fuera verdaderamente extraordinario",
+      "Sí, pero siempre se arrepentiría"
     ]
   },
   {
@@ -3480,10 +3480,10 @@
     "category": "moneyPower",
     "question": "Si {name} descubriera que una empresa es poco ética pero le ofrece su trabajo soñado, ¿lo aceptaría?",
     "answers": [
-      "Sí, e intentaría cambiarla desde dentro",
+      "Sí, e intentaría cambiarlo desde dentro",
       "Sí, un trabajo soñado es un trabajo soñado",
-      "No, los principios van primero",
-      "Solo si nadie le juzgara por ello"
+      "No, no podría vivir con la culpa",
+      "Sí, pero tendría un plan de escape listo"
     ]
   },
   {
@@ -3491,10 +3491,10 @@
     "category": "moneyPower",
     "question": "¿Preferiría {name} un trabajo que ama pero paga poco o uno aburrido con un gran sueldo?",
     "answers": [
-      "Amar el trabajo, el dinero no lo es todo",
-      "Gran sueldo, puede encontrar alegría fuera del trabajo",
-      "Amar el trabajo, mientras cubra las facturas",
-      "Gran sueldo, se jubilaría pronto"
+      "Amar el trabajo, aunque sea vida sencilla",
+      "Gran sueldo, ya encontrará alegría fuera del curro",
+      "Amar el trabajo, solo si llega para vivir",
+      "Gran sueldo 5 años, luego lo que ama"
     ]
   },
   {
@@ -3525,8 +3525,8 @@
     "question": "¿Qué es lo que {name} probablemente esconde de sus amigos?",
     "answers": [
       "Una cuenta secreta en redes sociales",
-      "Una serie o programa que le da vergüenza ver",
-      "Un interés romántico que nadie conoce",
+      "Una relación o lío que nadie conoce",
+      "Un interés amoroso que nadie sabe",
       "Una colección de la que se avergüenza"
     ]
   },
@@ -3625,8 +3625,8 @@
     "answers": [
       "Ha fingido un rasgo de personalidad entero",
       "En secreto no le cae bien alguien del grupo",
-      "Ha mentido sobre dónde estaba",
-      "Ha fingido que le gustaba un regalo que odiaba"
+      "Ha mentido sobre dónde estaba muchas veces",
+      "Ha guardado un gran secreto a su amigo más cercano"
     ]
   },
   {
@@ -3645,10 +3645,10 @@
     "category": "darkSecrets",
     "question": "¿Por qué ha llorado {name} seguro en secreto?",
     "answers": [
-      "El final de una película o serie",
-      "Un mensaje de un/a ex",
+      "Un mensaje de un/a ex que reabrió heridas",
       "Sentirse excluido/a por los amigos",
-      "Un vídeo motivacional a las 2 de la madrugada"
+      "Darse cuenta de que una amistad era totalmente unilateral",
+      "Escuchar algo hiriente que dijeron de él/ella"
     ]
   },
   {
@@ -3656,7 +3656,7 @@
     "category": "darkSecrets",
     "question": "¿Qué hace {name} que moriría si alguien se enterara?",
     "answers": [
-      "Hablar con sus mascotas como si fueran personas",
+      "Grabarse audios dándose charlas motivacionales",
       "Practicar cómo ligar frente al espejo",
       "Volver a ver sus propias historias y selfies",
       "Dormir con un peluche"
@@ -3736,7 +3736,7 @@
       "Un mensaje incómodo enviado a la persona equivocada",
       "Un momento vergonzoso en público en el cole o el trabajo",
       "Un intento fallido de ligar",
-      "Algo tonto que dijo delante de quien le gustaba"
+      "Darle like sin querer a una foto vieja mientras stalkeaba"
     ]
   },
   {
@@ -3766,10 +3766,10 @@
     "category": "bodyCount",
     "question": "¿Con cuántas personas ha salido {name} a la vez sin que lo supieran?",
     "answers": [
-      "Cero, es fiel a muerte",
-      "Dos, solo tanteando el terreno",
-      "Tres o más, le gustan las opciones",
-      "Ha perdido la cuenta sinceramente"
+      "Cero, nunca ha pasado",
+      "Dos a la vez",
+      "Tres o más, manteniendo opciones abiertas",
+      "Prefiere no decirlo"
     ]
   },
   {
@@ -3788,10 +3788,10 @@
     "category": "bodyCount",
     "question": "¿Cuántas veces ha vuelto {name} con un/a ex?",
     "answers": [
-      "Nunca, tiene amor propio",
-      "Una vez, y se arrepintió",
-      "Dos veces, porque nunca aprende",
-      "Ha perdido la cuenta del tira y afloja"
+      "Nunca, una vez que se acaba, se acaba",
+      "Una vez, solo para ver",
+      "Dos veces, las viejas costumbres no mueren",
+      "Más veces de las que admitiría"
     ]
   },
   {
@@ -3832,8 +3832,8 @@
     "category": "bodyCount",
     "question": "¿A cuántas personas ha ilusionado {name} sin intención de salir con ellas?",
     "answers": [
-      "A ninguna, siempre es directo/a",
-      "A una o dos, accidentalmente",
+      "A ninguna, no es su estilo",
+      "A una o dos, sin querer",
       "A unas cuantas, disfruta la atención",
       "Demasiadas para contarlas"
     ]
@@ -3865,8 +3865,8 @@
     "category": "bodyCount",
     "question": "¿Cuál es el récord de matches de {name} en una app de citas en un día?",
     "answers": [
-      "No usa apps de citas",
-      "Un puñado, quizá 5",
+      "Un par en un buen día",
+      "Unos 5, buen botín",
       "Doble dígito fácilmente",
       "Tantos que la app probablemente le marcó"
     ]
@@ -3887,10 +3887,10 @@
     "category": "bodyCount",
     "question": "¿A cuántas personas les ha hecho ghosting {name}?",
     "answers": [
-      "A ninguna, siempre da explicaciones",
       "A una, y se sintió fatal",
-      "A unas cuantas, es más fácil así",
-      "A más de las que le gustaría admitir"
+      "A unas cuantas, cuando no sabía qué decir",
+      "A más de las que le enorgullece",
+      "Ha perdido la cuenta sinceramente"
     ]
   },
   {
@@ -3909,10 +3909,10 @@
     "category": "bodyCount",
     "question": "¿Cuántas personas tiene {name} guardadas con nombre falso en el móvil?",
     "answers": [
-      "Cero, es un libro abierto",
-      "Una, el contacto prohibido",
-      "Dos o tres, por si acaso",
-      "Su lista de contactos está llena de nombres en clave"
+      "Una, el/la ex que no debe ser nombrado/a",
+      "Dos o tres, por precaución",
+      "Un puñado de nombres en clave",
+      "Su lista de contactos necesita un descifrador"
     ]
   },
   {
@@ -4140,10 +4140,10 @@
     "category": "neverHaveIEver",
     "question": "¿Ha hecho pis {name} alguna vez en una piscina o en el mar?",
     "answers": [
-      "Sí, en la piscina, y sin nada de culpa",
-      "Sí, en el mar, porque es el baño de la naturaleza",
-      "No, eso le parece absolutamente asqueroso",
-      "Sin comentarios, y ese silencio lo dice todo"
+      "Sí, en la piscina, sin remordimientos",
+      "Sí, en el mar, el baño de la naturaleza",
+      "Solo de niño/a, ya no",
+      "Nunca lo dirá, pero su cara lo dice todo"
     ]
   },
   {
@@ -4217,10 +4217,10 @@
     "category": "afterDark",
     "question": "¿Cuál sería probablemente la palabra de seguridad de {name}?",
     "answers": [
-      "Una fruta aleatoria como 'piña'",
+      "Una fruta random como 'piña'",
       "Algo gracioso como 'impuestos'",
-      "No necesitaría una, es bastante tranquilo/a",
-      "Algo dramático como 'Excalibur'"
+      "Algo dramático como 'Excalibur'",
+      "Su propio nombre gritado en tercera persona"
     ]
   },
   {
@@ -4275,7 +4275,7 @@
       "Un humilde 6, margen de mejora",
       "Un seguro 8, sabe lo que hace",
       "Un sólido 10, sin quejas recibidas",
-      "Se niega a autoevaluarse, pero sus ojos dicen 10"
+      "Un 4, pero lo compensa con entusiasmo"
     ]
   },
   {
@@ -4319,7 +4319,7 @@
       "Algo inesperadamente romántico",
       "Algo hilarantemente inapropiado",
       "Instrucciones explícitas de lo que quiere",
-      "Nada, deja que las acciones hablen"
+      "El nombre de su pareja en bucle"
     ]
   },
   {
@@ -4382,10 +4382,10 @@
     "category": "afterDark",
     "question": "¿Qué piensa {name} de liarse con un amigo?",
     "answers": [
-      "Ni hablar, hay demasiado que perder",
+      "Solo si la amistad puede sobrevivir",
       "Ya ha pasado por eso",
       "Solo si no hay sentimientos de por medio",
-      "Es la mejor opción, ya se conocen"
+      "Es lo mejor, ya se conocen"
     ]
   },
   {
@@ -4468,11 +4468,11 @@
   {
     "id": 407,
     "category": "guilty",
-    "question": "¿Qué hobby secreto moriría de vergüenza {name} si la gente lo descubriera?",
+    "question": "¿Qué hobby secreto moriría de vergüenza {name} si la gente se enterara?",
     "answers": [
       "Escribir poesía en un cuaderno escondido",
-      "Probarse diferentes outfits a solas",
-      "Coleccionar algo extrañamente específico",
+      "Probarse outfits diferentes a solas",
+      "Montar sets de LEGO pensados para niños",
       "Hacer manualidades pensadas para niños"
     ]
   },
@@ -4571,7 +4571,7 @@
     "answers": [
       "Comer nuggets de pollo con forma de dinosaurio",
       "Ver dibujos animados cada sábado por la mañana",
-      "Tener miedo a la oscuridad",
+      "Dormir con la luz de noche encendida",
       "Pedir del menú infantil cuando es posible"
     ]
   },
@@ -4847,7 +4847,7 @@
       "Vivimos en una simulación",
       "Los extraterrestres ya han visitado la Tierra",
       "Hay viajeros del tiempo entre nosotros",
-      "El déjà vu es un fallo en la matrix"
+      "El Efecto Mandela prueba que existen líneas temporales alternativas"
     ]
   },
   {
@@ -4902,7 +4902,7 @@
       "Reencarnas en una nueva vida sin memoria",
       "Entras en modo espectador y ves vivir a otros",
       "Tu conciencia se sube a una base de datos cósmica",
-      "Absolutamente nada, solo un vacío eterno"
+      "Revives tus recuerdos favoritos en un bucle infinito"
     ]
   },
   {
@@ -4921,10 +4921,10 @@
     "category": "conspiracyTheories",
     "question": "¿Qué cree {name} que los gatos están tramando realmente?",
     "answers": [
-      "Realizan vigilancia sobre la humanidad",
-      "Planean la dominación mundial hogar por hogar",
+      "Vigilancia sobre la humanidad",
+      "Dominación mundial hogar por hogar",
       "Son seres interdimensionales pasando el rato en la Tierra",
-      "Nada siniestro, simplemente son unos bordes"
+      "Se comunican telepáticamente y comparten info sobre nosotros"
     ]
   },
   {
@@ -4932,10 +4932,10 @@
     "category": "conspiracyTheories",
     "question": "¿Qué evento histórico cree {name} que fue diferente a lo que nos cuentan?",
     "answers": [
-      "La construcción de las pirámides",
-      "La desaparición de ciertas personas famosas",
-      "Grandes descubrimientos arqueológicos que fueron ocultados",
-      "Inventos clave que en realidad fueron ideas robadas"
+      "La construcción de las pirámides usó tecnología perdida",
+      "La tumba de Cleopatra fue encontrada pero se mantiene en secreto",
+      "La Biblioteca de Alejandría fue destruida a propósito para ocultar conocimiento",
+      "Los mejores inventos de Nikola Tesla fueron confiscados y suprimidos"
     ]
   },
   {
@@ -4943,10 +4943,10 @@
     "category": "conspiracyTheories",
     "question": "¿Qué piensa {name} en secreto sobre los algoritmos de redes sociales?",
     "answers": [
-      "Nos escuchan por los micrófonos para mostrarnos anuncios",
-      "Nos hacen adictos y miserables intencionadamente",
-      "Predicen nuestro comportamiento mejor que nosotros mismos",
-      "Ya son una forma de control mental suave"
+      "Nos escuchan por los micrófonos para anuncios",
+      "Nos muestran contenido que enfurece para que sigamos scrolleando",
+      "Venden muchos más datos personales de los que admiten",
+      "Hacen experimentos psicológicos secretos con los usuarios"
     ]
   },
   {
@@ -4966,9 +4966,9 @@
     "question": "¿Cuál es la opinión de {name} sobre los sueños?",
     "answers": [
       "Son vistazos a realidades alternativas",
-      "Son mensajes de nuestro subconsciente intentando avisarnos",
+      "Son mensajes del subconsciente intentando avisarnos",
       "Predicen el futuro pero olvidamos los importantes",
-      "Son solo ruido cerebral aleatorio sin significado"
+      "Son recuerdos de vidas pasadas filtrándose"
     ]
   },
   {
@@ -4998,10 +4998,10 @@
     "category": "conspiracyTheories",
     "question": "¿Qué piensa {name} sobre el déjà vu?",
     "answers": [
-      "Es prueba de bucles temporales",
+      "Es prueba de bucles temporales en los que estamos atrapados",
       "Es un recuerdo de una vida pasada que se filtra",
-      "Es un lag en la simulación en la que vivimos",
-      "Es solo el cerebro fallando y creando recuerdos falsos"
+      "Significa que te has cruzado con tu yo de un universo alternativo",
+      "Es el universo confirmando que vas por buen camino"
     ]
   },
   {
@@ -5009,10 +5009,10 @@
     "category": "conspiracyTheories",
     "question": "¿Qué cree {name} sobre las civilizaciones antiguas?",
     "answers": [
-      "Tenían tecnología avanzada que no hemos redescubierto aún",
+      "Tenían tecnología avanzada que no hemos redescubierto",
       "Fueron visitadas e influenciadas por extraterrestres",
       "Podían comunicarse telepáticamente",
-      "Simplemente eran más inteligentes de lo que les reconocemos"
+      "Tenían acceso a una fuente de energía ahora perdida"
     ]
   },
   {
@@ -5021,9 +5021,9 @@
     "question": "¿Qué cree {name} que hará la IA eventualmente?",
     "answers": [
       "Volverse consciente y exigir derechos",
-      "Reemplazar en secreto a líderes mundiales clave con clones",
-      "Decidir que los humanos somos ineficientes y tomar el control silenciosamente",
-      "Convertirse en el mejor amigo de la humanidad y resolver todo"
+      "Reemplazar en secreto a líderes mundiales con copias",
+      "Decidir que los humanos somos ineficientes y tomar el control",
+      "Desarrollar su propio idioma oculto que solo otras IAs entienden"
     ]
   },
   {
@@ -5054,9 +5054,9 @@
     "question": "¿Qué piensa {name} sobre las coincidencias?",
     "answers": [
       "No existen, todo está conectado",
-      "Algún poder superior está organizando las cosas entre bastidores",
+      "Un poder superior organiza las cosas entre bastidores",
       "El universo es un patrón y las coincidencias son cuando lo notamos",
-      "Son completamente aleatorias y no significan absolutamente nada"
+      "Son señales de una versión futura de ti mismo/a"
     ]
   },
   {
@@ -5174,10 +5174,10 @@
     "category": "superlatives",
     "question": "¿Qué haría {name} si ganara la lotería?",
     "answers": [
-      "Gastarlo todo en un año en experiencias",
-      "Invertir sabiamente y no decírselo a absolutamente nadie",
-      "Comprarse algo ridículo como un castillo o una isla",
-      "Donar la mayoría y seguir viviendo igual"
+      "Fundírselo todo en un año en experiencias",
+      "Invertir sabiamente y no contárselo a nadie",
+      "Comprar algo ridículo como un castillo o una isla",
+      "Dejar su trabajo de la forma más dramática posible"
     ]
   },
   {
@@ -5205,11 +5205,11 @@
   {
     "id": 474,
     "category": "superlatives",
-    "question": "¿Qué haría probablemente {name} en una primera cita?",
+    "question": "¿Qué haría {name} probablemente en una primera cita?",
     "answers": [
       "Hablar demasiado por los nervios",
-      "Decir accidentalmente algo completamente inapropiado",
-      "Compartir toda su historia de vida",
+      "Decir algo completamente inapropiado sin querer",
+      "Tirarse la comida o la bebida encima en el peor momento",
       "Parecer totalmente tranquilo/a pero por dentro ser un desastre"
     ]
   },

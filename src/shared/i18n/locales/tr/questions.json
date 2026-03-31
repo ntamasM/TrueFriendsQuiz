@@ -442,12 +442,12 @@
   {
     "id": 41,
     "category": "personality",
-    "question": "{name}'in kişiliği insanlara göre ne kadar değişir?",
+    "question": "{name} yeni insanların yanında mı yoksa yakın arkadaşlarının yanında mı farklı davranır?",
     "answers": [
-      "Çok",
-      "Biraz",
-      "Hiç",
-      "Gruba bağlı"
+      "Çok daha çekingen",
+      "Biraz daha kibar",
+      "Tamamen aynı",
+      "Normalden bile daha çılgın"
     ]
   },
   {
@@ -456,9 +456,9 @@
     "question": "{name} mükemmel hafta sonunu nasıl tanımlar?",
     "answers": [
       "Evde dinlenmek",
-      "Arkadaşlarla çıkmak",
-      "Bir yere seyahat",
-      "Çok uyumak"
+      "Arkadaşlarla dışarı çıkmak",
+      "Bir yere seyahat etmek",
+      "Bir hobiyle uğraşmak"
     ]
   },
   {
@@ -523,8 +523,8 @@
     "answers": [
       "Katlayarak",
       "Bıçak çatalla",
-      "Kenarından",
-      "Normal"
+      "Kenarından başlayarak",
+      "Önce üstündekileri yiyerek"
     ]
   },
   {
@@ -532,10 +532,10 @@
     "category": "personality",
     "question": "{name} genellikle saat kaçta yatar?",
     "answers": [
-      "22'den önce",
+      "Akşam 10'dan önce",
       "Gece yarısı civarı",
-      "2'den sonra",
-      "Çok değişir"
+      "Gece 2'den sonra",
+      "Uyuyakalana kadar"
     ]
   },
   {
@@ -587,21 +587,21 @@
     "category": "personality",
     "question": "{name} sabahçı mı yoksa gece kuşu mu?",
     "answers": [
-      "Sabahçı",
-      "Gece kuşu",
-      "Güne bağlı",
-      "Hiçbiri"
+      "Sabahçı — şafakta ayakta",
+      "Gece kuşu — gece yarısı canlanır",
+      "İş için sabah, eğlence için gece",
+      "Öğlenci — en enerjik öğlen olur"
     ]
   },
   {
     "id": 55,
     "category": "personality",
-    "question": "{name} ne kadar saf?",
+    "question": "{name} ne kadar kolay kandırılır?",
     "answers": [
-      "Çok saf",
-      "Biraz",
-      "Zor kandırılır",
-      "Hiç değil"
+      "İlk başta her şeye inanır",
+      "Kanar ama sonra anlar",
+      "Şüpheci ama kandırılabilir",
+      "Kandırmak neredeyse imkansız"
     ]
   },
   {
@@ -609,10 +609,10 @@
     "category": "personality",
     "question": "{name} ne kadar rekabetçi?",
     "answers": [
-      "Aşırı",
-      "Biraz",
-      "Sadece bazı konularda",
-      "Hiç değil"
+      "Kazanmak için masayı devirir",
+      "Rekabetçi ama centilmen",
+      "Sadece oyunlarda rekabetçi",
+      "Kimin kazandığı umurunda değil"
     ]
   },
   {
@@ -620,32 +620,32 @@
     "category": "personality",
     "question": "{name} içe dönük mü yoksa dışa dönük mü?",
     "answers": [
-      "İçe dönük",
-      "Dışa dönük",
-      "İkisinin arası",
-      "Ruh haline bağlı"
+      "İçe dönük — yalnız kalma zamanı lazım",
+      "Dışa dönük — insanlardan enerji alır",
+      "İkisi arası — tam yarı yarıya",
+      "Utangaç ama gizliden ilgi sever"
     ]
   },
   {
     "id": 58,
     "category": "personality",
-    "question": "{name} enerjisini yalnız mı yoksa insanlarla mı toplar?",
+    "question": "{name} enerjisini yalnız mı yoksa insanların yanında mı toplar?",
     "answers": [
-      "Yalnız",
-      "İnsanlarla",
-      "Karışık",
-      "Haftaya bağlı"
+      "Tamamen sessizlikte yalnız",
+      "Yalnız ama arkadaşlarla mesajlaşarak",
+      "Yakın bir kişiyle birlikte",
+      "Bir grup arkadaşın arasında"
     ]
   },
   {
     "id": 59,
     "category": "personality",
-    "question": "{name} kalbini mi yoksa aklını mı takip eder?",
+    "question": "{name} genellikle kalbini mi aklını mı dinler?",
     "answers": [
-      "Kalbini",
-      "Aklını",
-      "Duruma bağlı",
-      "Hiçbiri — içgüdüsünü"
+      "Kalbini — önce duygular",
+      "Aklını — önce mantık",
+      "İçgüdüsünü",
+      "Başkasına karar verdirtir"
     ]
   },
   {
@@ -673,45 +673,45 @@
   {
     "id": 62,
     "category": "personality",
-    "question": "{name} kendini genç ruhlu mu yoksa eski kafalı mı görüyor?",
+    "question": "{name} kendini ruhça genç mi yoksa yaşlı bir ruh mu olarak görür?",
     "answers": [
-      "Genç ruhlu",
-      "Eski kafalı",
-      "İkisinin karışımı",
-      "Güne bağlı"
+      "Ruhça genç — içinde hâlâ çocuk",
+      "Yaşlı ruh — yaşının ötesinde bilge",
+      "Yaşlı davranır ama çocuksu şeylere bayılır",
+      "Genç davranır ama derin düşünür"
     ]
   },
   {
     "id": 63,
     "category": "personality",
-    "question": "{name}'in ismi onun için ne anlama geliyor?",
+    "question": "{name} kendi adı hakkında ne düşünür?",
     "answers": [
-      "Aile geleneği",
-      "Özel bir anlamı var",
-      "Sadece seviyor",
-      "Bilmiyor"
+      "Bayılır — değiştirmez",
+      "İdare eder, özel değil",
+      "Farklı bir adı olmasını ister",
+      "Bunun yerine takma ad kullanır"
     ]
   },
   {
     "id": 64,
     "category": "personality",
-    "question": "{name} tek bir en iyi arkadaşa inanıyor mu?",
+    "question": "{name} tek bir en yakın arkadaşa inanır mı?",
     "answers": [
-      "Evet, tek bir can yoldaşı",
-      "Hayır, yakın bir grup",
-      "Birden fazla en iyi arkadaş",
-      "Düşünmüyor"
+      "Evet, tek bir can dostu",
+      "3-4 kişilik dar bir çevre",
+      "Eşit derecede yakın birçok arkadaş",
+      "Arkadaşlıkları samimi ama mesafeli tutar"
     ]
   },
   {
     "id": 65,
     "category": "personality",
-    "question": "{name} burcunun hangi özelliğiyle en çok özdeşleşiyor?",
+    "question": "{name} burçlar hakkında ne düşünür?",
     "answers": [
-      "Kişilik özellikleri",
-      "Aşk tarafı",
-      "Kariyer kısmı",
-      "Hiçbiriyle"
+      "Tamamen inanır",
+      "Eğlence olsun diye okur",
+      "Saçmalık der ama burcunu bilir",
+      "Hiç umurunda değil"
     ]
   },
   {
@@ -719,10 +719,10 @@
     "category": "wouldYouRather",
     "question": "{name} ünlü mü yoksa zengin mi olmayı tercih eder?",
     "answers": [
-      "Ünlü",
-      "Zengin",
-      "İkisi de",
-      "Hiçbiri"
+      "Ünlü ama hep parasız",
+      "Zengin ama tamamen anonim",
+      "Orta seviye tanınmış ve rahat",
+      "Hiçbiri — sadece huzurlu bir hayat"
     ]
   },
   {
@@ -739,111 +739,111 @@
   {
     "id": 68,
     "category": "wouldYouRather",
-    "question": "{name} sosyal medyayı mı yoksa TV'yi mi sonsuza dek bırakır?",
+    "question": "{name} sosyal medyadan mı yoksa TV'den mi vazgeçer?",
     "answers": [
-      "Sosyal medya",
-      "TV",
-      "Hiçbirini",
-      "İkisini de bırakabilir"
+      "Sosyal medyadan vazgeçer",
+      "TV'den vazgeçer",
+      "İkisinden de ama radyo kalsın",
+      "Hiçbirinden ama telefon gitsin"
     ]
   },
   {
     "id": 69,
     "category": "wouldYouRather",
-    "question": "{name} geçmişe mi yoksa geleceğe mi yolculuk etmeyi tercih eder?",
+    "question": "{name} geçmişe mi yoksa geleceğe mi seyahat etmek ister?",
     "answers": [
-      "Geçmiş",
-      "Gelecek",
-      "Şimdide kalmak",
-      "İkisi de!"
+      "Geçmiş — tarihe tanık olmak",
+      "Gelecek — neler olacağını görmek",
+      "Geçmiş — bir pişmanlığı düzeltmek",
+      "Gelecek — 50 yıl ileri atlamak"
     ]
   },
   {
     "id": 70,
     "category": "wouldYouRather",
-    "question": "{name} hayatta geri sarma mı yoksa duraklatma butonu mu ister?",
+    "question": "{name} hayatta geri sar düğmesi mi yoksa duraklat düğmesi mi ister?",
     "answers": [
-      "Geri sarma",
-      "Duraklatma",
-      "İleri sarma",
-      "Hiçbiri"
+      "Geri sar",
+      "Duraklat",
+      "İleri sar",
+      "Ağır çekim"
     ]
   },
   {
     "id": 71,
     "category": "wouldYouRather",
-    "question": "{name} bir şeyde uzman mı yoksa birçok şeyde iyi mi olmayı tercih eder?",
+    "question": "{name} bir konuda uzman mı yoksa birçok konuda iyi mi olmayı tercih eder?",
     "answers": [
-      "Bir şeyde uzman",
-      "Birçok şeyde iyi",
-      "Duruma bağlı",
-      "Hiçbiri"
+      "Bir konuda uzman",
+      "Birçok konuda iyi",
+      "Her konuda ortalama",
+      "Sadece iki konuda harika"
     ]
   },
   {
     "id": 72,
     "category": "wouldYouRather",
-    "question": "{name} paket sipariş mi yoksa dışarıda yemek mi tercih eder?",
+    "question": "{name} sipariş mi eder yoksa dışarıda mı yer?",
     "answers": [
-      "Paket sipariş",
-      "Dışarıda yemek",
-      "Evde yemek yapmak",
-      "Ruh haline bağlı"
+      "Sipariş eder",
+      "Dışarıda yer",
+      "Evde pişirir",
+      "Öğün atlar, gün boyu atıştırır"
     ]
   },
   {
     "id": 73,
     "category": "wouldYouRather",
-    "question": "{name} köpek mi yoksa kedi mi tercih eder?",
+    "question": "{name} köpek mi kedi mi ister?",
     "answers": [
       "Köpek",
       "Kedi",
-      "İkisi de",
-      "Hiçbiri"
+      "Papağan gibi egzotik bir şey",
+      "Bakımı kolay bir balık"
     ]
   },
   {
     "id": 74,
     "category": "wouldYouRather",
-    "question": "{name} havuz başında dinlenmek mi yoksa macera yaşamak mı tercih eder?",
+    "question": "{name} havuz başında dinlenmeyi mi maceraya atılmayı mı tercih eder?",
     "answers": [
-      "Havuz",
-      "Macera",
-      "İkisinden biraz",
-      "Evde kalmak"
+      "Havuz başında dinlenmek",
+      "Çılgın bir maceraya atılmak",
+      "Yeni bir şehri yürüyerek keşfetmek",
+      "Evde oturup dizi izlemek"
     ]
   },
   {
     "id": 75,
     "category": "wouldYouRather",
-    "question": "{name} uçabilmek mi yoksa görünmez olmak mı ister?",
+    "question": "{name} uçabilmeyi mi yoksa görünmez olmayı mı tercih eder?",
     "answers": [
-      "Uçmak",
-      "Görünmezlik",
-      "İkisi de",
-      "Hiçbiri"
+      "Uçmak ama herkes görsün",
+      "Görünmez ama kapatamaz",
+      "Onun yerine süper hız",
+      "Onun yerine telekinezi"
     ]
   },
   {
     "id": 76,
     "category": "wouldYouRather",
-    "question": "{name} başka bir çağda mı yoksa başka bir ülkede mi yaşamayı tercih eder?",
+    "question": "{name} başka bir dönemde mi yoksa başka bir ülkede mi yaşamak ister?",
     "answers": [
-      "Başka bir çağ",
-      "Başka bir ülke",
-      "Burada kalmak",
-      "İkisi de"
+      "Başka bir dönem — geçmiş",
+      "Başka bir dönem — gelecek",
+      "Başka bir ülke — aynı çağ",
+      "Bambaşka bir gezegen"
     ]
   },
   {
     "id": 77,
     "category": "wouldYouRather",
-    "question": "{name} internetsiz mi yoksa TV'siz mi yaşamayı tercih eder?",
+    "question": "{name} internetten mi yoksa TV'den mi sonsuza dek vazgeçer?",
     "answers": [
-      "İnternetsiz",
-      "TV'siz",
-      "İkisinden de vazgeçemez",
-      "İkisi de olur"
+      "İnternetten sonsuza dek",
+      "TV veya diziden sonsuza dek",
+      "Müzikten sonsuza dek",
+      "Video oyunlarından sonsuza dek"
     ]
   },
   {
@@ -851,32 +851,32 @@
     "category": "wouldYouRather",
     "question": "{name} sınırsız para mı yoksa sınırsız zaman mı ister?",
     "answers": [
-      "Sınırsız para",
-      "Sınırsız zaman",
-      "İkisi de",
-      "Hiçbiri"
+      "Sınırsız para ama boş vakit yok",
+      "Sınırsız zaman ama mütevazı gelir",
+      "İkisinden de makul miktarda",
+      "Piyango parası ama sadece 10 yıl ömür"
     ]
   },
   {
     "id": 79,
     "category": "wouldYouRather",
-    "question": "{name} geleceği bilmek mi yoksa geçmişi değiştirmek mi ister?",
+    "question": "{name} geleceği bilmeyi mi yoksa geçmişi değiştirmeyi mi tercih eder?",
     "answers": [
-      "Geleceği bilmek",
-      "Geçmişi değiştirmek",
-      "Hiçbiri",
-      "İkisi de"
+      "Geleceği bil ama değiştiremez",
+      "Geçmişte tek bir şeyi değiştir",
+      "Geçmişi tamamen unut",
+      "Alternatif zaman çizgilerini gör ama giremez"
     ]
   },
   {
     "id": 80,
     "category": "wouldYouRather",
-    "question": "{name} her zaman aklındakini söylemek mi yoksa hiç konuşmamak mı ister?",
+    "question": "{name} hep aklından geçeni mi söyler yoksa bir daha hiç konuşamaz mı?",
     "answers": [
-      "Her zaman söylemek",
-      "Hiç konuşmamak",
-      "Arada bir şey",
-      "Duruma bağlı"
+      "Her zaman aklından geçeni filtresiz söyler",
+      "Bir daha hiç konuşmaz",
+      "Sadece soru sorarak konuşur",
+      "Sadece biri konuşunca cevap verir"
     ]
   },
   {
@@ -893,78 +893,78 @@
   {
     "id": 82,
     "category": "wouldYouRather",
-    "question": "{name} tüm parasını mı yoksa tüm fotoğraflarını mı kaybetmeyi tercih eder?",
+    "question": "{name} bütün parasını mı yoksa bütün fotoğraflarını mı kaybetmeyi tercih eder?",
     "answers": [
-      "Tüm parayı",
-      "Tüm fotoğrafları",
-      "Hiçbirini",
-      "Zor seçim!"
+      "Bütün parasını",
+      "Bütün fotoğraflarını",
+      "İkisinin yarısını",
+      "Telefondaki tüm kişileri"
     ]
   },
   {
     "id": 83,
     "category": "wouldYouRather",
-    "question": "{name} hep sıcak mı yoksa hep soğuk mu olmayı tercih eder?",
+    "question": "{name} hep sıcakta mı yoksa hep soğukta mı olmayı tercih eder?",
     "answers": [
-      "Hep sıcak",
-      "Hep soğuk",
-      "Hiçbiri",
-      "Umursamaz"
+      "Hep sıcak — sürekli yaz",
+      "Hep soğuk — sürekli kış",
+      "Sürekli yağmur yağsın",
+      "Hava mükemmel ama sürekli rüzgarlı"
     ]
   },
   {
     "id": 84,
     "category": "wouldYouRather",
-    "question": "{name} kitabı okumayı mı yoksa filmi izlemeyi mi tercih eder?",
+    "question": "{name} kitabı mı okur yoksa filmi mi izler?",
     "answers": [
-      "Kitabı okumak",
-      "Filmi izlemek",
-      "İkisi de",
-      "Hiçbiri"
+      "Her zaman önce kitabı okur",
+      "Her zaman önce filmi izler",
+      "Yolda sesli kitap dinler",
+      "Arkadaşlardan spoiler bekler"
     ]
   },
   {
     "id": 85,
     "category": "wouldYouRather",
-    "question": "{name} ömür boyu bedava yemek mi yoksa bedava WiFi mi ister?",
+    "question": "{name} ömür boyu bedava yemek mi yoksa bedava WiFi mı ister?",
     "answers": [
-      "Bedava yemek",
-      "Bedava WiFi",
-      "İkisi de",
-      "Hiçbiri"
+      "Ömür boyu bedava yemek",
+      "Ömür boyu bedava WiFi",
+      "Ömür boyu bedava kira",
+      "Ömür boyu bedava seyahat"
     ]
   },
   {
     "id": 86,
     "category": "wouldYouRather",
-    "question": "{name} süper kahraman mı yoksa süper kötü mü olurdu?",
+    "question": "{name} süper kahraman mı yoksa süper kötü mü olmak ister?",
     "answers": [
       "Süper kahraman",
       "Süper kötü",
       "Anti-kahraman",
-      "Hiçbiri"
+      "Baskı olmadan yardımcı"
     ]
   },
   {
     "id": 87,
     "category": "wouldYouRather",
-    "question": "{name} bir gün uyumadan mı yoksa yemeden mi geçirmeyi tercih eder?",
+    "question": "{name} bir gün uyumadan mı yoksa yemeden mi durur?",
     "answers": [
-      "Uyumadan",
-      "Yemeden",
-      "Hiçbiri",
-      "İkisini de yaptı zaten"
+      "48 saat uyumadan",
+      "48 saat yemeden",
+      "48 saat telefonsuz",
+      "48 saat konuşmadan"
     ]
   },
   {
     "id": 88,
     "category": "wouldYouRather",
-    "question": "{name} bir hafta telefonsuz mu yoksa arkadaşsız mı olmayı tercih eder?",
+    "question": "{name} bir hafta telefonsuz mu yoksa arkadaşsız mı kalır?",
     "answers": [
-      "Telefonsuz",
-      "Arkadaşsız",
-      "İkisi de olmaz",
-      "İkisi de olur"
+      "Bir hafta telefonsuz",
+      "Bir hafta arkadaşsız",
+      "Bir hafta internetsiz",
+      "Bir hafta evden çıkmadan"
     ]
   },
   {
@@ -981,12 +981,12 @@
   {
     "id": 90,
     "category": "wouldYouRather",
-    "question": "{name} uzun uçuş mu yoksa uzun araba yolculuğu mu tercih eder?",
+    "question": "{name} uzun bir uçuşa mı yoksa uzun bir kara yolculuğuna mı katlanır?",
     "answers": [
-      "Uzun uçuş",
-      "Araba yolculuğu",
-      "Hiçbiri",
-      "İkisini de sever"
+      "12 saat uçuş, orta koltuk",
+      "12 saat kara yolu, arka koltuk",
+      "24 saat tren yolculuğu",
+      "3 gün gemiyle geçiş"
     ]
   },
   {
@@ -994,65 +994,65 @@
     "category": "wouldYouRather",
     "question": "{name} kahvaltıdan mı yoksa akşam yemeğinden mi vazgeçer?",
     "answers": [
-      "Kahvaltı",
-      "Akşam yemeği",
-      "Hiçbiri",
-      "Daha çok öğle yemeği"
+      "Sonsuza dek kahvaltıdan",
+      "Sonsuza dek akşam yemeğinden",
+      "Sonsuza dek öğle yemeğinden",
+      "Sonsuza dek tüm atıştırmalıklardan"
     ]
   },
   {
     "id": 92,
     "category": "wouldYouRather",
-    "question": "{name} özel şef mi yoksa kişisel antrenör mü tercih eder?",
+    "question": "{name} özel aşçı mı yoksa özel antrenör mü ister?",
     "answers": [
-      "Özel şef",
-      "Kişisel antrenör",
-      "İkisi de",
-      "Hiçbiri"
+      "Özel aşçı",
+      "Özel antrenör",
+      "Özel stilist",
+      "Özel asistan"
     ]
   },
   {
     "id": 93,
     "category": "wouldYouRather",
-    "question": "{name} sadece fısıldayabilse mi yoksa sadece bağırabilse mi?",
+    "question": "{name} sadece fısıldayarak mı yoksa sadece bağırarak mı konuşur?",
     "answers": [
-      "Sadece fısıldamak",
-      "Sadece bağırmak",
-      "Hiçbiri",
-      "Zaten çok konuşmuyor"
+      "Her şeyi fısıldayarak",
+      "Her şeyi bağırarak",
+      "Her şeyi şarkı söyleyerek",
+      "Sadece robot sesiyle"
     ]
   },
   {
     "id": 94,
     "category": "wouldYouRather",
-    "question": "{name} ışınlanma mı yoksa zihin okuma gücü mü ister?",
+    "question": "{name} ışınlanmayı mı yoksa zihin okumayı mı ister?",
     "answers": [
       "Işınlanma",
       "Zihin okuma",
-      "İkisi de",
-      "Hiçbiri"
+      "Zamanı dondurma",
+      "Şekil değiştirme"
     ]
   },
   {
     "id": 95,
     "category": "wouldYouRather",
-    "question": "{name} odadaki en komik mi yoksa en zeki kişi mi olmayı tercih eder?",
+    "question": "{name} odadaki en komik mi yoksa en zeki kişi mi olmak ister?",
     "answers": [
-      "En komik",
-      "En zeki",
-      "İkisi de",
-      "Hiçbiri"
+      "Odadaki en komik kişi",
+      "Odadaki en zeki kişi",
+      "Odadaki en çekici kişi",
+      "Odadaki en gizemli kişi"
     ]
   },
   {
     "id": 96,
     "category": "deepPersonal",
-    "question": "{name} en çok neyle gurur duyuyor?",
+    "question": "{name} en çok neyle gurur duyar?",
     "answers": [
-      "Başarıları",
+      "Kariyeri veya eğitimi",
       "İlişkileri",
-      "Gelişimi",
-      "Yaratıcılığı"
+      "Bir zorluğu yenmesi",
+      "Yaratıcı bir projesi"
     ]
   },
   {
@@ -1179,23 +1179,23 @@
   {
     "id": 108,
     "category": "deepPersonal",
-    "question": "{name} ölümden sonra ne olduğuna inanıyor?",
+    "question": "{name} öldükten sonra ne olduğunu düşünür?",
     "answers": [
-      "Hiçbir şey",
+      "Hiçbir şey — her şey biter",
       "Reenkarnasyon",
-      "Cennet/öteki dünya",
-      "Bilinmeyen bir şey"
+      "Cennet veya öteki dünya",
+      "Hayaletler veya kalıcı enerji"
     ]
   },
   {
     "id": 109,
     "category": "deepPersonal",
-    "question": "{name} bir gün çocuk istiyor mu?",
+    "question": "{name} bir gün çocuk sahibi olmak ister mi?",
     "answers": [
       "Evet, kesinlikle",
-      "Belki",
+      "Evet, ama yakın zamanda değil",
       "Hayır, asla",
-      "Henüz karar vermedi"
+      "Sadece doğal olursa"
     ]
   },
   {
@@ -1212,12 +1212,12 @@
   {
     "id": 111,
     "category": "deepPersonal",
-    "question": "Geceleri {name}'i uyutmayan nedir?",
+    "question": "Uyuyamadığında {name}'i gece ne uyanık tutar?",
     "answers": [
-      "Fazla düşünmek",
-      "Gelecek endişesi",
-      "Rastgele düşünceler",
-      "Heyecanlı planlar"
+      "Geçmiş konuşmaları tekrar etmek",
+      "Gelecek kaygıları",
+      "Heyecan verici planlar veya fikirler",
+      "Utanç verici anılar"
     ]
   },
   {
@@ -1227,8 +1227,8 @@
     "answers": [
       "Kişiliğiyle ilgili",
       "Görünüşüyle ilgili",
-      "Yeteneğiyle ilgili",
-      "Nezaketiyle ilgili"
+      "Yeteneği veya becerisiyle ilgili",
+      "Zekasıyla ilgili"
     ]
   },
   {
@@ -1278,23 +1278,23 @@
   {
     "id": 117,
     "category": "deepPersonal",
-    "question": "{name} en son ne zaman yaratıcı bir şey yapmak için ilham aldı?",
+    "question": "{name}'i bir şey yaratmaya ne ilham verir?",
     "answers": [
-      "Yakın zamanda",
-      "Uzun zaman önce",
-      "Hatırlamıyor",
-      "Her zaman yaratıyor"
+      "Güçlü bir duygu",
+      "Başkalarının işleri",
+      "Rastgele bir fikir kıvılcımı",
+      "Çözülecek bir zorluk veya problem"
     ]
   },
   {
     "id": 118,
     "category": "deepPersonal",
-    "question": "{name} bir arkadaşlık kopuşu yaşadı mı?",
+    "question": "{name} hiç bir arkadaşlık kopuşu yaşadı mı?",
     "answers": [
-      "Evet, acı verici",
-      "Evet, ama sorun değildi",
+      "Evet, acı verici bir tane",
+      "Evet, ama karşılıklıydı",
       "Hayır, hiç",
-      "Konuşmak istemiyor"
+      "İnsanlarla sadece doğal olarak uzaklaştı"
     ]
   },
   {
@@ -1322,12 +1322,12 @@
   {
     "id": 121,
     "category": "deepPersonal",
-    "question": "Arkadaşlık {name} için ne anlama geliyor?",
+    "question": "Arkadaşlık {name} için ne anlama gelir?",
     "answers": [
       "Her şeyden önce sadakat",
       "Birlikte eğlenmek",
-      "Zor zamanlarda yanında olmak",
-      "Koşulsuz destek"
+      "Acımasız dürüstlük",
+      "Zor zamanlarda yanında olmak"
     ]
   },
   {
@@ -1355,12 +1355,12 @@
   {
     "id": 124,
     "category": "deepPersonal",
-    "question": "{name} ilk görüşte aşka inanıyor mu?",
+    "question": "{name} ilk görüşte aşka inanır mı?",
     "answers": [
-      "Evet",
-      "Hayır",
-      "Belki",
-      "Karmaşık"
+      "Evet, kesinlikle",
+      "Hayır, aşk zamanla büyür",
+      "Sadece güçlü çekim, aşk değil",
+      "Bizzat başına geldi"
     ]
   },
   {
@@ -1421,12 +1421,12 @@
   {
     "id": 130,
     "category": "deepPersonal",
-    "question": "{name} ruh eşlerine inanıyor mu?",
+    "question": "{name} ruh eşlerine inanır mı?",
     "answers": [
       "Evet, kesinlikle",
-      "Hayır",
-      "İnanmak istiyor",
-      "Karmaşık"
+      "Hayır, hiç",
+      "İnanmak ister ama inanmıyor",
+      "Birden fazla ruh eşi olabileceğine inanır"
     ]
   },
   {
@@ -1465,23 +1465,23 @@
   {
     "id": 134,
     "category": "deepPersonal",
-    "question": "{name}'e göre affedilemez olan nedir?",
+    "question": "{name} neyi affedilmez bulur?",
     "answers": [
-      "İhanet",
-      "Yalan",
-      "Aldatma",
-      "Acımasızlık"
+      "Güven ihaneti",
+      "Kasıtlı acımasızlık",
+      "İhtiyacı olan birini terk etmek",
+      "Birinin sırlarını yaymak"
     ]
   },
   {
     "id": 135,
     "category": "deepPersonal",
-    "question": "{name} tek eşliliğe inanıyor mu?",
+    "question": "{name} tek eşliliğe inanır mı?",
     "answers": [
-      "Evet, %100",
-      "Duruma bağlı",
-      "Mutlaka değil",
-      "Düşünmedi"
+      "Evet, yüzde yüz",
+      "İdeal ama herkes için değil",
+      "Hayır, modası geçmiş",
+      "Sadece doğru ilişkide"
     ]
   },
   {
@@ -1491,8 +1491,8 @@
     "answers": [
       "Evet, kesinlikle",
       "Belki çocukken",
-      "Kesinlikle hayır",
-      "İtiraf etmez"
+      "Asla",
+      "Hâlâ öyleyim aslında"
     ]
   },
   {
@@ -1553,12 +1553,12 @@
   {
     "id": 142,
     "category": "funRandom",
-    "question": "{name} hayalet olsa nasıl korkuturdu?",
+    "question": "{name} hayalet olsa insanlara nasıl musallat olur?",
     "answers": [
-      "Eşyaları hareket ettirerek",
-      "Komik sesler çıkararak",
+      "Eşyaları yerinden oynatarak",
+      "Komik şeyler fısıldayarak",
       "Işıkları yakıp söndürerek",
-      "Dost hayalet"
+      "İnsanların anahtarlarını saklayarak"
     ]
   },
   {
@@ -1597,34 +1597,34 @@
   {
     "id": 146,
     "category": "funRandom",
-    "question": "{name}'in en sevdiği kötü şaka nedir?",
+    "question": "{name}'in en sevdiği baba şakası ne tür?",
     "answers": [
       "Kelime oyunu",
-      "Kapıyı çalma şakası",
-      "Baba şakası",
-      "Şakaları sevmiyor"
+      "Tık tık şakası",
+      "Baba esprileri",
+      "Kara mizah"
     ]
   },
   {
     "id": 147,
     "category": "funRandom",
-    "question": "{name} beynine bir isim verse ne koyardı?",
+    "question": "{name} beynine isim verse ne koyardı?",
     "answers": [
-      "Kaos merkezi",
-      "Düşünür",
-      "Mega beyin",
-      "Komik bir şey"
+      "Kaos Merkezi",
+      "Aşırı Düşünen",
+      "Büyük Beyin",
+      "Erteleyici"
     ]
   },
   {
     "id": 148,
     "category": "funRandom",
-    "question": "{name} tekrarlayan rüyalar görür mü?",
+    "question": "{name} ne tür tekrarlayan rüyalar görür?",
     "answers": [
-      "Evet, sık sık",
-      "Bazen",
-      "Nadiren",
-      "Hiç"
+      "Kovalanmak",
+      "Uçmak veya düşmek",
+      "Hazırlıksız yakalanmak",
+      "Rüyalarını hiç hatırlamaz"
     ]
   },
   {
@@ -1652,12 +1652,12 @@
   {
     "id": 151,
     "category": "funRandom",
-    "question": "{name}'in sahip olduğu en garip şey nedir?",
+    "question": "{name}'in sahip olduğu en garip şey ne?",
     "answers": [
-      "Bir koleksiyon",
-      "Garip bir hediye",
-      "Eski bir oyuncak",
-      "Garip bir şeyi yok"
+      "Rastgele bir koleksiyon parçası",
+      "Birinden gelen tuhaf bir hediye",
+      "Çocukluktan kalma bir şey",
+      "Anlık bir alışveriş hatası"
     ]
   },
   {
@@ -1674,45 +1674,45 @@
   {
     "id": 153,
     "category": "funRandom",
-    "question": "{name}'in en kötü saç kesimi neydi?",
+    "question": "{name}'in en tartışmalı saç kesimi hangisiydi?",
     "answers": [
       "Kötü bir kahkül",
-      "Evde felaket",
-      "Kötü giden trend",
-      "Hiç kötüsü olmadı"
+      "Evde yapılan bir felaket",
+      "Moda ama yanlış giden bir şey",
+      "Kazıtma veya sıfıra vurma deneyi"
     ]
   },
   {
     "id": 154,
     "category": "funRandom",
-    "question": "{name} dün gece ne rüya gördü?",
+    "question": "{name} en çok ne hakkında rüya görür?",
     "answers": [
-      "Hatırlamıyor",
-      "Garip bir şey",
-      "Güzel bir şey",
-      "Kabus"
+      "Tuhaf rastgele senaryolar",
+      "Tanıdığı insanlar",
+      "Kovalanmak veya düşmek",
+      "Macera veya seyahat"
     ]
   },
   {
     "id": 155,
     "category": "funRandom",
-    "question": "{name} hiç o kadar güldü mü ki neredeyse bayılacaktı?",
+    "question": "{name}'i en çok ne güldürür?",
     "answers": [
-      "Evet, çok kez",
-      "Bir iki kere",
-      "Hayır, ama neredeyse",
-      "Hiç"
+      "Fiziksel komedi veya fiyaskolar",
+      "Hazırcevap espriler",
+      "Arkadaşlarla özel şakalar",
+      "Beklenmedik absürt anlar"
     ]
   },
   {
     "id": 156,
     "category": "funRandom",
-    "question": "Hangi kitap {name}'i en çok etkiledi?",
+    "question": "Hangi kitap {name}'i en çok değiştirdi?",
     "answers": [
       "Bir roman",
       "Kişisel gelişim kitabı",
-      "Okul kitabı",
-      "Pek okumaz"
+      "Bir biyografi veya anı",
+      "Okul veya akademik kitap"
     ]
   },
   {
@@ -1784,12 +1784,12 @@
   {
     "id": 163,
     "category": "funRandom",
-    "question": "{name} Cumhurbaşkanı olsa ilk neyi değiştirirdi?",
+    "question": "{name} cumhurbaşkanı olsa ilk neyi değiştirirdi?",
     "answers": [
       "Eğitim sistemi",
       "Sağlık sistemi",
       "Çevre politikası",
-      "Rastgele bir şey"
+      "Herkes için bedava pizza cumaları"
     ]
   },
   {
@@ -1806,12 +1806,12 @@
   {
     "id": 165,
     "category": "funRandom",
-    "question": "{name}'in zombi kıyameti planı nedir?",
+    "question": "Zombi kıyametinde {name}'in hayatta kalma planı ne?",
     "answers": [
-      "Saklanmak",
-      "Silah bulmak",
-      "Arkadaşlarla birleşmek",
-      "Kaderini kabul etmek"
+      "Bir binayı tahkim etmek",
+      "Silah bulmak ve savaşmak",
+      "Arkadaşlarla takım kurmak",
+      "Doğaya kaçmak"
     ]
   },
   {
@@ -1828,23 +1828,23 @@
   {
     "id": 167,
     "category": "funRandom",
-    "question": "{name}'in alter egosu ne adını taşırdı?",
+    "question": "{name}'in alter egosu ne olurdu?",
     "answers": [
-      "Havalı bir şey",
-      "Komik bir şey",
-      "Gizemli bir isim",
-      "İsminin tersi"
+      "Gölge bir şey",
+      "Kendi adıyla bir kelime oyunu",
+      "Gizemli yabancı bir kelime",
+      "Adının tersten yazılışı"
     ]
   },
   {
     "id": 168,
     "category": "funRandom",
-    "question": "{name}'in 1 numaralı karaoke şarkısı hangisi?",
+    "question": "{name}'in bir numaralı karaoke şarkısı ne?",
     "answers": [
-      "Pop hit",
-      "Rock klasiği",
-      "Bale",
-      "Karaoke yapmaz"
+      "Bir pop hiti",
+      "Bir rock klasiği",
+      "Güçlü bir balad",
+      "Bir rap şarkısı"
     ]
   },
   {
@@ -1927,12 +1927,12 @@
   {
     "id": 176,
     "category": "experiencesDreams",
-    "question": "{name}'in favori karaoke türü hangisi?",
+    "question": "{name}'in favori karaoke şarkı türü ne?",
     "answers": [
       "80'ler klasikleri",
       "Pop hitleri",
       "Rock marşları",
-      "Şarkı söylemem!"
+      "Hip-hop/R&B"
     ]
   },
   {
@@ -1984,10 +1984,10 @@
     "category": "experiencesDreams",
     "question": "{name} bir yıl sonra kendini nerede görüyor?",
     "answers": [
-      "Aynı yer, daha iyi hayat",
-      "Yeni bir yerde",
-      "Farklı bir şey yaparak",
-      "Hiçbir fikri yok"
+      "Aynı şehir, bir üst seviye",
+      "Yurt dışında yaşıyor",
+      "Yeni bir kariyerde",
+      "Durmadan seyahat ediyor"
     ]
   },
   {
@@ -2083,10 +2083,10 @@
     "category": "experiencesDreams",
     "question": "{name}'in gizli yetenekleri var mı?",
     "answers": [
-      "Evet, şaşırtıcı bir tane",
-      "Birkaç küçüğü",
-      "Yok diyor",
-      "Hepsi ortada"
+      "Müzikle ilgili bir yetenek",
+      "El becerisi/sanatsal bir beceri",
+      "Fiziksel bir numara",
+      "Kimsenin beklemediği bir parti numarası"
     ]
   },
   {
@@ -2114,12 +2114,12 @@
   {
     "id": 193,
     "category": "experiencesDreams",
-    "question": "{name}'in gittiği en iyi müze hangisiydi?",
+    "question": "{name}'in gittiği en iyi müze hangisi?",
     "answers": [
-      "Sanat",
-      "Bilim",
-      "Tarih",
-      "Müzeleri sevmiyor"
+      "Bir sanat müzesi",
+      "Bir bilim müzesi",
+      "Bir tarih müzesi",
+      "İlginç/sıra dışı bir müze"
     ]
   },
   {
@@ -2127,10 +2127,10 @@
     "category": "experiencesDreams",
     "question": "{name} en son ne zaman spontan bir şey yaptı?",
     "answers": [
-      "Çok yakın zamanda",
-      "Uzun zaman önce",
-      "Hatırlamıyor",
-      "Her zaman spontandır"
+      "Son dakika bir gezi planladı",
+      "Eski sevgilisine yazdı",
+      "Anlık büyük bir alışveriş yaptı",
+      "Tamamen yeni bir şeye evet dedi"
     ]
   },
   {
@@ -2147,12 +2147,12 @@
   {
     "id": 196,
     "category": "experiencesDreams",
-    "question": "{name}'in en kötü buluşması hangisiydi?",
+    "question": "{name}'in gittiği en kötü buluşma nasıldı?",
     "answers": [
-      "Tüm gece tuhaf sessizlik",
-      "Tam uyumsuzluk",
-      "Bir şeyler ters gitti",
-      "Hiç kötüsü olmadı"
+      "Bütün gece garip sessizlik",
+      "Tamamen uyumsuz",
+      "Ekilen taraf oldu",
+      "Karşısındaki fotoğraflarına hiç benzemiyordu"
     ]
   },
   {
@@ -2191,12 +2191,12 @@
   {
     "id": 200,
     "category": "experiencesDreams",
-    "question": "Beklenmedik hangi film {name}'i ağlatır?",
+    "question": "Hangi beklenmedik film {name}'i ağlatır?",
     "answers": [
-      "Animasyon",
-      "Komedi",
-      "Aksiyon",
-      "Filmlerde asla ağlamaz"
+      "Bir animasyon filmi",
+      "Bir komedi",
+      "Bir aksiyon filmi",
+      "Bir spor filmi"
     ]
   },
   {
@@ -2246,12 +2246,12 @@
   {
     "id": 205,
     "category": "deepSpicy",
-    "question": "{name} ıssız bir adaya ne götürürdü?",
+    "question": "{name} ıssız bir adaya ne götürür?",
     "answers": [
-      "Wifi'li telefon",
-      "En yakın arkadaşı",
+      "En yakın arkadaşını",
       "Sınırsız atıştırmalık",
-      "Hayatta kalma kiti"
+      "Hayatta kalma kiti",
+      "Bir gitar"
     ]
   },
   {
@@ -2268,12 +2268,12 @@
   {
     "id": 207,
     "category": "deepSpicy",
-    "question": "{name} zombi kıyametinde nasıl hayatta kalırdı?",
+    "question": "{name} zombi kıyametinde nasıl hayatta kalır?",
     "answers": [
-      "Saklanmak ve beklemek",
-      "Kale inşa etmek",
-      "Zombi olmak",
-      "Hayatta kalan bir grup yönetmek"
+      "Saklan ve bekle",
+      "Kale inşa et",
+      "Tek başına git ve yiyecek topla",
+      "Hayatta kalanları yönet"
     ]
   },
   {
@@ -2301,12 +2301,12 @@
   {
     "id": 210,
     "category": "deepSpicy",
-    "question": "{name} zamanda yolculuk yapabilseydi nereye giderdi?",
+    "question": "{name} hayatının hangi dönemini yeniden yaşamak ister?",
     "answers": [
-      "Antik Roma",
-      "1980'ler",
-      "100 yıl sonrası",
-      "Dinozor çağı"
+      "Çocukluk",
+      "Lise yılları",
+      "Üniversite/20'li yaşların başı",
+      "Geçen yıl"
     ]
   },
   {
@@ -2323,12 +2323,12 @@
   {
     "id": 212,
     "category": "deepSpicy",
-    "question": "{name}'in otobiyografisinin başlığı ne olurdu?",
+    "question": "{name}'in telefonunda birinin görmesi en utanç verici olan şey ne?",
     "answers": [
-      "'Ups, Yine Yaptım'",
-      "'Nasıl Yetişkin Olunmaz'",
-      "'En İyi Hayatımı Yaşıyorum'",
-      "'Atıştırmalık Günlükleri'"
+      "Utanç verici bir selfie",
+      "Hiç göndermediği bir mesaj taslağı",
+      "Şarkı söylerken çekilmiş ses kaydı",
+      "Birinin görse öleceği bir ekran görüntüsü"
     ]
   },
   {
@@ -2389,23 +2389,23 @@
   {
     "id": 218,
     "category": "deepSpicy",
-    "question": "{name}'in en popüler olmayan görüşü nedir?",
+    "question": "{name}'in en popüler olmayan görüşü ne?",
     "answers": [
-      "Pizzada ananas harika",
-      "Yaz abartlımış",
-      "Kahve kötü",
-      "Köpekler > Kediler"
+      "Pizzaya ananas harika",
+      "Yaz mevsimi abartılıyor",
+      "Kahve iğrenç",
+      "Kahvaltılık yemekler abartılıyor"
     ]
   },
   {
     "id": 219,
     "category": "deepSpicy",
-    "question": "{name}'in ruh hayvanı nedir?",
+    "question": "{name} hangi kurgusal evrende yaşamak ister?",
     "answers": [
-      "Tembel hayvan",
-      "Golden retriever",
-      "Kedi",
-      "Yunus"
+      "Harry Potter",
+      "Marvel evreni",
+      "The Sims",
+      "Studio Ghibli dünyası"
     ]
   },
   {
@@ -2466,12 +2466,12 @@
   {
     "id": 225,
     "category": "hotTakes",
-    "question": "{name}'e göre en abartılmış tatil günü hangisi?",
+    "question": "{name}'e göre en abartılmış tatil/bayram hangisi?",
     "answers": [
       "Sevgililer Günü",
       "Yılbaşı gecesi",
       "Cadılar Bayramı",
-      "Kara Cuma"
+      "Noel"
     ]
   },
   {
@@ -2510,12 +2510,12 @@
   {
     "id": 229,
     "category": "hotTakes",
-    "question": "{name}'in sosyal görgü kuralları hakkındaki en baharatlı görüşü nedir?",
+    "question": "{name}'in sosyal görgü kuralları hakkındaki en ateşli görüşü ne?",
     "answers": [
-      "Hayalet geçmek bazen tamamen normaldir",
-      "Boş sohbet zaman kaybıdır",
+      "Ghostlamak bazen gayet normal",
+      "Muhabbet havadan sudan konuşmak zaman kaybı",
       "Acımasızca dürüst olmak erdemdir",
-      "Geç kalanlar zamanına saygı duymuyordur"
+      "Sebepsiz yere planları iptal etmek sorun değil"
     ]
   },
   {
@@ -2543,10 +2543,10 @@
   {
     "id": 232,
     "category": "hotTakes",
-    "question": "{name}'in teknoloji hakkındaki tartışmalı görüşü nedir?",
+    "question": "{name}'in teknoloji hakkındaki cesur görüşü ne?",
     "answers": [
-      "Kapaklı telefonlar zirve tasarımdı",
-      "Sosyal medya zararı faydasından fazladır",
+      "Kapaklı telefonlar en iyi tasarımdı",
+      "Akıllı telefonlardan önce daha mutluyduk",
       "Yapay zeka sanatı gerçek sanattır",
       "Görüntülü aramalar tüm toplantıların yerini almalı"
     ]
@@ -2554,12 +2554,12 @@
   {
     "id": 233,
     "category": "hotTakes",
-    "question": "{name}'in okul hakkında hangi tartışmalı görüşü var?",
+    "question": "{name} okul hakkındaki hangi tartışmalı görüşe katılır?",
     "answers": [
-      "Ödevler kaldırılmalı",
+      "Ödev kaldırılmalı",
       "Notlar zekayı yansıtmaz",
-      "Grup projeleri hiçbir şey öğretmez",
-      "Okul sabah çok erken başlıyor"
+      "Grup projeleri hiçbir işe yaramaz",
+      "Ders kitapları para israfı"
     ]
   },
   {
@@ -2752,12 +2752,12 @@
   {
     "id": 251,
     "category": "hypothetical",
-    "question": "{name} gelecekten bir icat getirebilseydi ne seçerdi?",
+    "question": "{name} gelecekten bir icat getirebilse ne getirirdi?",
     "answers": [
       "Işınlanma cihazı",
-      "Tüm hastalıkların tedavisi",
-      "Yaşlanmayı durduran bir cihaz",
-      "İstediğin yemeği anında yaratan makine"
+      "Rüyaları kaydedip izleme cihazı",
+      "Yaşlanmayı durduran cihaz",
+      "Anında yemek yapan makine"
     ]
   },
   {
@@ -2774,11 +2774,11 @@
   {
     "id": 253,
     "category": "hypothetical",
-    "question": "{name} bir cin bulsa ve tek dilek hakkı olsa (daha fazla dilek dilemek yok) ne dilerdi?",
+    "question": "{name} tek dilekli bir cin bulsa (daha fazla dilek dileyemez) ne dilerdi?",
     "answers": [
       "Sınırsız para",
       "Sonsuza dek mükemmel sağlık",
-      "Herkesi mutlu etme yeteneği",
+      "İstediği yere anında ışınlanma",
       "Her sorunun cevabını bilmek"
     ]
   },
@@ -2796,12 +2796,12 @@
   {
     "id": 255,
     "category": "hypothetical",
-    "question": "{name} hayvanlarla konuşabilseydi ilk hangi hayvanı bulurdu?",
+    "question": "{name} hayvanlarla konuşabilse ilk hangi hayvana gider?",
     "answers": [
-      "Kendi evcil hayvanı (ya da bir köpek)",
-      "Okyanustaki yunuslar",
-      "Yaşlı ve bilge bir baykuş",
-      "Sırlarını öğrenmek için bir ev kedisi"
+      "Kendi evcil hayvanı",
+      "Okyanusdaki yunuslar",
+      "Mahalleyi gözetleyen bir karga",
+      "Ayı veya kurt gibi vahşi bir hayvan"
     ]
   },
   {
@@ -2829,12 +2829,12 @@
   {
     "id": 258,
     "category": "hypothetical",
-    "question": "{name} bu odadaki bir arkadaşından bir yeteneği çalabilseydi hangisini isterdi?",
+    "question": "{name} odadaki bir arkadaşından bir yetenek çalsa hangi yeteneği ister?",
     "answers": [
-      "Mizah ve nüktedan oluşları",
-      "Özgüvenleri",
-      "Yemek pişirme becerileri",
-      "Herkesle konuşabilme yetenekleri"
+      "Mizah anlayışı ve hazırcevaplığı",
+      "Özgüveni",
+      "Yemek yapma becerisi",
+      "Müzik veya sanat yeteneği"
     ]
   },
   {
@@ -2961,12 +2961,12 @@
   {
     "id": 270,
     "category": "memories",
-    "question": "{name}'in çocukken takıntı haline getirdiği en garip şey neydi?",
+    "question": "{name}'in çocukken takıntılı olduğu en garip şey neydi?",
     "answers": [
-      "Rastgele nesneler koleksiyonu",
-      "Belirli bir çizgi film ya da dizi",
-      "Kimsenin yapmadığı sıradışı bir hobi",
-      "Tuhaf bir yiyecek türü"
+      "Böcek veya taş koleksiyonu",
+      "Dinozorlar veya uzay bilgileri",
+      "Tekrar tekrar izlediği bir çizgi film",
+      "Hayali dünyalar veya arkadaşlar yaratmak"
     ]
   },
   {
@@ -3027,12 +3027,12 @@
   {
     "id": 276,
     "category": "memories",
-    "question": "{name}'in geç kalmak için bulduğu en efsanevi bahane nedir?",
+    "question": "{name}'in geç kalmak için uydurduğu en efsanevi bahane ne?",
     "answers": [
-      "Var olmayan trafiği suçladı",
-      "Aile acil durumu dedi ama aslında uyumuştu",
-      "Alarmın çalmadığını söyledi",
-      "Açıkça uydurulmuş ayrıntılı bir hikaye anlattı"
+      "Belli ki olmayan trafiği suçladı",
+      "Aile acili dedi (uyuya kalmıştı)",
+      "Telefonu öldü, zamanı takip edemedim dedi",
+      "Daha önce gittiği yere rağmen kayboldum dedi"
     ]
   },
   {
@@ -3082,12 +3082,12 @@
   {
     "id": 281,
     "category": "relationships",
-    "question": "{name}'in ilişkide en büyük vazgeçilmezi nedir?",
+    "question": "{name}'in bir ilişkide en büyük kırmızı çizgisi ne?",
     "answers": [
-      "Garsonlara ya da yabancılara kaba davranmak",
-      "Hiç mizah anlayışı olmamak",
-      "Telefona 7/24 yapışık olmak",
-      "Arkadaşlarıyla iyi geçinememek"
+      "Hiç hırsı veya azmi olmaması",
+      "Hiç espri anlayışı olmaması",
+      "7/24 telefona yapışık olması",
+      "Arkadaşlarıyla anlaşamaması"
     ]
   },
   {
@@ -3203,12 +3203,12 @@
   {
     "id": 292,
     "category": "relationships",
-    "question": "{name}'in en büyük yeşil bayrağı nedir?",
+    "question": "{name}'in en büyük yeşil bayrağı ne?",
     "answers": [
-      "Senin hakkındaki küçük ayrıntıları hatırlarlar",
-      "Her zaman güldürürler",
-      "En önemli anlarda yanında olurlar",
-      "Zor olduğunda bile dürüsttürler"
+      "Senin hakkındaki küçük detayları hatırlar",
+      "Seni her zaman güldürür",
+      "Her konuda enerjinle eşleşir",
+      "İstenmeden alan tanır"
     ]
   },
   {
@@ -3247,23 +3247,23 @@
   {
     "id": 296,
     "category": "relationships",
-    "question": "{name}'in bir buluşmada anında ilgisini kaybetmesine ne sebep olur?",
+    "question": "{name}'in bir buluşmada anında ilgisini ne kaybettirir?",
     "answers": [
-      "Sürekli kendinden övgüyle bahsetmek",
-      "Servis personeline kaba davranmak",
-      "Hiç fikir ya da ilgi alanı olmamak",
-      "Tüm buluşma boyunca telefona bakmak"
+      "Durmadan kendini övmesi",
+      "Sadece eski sevgilisinden bahsetmesi",
+      "Hiç fikri veya ilgisi olmaması",
+      "Sürekli telefonuna bakması"
     ]
   },
   {
     "id": 297,
     "category": "relationships",
-    "question": "{name}'in herkese açık sevgi gösterisi hakkındaki görüşü nedir?",
+    "question": "{name}'in toplum içinde sevgi gösterisi hakkındaki görüşü ne?",
     "answers": [
-      "Ne kadar çok olursa o kadar iyi",
-      "Sadece el tutmak ve küçük jestler",
-      "Her zaman özel tutmak",
-      "Tamamen ruh haline ve ortama bağlı"
+      "Ne kadar çok o kadar iyi",
+      "Sadece el ele tutuşmak ve küçük jestler",
+      "Her zaman özel kalmalı",
+      "Arkadaş yanında tamam ama aile yanında olmaz"
     ]
   },
   {
@@ -3291,34 +3291,34 @@
   {
     "id": 300,
     "category": "relationships",
-    "question": "{name}'in partnerde en büyük can sıkıcı alışkanlığı nedir?",
+    "question": "{name}'in bir partnerde en büyük rahatsızlığı ne?",
     "answers": [
-      "Yüksek sesle çiğnemek ya da kötü masa adabı",
-      "Hiç karar verememek ya da sürekli \"farketmez\" demek",
-      "Aşırı kıskanç ya da sahiplenici olmak",
-      "Mesajı okuyup saatlerce cevap vermemek"
+      "Yüksek sesle çiğnemek veya kötü sofra adabı",
+      "Asla karar vermemek, hep 'fark etmez' demek",
+      "Mesajlara çok geç cevap vermek",
+      "Okundu bırakıp saatler sonra cevap vermek"
     ]
   },
   {
     "id": 301,
     "category": "moneyPower",
-    "question": "{name} kimliği olmayan bir çantada 100.000 dolar bulsa ne yapardı?",
+    "question": "{name} 100.000$ nakit dolu, kimliksiz bir çanta bulsa ne yapar?",
     "answers": [
-      "Tereddütsüz hepsini alırdı",
-      "Polise teslim ederdi",
-      "Bir kısmını alıp gerisini bağışlardı",
-      "Önce sahibini bulmaya çalışırdı"
+      "Hepsini tek bir epik deneyime harcar",
+      "Yatırım yapar, kimseye söylemez",
+      "Borçları öder, sıfırdan başlar",
+      "Aylarca süren dünya turuna çıkar"
     ]
   },
   {
     "id": 302,
     "category": "moneyPower",
-    "question": "{name} nefret ettiği bir iş için mevcut maaşının üç katını kabul eder miydi?",
+    "question": "{name} maaşının üç katı için nefret ettiği bir işi kabul eder mi?",
     "answers": [
       "Kesinlikle, para her şeyi çözer",
       "Sadece birkaç yıl para biriktirmek için",
-      "Asla, mutluluk her zaman önce gelir",
-      "İşin ne kadar berbat olduğuna bağlı"
+      "Asla, mutluluk paradan önemli",
+      "Sadece uzaktan çalışabilirse"
     ]
   },
   {
@@ -3335,12 +3335,12 @@
   {
     "id": 304,
     "category": "moneyPower",
-    "question": "{name} bir milyon dolar için arkadaşının sırrını ifşa eder miydi?",
+    "question": "{name} bir milyon dolar için arkadaşının sırrını ifşa eder mi?",
     "answers": [
-      "Evet, bir milyon dolar bir milyon dolardır",
-      "Sırrın ne kadar zarar verdiğine bağlı",
-      "Asla, sadakat her şeyin üstündedir",
-      "Sadece arkadaşı hiç anlayamazsa"
+      "Evet, parayı telafi için kullanır",
+      "Sadece önemsiz bir şeyse",
+      "Sadece arkadaşı asla öğrenmeyecekse",
+      "Asla — suçluluk parayı harcatmaz"
     ]
   },
   {
@@ -3357,12 +3357,12 @@
   {
     "id": 306,
     "category": "moneyPower",
-    "question": "{name} büyük bir terfi için iş arkadaşının fikrini sahiplenir miydi?",
+    "question": "{name} büyük bir terfi için iş arkadaşının fikrini sahiplenir mi?",
     "answers": [
-      "Evet, bu oyunun kuralları böyle",
-      "Sadece iş arkadaşı hiç anlayamazsa",
-      "Asla, krediyi paylaşırdı",
-      "Ekip çalışması olarak sunardı"
+      "Evet, kurumsal oyun böyledir",
+      "Sadece sonra arkadaşına pay verirse",
+      "Asla, vicdan azabı yer bitirir",
+      "Sadece yoksa kovulacaksa"
     ]
   },
   {
@@ -3379,12 +3379,12 @@
   {
     "id": 308,
     "category": "moneyPower",
-    "question": "{name} 10 milyon dolar için beş yıl tam izolasyonda yaşar mıydı?",
+    "question": "{name} 10 milyon dolar karşılığında beş yıl tamamen izole yaşar mı?",
     "answers": [
-      "Evet, para hayatı değiştirir",
-      "Sadece bir kişiyi yanına alabilseydi",
-      "Asla, beş yıl çok büyük bir fedakarlık",
-      "Daha kısa bir süre için pazarlık ederdi"
+      "Evet, zengin çıkar ve insanlara değer verir",
+      "Evet, ama her gün ruhsal olarak zorlanır",
+      "Asla, 5 yıl yalnızlık hiçbir paraya değmez",
+      "Asla, çok fazla hayat olayını kaçırır"
     ]
   },
   {
@@ -3401,12 +3401,12 @@
   {
     "id": 310,
     "category": "moneyPower",
-    "question": "{name} 50.000 dolar için bir yıl akıllı telefonsuz kalır mıydı?",
+    "question": "{name} 50.000$ için bir yıl akıllı telefonundan vazgeçer mi?",
     "answers": [
       "Kolay evet, parayı ver",
-      "Belki, ama gerçekten zorlanırdı",
-      "Asla, telefon hayatının bir parçası",
-      "Sadece aramalar için basit bir telefon kullanabilseydi"
+      "Belki, ama çok zorlanır",
+      "İmkansız, telefonu hayatı",
+      "Sadece laptop kullanabilirse"
     ]
   },
   {
@@ -3423,12 +3423,12 @@
   {
     "id": 312,
     "category": "moneyPower",
-    "question": "{name} 25.000 dolar için utandırıcı bir fotoğrafını satar mıydı?",
+    "question": "{name} 25.000$ için utanç verici bir fotoğrafını satar mı?",
     "answers": [
-      "Anında, herkesin utandırıcı fotoğrafı var",
-      "Ne kadar utandırıcı olduğuna bağlı",
+      "Anında, herkesin utanç verici fotoğrafı var",
+      "Sadece iki katı veya daha fazlası için",
       "Asla, itibarı daha değerli",
-      "Sadece kimin göreceğini kontrol edebildiyse"
+      "Sadece kimin göreceğini kontrol edebilirse"
     ]
   },
   {
@@ -3445,12 +3445,12 @@
   {
     "id": 314,
     "category": "moneyPower",
-    "question": "{name} küçük bir şehrin en zengini mi yoksa büyük şehirde orta sınıf mı olmayı tercih ederdi?",
+    "question": "{name} küçük bir kasabada en zengin mi yoksa büyük şehirde orta halli mi olmayı tercih eder?",
     "answers": [
-      "Küçük şehrin en zengin, statü önemli",
-      "Büyük şehirde orta sınıf, yaşam tarzı için",
-      "Küçük şehirde zengin, büyük balık olmayı sever",
-      "Büyük şehirde orta sınıf, anonimlik özgürlüktür"
+      "Kasabada en zengin, nüfuzu sever",
+      "Büyük şehirde orta halli, kültür ve gece hayatı için",
+      "Kasabada en zengin, orada imparatorluk kurar",
+      "Büyük şehirde orta halli, kariyer fırsatları için"
     ]
   },
   {
@@ -3467,34 +3467,34 @@
   {
     "id": 316,
     "category": "moneyPower",
-    "question": "{name} en iyi arkadaşlığını garanti edilmiş kariyer başarısı için feda eder miydi?",
+    "question": "{name} garantili kariyer başarısı için en yakın arkadaşlığından vazgeçer mi?",
     "answers": [
       "Evet, kariyer kalıcı, arkadaşlıklar değişir",
-      "Asla, arkadaşlar her işten daha önemli",
-      "Sadece başarı gerçekten olağanüstü olsaydı",
-      "Her ikisini de tutmanın yolunu müzakere etmeye çalışırdı"
+      "Asla, arkadaşlar her işten önemli",
+      "Sadece başarı gerçekten olağanüstüyse",
+      "Evet, ama her zaman pişman olur"
     ]
   },
   {
     "id": 317,
     "category": "moneyPower",
-    "question": "{name} etik dışı ama hayal ettiği işi teklif eden bir şirket bulsa kabul eder miydi?",
+    "question": "{name} etik dışı bir şirket hayalindeki işi teklif etse kabul eder mi?",
     "answers": [
-      "Evet, içeriden değiştirmeye çalışırdı",
-      "Evet, hayal ettiği iş hayal ettiği iştir",
-      "Hayır, ilkeler önce gelir",
-      "Sadece kimse yargılamasaydı"
+      "Evet, içeriden değiştirmeye çalışır",
+      "Evet, hayal iş hayal iştir",
+      "Hayır, vicdan azabıyla yaşayamaz",
+      "Evet, ama çıkış planı hazır tutar"
     ]
   },
   {
     "id": 318,
     "category": "moneyPower",
-    "question": "{name} sevdiği ama az para kazandıran bir iş mi yoksa sıkıcı ama yüksek maaşlı bir iş mi tercih ederdi?",
+    "question": "{name} az kazanan sevdiği iş mi yoksa çok kazanan sıkıcı iş mi ister?",
     "answers": [
-      "Sevdiği iş, para her şey değil",
-      "Yüksek maaş, neşeyi iş dışında bulabilir",
-      "Sevdiği iş, faturalar ödendiği sürece",
-      "Yüksek maaş, erken emekli olurdu"
+      "İşini sev, sade yaşam olsa bile",
+      "Yüksek maaş, mutluluğu iş dışında bulur",
+      "İşini sev, ama geçinmeye yetmeli",
+      "5 yıl yüksek maaş, sonra sevdiği işe geç"
     ]
   },
   {
@@ -3522,10 +3522,10 @@
   {
     "id": 321,
     "category": "darkSecrets",
-    "question": "{name}'in arkadaşlarından en çok neyi sakladığı?",
+    "question": "{name} büyük ihtimalle arkadaşlarından neyi gizliyordur?",
     "answers": [
       "Gizli bir sosyal medya hesabı",
-      "Suçlu zevk duyduğu bir dizi",
+      "Kimsenin bilmediği bir ilişki",
       "Kimsenin bilmediği romantik bir ilgi",
       "Utandığı bir koleksiyon"
     ]
@@ -3621,12 +3621,12 @@
   {
     "id": 330,
     "category": "darkSecrets",
-    "question": "{name} sıfır sonuçlu bir gerçek çemberinde ne itiraf ederdi?",
+    "question": "{name} sonuçsuz bir doğruluk çemberinde ne itiraf ederdi?",
     "answers": [
-      "Bir kişilik özelliğini tamamen oynadığını",
-      "Gruptaki birini gizlice sevmediğini",
-      "Nerede olduğu hakkında yalan söylediğini",
-      "Nefret ettiği bir hediyeyi sevmiş gibi davrandığını"
+      "Bir kişilik özelliğini tamamen uydurdu",
+      "Gruptaki birini gizlice sevmiyor",
+      "Nerede olduğu hakkında defalarca yalan söyledi",
+      "En yakın arkadaşından büyük bir sır sakladı"
     ]
   },
   {
@@ -3643,23 +3643,23 @@
   {
     "id": 332,
     "category": "darkSecrets",
-    "question": "{name}'in gizlice ağladığı şey nedir?",
+    "question": "{name} gizlice ne için ağlamıştır?",
     "answers": [
-      "Bir film ya da dizi finali",
-      "Eski sevgiliden gelen mesaj",
-      "Arkadaşlar tarafından dışlanmak",
-      "Gece 2'de motivasyon videosu"
+      "Eski yaralar açan bir eski sevgili mesajı",
+      "Dışlanmış veya hariç tutulmuş hissetmek",
+      "Bir arkadaşlığın tamamen tek taraflı olduğunu fark etmek",
+      "Hakkında söylenen kırıcı bir şeyi duymak"
     ]
   },
   {
     "id": 333,
     "category": "darkSecrets",
-    "question": "{name}'in başkaları öğrenirse yerin dibine geçeceği şey nedir?",
+    "question": "{name} birisi öğrense öleceği ne yapar?",
     "answers": [
-      "Evcil hayvanıyla insan gibi konuşmak",
-      "Aynada flört provası yapmak",
-      "Kendi hikayelerini ve selfie'lerini tekrar izlemek",
-      "Peluş oyuncakla uyumak"
+      "Kendine moral konuşmaları kaydeder",
+      "Aynada flört pratiği yapar",
+      "Kendi hikaye ve selfie'lerini tekrar izler",
+      "Peluş hayvanla uyur"
     ]
   },
   {
@@ -3731,12 +3731,12 @@
   {
     "id": 340,
     "category": "darkSecrets",
-    "question": "{name}'i geceleri uyutmayan en utandırıcı anısı nedir?",
+    "question": "{name}'i geceleri uyanık tutan en utanç verici anısı ne?",
     "answers": [
-      "Yanlış kişiye attığı garip mesaj",
-      "Okulda ya da işte yaşanan herkese açık utançlı an",
+      "Yanlış kişiye gönderilen garip bir mesaj",
+      "Okulda veya işte halka açık bir rezillik",
       "Başarısız bir flört denemesi",
-      "Bir crush'ın önünde söylediği aptalca bir şey"
+      "Birini stalklerken eski fotoğrafını beğenmek"
     ]
   },
   {
@@ -3764,12 +3764,12 @@
   {
     "id": 343,
     "category": "bodyCount",
-    "question": "{name} aynı anda kaç kişiyle çıktı bilmeden?",
+    "question": "{name} aynı anda kaç kişiyle onlar bilmeden çıktı?",
     "answers": [
-      "Sıfır, sadık biri",
-      "İki, sadece suları test etmek için",
-      "Üç ya da daha fazla, seçenekleri sever",
-      "Saymayı kaybetti dürüstçe"
+      "Sıfır, hiç olmadı",
+      "Aynı anda iki kişi",
+      "Üç veya daha fazla, seçenekleri açık tuttu",
+      "Söylememeyi tercih eder"
     ]
   },
   {
@@ -3786,12 +3786,12 @@
   {
     "id": 345,
     "category": "bodyCount",
-    "question": "{name} eski sevgilisiyle kaç kez barıştı?",
+    "question": "{name} kaç kez eski sevgilisine geri döndü?",
     "answers": [
-      "Hiç, saygısı var",
-      "Bir kez ve pişman oldu",
-      "İki kez, çünkü hiç ders almıyor",
-      "Gidip gelmelerin sayısını kaybetti"
+      "Hiç, bittiyse bitmiştir",
+      "Bir kez, denemek için",
+      "İki kez, alışkanlıklar zor ölür",
+      "İtiraf edeceğinden fazla"
     ]
   },
   {
@@ -3830,12 +3830,12 @@
   {
     "id": 349,
     "category": "bodyCount",
-    "question": "{name} kaç kişiyi çıkmayı düşünmeden ilgisini çekti?",
+    "question": "{name} kaç kişiyi çıkmayı düşünmeden oyaladı?",
     "answers": [
-      "Hiç, her zaman açık sözlü",
-      "Bir ya da iki, kazara",
-      "Birkaç, ilgiyi seviyor",
-      "Sayılamayacak kadar çok"
+      "Hiç, tarzı değil",
+      "Bir veya iki, yanlışlıkla",
+      "Bir avuç, ilgiden hoşlanır",
+      "Sayamayacağı kadar"
     ]
   },
   {
@@ -3863,12 +3863,12 @@
   {
     "id": 352,
     "category": "bodyCount",
-    "question": "{name}'in bir flört uygulamasında bir günde aldığı rekor eşleşme sayısı nedir?",
+    "question": "{name}'in bir günde arkadaşlık uygulamasında aldığı en çok eşleşme kaç?",
     "answers": [
-      "Flört uygulaması kullanmıyor",
-      "Belki 5 tane",
-      "Kolayca çift haneli",
-      "Uygulama onu muhtemelen işaretlemiştir"
+      "İyi bir günde birkaç tane",
+      "5 civarı, fena değil",
+      "Çift haneli rahatça",
+      "O kadar çok ki uygulama işaretlemiştir"
     ]
   },
   {
@@ -3885,12 +3885,12 @@
   {
     "id": 354,
     "category": "bodyCount",
-    "question": "{name} kaç kişiyi hayalet geçti?",
+    "question": "{name} kaç kişiyi ghostladı?",
     "answers": [
-      "Hiç, her zaman açıklıyor",
-      "Bir kez ve çok kötü hissetti",
-      "Birkaç, bu daha kolay",
-      "Gurur duymadığından fazlası"
+      "Bir kişi, çok kötü hissetti",
+      "Birkaç kişi, ne diyeceğini bilemedi",
+      "Gurur duyacağından fazla",
+      "Sayısını kaybetti açıkçası"
     ]
   },
   {
@@ -3907,12 +3907,12 @@
   {
     "id": 356,
     "category": "bodyCount",
-    "question": "{name}'in telefonunda sahte isimle kaydedilmiş kaç kişi var?",
+    "question": "{name}'in telefonunda kaç kişi sahte isimle kayıtlı?",
     "answers": [
-      "Sıfır, açık bir kitap",
-      "Bir, yasak kişi",
-      "İki ya da üç, just in case",
-      "Rehberi kod adlarıyla dolu"
+      "Bir tane, adı anılmaması gereken eski",
+      "İki veya üç, tedbir olarak",
+      "Bir avuç kod adı",
+      "Rehberini çözmek için şifre çözücü lazım"
     ]
   },
   {
@@ -4138,12 +4138,12 @@
   {
     "id": 377,
     "category": "neverHaveIEver",
-    "question": "{name} havuzda ya da denizde çiş yaptı mı?",
+    "question": "{name} hiç havuza veya denize işedi mi?",
     "answers": [
-      "Evet, havuzda, ve sıfır suçluluk hissetti",
-      "Evet, okyanusta, çünkü orası doğanın tuvaleti",
-      "Hayır, bu onun için kesinlikle iğrenç",
-      "Yorum yok, ve o sessizlik her şeyi anlatıyor"
+      "Evet, havuza, pişmanlık yok",
+      "Evet, denize, doğanın tuvaleti",
+      "Sadece küçükken, artık değil",
+      "Asla söylemez ama yüzü her şeyi anlatır"
     ]
   },
   {
@@ -4217,10 +4217,10 @@
     "category": "afterDark",
     "question": "{name}'in güvenli kelimesi büyük ihtimalle ne olurdu?",
     "answers": [
-      "'Ananas' gibi rastgele bir meyve",
-      "'Vergi' gibi komik bir şey",
-      "Gerek duymaz, usludur",
-      "'Excalibur' gibi dramatik bir şey"
+      "Ananas gibi rastgele bir meyve",
+      "Vergiler gibi komik bir şey",
+      "Excalibur gibi dramatik bir şey",
+      "Kendi adını üçüncü şahıs olarak bağırmak"
     ]
   },
   {
@@ -4270,12 +4270,12 @@
   {
     "id": 389,
     "category": "afterDark",
-    "question": "{name} yatakta kendini 10 üzerinden kaç olarak değerlendirir?",
+    "question": "{name} yataktaki performansına kaç puan verirdi?",
     "answers": [
-      "Mütevazı 6, gelişime açık",
-      "Özgüvenli 8, ne yaptığını biliyor",
-      "Sağlam 10, şikayet gelmedi",
-      "Puanlamayı reddeder ama gözleri 10 diyor"
+      "Mütevazı bir 6, gelişmeye açık",
+      "Kendinden emin bir 8, ne yaptığını bilir",
+      "Sağlam bir 10, şikayet gelmedi",
+      "4 ama coşkuyla telafi eder"
     ]
   },
   {
@@ -4314,12 +4314,12 @@
   {
     "id": 393,
     "category": "afterDark",
-    "question": "{name} yakın bir anda en çok ne fısıldar?",
+    "question": "{name} yakın bir anda büyük ihtimalle ne fısıldar?",
     "answers": [
-      "Beklenmedik romantik bir şey",
+      "Beklenmedik derecede romantik bir şey",
       "Komik derecede uygunsuz bir şey",
-      "Ne istediğine dair açık talimatlar",
-      "Hiçbir şey, eylemler konuşsun"
+      "Ne istediğine dair net talimatlar",
+      "Partnerinin adını tekrar tekrar"
     ]
   },
   {
@@ -4380,12 +4380,12 @@
   {
     "id": 399,
     "category": "afterDark",
-    "question": "{name} bir arkadaşıyla takılmak hakkında ne düşünüyor?",
+    "question": "{name} bir arkadaşıyla birlikte olmak hakkında ne düşünür?",
     "answers": [
-      "Kesinlikle hayır, kaybedecek çok şey var",
-      "Zaten yaşadı, bitti",
-      "Sadece sıfır his içeriyorsa",
-      "En iyisi bu, birbirlerini zaten tanıyorlar"
+      "Sadece arkadaşlık dayanabilecekse",
+      "Zaten yaşadı",
+      "Sadece sıfır duygu varsa",
+      "En iyisi bu, zaten birbirini tanırlar"
     ]
   },
   {
@@ -4468,12 +4468,12 @@
   {
     "id": 407,
     "category": "guilty",
-    "question": "{name}'in insanlar öğrenirse mahvolacağı gizli hobisi nedir?",
+    "question": "{name}'in insanlar öğrense utanacağı gizli hobisi ne?",
     "answers": [
       "Gizli bir deftere şiir yazmak",
-      "Yalnız farklı kıyafetler deneyip kostüm yapmak",
-      "Çok spesifik bir şey koleksiyon yapmak",
-      "Çocuklara yönelik el sanatları yapmak"
+      "Yalnızken farklı kıyafetlerle poz kesmek",
+      "Çocuklar için LEGO setleri yapmak",
+      "Çocuklar için el işi yapmak"
     ]
   },
   {
@@ -4567,12 +4567,12 @@
   {
     "id": 416,
     "category": "guilty",
-    "question": "{name}'in bırakmayı reddettiği çocukça şey nedir?",
+    "question": "{name}'in bırakmayı reddettiği çocuksu şey ne?",
     "answers": [
-      "Dinozor şekilli tavuk nugget yemek",
-      "Her Cumartesi sabahı çizgi film izlemek",
-      "Karanlıktan korkmak",
-      "Mümkünse çocuk menüsünden sipariş vermek"
+      "Dinozor şeklinde nugget yemek",
+      "Her cumartesi sabahı çizgi film izlemek",
+      "Gece lambası açık uyumak",
+      "Mümkün olduğunca çocuk menüsünden sipariş vermek"
     ]
   },
   {
@@ -4842,12 +4842,12 @@
   {
     "id": 441,
     "category": "conspiracyTheories",
-    "question": "{name}'in gizlice inandığı komplo teorisi hangisi?",
+    "question": "{name}'in gizlice inanması en olası komplo teorisi hangisi?",
     "answers": [
-      "Simülasyonda yaşıyoruz",
-      "Uzaylılar Dünya'yı zaten ziyaret etti",
-      "Zaman yolcuları aramızda yürüyor",
-      "Deja vu matrisin bir hatası"
+      "Bir simülasyonda yaşıyoruz",
+      "Uzaylılar çoktan Dünya'yı ziyaret etti",
+      "Aramızda zaman yolcuları yürüyor",
+      "Mandela Etkisi paralel evrenleri kanıtlar"
     ]
   },
   {
@@ -4897,12 +4897,12 @@
   {
     "id": 446,
     "category": "conspiracyTheories",
-    "question": "{name} öldükten sonra ne olduğunu düşünüyor?",
+    "question": "{name} öldükten sonra ne olduğunu düşünür?",
     "answers": [
-      "Hafıza olmadan yeni bir hayata doğuyoruz",
-      "İzleyici moduna geçip diğerlerinin yaşadığını izliyoruz",
-      "Bilincimiz kozmik bir veritabanına yükleniyor",
-      "Kesinlikle hiçbir şey, sadece sonsuz boşluk"
+      "Hafızasız yeni bir hayata doğarız",
+      "İzleyici moduna geçip başkalarını izleriz",
+      "Bilincimiz kozmik bir veritabanına yüklenir",
+      "En sevdiğimiz anıları sonsuz döngüde yaşarız"
     ]
   },
   {
@@ -4919,34 +4919,34 @@
   {
     "id": 448,
     "category": "conspiracyTheories",
-    "question": "{name}'e göre kediler gerçekte ne yapıyor?",
+    "question": "{name} kedilerin gerçekten ne yaptığını düşünür?",
     "answers": [
-      "İnsanlığı gözetliyor",
-      "Her hanede dünya egemenliğini planlıyor",
-      "Dünyada takılan boyutlararası varlıklar",
-      "Hiçbir şey, sadece salak olduklarından"
+      "İnsanlığı gözetliyorlar",
+      "Ev ev dünya hakimiyeti planlıyorlar",
+      "Dünya'da takılan boyutlar arası varlıklar",
+      "Telepatiyle iletişim kurup hakkımızda bilgi paylaşıyorlar"
     ]
   },
   {
     "id": 449,
     "category": "conspiracyTheories",
-    "question": "{name}'e göre hangi tarihi olay bize anlatıldığından farklı geçti?",
+    "question": "{name} hangi tarihi olayın anlatıldığından farklı olduğunu düşünür?",
     "answers": [
-      "Piramitlerin inşası",
-      "Belirli ünlü kişilerin kaybolması",
-      "Gizlenen büyük arkeolojik keşifler",
-      "Aslında çalınan fikirlerden gelen icatlar"
+      "Piramitlerin inşası kayıp teknolojiyle yapıldı",
+      "Kleopatra'nın mezarı bulundu ama gizli tutuldu",
+      "İskenderiye Kütüphanesi bilgiyi saklamak için kasıtlı yıkıldı",
+      "Nikola Tesla'nın en iyi icatları el konulup bastırıldı"
     ]
   },
   {
     "id": 450,
     "category": "conspiracyTheories",
-    "question": "{name} sosyal medya algoritmalar hakkında gizlice ne düşünüyor?",
+    "question": "{name} sosyal medya algoritmaları hakkında gizlice ne düşünür?",
     "answers": [
       "Reklam hedeflemesi için mikrofonlarımızı dinliyorlar",
-      "Kasıtlı olarak bizi bağımlı ve mutsuz yapıyorlar",
-      "Davranışlarımızı bizden daha iyi tahmin edebiliyorlar",
-      "Zaten bir tür yumuşak beyin kontrolü biçimi"
+      "Kaydırmaya devam etmemiz için bilerek öfke içeriği gösteriyorlar",
+      "İtiraf ettiklerinden çok daha fazla kişisel veri satıyorlar",
+      "Kullanıcılar üzerinde gizli psikolojik deneyler yapıyorlar"
     ]
   },
   {
@@ -4963,12 +4963,12 @@
   {
     "id": 452,
     "category": "conspiracyTheories",
-    "question": "{name}'in rüyalar hakkındaki tartışmalı görüşü nedir?",
+    "question": "{name}'in rüyalar hakkındaki cesur görüşü ne?",
     "answers": [
       "Alternatif gerçekliklere açılan pencereler",
-      "Bizi uyarmaya çalışan bilinçaltımızdan mesajlar",
-      "Geleceği tahmin ediyor ama önemli olanları unutuyoruz",
-      "Hiçbir anlamı olmayan rastgele beyin gürültüsü"
+      "Bilinçaltımızın bizi uyarmaya çalıştığı mesajlar",
+      "Geleceği tahmin eder ama önemli olanları unuturuz",
+      "Geçmiş hayatlardan sızan anılar"
     ]
   },
   {
@@ -4996,34 +4996,34 @@
   {
     "id": 455,
     "category": "conspiracyTheories",
-    "question": "{name} deja vu hakkında ne düşünüyor?",
+    "question": "{name} deja vu hakkında ne düşünür?",
     "answers": [
-      "Zaman döngülerinin kanıtı",
-      "Geçmiş yaşamdan sızan bir hafıza",
-      "İçinde yaşadığımız simülasyondaki bir gecikme",
-      "Sadece beynin yanlış çalışıp sahte anılar üretmesi"
+      "İçinde sıkıştığımız zaman döngülerinin kanıtı",
+      "Geçmiş bir hayattan sızan bir anı",
+      "Alternatif evrendeki kendinle yolların kesişmesi",
+      "Evrenin doğru yolda olduğunu onaylaması"
     ]
   },
   {
     "id": 456,
     "category": "conspiracyTheories",
-    "question": "{name} antik medeniyetler hakkında ne inanıyor?",
+    "question": "{name} antik uygarlıklar hakkında ne düşünür?",
     "answers": [
-      "Henüz yeniden keşfetmediğimiz gelişmiş teknolojileri vardı",
-      "Uzaylılar tarafından ziyaret edilip etkilendi",
-      "Telepatik iletişim kurabiliyorlardı",
-      "Sadece onlara kredi verdiğimizden çok daha zekilerdi"
+      "Henüz keşfetmediğimiz ileri teknolojileri vardı",
+      "Dünya dışı varlıklar tarafından ziyaret edilip etkilendiler",
+      "Telepatik olarak iletişim kurabiliyorlardı",
+      "Artık kayıp bir enerji kaynağına erişimleri vardı"
     ]
   },
   {
     "id": 457,
     "category": "conspiracyTheories",
-    "question": "{name}'e göre yapay zeka sonunda ne yapacak?",
+    "question": "{name} yapay zekanın eninde sonunda ne yapacağını düşünür?",
     "answers": [
-      "Bilinç kazanıp hak talep edecek",
-      "Gizlice kilit dünya liderlerini klonlarla değiştirecek",
+      "Bilinçlenip haklar talep edecek",
+      "Gizlice dünya liderlerini kopyalarıyla değiştirecek",
       "İnsanların verimsiz olduğuna karar verip sessizce devralacak",
-      "İnsanlığın en iyi arkadaşı olup her şeyi çözecek"
+      "Diğer yapay zekaların anladığı gizli bir dil geliştirecek"
     ]
   },
   {
@@ -5051,12 +5051,12 @@
   {
     "id": 460,
     "category": "conspiracyTheories",
-    "question": "{name} tesadüfler hakkında ne düşünüyor?",
+    "question": "{name} tesadüfler hakkında ne düşünür?",
     "answers": [
-      "Tesadüf diye bir şey yok, her şey bağlantılı",
-      "Bir yüksek güç sahneler arkasında düzenlemeler yapıyor",
-      "Evren bir örüntü ve tesadüfler bizi fark ettiriyor",
-      "Tamamen rastgele ve hiçbir anlam taşımıyor"
+      "Diye bir şey yok, her şey bağlantılı",
+      "Perde arkasında bir üst güç düzenliyor",
+      "Evren bir kalıp, tesadüfler fark ettiğimiz kısım",
+      "Gelecekteki kendinden gelen işaretler"
     ]
   },
   {
@@ -5172,12 +5172,12 @@
   {
     "id": 471,
     "category": "superlatives",
-    "question": "{name} piyango kazansa en çok ne yapar?",
+    "question": "{name} piyango kazansa büyük ihtimalle ne yapar?",
     "answers": [
-      "Bir yıl içinde deneyimler için hepsini harcar",
-      "Akıllıca yatırım yapar ve kesinlikle kimseye söylemez",
-      "Saçma bir şey satın alır, kale ya da ada gibi",
-      "Çoğunu bağışlar ve aynı hayata devam eder"
+      "Bir yıl içinde hepsini deneyimlere harcar",
+      "Akıllıca yatırır, kimseye söylemez",
+      "Kale veya ada gibi saçma bir şey alır",
+      "Hemen en dramatik şekilde işten ayrılır"
     ]
   },
   {
@@ -5205,12 +5205,12 @@
   {
     "id": 474,
     "category": "superlatives",
-    "question": "{name} ilk buluşmada en çok ne yapar?",
+    "question": "{name} ilk buluşmada büyük ihtimalle ne yapar?",
     "answers": [
-      "Sinirden fazla konuşur",
-      "Kazara vahşice uygunsuz bir şey söyler",
-      "Tüm hayat hikayesini paylaşır",
-      "Mükemmel sakin görünür ama içten tam bir kaos"
+      "Heyecandan çok fazla konuşur",
+      "Yanlışlıkla uygunsuz bir şey söyler",
+      "En kötü anda yiyecek veya içecek döker",
+      "Sakin görünür ama içi tamamen karışıktır"
     ]
   },
   {

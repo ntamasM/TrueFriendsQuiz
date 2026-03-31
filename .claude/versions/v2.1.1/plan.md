@@ -2,7 +2,7 @@
 
 Act as an expert party game designer and content writer. I am developing a multiplayer trivia/party game called "True Friends Quiz" where one player (the Target) answers a personal question, and the other players try to guess what the Target chose.
 
-The game features the following categories: `favorites`, `personality`, `wouldYouRather`, `deepPersonal`, `funRandom`, `experiencesDreams`, and `deepSpicy`.
+The game features the following categories: `favorites`, `personality`, `wouldYouRather`, `deepPersonal`, `funRandom`, `experiencesDreams`, `deepSpicy`, `hotTakes`, `hypothetical`, `memories`, `relationships`, `moneyPower`, `darkSecrets`, `bodyCount`, `neverHaveIEver`, `afterDark`, `guilty`, `drunkConfessions`, `conspiracyTheories`, and `superlatives`.
 
 ## The Problem:
 
