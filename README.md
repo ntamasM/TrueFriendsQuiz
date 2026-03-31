@@ -6,88 +6,131 @@ A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/
 
 1. Players join the game using their phones as controllers.
 2. The **game master** (first player to join) configures settings — language, rounds per player, and answer time.
-3. Each round, one player becomes the **host**. They pick a question and answer it privately.
+3. Each round, one player becomes the **host**. They vote on a category group, pick a question, and answer it privately.
 4. All other players **guess** what the host answered.
-5. Correct guesses earn points. The player with the most points wins!
+5. Correct guesses earn points. The first player to guess correctly gets a **speed bonus**. The player with the most points wins!
 
 ## Features
 
 - **7 Languages**: English, Greek, Spanish, French, German, Turkish, Arabic
-- **200 Questions per language** — covering favorites, personality, hypotheticals, and more
+- **480+ Questions per language** across 20 categories — favorites, personality, hypotheticals, deep personal, spicy, and more
+- **Category voting** — the host votes on a category group (Fun, Deep, Dilemma, Spicy) before picking a question
+- **Free & Pro categories** — 9 free categories + 11 Pro (Hero) categories for AirConsole Hero subscribers
 - **Configurable settings** — rounds per player (1–5), answer time (10s–60s)
 - **Category toggles** — enable or disable question categories per game
 - **Game master controls** — settings and game start managed from the master controller
 - **Music toggle** — background music on/off from settings
-- **Leaderboard & scoring** with podium display
+- **Speed bonus** — first correct guesser earns +20 bonus points
+- **Streak tracking** — consecutive correct guesses are tracked with streak indicators
+- **Animated phase transitions** — smooth transitions between game phases
+- **Timer urgency effects** — visual and audio cues as the timer runs low
+- **Confetti & celebrations** — confetti effects on the leaderboard
+- **Emoji reactions** — players can send emoji reactions during the game
+- **Per-player stats** — detailed stats shown at the end (streaks, speed bonuses, accuracy)
+- **Trophy crown** — the leading player gets a crown indicator
+- **Hot seat glow** — visual highlight on the current host
+- **Mini leaderboard** — score summary shown after each reveal phase
+- **Controller color themes** — personalized color themes on each player's phone
+- **Vibration feedback** — haptic feedback on mobile controllers for key actions
+- **Leaderboard & scoring** with podium display and score pop-ups
 
 ## Project Structure
 
 ```
-├── screen.html              # TV/main screen (game logic & display)
-├── controller.html          # Phone controller (player input)
-├── css/
-│   ├── screen.css           # Screen styles
-│   └── controller.css       # Controller styles
-├── js/
-│   ├── screen.js            # Screen game logic
-│   └── controller.js        # Controller logic
-├── languages/
-│   ├── loader.js            # Dynamic language loader
-│   ├── en/                  # English
-│   │   ├── questions.js     # Question bank (200 questions)
-│   │   └── ui-text.js       # UI text translations
-│   ├── el/                  # Greek
-│   ├── es/                  # Spanish
-│   ├── fr/                  # French
-│   ├── de/                  # German
-│   ├── tr/                  # Turkish
-│   └── ar/                  # Arabic
-├── Assets/                  # Logo & music files
-├── app/                     # Website pages (not part of the game zip)
-│   ├── index.html           # How to Play landing page
-│   ├── about.html           # About page
-│   ├── css/shared.css       # Shared website styles
-│   └── js/components.js     # Nav & footer components
-├── nginx.conf               # Nginx config for deployment
-└── Dockerfile               # Docker container setup
+├── screen.html                # TV/main screen entry point
+├── controller.html            # Phone controller entry point
+├── app.html                   # Website (How to Play / About) entry point
+├── src/
+│   ├── screen/                # Screen (TV) — game logic & display
+│   │   ├── ScreenContext.tsx  # Screen state & AirConsole messaging
+│   │   ├── gameLogic.ts       # Core game state machine
+│   │   └── phases/            # Phase components
+│   │       ├── Lobby.tsx
+│   │       ├── Picking.tsx    # Category vote + question pick
+│   │       ├── Answering.tsx
+│   │       ├── Guessing.tsx
+│   │       ├── Reveal.tsx
+│   │       └── Leaderboard.tsx
+│   ├── controller/            # Controller (phone) — player input
+│   │   ├── ControllerContext.tsx
+│   │   └── views/             # View components
+│   │       ├── Lobby.tsx
+│   │       ├── Settings.tsx
+│   │       ├── CategoryVote.tsx
+│   │       ├── PickQuestion.tsx
+│   │       ├── AnswerQuestion.tsx
+│   │       ├── GuessQuestion.tsx
+│   │       ├── HostWait.tsx
+│   │       ├── Waiting.tsx
+│   │       ├── Result.tsx
+│   │       └── Leaderboard.tsx
+│   ├── shared/                # Shared code
+│   │   ├── types.ts           # Game state & message types
+│   │   ├── constants.ts       # Categories, languages, vote groups
+│   │   ├── styles/            # Shared CSS
+│   │   └── i18n/
+│   │       └── locales/       # 7 language packs (en, el, es, fr, de, tr, ar)
+│   └── app/                   # Website pages
+│       ├── App.tsx            # Router (How to Play / About)
+│       └── pages/
+│           └── AboutPage.tsx
+├── public/                    # Static assets (logo, music)
+├── vite.config.ts             # Vite build config (multi-page)
+├── nginx.conf                 # Nginx config for deployment
+└── Dockerfile                 # Docker container setup
 ```
 
 ## Deployment
 
-The project is split into **game files** (root) and **app/website files** (`app/`).
+The project is split into **game files** and **website files**, all built with Vite.
 
-- **Game zip** (for AirConsole): Include only root-level game files (`screen.html`, `controller.html`, `css/`, `js/`, `languages/`, `Assets/`). Exclude `app/`, `nginx.conf`, `Dockerfile`, `Releases/`, `README.md`, `LICENSE`.
-- **Website** (Coolify/Docker): The Dockerfile + nginx.conf serve `app/index.html` at `/` and `app/about.html` at `/about.html`, while game files remain at their original paths.
+- **Game zip** (for AirConsole): Run `pnpm zip` to build and package only the game files (`screen.html`, `controller.html`, and bundled assets).
+- **Website** (Coolify/Docker): The Dockerfile + nginx.conf serve the built `app.html` and game files.
 
 ## Development
 
 ### Prerequisites
 
-- A local HTTP server (e.g., Python's `http.server`)
-- [ngrok](https://ngrok.com/) for tunneling (required for AirConsole testing)
+- [Node.js](https://nodejs.org/) (v18+)
+- [pnpm](https://pnpm.io/) package manager
+- [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) or [ngrok](https://ngrok.com/) for AirConsole testing
 
 ### Running Locally
 
-1. Start a local server:
+1. Install dependencies:
 
    ```bash
-   python -m http.server 8080
+   pnpm install
    ```
 
-2. Start ngrok tunnel:
+2. Start the dev server:
 
    ```bash
-   ngrok http 8080
+   pnpm dev
    ```
 
-3. Open the AirConsole simulator at `https://www.airconsole.com/simulator/` and enter your ngrok URL.
+3. Start a tunnel (e.g., Cloudflare):
+
+   ```bash
+   cloudflared tunnel --url http://localhost:5173
+   ```
+
+4. Open the AirConsole simulator at `https://www.airconsole.com/simulator/` and enter your tunnel URL.
+
+### Building
+
+```bash
+pnpm build
+```
 
 ## Tech Stack
 
+- **React 19** with TypeScript
+- **Vite 7** — build tool & dev server
 - **AirConsole API** v1.10.0
-- Vanilla JavaScript, HTML, CSS
+- **canvas-confetti** — celebration effects
+- **pnpm** — package manager
 - Nginx (Alpine) via Docker
-- No build tools or frameworks
 
 ## ☕ Support the Project
 

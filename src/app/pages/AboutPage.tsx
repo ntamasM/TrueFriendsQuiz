@@ -35,9 +35,12 @@ export default function AboutPage() {
       <h2>About the Questions</h2>
       <div className="section">
         <p>
-          The questions in this game were generated with the help of{" "}
-          <strong>AI</strong>. While we've done our best to make them fun,
-          diverse, and interesting across all 7 supported languages,{" "}
+          The game features <strong>480+ questions per language</strong> across{" "}
+          <strong>20 categories</strong> — from lighthearted favorites and
+          personality questions to spicy dilemmas and deep confessions. The
+          questions were generated with the help of <strong>AI</strong>. While
+          we've done our best to make them fun, diverse, and interesting across
+          all 7 supported languages,{" "}
           <strong>AI-generated content isn't perfect</strong> — some
           translations may sound unnatural and some questions might not hit
           quite right.
@@ -108,7 +111,7 @@ export default function AboutPage() {
       <div className="section">
         <p>
           The game currently supports <strong>7 languages</strong>, each with
-          200 questions:
+          480+ questions across 20 categories:
         </p>
         <ul>
           <li>🇬🇧 English</li>
