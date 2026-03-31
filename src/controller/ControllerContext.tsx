@@ -15,10 +15,12 @@ export interface ControllerState {
   isMaster: boolean;
   myDeviceId: number;
   nickname: string;
+  playerIndex: number;
   roundsPerPlayer: number;
   answerTime: number;
   musicEnabled: boolean;
   disabledCategories: string[];
+  isPremium: boolean;
   isPaused: boolean;
   // Phase-specific data (set when the view changes)
   waitingMessage: string;
@@ -63,10 +65,12 @@ export const initialControllerState: ControllerState = {
   isMaster: false,
   myDeviceId: 0,
   nickname: "Player",
+  playerIndex: 0,
   roundsPerPlayer: 1,
   answerTime: 20,
   musicEnabled: true,
   disabledCategories: [],
+  isPremium: false,
   isPaused: false,
   waitingMessage: "",
   waitingKey: "",
@@ -101,6 +105,7 @@ export const initialControllerState: ControllerState = {
 
 export type ControllerAction =
   | { type: "SET_DEVICE_INFO"; deviceId: number; nickname: string }
+  | { type: "SET_PLAYER_INDEX"; playerIndex: number }
   | { type: "SET_MASTER"; isMaster: boolean }
   | { type: "SET_LANGUAGE"; language: string }
   | { type: "SET_VIEW"; view: ControllerView }
@@ -151,6 +156,7 @@ export type ControllerAction =
       speedBonuses: number;
       timesHost: number;
     }
+  | { type: "SET_CATEGORY_VOTE"; isPremium: boolean }
   | { type: "SET_PAUSED"; paused: boolean }
   | { type: "SET_ROUNDS_PER_PLAYER"; value: number }
   | { type: "SET_ANSWER_TIME"; value: number }
@@ -170,6 +176,9 @@ export function controllerReducer(
         myDeviceId: action.deviceId,
         nickname: action.nickname,
       };
+
+    case "SET_PLAYER_INDEX":
+      return { ...state, playerIndex: action.playerIndex };
 
     case "SET_MASTER":
       return { ...state, isMaster: action.isMaster };
@@ -248,6 +257,9 @@ export function controllerReducer(
         leaderboardSpeedBonuses: action.speedBonuses,
         leaderboardTimesHost: action.timesHost,
       };
+
+    case "SET_CATEGORY_VOTE":
+      return { ...state, view: "category-vote", isPremium: action.isPremium };
 
     case "SET_PAUSED":
       return { ...state, isPaused: action.paused };

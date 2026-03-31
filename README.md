@@ -31,7 +31,6 @@ A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/
 - **Hot seat glow** — visual highlight on the current host
 - **Mini leaderboard** — score summary shown after each reveal phase
 - **Controller color themes** — personalized color themes on each player's phone
-- **Vibration feedback** — haptic feedback on mobile controllers for key actions
 - **Leaderboard & scoring** with podium display and score pop-ups
 
 ## Project Structure

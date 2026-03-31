@@ -114,10 +114,10 @@ export type ScreenToControllerMessage =
     }
   | { action: "game_paused" }
   | { action: "game_resumed" }
-  | { action: "vibrate"; duration: number }
   | {
       action: "pick_category";
       language: string;
+      isPremium: boolean;
     }
   | {
       action: "emoji_broadcast";

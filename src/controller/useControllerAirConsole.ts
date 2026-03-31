@@ -16,6 +16,13 @@ export function useControllerAirConsole() {
     const ac = new AirConsole();
     acRef.current = ac;
 
+    const updatePlayerIndex = () => {
+      const myId = ac.getDeviceId();
+      const ids = ac.getControllerDeviceIds();
+      const idx = ids.indexOf(myId);
+      dispatch({ type: "SET_PLAYER_INDEX", playerIndex: idx === -1 ? 0 : idx });
+    };
+
     ac.onReady = () => {
       const deviceId = ac.getDeviceId();
       const nickname = ac.getNickname(deviceId) || "Player";
@@ -23,6 +30,7 @@ export function useControllerAirConsole() {
 
       const masterId = ac.getMasterControllerDeviceId();
       dispatch({ type: "SET_MASTER", isMaster: deviceId === masterId });
+      updatePlayerIndex();
 
       // Auto-detect language
       const browserLang = (navigator.language || "en")
@@ -44,6 +52,7 @@ export function useControllerAirConsole() {
         type: "SET_MASTER",
         isMaster: ac.getDeviceId() === masterId,
       });
+      updatePlayerIndex();
     };
 
     ac.onDisconnect = () => {
@@ -52,6 +61,7 @@ export function useControllerAirConsole() {
         type: "SET_MASTER",
         isMaster: ac.getDeviceId() === masterId,
       });
+      updatePlayerIndex();
     };
 
     ac.onAdShow = () => dispatch({ type: "SET_PAUSED", paused: true });
@@ -110,7 +120,10 @@ export function useControllerAirConsole() {
             break;
 
           case "pick_category":
-            dispatch({ type: "SET_VIEW", view: "category-vote" });
+            dispatch({
+              type: "SET_CATEGORY_VOTE",
+              isPremium: data.isPremium,
+            });
             break;
 
           case "pick_question":
@@ -171,9 +184,6 @@ export function useControllerAirConsole() {
             dispatch({ type: "SET_PAUSED", paused: false });
             break;
 
-          case "vibrate":
-            ac.vibrate(data.duration);
-            break;
         }
       };
 

@@ -50,20 +50,20 @@ export default function HomePage() {
         </li>
         <li>
           <div>
-            <strong>Pick a question</strong>
+            <strong>Vote on a category &amp; pick a question</strong>
             <span>
-              Each round, a question is shown about one player — for example{" "}
+              Each round, the host votes on a category group — Fun, Deep,
+              Dilemma, or Spicy — then picks a question. For example{" "}
               <em>"What is Alex's biggest fear?"</em>
             </span>
           </div>
         </li>
         <li>
           <div>
-            <strong>Everyone answers</strong>
+            <strong>Everyone guesses</strong>
             <span>
               All other players choose the answer they think is correct using
-              their phone. The player the question is about picks the real
-              answer.
+              their phone. The host picks the real answer privately.
             </span>
           </div>
         </li>
@@ -71,8 +71,9 @@ export default function HomePage() {
           <div>
             <strong>Score points &amp; win!</strong>
             <span>
-              You earn points for every correct guess. At the end, the player
-              who knows the group best wins the crown! 👑
+              Earn points for correct guesses — and a speed bonus for guessing
+              first! Build streaks, send emoji reactions, and compete for the
+              crown! 👑
             </span>
           </div>
         </li>
@@ -90,10 +91,22 @@ export default function HomePage() {
         </div>
         <div className="feature-card">
           <div className="icon">❓</div>
-          <strong>200 Questions</strong>
+          <strong>480+ Questions</strong>
           <span>
-            Per language — from fun favourites to deep personal questions
+            Per language across 20 categories — from fun to spicy
           </span>
+        </div>
+        <div className="feature-card">
+          <div className="icon">🗳️</div>
+          <strong>Category Voting</strong>
+          <span>
+            The host votes on Fun, Deep, Dilemma, or Spicy each round
+          </span>
+        </div>
+        <div className="feature-card">
+          <div className="icon">⚡</div>
+          <strong>Speed Bonus &amp; Streaks</strong>
+          <span>Guess first for bonus points and build winning streaks</span>
         </div>
         <div className="feature-card">
           <div className="icon">📱</div>

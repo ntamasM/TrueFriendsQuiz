@@ -59,45 +59,55 @@ body {
   }
 }
 
-/* Phase-specific color themes */
-#view-pick {
+/* Per-player color themes */
+[data-player-color="red"] {
+  --player-accent: 233, 69, 96;
+}
+[data-player-color="blue"] {
+  --player-accent: 52, 152, 219;
+}
+[data-player-color="green"] {
+  --player-accent: 46, 204, 113;
+}
+[data-player-color="yellow"] {
+  --player-accent: 241, 196, 15;
+}
+[data-player-color="purple"] {
+  --player-accent: 155, 89, 182;
+}
+[data-player-color="orange"] {
+  --player-accent: 245, 166, 35;
+}
+[data-player-color="pink"] {
+  --player-accent: 232, 67, 147;
+}
+[data-player-color="cyan"] {
+  --player-accent: 0, 206, 209;
+}
+
+/* Player accent stripe at top of every active view */
+[data-player-color] .view.active {
+  border: 8px solid rgba(var(--player-accent), 0.6);
   background: linear-gradient(
     180deg,
-    rgba(245, 166, 35, 0.08) 0%,
+    rgba(var(--player-accent), 0.08) 0%,
     transparent 40%
   );
 }
 
-#view-answer {
-  background: linear-gradient(
-    180deg,
-    rgba(233, 69, 96, 0.08) 0%,
-    transparent 40%
-  );
+/* Player accent on lobby nickname */
+[data-player-color] .lobby-nickname {
+  color: rgb(var(--player-accent));
 }
 
-#view-guess {
+/* Player accent on start button */
+[data-player-color] .ctrl-start-btn {
   background: linear-gradient(
-    180deg,
-    rgba(52, 152, 219, 0.08) 0%,
-    transparent 40%
+    135deg,
+    rgb(var(--player-accent)),
+    rgba(var(--player-accent), 0.7)
   );
-}
-
-#view-result.active {
-  background: linear-gradient(
-    180deg,
-    rgba(46, 204, 113, 0.06) 0%,
-    transparent 40%
-  );
-}
-
-#view-leaderboard {
-  background: linear-gradient(
-    180deg,
-    rgba(245, 166, 35, 0.1) 0%,
-    transparent 40%
-  );
+  box-shadow: 0 4px 20px rgba(var(--player-accent), 0.4);
 }
 
 /* Settings view — compact layout to avoid scrolling */
@@ -123,18 +133,18 @@ select,
 /* ===========================
    Lobby View
    =========================== */
-#view-lobby .welcome-text {
+#view-lobby .lobby-welcome {
   font-size: 1.8em;
   font-weight: 800;
   text-align: center;
   margin-bottom: 4px;
 }
 
-#view-lobby .nickname {
+#view-lobby .lobby-nickname {
   color: #e94560;
 }
 
-#view-lobby .waiting-text {
+#view-lobby .lobby-waiting {
   font-size: 1em;
   color: #a0aec0;
   text-align: center;
@@ -723,6 +733,21 @@ select,
 .category-vote-btn:nth-child(4) {
   border-color: rgba(231, 76, 60, 0.4);
   background: rgba(231, 76, 60, 0.12);
+}
+
+.category-vote-btn.locked {
+  opacity: 0.5;
+  pointer-events: none;
+  position: relative;
+}
+
+.cat-hero-badge {
+  display: block;
+  font-size: 0.65em;
+  font-weight: 600;
+  color: #f5a623;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
 }
 
 /* Emoji reaction buttons */

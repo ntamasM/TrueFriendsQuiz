@@ -254,13 +254,6 @@ export function useScreenAirConsole() {
         language: s.language,
       });
 
-      // Vibrate the winner's phone
-      if (ranks[idx] === 1) {
-        acRef.current?.message(player.deviceId, {
-          action: "vibrate",
-          duration: 500,
-        });
-      }
     });
   }
 
@@ -707,10 +700,8 @@ export function useScreenAirConsole() {
       ac.message(host.deviceId, {
         action: "pick_category",
         language: state.language,
+        isPremium: isAnyPlayerPremium(),
       });
-
-      // Vibrate host's phone
-      ac.message(host.deviceId, { action: "vibrate", duration: 200 });
 
       for (const p of guessers) {
         ac.message(p.deviceId, {

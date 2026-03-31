@@ -11,32 +11,48 @@ import HostWait from "./views/HostWait";
 import Result from "./views/Result";
 import Leaderboard from "./views/Leaderboard";
 
+const PLAYER_COLORS = ["red", "blue", "green", "yellow", "purple", "orange", "pink", "cyan"];
+
 function ControllerInner() {
   const ac = useControllerAirConsole();
   const state = useControllerState();
+  const playerColor = PLAYER_COLORS[state.playerIndex % PLAYER_COLORS.length];
 
+  let content;
   switch (state.view) {
     case "lobby":
-      return <Lobby ac={ac} />;
+      content = <Lobby ac={ac} />;
+      break;
     case "settings":
-      return <Settings ac={ac} />;
+      content = <Settings ac={ac} />;
+      break;
     case "category-vote":
-      return <CategoryVote ac={ac} />;
+      content = <CategoryVote ac={ac} />;
+      break;
     case "pick":
-      return <PickQuestion ac={ac} />;
+      content = <PickQuestion ac={ac} />;
+      break;
     case "answer":
-      return <AnswerQuestion ac={ac} />;
+      content = <AnswerQuestion ac={ac} />;
+      break;
     case "guess":
-      return <GuessQuestion ac={ac} />;
+      content = <GuessQuestion ac={ac} />;
+      break;
     case "waiting":
-      return <Waiting />;
+      content = <Waiting />;
+      break;
     case "host-wait":
-      return <HostWait />;
+      content = <HostWait />;
+      break;
     case "result":
-      return <Result />;
+      content = <Result />;
+      break;
     case "leaderboard":
-      return <Leaderboard ac={ac} />;
+      content = <Leaderboard ac={ac} />;
+      break;
   }
+
+  return <div data-player-color={playerColor}>{content}</div>;
 }
 
 export default function ControllerApp() {

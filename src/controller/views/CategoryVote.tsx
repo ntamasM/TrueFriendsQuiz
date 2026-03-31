@@ -27,12 +27,13 @@ export default function CategoryVote({ ac }: CategoryVoteProps) {
 
   const handleSelect = useCallback(
     (category: CategoryVoteOption) => {
+      if (category === "spicy" && !state.isPremium) return;
       ac.current?.message(AirConsole.SCREEN, {
         action: "category_selected",
         category,
       });
     },
-    [ac],
+    [ac, state.isPremium],
   );
 
   const cv = uiText?.categoryVote;
@@ -43,16 +44,24 @@ export default function CategoryVote({ ac }: CategoryVoteProps) {
         {cv?.title ?? "Choose a Category"}
       </div>
       <div className="category-vote-options">
-        {options.map((key) => (
-          <div
-            key={key}
-            className="category-vote-btn"
-            onPointerDown={() => handleSelect(key)}
-          >
-            <span className="cat-icon">{ICONS[key]}</span>
-            {cv?.[key] ?? key}
-          </div>
-        ))}
+        {options.map((key) => {
+          const locked = key === "spicy" && !state.isPremium;
+          return (
+            <div
+              key={key}
+              className={`category-vote-btn${locked ? " locked" : ""}`}
+              onPointerDown={() => handleSelect(key)}
+            >
+              <span className="cat-icon">
+                {locked ? "🔒" : ICONS[key]}
+              </span>
+              {cv?.[key] ?? key}
+              {locked && (
+                <span className="cat-hero-badge">AirConsole Hero</span>
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );
