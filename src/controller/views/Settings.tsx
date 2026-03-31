@@ -4,7 +4,6 @@ import { loadUiText, loadLanguage } from "../../shared/i18n";
 import {
   SUPPORTED_LANGUAGES,
   LANGUAGE_NAMES,
-  QUESTION_CATEGORIES,
   type LanguageCode,
 } from "../../shared/constants";
 import {
@@ -20,8 +19,6 @@ export default function Settings({ ac }: SettingsProps) {
   const state = useControllerState();
   const dispatch = useControllerDispatch();
   const [uiText, setUiText] = useState<UiText | null>(null);
-  const [catWarning, setCatWarning] = useState(false);
-
   useEffect(() => {
     loadUiText(state.language as LanguageCode).then(setUiText);
   }, [state.language]);
@@ -85,28 +82,13 @@ export default function Settings({ ac }: SettingsProps) {
     });
   }, [ac, state.musicEnabled, dispatch]);
 
-  const handleCategoryToggle = useCallback(
-    (key: string) => {
-      setCatWarning(false);
-      const enabledCount =
-        QUESTION_CATEGORIES.length - state.disabledCategories.length;
-      const isCurrentlyEnabled = !state.disabledCategories.includes(key);
+  const handleVotingToggle = useCallback(() => {
+    dispatch({ type: "TOGGLE_VOTING" });
+  }, [dispatch]);
 
-      if (isCurrentlyEnabled && enabledCount <= 1) {
-        setCatWarning(true);
-        return;
-      }
-
-      dispatch({
-        type: "TOGGLE_CATEGORY",
-        key,
-        totalCategories: QUESTION_CATEGORIES.length,
-      });
-    },
-    [state.disabledCategories, dispatch],
-  );
-
-  const catNames = uiText?.categories ?? {};
+  const handleSpeedBonusToggle = useCallback(() => {
+    dispatch({ type: "TOGGLE_SPEED_BONUS" });
+  }, [dispatch]);
 
   return (
     <div className="view active" id="view-settings">
@@ -114,7 +96,6 @@ export default function Settings({ ac }: SettingsProps) {
 
       {/* Language */}
       <div className="settings-section">
-        <label className="settings-label">{t("selectLanguage")}</label>
         <select
           className="settings-lang-select"
           value={state.language}
@@ -128,11 +109,12 @@ export default function Settings({ ac }: SettingsProps) {
         </select>
       </div>
 
-      {/* Rounds + Time side by side */}
-      <div className="settings-row-pair">
-        <div className="settings-half">
-          <label className="settings-label">{t("roundsPerPlayer")}</label>
-          <div className="settings-rounds-row">
+      {/* Settings group */}
+      <div className="settings-group">
+        {/* Rounds */}
+        <div className="settings-row">
+          <span className="settings-row-label">{t("roundsPerPlayer")}</span>
+          <div className="settings-row-input">
             <button className="rounds-btn" onPointerDown={handleRoundsMinus}>
               −
             </button>
@@ -142,9 +124,11 @@ export default function Settings({ ac }: SettingsProps) {
             </button>
           </div>
         </div>
-        <div className="settings-half">
-          <label className="settings-label">{t("answerTime")}</label>
-          <div className="settings-rounds-row">
+
+        {/* Answer Time */}
+        <div className="settings-row">
+          <span className="settings-row-label">{t("answerTime")}</span>
+          <div className="settings-row-input">
             <button className="rounds-btn" onPointerDown={handleTimeMinus}>
               −
             </button>
@@ -154,44 +138,39 @@ export default function Settings({ ac }: SettingsProps) {
             </button>
           </div>
         </div>
-      </div>
 
-      {/* Music */}
-      <div className="settings-section">
-        <div className="settings-inline">
-          <label className="settings-label">{t("music")}</label>
+        {/* Music */}
+        <div className="settings-row">
+          <span className="settings-row-label">{t("music")}</span>
           <button
-            className={`music-toggle-btn ${state.musicEnabled ? "on" : "off"}`}
+            className={`settings-toggle ${state.musicEnabled ? "on" : "off"}`}
             onPointerDown={handleMusicToggle}
           >
-            {state.musicEnabled ? `🔊 ${t("musicOn")}` : `🔇 ${t("musicOff")}`}
+            {state.musicEnabled ? t("musicOn") : t("musicOff")}
           </button>
         </div>
-      </div>
 
-      {/* Category toggles */}
-      <div className="settings-section">
-        <label className="settings-label">{t("categorySettings")}</label>
-        <div className="category-toggles">
-          {QUESTION_CATEGORIES.map((cat) => {
-            const isEnabled = !state.disabledCategories.includes(cat.key);
-            const displayName = catNames[cat.key] ?? cat.key;
-            return (
-              <button
-                key={cat.key}
-                className={`cat-toggle-btn ${isEnabled ? "on" : "off"}`}
-                onPointerDown={() => handleCategoryToggle(cat.key)}
-              >
-                {isEnabled ? "✅ " : "❌ "}
-                {displayName}
-                {cat.hero ? " 👑" : ""}
-              </button>
-            );
-          })}
+        {/* Voting */}
+        <div className="settings-row">
+          <span className="settings-row-label">{t("voting")}</span>
+          <button
+            className={`settings-toggle ${state.votingEnabled ? "on" : "off"}`}
+            onPointerDown={handleVotingToggle}
+          >
+            {state.votingEnabled ? t("musicOn") : t("musicOff")}
+          </button>
         </div>
-        {catWarning && (
-          <div className="cat-warning">{t("allCategoriesDisabled")}</div>
-        )}
+
+        {/* Speed Bonus */}
+        <div className="settings-row">
+          <span className="settings-row-label">{t("speedBonusSetting")}</span>
+          <button
+            className={`settings-toggle ${state.speedBonusEnabled ? "on" : "off"}`}
+            onPointerDown={handleSpeedBonusToggle}
+          >
+            {state.speedBonusEnabled ? t("musicOn") : t("musicOff")}
+          </button>
+        </div>
       </div>
 
       {/* Back */}

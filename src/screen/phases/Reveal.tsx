@@ -79,7 +79,10 @@ export default function Reveal() {
           const streak = state.streaks[p.deviceId] ?? 0;
           const streakBonus = getStreakBonus(streak);
           const isFirstGuesser = state.firstGuesser === p.deviceId;
-          const speedBonus = isCorrect && isFirstGuesser ? SPEED_BONUS : 0;
+          const speedBonus =
+            state.speedBonusEnabled && isCorrect && isFirstGuesser
+              ? SPEED_BONUS
+              : 0;
           const basePoints = isCorrect ? 100 : 0;
 
           const parts: string[] = [];

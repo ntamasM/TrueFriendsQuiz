@@ -55,6 +55,8 @@
   "music": "Μουσική",
   "musicOn": "ΕΝΕΡΓΟ",
   "musicOff": "ΑΝΕΝΕΡΓΟ",
+  "voting": "Ψηφοφορία",
+  "speedBonusSetting": "Μπόνους Ταχύτητας",
   "categorySettings": "Κατηγορίες",
   "allCategoriesDisabled": "Ενεργοποίησε τουλάχιστον μία κατηγορία!",
   "categories": {

@@ -45,9 +45,10 @@ export default function Lobby({ ac }: LobbyProps) {
       action: "start_game",
       roundsPerPlayer: state.roundsPerPlayer,
       answerTime: state.answerTime,
-      disabledCategories: state.disabledCategories,
+      votingEnabled: state.votingEnabled,
+      speedBonusEnabled: state.speedBonusEnabled,
     });
-  }, [ac, state.roundsPerPlayer, state.answerTime, state.disabledCategories]);
+  }, [ac, state.roundsPerPlayer, state.answerTime, state.votingEnabled, state.speedBonusEnabled]);
 
   const handleSettings = useCallback(() => {
     dispatch({ type: "SET_VIEW", view: "settings" });

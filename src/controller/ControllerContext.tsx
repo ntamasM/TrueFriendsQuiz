@@ -19,7 +19,8 @@ export interface ControllerState {
   roundsPerPlayer: number;
   answerTime: number;
   musicEnabled: boolean;
-  disabledCategories: string[];
+  votingEnabled: boolean;
+  speedBonusEnabled: boolean;
   isPremium: boolean;
   categoryVoteHostNickname: string;
   categoryVoteResults: Record<string, number> | null;
@@ -71,7 +72,8 @@ export const initialControllerState: ControllerState = {
   roundsPerPlayer: 1,
   answerTime: 20,
   musicEnabled: true,
-  disabledCategories: [],
+  votingEnabled: true,
+  speedBonusEnabled: true,
   isPremium: false,
   categoryVoteHostNickname: "",
   categoryVoteResults: null,
@@ -170,7 +172,8 @@ export type ControllerAction =
   | { type: "SET_ROUNDS_PER_PLAYER"; value: number }
   | { type: "SET_ANSWER_TIME"; value: number }
   | { type: "TOGGLE_MUSIC" }
-  | { type: "TOGGLE_CATEGORY"; key: string; totalCategories: number };
+  | { type: "TOGGLE_VOTING" }
+  | { type: "TOGGLE_SPEED_BONUS" };
 
 // ─── Reducer ───
 
@@ -296,25 +299,11 @@ export function controllerReducer(
     case "TOGGLE_MUSIC":
       return { ...state, musicEnabled: !state.musicEnabled };
 
-    case "TOGGLE_CATEGORY": {
-      const idx = state.disabledCategories.indexOf(action.key);
-      if (idx === -1) {
-        // Trying to disable — ensure at least 1 remains
-        const enabledCount =
-          action.totalCategories - state.disabledCategories.length;
-        if (enabledCount <= 1) return state;
-        return {
-          ...state,
-          disabledCategories: [...state.disabledCategories, action.key],
-        };
-      }
-      return {
-        ...state,
-        disabledCategories: state.disabledCategories.filter(
-          (k) => k !== action.key,
-        ),
-      };
-    }
+    case "TOGGLE_VOTING":
+      return { ...state, votingEnabled: !state.votingEnabled };
+
+    case "TOGGLE_SPEED_BONUS":
+      return { ...state, speedBonusEnabled: !state.speedBonusEnabled };
 
     default:
       return state;

@@ -111,7 +111,8 @@ export function useScreenAirConsole() {
       const newStreak = isCorrect ? currentStreak + 1 : 0;
       const streakBonus = getStreakBonus(newStreak);
       const isFirstGuesser = s.firstGuesser === p.deviceId;
-      const speedBonus = isCorrect && isFirstGuesser ? SPEED_BONUS : 0;
+      const speedBonus =
+        s.speedBonusEnabled && isCorrect && isFirstGuesser ? SPEED_BONUS : 0;
       const basePoints = isCorrect ? 100 : 0;
       const totalPoints = basePoints + streakBonus + speedBonus;
 
@@ -405,9 +406,6 @@ export function useScreenAirConsole() {
             Math.min(5, data.roundsPerPlayer),
           );
           const answerTime = Math.max(10, Math.min(60, data.answerTime));
-          const disabledCats = Array.isArray(data.disabledCategories)
-            ? data.disabledCategories
-            : [];
 
           // Build player list
           ac.setActivePlayers(ids.length);
@@ -435,7 +433,8 @@ export function useScreenAirConsole() {
               players: shuffled,
               roundsPerPlayer,
               guessTime: answerTime,
-              disabledCategories: disabledCats,
+              votingEnabled: data.votingEnabled ?? true,
+              speedBonusEnabled: data.speedBonusEnabled ?? true,
             });
             musicManager.play();
             // startRound is triggered by the phase change → effect
@@ -590,7 +589,8 @@ export function useScreenAirConsole() {
             players: shuffled2,
             roundsPerPlayer: s.roundsPerPlayer,
             guessTime: s.guessTime,
-            disabledCategories: s.disabledCategories,
+            votingEnabled: s.votingEnabled,
+            speedBonusEnabled: s.speedBonusEnabled,
           });
           musicManager.play();
           break;
@@ -651,7 +651,6 @@ export function useScreenAirConsole() {
           const { questions } = getQuestionsForGroup(
             questionsRef.current,
             s.usedQuestionIds,
-            s.disabledCategories,
             isAnyPlayerPremium(),
             group,
             4,
@@ -785,6 +784,42 @@ export function useScreenAirConsole() {
       }
     }
   }, [state.categoryVotes, state.phase, state.pickingSubStep]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // When voting is disabled, skip straight to host picking a category
+  useEffect(() => {
+    if (
+      state.phase === "picking" &&
+      state.pickingSubStep === "category_vote_result" &&
+      !state.votingEnabled &&
+      state.players.length > 0 &&
+      state.currentQuestion === null
+    ) {
+      const ac = acRef.current;
+      if (!ac) return;
+      const host = getHost(state);
+      const guessers = getGuessers(state);
+
+      // Send host directly to category pick (no votes)
+      ac.message(host.deviceId, {
+        action: "pick_category_result",
+        language: state.language,
+        isPremium: isAnyPlayerPremium(),
+        votes: {},
+      });
+
+      // Guessers wait
+      for (const p of guessers) {
+        ac.message(p.deviceId, {
+          action: "game_phase",
+          phase: "waiting",
+          message: `${host.nickname} is choosing a category...`,
+          waitingKey: "choosingCategory",
+          hostNickname: host.nickname,
+          language: state.language,
+        });
+      }
+    }
+  }, [state.phase, state.pickingSubStep, state.players.length, state.currentRound]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // When pickingSubStep becomes "question_pick", send filtered questions
   useEffect(() => {

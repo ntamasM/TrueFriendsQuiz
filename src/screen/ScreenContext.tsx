@@ -30,7 +30,8 @@ export interface ScreenState {
   guessTimeLeft: number;
   isPaused: boolean;
   musicEnabled: boolean;
-  disabledCategories: string[];
+  votingEnabled: boolean;
+  speedBonusEnabled: boolean;
   streaks: Record<number, number>; // deviceId → consecutive correct count
   firstGuesser: number | null; // deviceId of first player to guess
   bestStreaks: Record<number, number>; // deviceId → best streak achieved
@@ -55,7 +56,8 @@ export const initialScreenState: ScreenState = {
   guessTimeLeft: 20,
   isPaused: false,
   musicEnabled: true,
-  disabledCategories: [],
+  votingEnabled: true,
+  speedBonusEnabled: true,
   streaks: {},
   firstGuesser: null,
   bestStreaks: {},
@@ -73,7 +75,8 @@ export type ScreenAction =
       players: Player[];
       roundsPerPlayer: number;
       guessTime: number;
-      disabledCategories: string[];
+      votingEnabled: boolean;
+      speedBonusEnabled: boolean;
     }
   | { type: "START_ROUND" }
   | { type: "SELECT_QUESTION"; question: Question }
@@ -116,7 +119,9 @@ export function screenReducer(
       return {
         ...state,
         phase: "picking",
-        pickingSubStep: "category_vote",
+        pickingSubStep: action.votingEnabled
+          ? "category_vote"
+          : "category_vote_result",
         players: action.players,
         roundsPerPlayer: action.roundsPerPlayer,
         guessTime: action.guessTime,
@@ -124,7 +129,8 @@ export function screenReducer(
         totalRounds: action.players.length * action.roundsPerPlayer,
         currentRound: 0,
         usedQuestionIds: [],
-        disabledCategories: action.disabledCategories,
+        votingEnabled: action.votingEnabled,
+        speedBonusEnabled: action.speedBonusEnabled,
         streaks: {},
         firstGuesser: null,
         bestStreaks: {},
@@ -139,7 +145,9 @@ export function screenReducer(
       return {
         ...state,
         phase: "picking",
-        pickingSubStep: "category_vote",
+        pickingSubStep: state.votingEnabled
+          ? "category_vote"
+          : "category_vote_result",
         currentQuestion: null,
         hostAnswer: null,
         playerGuesses: {},

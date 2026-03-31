@@ -143,7 +143,8 @@ export type ControllerToScreenMessage =
       action: "start_game";
       roundsPerPlayer: number;
       answerTime: number;
-      disabledCategories: string[];
+      votingEnabled: boolean;
+      speedBonusEnabled: boolean;
     }
   | { action: "select_language"; language: string }
   | { action: "question_selected"; questionId: number }
@@ -212,6 +213,8 @@ export interface UiText {
   music: string;
   musicOn: string;
   musicOff: string;
+  voting: string;
+  speedBonusSetting: string;
   categorySettings: string;
   allCategoriesDisabled: string;
   categories: Record<string, string>;

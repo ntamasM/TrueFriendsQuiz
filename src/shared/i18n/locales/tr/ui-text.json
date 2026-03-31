@@ -55,6 +55,8 @@
   "music": "Müzik",
   "musicOn": "AÇIK",
   "musicOff": "KAPALI",
+  "voting": "Oylama",
+  "speedBonusSetting": "Hız Bonusu",
   "categorySettings": "Kategoriler",
   "allCategoriesDisabled": "En az bir kategori etkinleştirin!",
   "categories": {

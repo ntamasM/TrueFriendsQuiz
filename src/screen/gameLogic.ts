@@ -23,7 +23,6 @@ export function replaceNamePlaceholder(text: string, name: string): string {
 export function getRandomQuestions(
   allQuestions: Question[],
   usedIds: number[],
-  disabledCategories: string[],
   isPremium: boolean,
   count: number,
 ): { questions: Question[]; updatedUsedIds: number[] } {
@@ -33,7 +32,6 @@ export function getRandomQuestions(
 
   const isAllowed = (q: Question) => {
     if (!isPremium && heroCategories.includes(q.category)) return false;
-    if (disabledCategories.includes(q.category)) return false;
     return true;
   };
 
@@ -60,7 +58,6 @@ export function getRandomQuestions(
 export function getQuestionsForGroup(
   allQuestions: Question[],
   usedIds: number[],
-  disabledCategories: string[],
   isPremium: boolean,
   group: CategoryVoteOption,
   count: number,
@@ -72,7 +69,6 @@ export function getQuestionsForGroup(
 
   const isAllowed = (q: Question) => {
     if (!isPremium && heroCategories.includes(q.category)) return false;
-    if (disabledCategories.includes(q.category)) return false;
     if (!groupCategories.includes(q.category)) return false;
     return true;
   };
@@ -87,7 +83,6 @@ export function getQuestionsForGroup(
     available = allQuestions.filter(
       (q) => {
         if (!isPremium && heroCategories.includes(q.category)) return false;
-        if (disabledCategories.includes(q.category)) return false;
         return !currentUsedIds.includes(q.id);
       },
     );
@@ -98,7 +93,6 @@ export function getQuestionsForGroup(
     currentUsedIds = [];
     available = allQuestions.filter((q) => {
       if (!isPremium && heroCategories.includes(q.category)) return false;
-      if (disabledCategories.includes(q.category)) return false;
       return true;
     });
   }

@@ -55,6 +55,8 @@
   "music": "الموسيقى",
   "musicOn": "تشغيل",
   "musicOff": "إيقاف",
+  "voting": "التصويت",
+  "speedBonusSetting": "مكافأة السرعة",
   "categorySettings": "الفئات",
   "allCategoriesDisabled": "قم بتفعيل فئة واحدة على الأقل!",
   "categories": {

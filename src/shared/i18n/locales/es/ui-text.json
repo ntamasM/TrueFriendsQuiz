@@ -55,6 +55,8 @@
   "music": "Música",
   "musicOn": "ON",
   "musicOff": "OFF",
+  "voting": "Votación",
+  "speedBonusSetting": "Bonus de Velocidad",
   "categorySettings": "Categorías",
   "allCategoriesDisabled": "¡Activa al menos una categoría!",
   "categories": {
