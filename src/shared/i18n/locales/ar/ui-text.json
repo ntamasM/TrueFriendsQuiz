@@ -91,12 +91,17 @@
   },
   "categoryVote": {
     "title": "اختر فئة",
+    "voteTitle": "صوّت على فئة لـ {name}",
+    "subtitle": "صوّت اللاعبون — اختر الفئة النهائية!",
+    "vote": "صوت",
+    "votes": "أصوات",
     "fun": "مرح وعشوائي",
     "deep": "عميق وشخصي",
     "dilemma": "ماذا تفضل",
     "spicy": "حار"
   },
   "choosingCategory": "يختار فئة...",
+  "playersVoting": "اللاعبون يصوّتون على فئة...",
   "speedBonus": "مكافأة السرعة!",
   "bestStreak": "أفضل سلسلة",
   "speedBonuses": "مكافآت السرعة",

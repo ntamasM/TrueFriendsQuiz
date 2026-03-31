@@ -91,12 +91,17 @@
   },
   "categoryVote": {
     "title": "Bir Kategori Seç",
+    "voteTitle": "{name} için bir kategori oyla",
+    "subtitle": "Oyuncular oyladı — son kategoriyi seç!",
+    "vote": "oy",
+    "votes": "oy",
     "fun": "Eğlence ve Rastgele",
     "deep": "Derin ve Kişisel",
     "dilemma": "Ne Tercih Ederdin",
     "spicy": "Baharatlı"
   },
   "choosingCategory": "kategori seçiyor...",
+  "playersVoting": "Oyuncular bir kategori için oy veriyor...",
   "speedBonus": "hız bonusu!",
   "bestStreak": "En iyi seri",
   "speedBonuses": "Hız bonusu",

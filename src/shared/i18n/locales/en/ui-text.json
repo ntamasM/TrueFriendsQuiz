@@ -92,12 +92,17 @@
   },
   "categoryVote": {
     "title": "Choose a Category",
+    "voteTitle": "Vote a category for {name}",
+    "subtitle": "Players voted — pick the final category!",
+    "vote": "vote",
+    "votes": "votes",
     "fun": "Fun & Random",
     "deep": "Deep & Personal",
     "dilemma": "Would You Rather",
     "spicy": "Spicy"
   },
   "choosingCategory": "is choosing a category...",
+  "playersVoting": "Players are voting on a category...",
   "speedBonus": "speed bonus!",
   "bestStreak": "Best streak",
   "speedBonuses": "Speed bonuses",

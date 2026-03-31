@@ -36,6 +36,7 @@ export interface ScreenState {
   bestStreaks: Record<number, number>; // deviceId → best streak achieved
   speedBonusCount: Record<number, number>; // deviceId → times got speed bonus
   roundsSinceLastAd: number;
+  categoryVotes: Record<number, string>; // deviceId → category vote
 }
 
 export const initialScreenState: ScreenState = {
@@ -60,6 +61,7 @@ export const initialScreenState: ScreenState = {
   bestStreaks: {},
   speedBonusCount: {},
   roundsSinceLastAd: 0,
+  categoryVotes: {},
 };
 
 // ─── Actions ───
@@ -96,6 +98,8 @@ export type ScreenAction =
   | { type: "RESET_GAME" }
   | { type: "REMOVE_PLAYER"; deviceId: number }
   | { type: "SET_TOTAL_ROUNDS"; totalRounds: number }
+  | { type: "CATEGORY_VOTE"; deviceId: number; category: string }
+  | { type: "CATEGORY_VOTE_DONE" }
   | { type: "CATEGORY_SELECTED" };
 
 // ─── Reducer ───
@@ -140,12 +144,29 @@ export function screenReducer(
         hostAnswer: null,
         playerGuesses: {},
         firstGuesser: null,
+        categoryVotes: {},
+      };
+
+    case "CATEGORY_VOTE":
+      return {
+        ...state,
+        categoryVotes: {
+          ...state.categoryVotes,
+          [action.deviceId]: action.category,
+        },
+      };
+
+    case "CATEGORY_VOTE_DONE":
+      return {
+        ...state,
+        pickingSubStep: "category_vote_result",
       };
 
     case "CATEGORY_SELECTED":
       return {
         ...state,
         pickingSubStep: "question_pick",
+        categoryVotes: {},
       };
 
     case "SELECT_QUESTION":

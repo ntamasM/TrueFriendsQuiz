@@ -750,6 +750,21 @@ select,
   letter-spacing: 0.5px;
 }
 
+.category-vote-subtitle {
+  font-size: 0.95em;
+  color: #a0aec0;
+  text-align: center;
+  margin-top: -4px;
+}
+
+.cat-vote-count {
+  display: block;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #f5a623;
+  margin-top: 2px;
+}
+
 /* Emoji reaction buttons */
 .emoji-reaction-bar {
   display: flex;

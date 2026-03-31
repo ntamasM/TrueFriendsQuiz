@@ -123,6 +123,15 @@ export function useControllerAirConsole() {
             dispatch({
               type: "SET_CATEGORY_VOTE",
               isPremium: data.isPremium,
+              hostNickname: data.hostNickname,
+            });
+            break;
+
+          case "pick_category_result":
+            dispatch({
+              type: "SET_CATEGORY_VOTE_RESULT",
+              isPremium: data.isPremium,
+              votes: data.votes,
             });
             break;
 

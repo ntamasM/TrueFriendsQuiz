@@ -21,6 +21,8 @@ export interface ControllerState {
   musicEnabled: boolean;
   disabledCategories: string[];
   isPremium: boolean;
+  categoryVoteHostNickname: string;
+  categoryVoteResults: Record<string, number> | null;
   isPaused: boolean;
   // Phase-specific data (set when the view changes)
   waitingMessage: string;
@@ -71,6 +73,8 @@ export const initialControllerState: ControllerState = {
   musicEnabled: true,
   disabledCategories: [],
   isPremium: false,
+  categoryVoteHostNickname: "",
+  categoryVoteResults: null,
   isPaused: false,
   waitingMessage: "",
   waitingKey: "",
@@ -156,7 +160,12 @@ export type ControllerAction =
       speedBonuses: number;
       timesHost: number;
     }
-  | { type: "SET_CATEGORY_VOTE"; isPremium: boolean }
+  | { type: "SET_CATEGORY_VOTE"; isPremium: boolean; hostNickname: string }
+  | {
+      type: "SET_CATEGORY_VOTE_RESULT";
+      isPremium: boolean;
+      votes: Record<string, number>;
+    }
   | { type: "SET_PAUSED"; paused: boolean }
   | { type: "SET_ROUNDS_PER_PLAYER"; value: number }
   | { type: "SET_ANSWER_TIME"; value: number }
@@ -259,7 +268,21 @@ export function controllerReducer(
       };
 
     case "SET_CATEGORY_VOTE":
-      return { ...state, view: "category-vote", isPremium: action.isPremium };
+      return {
+        ...state,
+        view: "category-vote",
+        isPremium: action.isPremium,
+        categoryVoteHostNickname: action.hostNickname,
+        categoryVoteResults: null,
+      };
+
+    case "SET_CATEGORY_VOTE_RESULT":
+      return {
+        ...state,
+        view: "category-vote",
+        isPremium: action.isPremium,
+        categoryVoteResults: action.votes,
+      };
 
     case "SET_PAUSED":
       return { ...state, isPaused: action.paused };

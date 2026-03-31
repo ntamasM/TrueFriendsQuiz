@@ -91,12 +91,17 @@
   },
   "categoryVote": {
     "title": "Wähle eine Kategorie",
+    "voteTitle": "Stimme für eine Kategorie für {name}",
+    "subtitle": "Die Spieler haben abgestimmt — wähle die finale Kategorie!",
+    "vote": "Stimme",
+    "votes": "Stimmen",
     "fun": "Spaß & Zufall",
     "deep": "Tief & Persönlich",
     "dilemma": "Würdest du lieber",
     "spicy": "Scharf"
   },
   "choosingCategory": "wählt eine Kategorie...",
+  "playersVoting": "Die Spieler stimmen über eine Kategorie ab...",
   "speedBonus": "Geschwindigkeitsbonus!",
   "bestStreak": "Beste Serie",
   "speedBonuses": "Geschwindigkeitsbonus",

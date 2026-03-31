@@ -91,12 +91,17 @@
   },
   "categoryVote": {
     "title": "Elige una Categoría",
+    "voteTitle": "Vota una categoría para {name}",
+    "subtitle": "¡Los jugadores votaron — elige la categoría final!",
+    "vote": "voto",
+    "votes": "votos",
     "fun": "Diversión y Aleatorio",
     "deep": "Profundo y Personal",
     "dilemma": "Qué Preferirías",
     "spicy": "Picante"
   },
   "choosingCategory": "está eligiendo una categoría...",
+  "playersVoting": "Los jugadores están votando una categoría...",
   "speedBonus": "¡bonus de velocidad!",
   "bestStreak": "Mejor racha",
   "speedBonuses": "Bonus de velocidad",

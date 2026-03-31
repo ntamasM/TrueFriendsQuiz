@@ -8,7 +8,10 @@ export type ScreenPhase =
   | "reveal"
   | "leaderboard";
 
-export type PickingSubStep = "category_vote" | "question_pick";
+export type PickingSubStep =
+  | "category_vote"
+  | "category_vote_result"
+  | "question_pick";
 
 export type ControllerView =
   | "lobby"
@@ -118,6 +121,13 @@ export type ScreenToControllerMessage =
       action: "pick_category";
       language: string;
       isPremium: boolean;
+      hostNickname: string;
+    }
+  | {
+      action: "pick_category_result";
+      language: string;
+      isPremium: boolean;
+      votes: Record<string, number>;
     }
   | {
       action: "emoji_broadcast";
@@ -142,6 +152,7 @@ export type ControllerToScreenMessage =
   | { action: "play_again" }
   | { action: "back_to_menu" }
   | { action: "toggle_music"; enabled: boolean }
+  | { action: "category_vote"; category: CategoryVoteOption }
   | { action: "category_selected"; category: CategoryVoteOption }
   | { action: "emoji_reaction"; emoji: string };
 
@@ -216,12 +227,17 @@ export interface UiText {
   };
   categoryVote: {
     title: string;
+    voteTitle: string;
+    subtitle: string;
+    vote: string;
+    votes: string;
     fun: string;
     deep: string;
     dilemma: string;
     spicy: string;
   };
   choosingCategory: string;
+  playersVoting: string;
   speedBonus: string;
   bestStreak: string;
   speedBonuses: string;

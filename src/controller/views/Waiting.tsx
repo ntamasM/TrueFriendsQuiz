@@ -5,6 +5,7 @@ import type { LanguageCode } from "../../shared/constants";
 import { useControllerState } from "../ControllerContext";
 
 const WAITING_KEY_MAP: Record<string, keyof UiText> = {
+  playersVoting: "playersVoting",
   choosingCategory: "choosingCategory",
   choosingQuestion: "choosingQuestion",
   waitingForAnswer: "waitingForAnswer",
