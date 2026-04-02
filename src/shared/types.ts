@@ -71,10 +71,6 @@ export type ScreenToControllerMessage =
       timesHost?: number;
     }
   | {
-      action: "language_changed";
-      language: string;
-    }
-  | {
       action: "pick_question";
       questions: {
         id: number;

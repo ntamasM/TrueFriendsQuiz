@@ -1,6 +1,6 @@
 {
   "name": "true-friends-quiz",
-  "version": "2.0.0",
+  "version": "2.1.2",
   "private": true,
   "description": "A multiplayer party quiz game built for AirConsole where players test how well they know each other.",
   "type": "module",

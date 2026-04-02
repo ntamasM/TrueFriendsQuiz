@@ -275,7 +275,6 @@ export function useScreenAirConsole() {
       ) {
         loadLanguage(browserLang as LanguageCode).then(() => {
           dispatch({ type: "SET_LANGUAGE", language: browserLang });
-          ac.broadcast({ action: "language_changed", language: browserLang });
         });
       }
     };
@@ -449,10 +448,6 @@ export function useScreenAirConsole() {
           loadLanguage(data.language as LanguageCode).then(() => {
             dispatch({
               type: "SET_LANGUAGE",
-              language: data.language,
-            });
-            ac.broadcast({
-              action: "language_changed",
               language: data.language,
             });
           });

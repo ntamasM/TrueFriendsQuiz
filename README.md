@@ -1,4 +1,4 @@
-# True Friends Quiz
+# True Friends Quiz v2.1.2
 
 A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/) where players test how well they know each other.
 
@@ -13,9 +13,9 @@ A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/
 ## Features
 
 - **7 Languages**: English, Greek, Spanish, French, German, Turkish, Arabic
-- **480+ Questions per language** across 20 categories — favorites, personality, hypotheticals, deep personal, spicy, and more
+- **420+ Questions per language** across 17 categories — favorites, personality, hypotheticals, deep personal, spicy, and more
 - **Category voting** — the host votes on a category group (Fun, Deep, Dilemma, Spicy) before picking a question
-- **Free & Pro categories** — 9 free categories + 11 Pro (Hero) categories for AirConsole Hero subscribers
+- **Free & Pro categories** — 9 free categories + 8 Pro (Hero) categories for AirConsole Hero subscribers
 - **Configurable settings** — rounds per player (1–5), answer time (10s–60s)
 - **Category toggles** — enable or disable question categories per game
 - **Game master controls** — settings and game start managed from the master controller

@@ -5,7 +5,7 @@ export default function AboutPage() {
       <h2>The Developer</h2>
       <div className="section">
         <p>
-          True Friends Quiz was created by{" "}
+          True Friends Quiz <strong>v2.1.2</strong> was created by{" "}
           <strong>
             <a
               href="https://ntamadakis.gr"
@@ -35,8 +35,8 @@ export default function AboutPage() {
       <h2>About the Questions</h2>
       <div className="section">
         <p>
-          The game features <strong>480+ questions per language</strong> across{" "}
-          <strong>20 categories</strong> — from lighthearted favorites and
+          The game features <strong>420+ questions per language</strong> across{" "}
+          <strong>17 categories</strong> — from lighthearted favorites and
           personality questions to spicy dilemmas and deep confessions. The
           questions were generated with the help of <strong>AI</strong>. While
           we've done our best to make them fun, diverse, and interesting across
@@ -111,7 +111,7 @@ export default function AboutPage() {
       <div className="section">
         <p>
           The game currently supports <strong>7 languages</strong>, each with
-          480+ questions across 20 categories:
+          420+ questions across 17 categories:
         </p>
         <ul>
           <li>🇬🇧 English</li>

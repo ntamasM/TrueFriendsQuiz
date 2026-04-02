@@ -73,15 +73,7 @@ export function useControllerAirConsole() {
       const data = raw as ScreenToControllerMessage;
       if (!data || !("action" in data)) return;
 
-      // Load language if the message carries one
-      const msgLang =
-        "language" in data ? (data as { language?: string }).language : null;
-
       const process = () => {
-        if (msgLang) {
-          dispatch({ type: "SET_LANGUAGE", language: msgLang });
-        }
-
         switch (data.action) {
           case "game_phase":
             switch (data.phase) {
@@ -113,10 +105,6 @@ export function useControllerAirConsole() {
                 });
                 break;
             }
-            break;
-
-          case "language_changed":
-            dispatch({ type: "SET_LANGUAGE", language: data.language });
             break;
 
           case "pick_category":
@@ -196,11 +184,7 @@ export function useControllerAirConsole() {
         }
       };
 
-      if (msgLang) {
-        loadLanguage(msgLang as LanguageCode).then(process);
-      } else {
-        process();
-      }
+      process();
     };
 
     return () => {

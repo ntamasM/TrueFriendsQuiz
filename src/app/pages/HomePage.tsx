@@ -91,9 +91,9 @@ export default function HomePage() {
         </div>
         <div className="feature-card">
           <div className="icon">❓</div>
-          <strong>480+ Questions</strong>
+          <strong>420+ Questions</strong>
           <span>
-            Per language across 20 categories — from fun to spicy
+            Per language across 17 categories — from fun to spicy
           </span>
         </div>
         <div className="feature-card">

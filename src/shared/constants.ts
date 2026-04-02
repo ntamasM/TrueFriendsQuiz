@@ -16,11 +16,8 @@ export const QUESTION_CATEGORIES: CategoryDef[] = [
   { key: "relationships", hero: true },
   { key: "moneyPower", hero: true },
   { key: "darkSecrets", hero: true },
-  { key: "bodyCount", hero: true },
   { key: "neverHaveIEver", hero: true },
-  { key: "afterDark", hero: true },
   { key: "guilty", hero: true },
-  { key: "drunkConfessions", hero: true },
   { key: "conspiracyTheories", hero: true },
   { key: "superlatives", hero: true },
 ];
@@ -48,15 +45,7 @@ export const CATEGORY_VOTE_GROUPS: Record<CategoryVoteOption, string[]> = {
   ],
   deep: ["deepPersonal", "experiencesDreams", "memories", "relationships"],
   dilemma: ["wouldYouRather", "hypothetical", "moneyPower"],
-  spicy: [
-    "deepSpicy",
-    "darkSecrets",
-    "bodyCount",
-    "neverHaveIEver",
-    "afterDark",
-    "guilty",
-    "drunkConfessions",
-  ],
+  spicy: ["deepSpicy", "darkSecrets", "neverHaveIEver", "guilty"],
 };
 
 export const CATEGORY_VOTE_LABELS: Record<
