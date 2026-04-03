@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <img
-        src="/Assets/Logo/Logo.svg"
+        src={`${import.meta.env.BASE_URL}Assets/Logo/Logo.svg`}
         alt="True Friends Quiz"
         className="footer-logo"
       />

@@ -16,7 +16,7 @@ export default function Header({ page, onNavigate }: HeaderProps) {
         )}
       </nav>
       <img
-        src="/Assets/Logo/Logo.svg"
+        src={`${import.meta.env.BASE_URL}Assets/Logo/Logo.svg`}
         alt="True Friends Quiz"
         className="header-logo"
       />

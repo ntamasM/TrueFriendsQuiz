@@ -51,7 +51,7 @@ export default function Lobby({ ac }: LobbyProps) {
   return (
     <div className="phase active" id="lobby">
       <img
-        src="/Assets/Logo/Logo.svg"
+        src={`${import.meta.env.BASE_URL}Assets/Logo/Logo.svg`}
         alt="True Friends Quiz"
         className="game-logo"
       />
