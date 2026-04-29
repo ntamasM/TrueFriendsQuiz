@@ -97,7 +97,8 @@
     "fun": "Spaß & Zufall",
     "deep": "Tief & Persönlich",
     "dilemma": "Würdest du lieber",
-    "spicy": "Scharf"
+    "spicy": "Scharf",
+    "pickIn": "Wähle in {n}s…"
   },
   "choosingCategory": "wählt eine Kategorie...",
   "playersVoting": "Die Spieler stimmen über eine Kategorie ab...",

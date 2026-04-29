@@ -97,7 +97,8 @@
     "fun": "Fun et Divers",
     "deep": "Profond et Personnel",
     "dilemma": "Tu Préfères",
-    "spicy": "Épicé"
+    "spicy": "Épicé",
+    "pickIn": "Choisis dans {n}s…"
   },
   "choosingCategory": "choisit une catégorie...",
   "playersVoting": "Les joueurs votent pour une catégorie...",

@@ -97,7 +97,8 @@
     "fun": "Eğlence ve Rastgele",
     "deep": "Derin ve Kişisel",
     "dilemma": "Ne Tercih Ederdin",
-    "spicy": "Baharatlı"
+    "spicy": "Baharatlı",
+    "pickIn": "{n}s içinde seç…"
   },
   "choosingCategory": "kategori seçiyor...",
   "playersVoting": "Oyuncular bir kategori için oy veriyor...",

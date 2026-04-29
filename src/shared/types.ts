@@ -240,6 +240,7 @@ export interface UiText {
     deep: string;
     dilemma: string;
     spicy: string;
+    pickIn: string;
   };
   choosingCategory: string;
   playersVoting: string;

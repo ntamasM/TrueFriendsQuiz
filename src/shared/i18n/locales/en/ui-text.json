@@ -98,7 +98,8 @@
     "fun": "Fun & Random",
     "deep": "Deep & Personal",
     "dilemma": "Would You Rather",
-    "spicy": "Spicy"
+    "spicy": "Spicy",
+    "pickIn": "Pick in {n}s…"
   },
   "choosingCategory": "is choosing a category...",
   "playersVoting": "Players are voting on a category...",

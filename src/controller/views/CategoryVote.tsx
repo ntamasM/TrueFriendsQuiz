@@ -90,7 +90,7 @@ export default function CategoryVote({ ac }: CategoryVoteProps) {
       {isHost && (
         <div className="category-vote-subtitle">
           {locked
-            ? `Pick in ${lockoutRemaining}s…`
+            ? (cv?.pickIn ?? "Pick in {n}s…").replace("{n}", String(lockoutRemaining))
             : cv?.subtitle ?? "Players voted — pick the final category!"}
         </div>
       )}

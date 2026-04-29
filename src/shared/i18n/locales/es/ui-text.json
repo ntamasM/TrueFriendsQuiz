@@ -97,7 +97,8 @@
     "fun": "Diversión y Aleatorio",
     "deep": "Profundo y Personal",
     "dilemma": "Qué Preferirías",
-    "spicy": "Picante"
+    "spicy": "Picante",
+    "pickIn": "Elige en {n}s…"
   },
   "choosingCategory": "está eligiendo una categoría...",
   "playersVoting": "Los jugadores están votando una categoría...",
