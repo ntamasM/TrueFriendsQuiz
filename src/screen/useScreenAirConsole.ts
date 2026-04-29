@@ -635,7 +635,11 @@ export function useScreenAirConsole() {
 
         case "category_selected": {
           if (s.phase !== "picking") break;
-          if (s.pickingSubStep !== "category_vote_result") break;
+          if (
+            s.pickingSubStep !== "category_vote_result" &&
+            s.pickingSubStep !== "category_vote"
+          )
+            break;
           const host = getHost(s);
           if (from !== host.deviceId) break;
 
@@ -720,64 +724,45 @@ export function useScreenAirConsole() {
           language: state.language,
           isPremium: premium,
           hostNickname: host.nickname,
+          isHost: false,
+          lockoutMs: 0,
         });
       }
 
-      // Host waits while others vote
+      // Host gets the same screen with a 5s lockout before they can pick
       ac.message(host.deviceId, {
-        action: "game_phase",
-        phase: "waiting",
-        message: "Players are voting on a category...",
-        waitingKey: "playersVoting",
-        hostNickname: "",
+        action: "pick_category",
         language: state.language,
+        isPremium: premium,
+        hostNickname: host.nickname,
+        isHost: true,
+        lockoutMs: 5000,
       });
     }
   }, [state.phase, state.players.length, state.currentRound]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // When all guessers have voted, send results to host
+  // Push live tally updates to the host as guessers vote
   useEffect(() => {
     if (
-      state.phase === "picking" &&
-      state.pickingSubStep === "category_vote" &&
-      state.players.length > 0
-    ) {
-      const guessers = getGuessers(state);
-      const voteCount = Object.keys(state.categoryVotes).length;
-      if (voteCount < guessers.length) return;
+      state.phase !== "picking" ||
+      state.pickingSubStep !== "category_vote" ||
+      state.players.length === 0
+    )
+      return;
 
-      // Tally votes
-      const tally: Record<string, number> = {};
-      for (const cat of Object.values(state.categoryVotes)) {
-        tally[cat] = (tally[cat] || 0) + 1;
-      }
+    const ac = acRef.current;
+    if (!ac) return;
+    const host = getHost(state);
 
-      dispatch({ type: "CATEGORY_VOTE_DONE" });
-
-      const ac = acRef.current;
-      if (!ac) return;
-      const host = getHost(state);
-
-      ac.message(host.deviceId, {
-        action: "pick_category_result",
-        language: state.language,
-        isPremium: isAnyPlayerPremium(),
-        votes: tally,
-      });
-
-      // Tell guessers to wait for host's decision
-      const guessersNow = getGuessers(state);
-      for (const p of guessersNow) {
-        ac.message(p.deviceId, {
-          action: "game_phase",
-          phase: "waiting",
-          message: `${host.nickname} is choosing a category...`,
-          waitingKey: "choosingCategory",
-          hostNickname: host.nickname,
-          language: state.language,
-        });
-      }
+    const tally: Record<string, number> = {};
+    for (const cat of Object.values(state.categoryVotes)) {
+      tally[cat] = (tally[cat] || 0) + 1;
     }
+
+    ac.message(host.deviceId, {
+      action: "pick_category_update",
+      votes: tally,
+    });
   }, [state.categoryVotes, state.phase, state.pickingSubStep]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // When voting is disabled, skip straight to host picking a category

@@ -112,6 +112,8 @@ export function useControllerAirConsole() {
               type: "SET_CATEGORY_VOTE",
               isPremium: data.isPremium,
               hostNickname: data.hostNickname,
+              isHost: data.isHost,
+              lockoutMs: data.lockoutMs,
             });
             break;
 
@@ -119,6 +121,13 @@ export function useControllerAirConsole() {
             dispatch({
               type: "SET_CATEGORY_VOTE_RESULT",
               isPremium: data.isPremium,
+              votes: data.votes,
+            });
+            break;
+
+          case "pick_category_update":
+            dispatch({
+              type: "SET_CATEGORY_VOTE_TALLY",
               votes: data.votes,
             });
             break;

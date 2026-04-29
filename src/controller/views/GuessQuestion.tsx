@@ -5,7 +5,6 @@ import type { LanguageCode } from "../../shared/constants";
 import { useControllerState } from "../ControllerContext";
 
 const REACTION_EMOJIS = ["👆", "🤔", "😱", "😂"];
-const REACTION_COOLDOWN = 3000;
 
 interface GuessQuestionProps {
   ac: React.RefObject<AirConsole | null>;
@@ -15,7 +14,6 @@ export default function GuessQuestion({ ac }: GuessQuestionProps) {
   const state = useControllerState();
   const [uiText, setUiText] = useState<UiText | null>(null);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
-  const [lastReactionTime, setLastReactionTime] = useState(0);
 
   useEffect(() => {
     loadUiText(state.language as LanguageCode).then(setUiText);
@@ -42,15 +40,12 @@ export default function GuessQuestion({ ac }: GuessQuestionProps) {
 
   const handleReaction = useCallback(
     (emoji: string) => {
-      const now = Date.now();
-      if (now - lastReactionTime < REACTION_COOLDOWN) return;
-      setLastReactionTime(now);
       ac.current?.message(AirConsole.SCREEN, {
         action: "emoji_reaction",
         emoji,
       });
     },
-    [ac, lastReactionTime],
+    [ac],
   );
 
   const isUrgent = state.guessTimeLeft <= 5;

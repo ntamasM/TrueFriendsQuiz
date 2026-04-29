@@ -118,11 +118,17 @@ export type ScreenToControllerMessage =
       language: string;
       isPremium: boolean;
       hostNickname: string;
+      isHost: boolean;
+      lockoutMs: number;
     }
   | {
       action: "pick_category_result";
       language: string;
       isPremium: boolean;
+      votes: Record<string, number>;
+    }
+  | {
+      action: "pick_category_update";
       votes: Record<string, number>;
     }
   | {

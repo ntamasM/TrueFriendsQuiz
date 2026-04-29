@@ -24,6 +24,8 @@ export interface ControllerState {
   isPremium: boolean;
   categoryVoteHostNickname: string;
   categoryVoteResults: Record<string, number> | null;
+  categoryVoteIsHost: boolean;
+  categoryVoteLockoutMs: number;
   isPaused: boolean;
   // Phase-specific data (set when the view changes)
   waitingMessage: string;
@@ -77,6 +79,8 @@ export const initialControllerState: ControllerState = {
   isPremium: false,
   categoryVoteHostNickname: "",
   categoryVoteResults: null,
+  categoryVoteIsHost: false,
+  categoryVoteLockoutMs: 0,
   isPaused: false,
   waitingMessage: "",
   waitingKey: "",
@@ -162,10 +166,20 @@ export type ControllerAction =
       speedBonuses: number;
       timesHost: number;
     }
-  | { type: "SET_CATEGORY_VOTE"; isPremium: boolean; hostNickname: string }
+  | {
+      type: "SET_CATEGORY_VOTE";
+      isPremium: boolean;
+      hostNickname: string;
+      isHost: boolean;
+      lockoutMs: number;
+    }
   | {
       type: "SET_CATEGORY_VOTE_RESULT";
       isPremium: boolean;
+      votes: Record<string, number>;
+    }
+  | {
+      type: "SET_CATEGORY_VOTE_TALLY";
       votes: Record<string, number>;
     }
   | { type: "SET_PAUSED"; paused: boolean }
@@ -276,7 +290,9 @@ export function controllerReducer(
         view: "category-vote",
         isPremium: action.isPremium,
         categoryVoteHostNickname: action.hostNickname,
-        categoryVoteResults: null,
+        categoryVoteResults: action.isHost ? {} : null,
+        categoryVoteIsHost: action.isHost,
+        categoryVoteLockoutMs: action.lockoutMs,
       };
 
     case "SET_CATEGORY_VOTE_RESULT":
@@ -284,6 +300,14 @@ export function controllerReducer(
         ...state,
         view: "category-vote",
         isPremium: action.isPremium,
+        categoryVoteResults: action.votes,
+        categoryVoteIsHost: true,
+        categoryVoteLockoutMs: 0,
+      };
+
+    case "SET_CATEGORY_VOTE_TALLY":
+      return {
+        ...state,
         categoryVoteResults: action.votes,
       };
 
