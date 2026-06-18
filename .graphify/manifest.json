@@ -1,0 +1,206 @@
+{
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\scripts\\zip-game.ps1": {
+    "mtime": 1775125816270.3496,
+    "hash": "ed67372d9106b368346b1b96b6eb0b27"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\app\\App.tsx": {
+    "mtime": 1773064852261.4734,
+    "hash": "ad4de8b66195defb9798c2c836076d11"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\app\\components\\Footer.tsx": {
+    "mtime": 1775216731598.859,
+    "hash": "104092c88a90a1ddc52d67f74b33cd2f"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\app\\components\\Header.tsx": {
+    "mtime": 1775216731605.8635,
+    "hash": "a66560405451f6fd1584954dac96628d"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\app\\main.tsx": {
+    "mtime": 1773064852261.9878,
+    "hash": "02e5896e788bd9c822393581b5fc0e10"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\app\\pages\\AboutPage.tsx": {
+    "mtime": 1775119961934.8154,
+    "hash": "1b45b468104263c5cccebf7778f63a14"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\app\\pages\\HomePage.tsx": {
+    "mtime": 1775116614901.746,
+    "hash": "17bc8def8e8fafad9f3f868fc357839f"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\App.tsx": {
+    "mtime": 1774944294036.0022,
+    "hash": "daf39fffc7b80f71fb4fa60af8266edd"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\ControllerContext.tsx": {
+    "mtime": 1777461918699.893,
+    "hash": "ec90d4da84dd9d8de4bd2801d20a9b5b"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\main.tsx": {
+    "mtime": 1773061085977.8774,
+    "hash": "063e296a42fd66f8c92153447d15a7b2"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\useControllerAirConsole.ts": {
+    "mtime": 1777461925457.7817,
+    "hash": "768a1b8cd954b8895d82a7e2fef6b3ce"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\AnswerQuestion.tsx": {
+    "mtime": 1773061086038.8762,
+    "hash": "87372152eca1daaed6d2aa32b7bba2c3"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\CategoryVote.tsx": {
+    "mtime": 1777462716761.6738,
+    "hash": "6de9b33a332614df439cef9e9b30a171"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\GuessQuestion.tsx": {
+    "mtime": 1777462015065.927,
+    "hash": "f5dfaf7d69eafcdb55c8ba047423f309"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\HostWait.tsx": {
+    "mtime": 1773061086079.9412,
+    "hash": "0db50805ee73ab40ff005e8b7dd0687e"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\Leaderboard.tsx": {
+    "mtime": 1774363100810.4402,
+    "hash": "32e8f744b57acab191d74629aa326942"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\Lobby.tsx": {
+    "mtime": 1774951181208.9995,
+    "hash": "04f4f71839477799537bfdc07aa464da"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\PickQuestion.tsx": {
+    "mtime": 1773139835957.0737,
+    "hash": "49b91f2b6ab525b749267c7495d3f0f4"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\Result.tsx": {
+    "mtime": 1774363090828.5442,
+    "hash": "5cea55accb4841a94ff6cf0b1465d82e"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\Settings.tsx": {
+    "mtime": 1774951755920.5503,
+    "hash": "f21edda98c9049520cf933024b62d816"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\controller\\views\\Waiting.tsx": {
+    "mtime": 1774949380268.97,
+    "hash": "d13049f40a6b50028045c2d2946420b4"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\App.tsx": {
+    "mtime": 1773825308199.994,
+    "hash": "726a580efce1d0f8d1117e6a0d991b90"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\gameLogic.ts": {
+    "mtime": 1774950595696.0288,
+    "hash": "2537aae790fce04d6bf032484fe77404"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\main.tsx": {
+    "mtime": 1773061085976.88,
+    "hash": "0687cef09d44738e5bab3ca5d1a58d0e"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\musicManager.ts": {
+    "mtime": 1773137826129.9717,
+    "hash": "ebd0d0cf7abb6efeecae8053b6a50bf3"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\phases\\Answering.tsx": {
+    "mtime": 1773820641970.1675,
+    "hash": "6fe2dce044c8ab35bc00a736f1df3fce"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\phases\\Guessing.tsx": {
+    "mtime": 1774341520899.9014,
+    "hash": "9fc86633f69a2d73ac7064ee03be09c5"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\phases\\Leaderboard.tsx": {
+    "mtime": 1774363035390.785,
+    "hash": "4df44ce61339abde2e2a06eb59413dd3"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\phases\\Lobby.tsx": {
+    "mtime": 1775216731596.5017,
+    "hash": "a74266c386d7480d6047668b8f6ff5e6"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\phases\\Picking.tsx": {
+    "mtime": 1774949365578.9624,
+    "hash": "0bf81f429ccc675a0a155f05b60b62f4"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\phases\\Reveal.tsx": {
+    "mtime": 1774951243219.1528,
+    "hash": "2809b4272a863e1c94838b996a745e37"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\ScreenContext.tsx": {
+    "mtime": 1774951115964.6196,
+    "hash": "15834a9f8a956fd7aa84f956053dfe6c"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\screen\\useScreenAirConsole.ts": {
+    "mtime": 1777461988534.2268,
+    "hash": "99a46e6bf5d5872dd7d5fb2e68210e46"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\shared\\airconsole.d.ts": {
+    "mtime": 1773061085874.804,
+    "hash": "99638ede9d5e6a80ccb75f95ce529d69"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\shared\\constants.ts": {
+    "mtime": 1775114797151.9033,
+    "hash": "56a596b6e9656df377897ad91ff836dc"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\shared\\i18n\\index.ts": {
+    "mtime": 1773061085992.877,
+    "hash": "c8e9b8ac7969d51042bd86f1cb906df9"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\src\\shared\\types.ts": {
+    "mtime": 1777462709505.538,
+    "hash": "9b05d0c5092b2df29a701cb485c462f4"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\vite-env.d.ts": {
+    "mtime": 1773058979512.8142,
+    "hash": "8f68c27c3fc38817b2726b20e2d4f1ee"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\vite.config.ts": {
+    "mtime": 1775216465547.5613,
+    "hash": "ce07dc6f508cac043cbac1f806271615"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\app.html": {
+    "mtime": 1777882865820.4812,
+    "hash": "ddc50524f90505e4c6684c335185e915"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\controller.html": {
+    "mtime": 1775116165821.889,
+    "hash": "e8ce81187b82255807a860add47d3c13"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\pnpm-lock.yaml": {
+    "mtime": 1773145356646.653,
+    "hash": "f665820370edb3f7355f944823f6a77e"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\README.md": {
+    "mtime": 1775119956848.039,
+    "hash": "b72b04219b355abf1884d8ef408daf1e"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\Releases\\notes\\v1.2.0-release-notes.md": {
+    "mtime": 1772458490950.6035,
+    "hash": "b2a621e0be2d202560de2b87962e6d2f"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\Releases\\notes\\v2.1.2-release-notes.md": {
+    "mtime": 1775123222509.4795,
+    "hash": "2a9307fc3af8aa0c4de15a805140db99"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\screen.html": {
+    "mtime": 1775116158778.4485,
+    "hash": "031dd3958bd8d31152ae7841269e866c"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\public\\Assets\\Logo\\Logo.png": {
+    "mtime": 1772196339020.0742,
+    "hash": "058971bfdfcfef82f3d4eb66a3cb12a2"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\public\\Assets\\Logo\\Logo.svg": {
+    "mtime": 1772196339011.399,
+    "hash": "fe73aa6c822ee213a09a89b6be5c0d74"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\public\\Assets\\music\\Compressed\\BackgroundMusic1.ogg": {
+    "mtime": 1772438137557.5327,
+    "hash": "d25036b84ac049997e17df72aaa64dd1"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\public\\Assets\\music\\Compressed\\BackgroundMusic2.ogg": {
+    "mtime": 1772438137564.5364,
+    "hash": "bd6eb4c9026359851157e2bf392d33ba"
+  },
+  "C:\\Users\\Ntamas\\Desktop\\Personal\\AirConsole\\TrueFriendsQuiz\\public\\Assets\\music\\Compressed\\BackgroundMusic3.ogg": {
+    "mtime": 1772438137571.045,
+    "hash": "88ab1cee1ed49ef55ea8cd9e9ee2d108"
+  }
+}
