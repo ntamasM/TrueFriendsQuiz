@@ -57,7 +57,6 @@ export default function Picking() {
 
       {showPreview && (
         <div className="pick-preview">
-          <div className="pick-preview-scream">🗣️ {t("screamForIt")}</div>
           <div className="pick-preview-question">{preview.question}</div>
           <div className="pick-preview-answers">
             {preview.answers.map((answer, i) => (
@@ -74,6 +73,7 @@ export default function Picking() {
               ? `🎲 ${rerollsLeft} ${t("rerollsLeft")}`
               : t("noRerollsLeft")}
           </div>
+          <div className="pick-preview-scream">🗣️ {t("screamForIt")}</div>
         </div>
       )}
     </div>
