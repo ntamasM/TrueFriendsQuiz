@@ -5,7 +5,7 @@ export default function AboutPage() {
       <h2>The Developer</h2>
       <div className="section">
         <p>
-          True Friends Quiz <strong>v2.1.2</strong> was created by{" "}
+          True Friends Quiz <strong>v2.2.0</strong> was created by{" "}
           <strong>
             <a
               href="https://ntamadakis.gr"
@@ -29,6 +29,32 @@ export default function AboutPage() {
           The idea is simple: gather your friends, use your phones as
           controllers, and find out who really knows who best!
         </p>
+      </div>
+
+      {/* What's New */}
+      <h2>What's New in v2.2.0</h2>
+      <div className="section">
+        <ul>
+          <li>
+            <strong>Reroll &amp; shout</strong> — the round's question is now
+            assigned automatically and shown on the big screen. The host can
+            reroll up to 5 times while everyone shouts for the question they
+            want.
+          </li>
+          <li>
+            <strong>One shared language</strong> — every player's phone now
+            follows the language selected on the main screen, so the UI and the
+            questions always match.
+          </li>
+          <li>
+            <strong>Background music</strong> — music now plays from the moment
+            the game opens and can be toggled on or off any time.
+          </li>
+          <li>
+            <strong>Polish</strong> — cleaner controller layout and a snappier
+            picking flow.
+          </li>
+        </ul>
       </div>
 
       {/* AI-Generated Questions */}

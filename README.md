@@ -1,4 +1,4 @@
-# True Friends Quiz v2.1.2
+# True Friends Quiz v2.2.0
 
 A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/) where players test how well they know each other.
 
@@ -12,14 +12,15 @@ A multiplayer party quiz game built for [AirConsole](https://www.airconsole.com/
 
 ## Features
 
-- **7 Languages**: English, Greek, Spanish, French, German, Turkish, Arabic
+- **7 Languages**: English, Greek, Spanish, French, German, Turkish, Arabic — every controller follows the language selected on the screen
 - **420+ Questions per language** across 17 categories — favorites, personality, hypotheticals, deep personal, spicy, and more
-- **Category voting** — the host votes on a category group (Fun, Deep, Dilemma, Spicy) before picking a question
+- **Category voting** — players vote on a category group (Fun, Deep, Dilemma, Spicy) before the question is assigned (host-toggleable)
+- **Auto-assign & reroll** — the round's question is auto-picked and mirrored to the TV; the host can reroll up to 5 times while everyone shouts for their favorite
 - **Free & Pro categories** — 9 free categories + 8 Pro (Hero) categories for AirConsole Hero subscribers
 - **Configurable settings** — rounds per player (1–5), answer time (10s–60s)
 - **Category toggles** — enable or disable question categories per game
 - **Game master controls** — settings and game start managed from the master controller
-- **Music toggle** — background music on/off from settings
+- **Background music** — plays from the moment the game opens; on/off from settings
 - **Speed bonus** — first correct guesser earns +20 bonus points
 - **Streak tracking** — consecutive correct guesses are tracked with streak indicators
 - **Animated phase transitions** — smooth transitions between game phases

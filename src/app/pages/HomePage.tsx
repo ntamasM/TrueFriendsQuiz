@@ -50,11 +50,13 @@ export default function HomePage() {
         </li>
         <li>
           <div>
-            <strong>Vote on a category &amp; pick a question</strong>
+            <strong>Vote on a category &amp; lock in a question</strong>
             <span>
-              Each round, the host votes on a category group — Fun, Deep,
-              Dilemma, or Spicy — then picks a question. For example{" "}
-              <em>"What is Alex's biggest fear?"</em>
+              Each round, players vote on a category group — Fun, Deep, Dilemma,
+              or Spicy. A question is then assigned automatically and shown on
+              the big screen, so everyone can shout for the one they want. Not
+              feeling it? The host can <strong>reroll up to 5 times</strong>. For
+              example <em>"What is Alex's biggest fear?"</em>
             </span>
           </div>
         </li>
@@ -86,7 +88,8 @@ export default function HomePage() {
           <div className="icon">🌍</div>
           <strong>7 Languages</strong>
           <span>
-            English, German, Greek, Spanish, French, Turkish &amp; Arabic
+            English, German, Greek, Spanish, French, Turkish &amp; Arabic — every
+            phone follows the language picked on the main screen
           </span>
         </div>
         <div className="feature-card">
@@ -100,8 +103,22 @@ export default function HomePage() {
           <div className="icon">🗳️</div>
           <strong>Category Voting</strong>
           <span>
-            The host votes on Fun, Deep, Dilemma, or Spicy each round
+            Players vote on Fun, Deep, Dilemma, or Spicy each round (optional —
+            the host can switch it off)
           </span>
+        </div>
+        <div className="feature-card">
+          <div className="icon">🎲</div>
+          <strong>Reroll &amp; Shout</strong>
+          <span>
+            Each question shows on the big screen — don't like it? Reroll up to
+            5 times while everyone roots for their favorite
+          </span>
+        </div>
+        <div className="feature-card">
+          <div className="icon">🎵</div>
+          <strong>Background Music</strong>
+          <span>Upbeat music sets the party mood — toggle it any time</span>
         </div>
         <div className="feature-card">
           <div className="icon">⚡</div>
