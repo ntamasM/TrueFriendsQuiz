@@ -5,7 +5,7 @@ import type {
   ControllerToScreenMessage,
 } from "../shared/types";
 import { loadLanguage, loadQuestions } from "../shared/i18n";
-import { SUPPORTED_LANGUAGES } from "../shared/constants";
+import { SUPPORTED_LANGUAGES, MAX_REROLLS } from "../shared/constants";
 import type { LanguageCode } from "../shared/constants";
 import {
   useScreenState,
@@ -47,6 +47,7 @@ export function useScreenAirConsole() {
   const lobbyDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const questionsRef = useRef<Question[]>([]);
   const revealCalledRef = useRef(false);
+  const pickGroupRef = useRef<CategoryVoteOption | null>(null);
 
   // ─── Helpers ───
 
@@ -265,6 +266,10 @@ export function useScreenAirConsole() {
     acRef.current = ac;
 
     ac.onReady = () => {
+      // Start background music immediately on the waiting/lobby screen so it
+      // plays from the moment the game loads (not only after "Start game").
+      musicManager.play();
+
       // auto-detect language
       const browserLang = (navigator.language || "en")
         .substring(0, 2)
@@ -275,6 +280,7 @@ export function useScreenAirConsole() {
       ) {
         loadLanguage(browserLang as LanguageCode).then(() => {
           dispatch({ type: "SET_LANGUAGE", language: browserLang });
+          ac.broadcast({ action: "set_language", language: browserLang });
         });
       }
     };
@@ -282,6 +288,10 @@ export function useScreenAirConsole() {
     ac.onConnect = (deviceId: number) => {
       const s = stateRef.current;
       if (s.phase === "lobby") {
+        ac.message(deviceId, {
+          action: "set_language",
+          language: s.language,
+        });
         debouncedLobbyUpdate();
       } else {
         ac.message(deviceId, {
@@ -435,7 +445,7 @@ export function useScreenAirConsole() {
               votingEnabled: data.votingEnabled ?? true,
               speedBonusEnabled: data.speedBonusEnabled ?? true,
             });
-            musicManager.play();
+            // Music already started on the lobby screen (onReady).
             // startRound is triggered by the phase change → effect
           });
           break;
@@ -448,6 +458,11 @@ export function useScreenAirConsole() {
           loadLanguage(data.language as LanguageCode).then(() => {
             dispatch({
               type: "SET_LANGUAGE",
+              language: data.language,
+            });
+            // Push the new language to every phone so all UIs stay consistent.
+            ac.broadcast({
+              action: "set_language",
               language: data.language,
             });
           });
@@ -587,14 +602,14 @@ export function useScreenAirConsole() {
             votingEnabled: s.votingEnabled,
             speedBonusEnabled: s.speedBonusEnabled,
           });
-          musicManager.play();
+          // Music keeps playing from the lobby; no restart needed.
           break;
         }
 
         case "back_to_menu": {
           if (from !== ac.getMasterControllerDeviceId()) break;
           clearGuessTimer();
-          musicManager.stop();
+          // Keep music playing into the lobby (don't stop it here).
           dispatch({ type: "RESET_GAME" });
           broadcastPhase("lobby");
           break;
@@ -645,26 +660,103 @@ export function useScreenAirConsole() {
 
           dispatch({ type: "CATEGORY_SELECTED" });
 
-          // Get filtered questions for the chosen category
+          // Auto-assign ONE question from the chosen group.
           const group = data.category as CategoryVoteOption;
+          pickGroupRef.current = group;
           const { questions } = getQuestionsForGroup(
             questionsRef.current,
             s.usedQuestionIds,
             isAnyPlayerPremium(),
             group,
-            4,
+            1,
+          );
+          const q = questions[0];
+          if (!q) break;
+          const displayQuestion = replaceNamePlaceholder(
+            q.question,
+            host.nickname,
           );
 
-          const questionsForHost = questions.map((q) => ({
-            id: q.id,
-            category: q.category,
-            question: replaceNamePlaceholder(q.question, host.nickname),
-            answers: q.answers,
-          }));
+          // Mirror the offered question to the TV so all players can see it.
+          dispatch({
+            type: "SET_PICK_PREVIEW",
+            preview: {
+              id: q.id,
+              category: q.category,
+              question: displayQuestion,
+              answers: q.answers,
+            },
+            rerollCount: 0,
+          });
 
           ac.message(host.deviceId, {
             action: "pick_question",
-            questions: questionsForHost,
+            questions: [
+              {
+                id: q.id,
+                category: q.category,
+                question: displayQuestion,
+                answers: q.answers,
+              },
+            ],
+            rerollsLeft: MAX_REROLLS,
+            language: s.language,
+          });
+          break;
+        }
+
+        case "reroll_question": {
+          if (s.phase !== "picking") break;
+          if (s.pickingSubStep !== "question_pick") break;
+          const host = getHost(s);
+          if (from !== host.deviceId) break;
+          const group = pickGroupRef.current;
+          if (!group) break;
+          if (s.rerollCount >= MAX_REROLLS) break; // reroll cap reached
+
+          const newCount = s.rerollCount + 1;
+          // Exclude already-used questions AND the one currently shown.
+          const currentId = s.pickPreview?.id;
+          const excludeIds =
+            currentId != null
+              ? [...s.usedQuestionIds, currentId]
+              : s.usedQuestionIds;
+          const { questions } = getQuestionsForGroup(
+            questionsRef.current,
+            excludeIds,
+            isAnyPlayerPremium(),
+            group,
+            1,
+          );
+          const q = questions[0];
+          if (!q) break;
+          const displayQuestion = replaceNamePlaceholder(
+            q.question,
+            host.nickname,
+          );
+
+          dispatch({
+            type: "SET_PICK_PREVIEW",
+            preview: {
+              id: q.id,
+              category: q.category,
+              question: displayQuestion,
+              answers: q.answers,
+            },
+            rerollCount: newCount,
+          });
+
+          ac.message(host.deviceId, {
+            action: "pick_question",
+            questions: [
+              {
+                id: q.id,
+                category: q.category,
+                question: displayQuestion,
+                answers: q.answers,
+              },
+            ],
+            rerollsLeft: MAX_REROLLS - newCount,
             language: s.language,
           });
           break;

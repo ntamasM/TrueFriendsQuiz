@@ -67,3 +67,9 @@ export const LANGUAGE_NAMES: Record<LanguageCode, string> = {
   tr: "🇹🇷 Türkçe",
   ar: "🇸🇦 العربية",
 };
+
+/** CSS class suffixes applied to answer cards, in option order. */
+export const ANSWER_CLASSES = ["answer-a", "answer-b", "answer-c", "answer-d"];
+
+/** Max number of times the host can reroll the auto-assigned question per round. */
+export const MAX_REROLLS = 5;

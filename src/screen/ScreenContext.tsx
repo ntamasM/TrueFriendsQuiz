@@ -38,6 +38,15 @@ export interface ScreenState {
   speedBonusCount: Record<number, number>; // deviceId → times got speed bonus
   roundsSinceLastAd: number;
   categoryVotes: Record<number, string>; // deviceId → category vote
+  rerollCount: number; // rerolls used by the host this round
+  // The question currently offered to the host, mirrored to the TV so all
+  // players can see it during the pick/reroll step (name placeholder replaced).
+  pickPreview: {
+    id: number;
+    category: string;
+    question: string;
+    answers: string[];
+  } | null;
 }
 
 export const initialScreenState: ScreenState = {
@@ -64,6 +73,8 @@ export const initialScreenState: ScreenState = {
   speedBonusCount: {},
   roundsSinceLastAd: 0,
   categoryVotes: {},
+  rerollCount: 0,
+  pickPreview: null,
 };
 
 // ─── Actions ───
@@ -103,7 +114,17 @@ export type ScreenAction =
   | { type: "SET_TOTAL_ROUNDS"; totalRounds: number }
   | { type: "CATEGORY_VOTE"; deviceId: number; category: string }
   | { type: "CATEGORY_VOTE_DONE" }
-  | { type: "CATEGORY_SELECTED" };
+  | { type: "CATEGORY_SELECTED" }
+  | {
+      type: "SET_PICK_PREVIEW";
+      preview: {
+        id: number;
+        category: string;
+        question: string;
+        answers: string[];
+      };
+      rerollCount: number;
+    };
 
 // ─── Reducer ───
 
@@ -139,6 +160,8 @@ export function screenReducer(
         currentQuestion: null,
         hostAnswer: null,
         playerGuesses: {},
+        rerollCount: 0,
+        pickPreview: null,
       };
 
     case "START_ROUND":
@@ -153,6 +176,8 @@ export function screenReducer(
         playerGuesses: {},
         firstGuesser: null,
         categoryVotes: {},
+        rerollCount: 0,
+        pickPreview: null,
       };
 
     case "CATEGORY_VOTE":
@@ -183,6 +208,14 @@ export function screenReducer(
         phase: "answering",
         currentQuestion: action.question,
         usedQuestionIds: [...state.usedQuestionIds, action.question.id],
+        pickPreview: null,
+      };
+
+    case "SET_PICK_PREVIEW":
+      return {
+        ...state,
+        pickPreview: action.preview,
+        rerollCount: action.rerollCount,
       };
 
     case "HOST_ANSWER":

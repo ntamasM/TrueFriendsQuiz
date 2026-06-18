@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 import type { UiText } from "../../shared/types";
 import { loadUiText } from "../../shared/i18n";
 import type { LanguageCode } from "../../shared/constants";
+import { ANSWER_CLASSES } from "../../shared/constants";
 import { useScreenState } from "../ScreenContext";
 import { replaceNamePlaceholder } from "../gameLogic";
-
-const ANSWER_CLASSES = ["answer-a", "answer-b", "answer-c", "answer-d"];
 
 export default function Answering() {
   const state = useScreenState();

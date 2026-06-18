@@ -37,6 +37,7 @@ export interface ControllerState {
     question: string;
     answers: string[];
   }[];
+  rerollsLeft: number;
   answerQuestion: string;
   answerOptions: string[];
   guessQuestion: string;
@@ -86,6 +87,7 @@ export const initialControllerState: ControllerState = {
   waitingKey: "",
   waitingHostNickname: "",
   pickQuestions: [],
+  rerollsLeft: 0,
   answerQuestion: "",
   answerOptions: [],
   guessQuestion: "",
@@ -133,6 +135,7 @@ export type ControllerAction =
         question: string;
         answers: string[];
       }[];
+      rerollsLeft: number;
     }
   | { type: "SET_ANSWER_QUESTION"; question: string; answers: string[] }
   | {
@@ -229,6 +232,7 @@ export function controllerReducer(
         ...state,
         view: "pick",
         pickQuestions: action.questions,
+        rerollsLeft: action.rerollsLeft,
       };
 
     case "SET_ANSWER_QUESTION":

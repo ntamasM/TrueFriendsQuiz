@@ -1,7 +1,8 @@
+const BASE = import.meta.env.BASE_URL;
 const TRACKS = [
-  "/Assets/music/Compressed/BackgroundMusic1.ogg",
-  "/Assets/music/Compressed/BackgroundMusic2.ogg",
-  "/Assets/music/Compressed/BackgroundMusic3.ogg",
+  `${BASE}Assets/music/Compressed/BackgroundMusic1.ogg`,
+  `${BASE}Assets/music/Compressed/BackgroundMusic2.ogg`,
+  `${BASE}Assets/music/Compressed/BackgroundMusic3.ogg`,
 ];
 
 const VOLUME = 0.35;
@@ -34,6 +35,7 @@ class MusicManager {
 
   /** Stop and destroy the player. */
   stop(): void {
+    this.removeUnlock();
     if (this.audio) {
       this.audio.pause();
       this.audio.src = "";
@@ -68,7 +70,32 @@ class MusicManager {
     audio.volume = VOLUME;
     audio.addEventListener("ended", this.handleEnded);
     this.audio = audio;
-    audio.play().catch(() => {});
+    audio.play().catch((err) => {
+      // Autoplay blocked (no user gesture yet) → retry on first interaction.
+      // Best-effort only: the AirConsole screen rarely receives input.
+      if (err && err.name === "NotAllowedError") {
+        this.armUnlock();
+      }
+    });
+  }
+
+  private readonly unlockEvents = ["pointerdown", "keydown", "touchstart"];
+
+  private unlockHandler = (): void => {
+    this.removeUnlock();
+    if (this.enabled) this.audio?.play().catch(() => {});
+  };
+
+  private armUnlock(): void {
+    for (const e of this.unlockEvents) {
+      window.addEventListener(e, this.unlockHandler);
+    }
+  }
+
+  private removeUnlock(): void {
+    for (const e of this.unlockEvents) {
+      window.removeEventListener(e, this.unlockHandler);
+    }
   }
 
   private handleEnded = (): void => {

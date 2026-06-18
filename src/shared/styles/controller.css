@@ -413,6 +413,29 @@ select,
   color: #fff;
 }
 
+.pick-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+/* Buttons fill the container here (the lobby's 80% width would leave dead
+   space to the side). */
+.pick-actions .ctrl-btn {
+  width: 100%;
+  max-width: none;
+  margin-top: 0;
+}
+
+.pick-actions .ctrl-btn:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 /* ===========================
    Answer View (Host answering)
    =========================== */

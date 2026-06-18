@@ -78,6 +78,7 @@ export type ScreenToControllerMessage =
         question: string;
         answers: string[];
       }[];
+      rerollsLeft: number;
       language: string;
     }
   | {
@@ -132,6 +133,10 @@ export type ScreenToControllerMessage =
       votes: Record<string, number>;
     }
   | {
+      action: "set_language";
+      language: string;
+    }
+  | {
       action: "emoji_broadcast";
       emoji: string;
       nickname: string;
@@ -150,6 +155,7 @@ export type ControllerToScreenMessage =
     }
   | { action: "select_language"; language: string }
   | { action: "question_selected"; questionId: number }
+  | { action: "reroll_question" }
   | { action: "host_answer"; answerId: number }
   | { action: "player_guess"; answerId: number }
   | { action: "play_again" }
@@ -172,6 +178,11 @@ export interface UiText {
   of: string;
   choosingQuestion: string;
   pickQuestion: string;
+  useThisQuestion: string;
+  reroll: string;
+  rerollsLeft: string;
+  noRerollsLeft: string;
+  screamForIt: string;
   waitingForHost: string;
   answerQuestion: string;
   waitingForAnswer: string;

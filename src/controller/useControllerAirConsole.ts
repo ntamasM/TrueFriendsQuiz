@@ -31,19 +31,6 @@ export function useControllerAirConsole() {
       const masterId = ac.getMasterControllerDeviceId();
       dispatch({ type: "SET_MASTER", isMaster: deviceId === masterId });
       updatePlayerIndex();
-
-      // Auto-detect language
-      const browserLang = (navigator.language || "en")
-        .substring(0, 2)
-        .toLowerCase();
-      if (
-        SUPPORTED_LANGUAGES.includes(browserLang as LanguageCode) &&
-        browserLang !== stateRef.current.language
-      ) {
-        loadLanguage(browserLang as LanguageCode).then(() => {
-          dispatch({ type: "SET_LANGUAGE", language: browserLang });
-        });
-      }
     };
 
     ac.onConnect = () => {
@@ -74,6 +61,20 @@ export function useControllerAirConsole() {
       if (!data || !("action" in data)) return;
 
       const process = () => {
+        // The screen is the single source of truth for language. Adopt the
+        // language carried on any message so the phone UI + questions always
+        // match the TV.
+        const incomingLang = (data as { language?: string }).language;
+        if (
+          incomingLang &&
+          SUPPORTED_LANGUAGES.includes(incomingLang as LanguageCode) &&
+          incomingLang !== stateRef.current.language
+        ) {
+          loadLanguage(incomingLang as LanguageCode).then(() => {
+            dispatch({ type: "SET_LANGUAGE", language: incomingLang });
+          });
+        }
+
         switch (data.action) {
           case "game_phase":
             switch (data.phase) {
@@ -136,6 +137,7 @@ export function useControllerAirConsole() {
             dispatch({
               type: "SET_PICK_QUESTIONS",
               questions: data.questions,
+              rerollsLeft: data.rerollsLeft,
             });
             break;
 

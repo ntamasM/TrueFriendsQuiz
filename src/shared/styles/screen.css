@@ -349,6 +349,87 @@ body::after {
 }
 
 /* ===========================
+   Pick preview (host reroll, shown to all players)
+   =========================== */
+.pick-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  width: 100%;
+  max-width: 760px;
+  animation: pickPreviewIn 0.35s ease;
+}
+
+@keyframes pickPreviewIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.pick-preview-scream {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #ffd166;
+  text-align: center;
+  animation: screamPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes screamPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+.pick-preview-category {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #a0aec0;
+}
+
+.pick-preview-question {
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.pick-preview-answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  width: 100%;
+}
+
+.pick-preview-answer {
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pick-preview-rerolls {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #cbd5e0;
+}
+
+/* ===========================
    Phase 4: Guessing / Question Display
    =========================== */
 .question-display {

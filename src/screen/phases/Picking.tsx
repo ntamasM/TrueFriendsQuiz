@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import type { UiText } from "../../shared/types";
 import { loadUiText } from "../../shared/i18n";
-import type { LanguageCode } from "../../shared/constants";
+import {
+  type LanguageCode,
+  ANSWER_CLASSES,
+  MAX_REROLLS,
+} from "../../shared/constants";
 import { useScreenState } from "../ScreenContext";
 
 export default function Picking() {
@@ -18,6 +22,9 @@ export default function Picking() {
   if (!host) return null;
 
   const subStep = state.pickingSubStep;
+  const preview = state.pickPreview;
+  const showPreview = subStep === "question_pick" && preview !== null;
+  const rerollsLeft = Math.max(0, MAX_REROLLS - state.rerollCount);
 
   let statusText: string;
   if (subStep === "category_vote") {
@@ -47,6 +54,28 @@ export default function Picking() {
           <div className="host-status waiting-dots">{statusText}</div>
         </div>
       </div>
+
+      {showPreview && (
+        <div className="pick-preview">
+          <div className="pick-preview-scream">🗣️ {t("screamForIt")}</div>
+          <div className="pick-preview-question">{preview.question}</div>
+          <div className="pick-preview-answers">
+            {preview.answers.map((answer, i) => (
+              <div
+                key={i}
+                className={`pick-preview-answer ${ANSWER_CLASSES[i] ?? ""}`}
+              >
+                {answer}
+              </div>
+            ))}
+          </div>
+          <div className="pick-preview-rerolls">
+            {rerollsLeft > 0
+              ? `🎲 ${rerollsLeft} ${t("rerollsLeft")}`
+              : t("noRerollsLeft")}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
